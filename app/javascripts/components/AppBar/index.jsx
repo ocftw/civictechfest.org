@@ -96,10 +96,6 @@ class Header extends Component {
             }
           }
         }
-        <div className={styles.lang}>
-          <a onClick={(e) => this.context.changeLocale("zh-TW", e)} className={styles.button}>中文</a>
-          <a onClick={(e) => this.context.changeLocale("en-US", e)} className={styles.button}>English</a>
-        </div>
       </header>
     );
   }
@@ -110,7 +106,7 @@ const Menu = () => {
     <ul className={styles.menu}>
       <li className={styles.item}>
         <IndexLink
-          to="/2016"
+          to="/"
           activeClassName={styles.active}
         >
           {info[getLocale()].home}
@@ -118,7 +114,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/2016/schedules"
+          to="/schedules"
           activeClassName={styles.active}
         >
           {info[getLocale()].schedule}
@@ -126,7 +122,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/2016/speakers"
+          to="/speakers"
           activeClassName={styles.active}
         >
           {info[getLocale()].speakers}
@@ -134,7 +130,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/2016/sponsors"
+          to="/sponsors"
           activeClassName={styles.active}
         >
           {info[getLocale()].sponsors}
@@ -142,7 +138,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/2016/transport"
+          to="/transport"
           activeClassName={styles.active}
         >
           {info[getLocale()].transport}
@@ -150,7 +146,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/2016/live"
+          to="/live"
           activeClassName={styles.active}
         >
           {info[getLocale()].live}
@@ -158,7 +154,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/2016/staff"
+          to="/staff"
           activeClassName={styles.active}
         >
           {info[getLocale()].staff}

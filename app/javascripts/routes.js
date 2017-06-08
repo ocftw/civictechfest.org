@@ -18,10 +18,9 @@ function scrollToTop() {
 }
 export default () => {
   return (
-    <Route path="/2016" component={Root}>
+    <Route path="/" component={Root}>
       <IndexRoute component={Home} onEnter={scrollToTop} />
       <Route path="live" component={Live} onEnter={scrollToTop} />
-      <Redirect from="/2016/:page.html" to=":page" /> {/* Only works after prerendering */}
       <Route path="schedules" component={Schedules} onEnter={scrollToTop}/>
       <Route path="speakers" component={Speakers} onEnter={scrollToTop} />
       <Route path="sponsors" component={Sponsors} onEnter={scrollToTop} />

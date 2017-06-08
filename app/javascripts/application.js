@@ -16,12 +16,6 @@ const component = (
   </Router>
 );
 
-if (!getLocale()) {
-  if (locale() === "zh-TW") {
-    setLocale(locale());
-  } else {
-    setLocale("en-US");
-  }
-}
+setLocale("en-US");
 
 ReactDOM.render(component, document.getElementById('react-root'));
