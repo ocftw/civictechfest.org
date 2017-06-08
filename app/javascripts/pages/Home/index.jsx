@@ -12,7 +12,6 @@ class Home extends Component {
       <div>
         <MainInfo />
         <div>
-          <Milestone />
           <About properties={this.props} />
         </div>
       </div>
