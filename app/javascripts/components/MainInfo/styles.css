@@ -1,44 +1,52 @@
 .root {
-
+  position: relative;
 }
 
 @media screen and (max-width: 830px) {
   .root {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.47);
+	position: relative;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.47);
+}
+}
+
+h2 {
+  color: #fff;
+}
+
+.hero {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 430px) {
+  .heroleft {
+	position: absolute;
+	left: 36%;
+	transform: translateX(-50%);
+	top: -5px;
+	color: white;
+	margin-bottom: 0;
+	width: 220px;
+	font-size: 18px;
+  }
+
+  .heroright {
+	display: none;
   }
 }
 
-.wrapper {
-  width: 280px;
-  text-align: right;
-  color: #000;
-  padding-top: 29px;
-  padding-bottom: 45px;
-}
+@media screen and (min-width: 430px) {
+  .heroleft {
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	font-size: 1.2em;
+  }
 
-.year {
-  font-size: 32px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.logo {
-  height: 46px;
-  width: 239px;
-}
-
-.theme {
-  height: 168px;
-  width: 147px;
-}
-
-.day {
-  font-size: 46px;
-  font-weight: 600;
-}
-
-.place {
-  font-size: 32px;
-  font-weight: 600;
+  .heroright {
+	position: absolute;
+	top: 60%;
+	right: 14%;
+	font-size: 1.2em;
+  }
 }
