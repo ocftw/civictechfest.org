@@ -2,6 +2,7 @@ import webpack from "webpack";
 import path from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import ExtractTextPlugin from "extract-text-webpack-plugin";
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 import autoprefixer from "autoprefixer";
 
 import {basic} from "./jld.js";
@@ -15,6 +16,9 @@ var plugins = [
     filename: "index.html",
     template: "app/templates/index.html"
   }),
+  new CopyWebpackPlugin([
+		  {from: "app/javascripts/pages/**/*.png", to: "images/"},
+	  ]),
 ];
 
 if (/production/.test(process.env.NODE_ENV)) {
@@ -74,6 +78,10 @@ export default {
       {
         test: /\.md$/,
         loader: 'html!markdown',
+      },
+      {
+        test: /template.html$/,
+        loader: 'raw-loader',
       },
     ]
   },
