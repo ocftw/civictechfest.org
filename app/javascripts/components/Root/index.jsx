@@ -3,7 +3,6 @@ import {
   AppBar,
   MainSection,
   Milestone,
-  About,
   SponsorsSummary,
   Footer,
 } from "javascripts/components";

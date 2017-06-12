@@ -139,8 +139,7 @@ var Base = function () {
       "url": "http://hssb.committee.sinica.edu.tw/"
     }
   };
-  var about_data = jsonfile.readFileSync('./app/jsons/about.json');
-  base.description = `${about_data["zh-TW"].sections[0].description.join(' ')} / ${about_data["en-US"].sections[0].description.join(' ')}`;
+  base.description = "Civic Tech is a new kind of civic engagement that uses technology and has become a key building block for democracies in the digital age. “Civic Tech Fest” is Asia’s first ever civic technology festival and conference, featuring a series of forums, workshops, roundtables, conferences and hackathons related to open data and open government. Civic Tech Fest will also host “TICTeC@Taipei: Impacts of Civic Technology Conference,” organized by mySociety. We will invite a number of experts, academics, hackers and members of governments to discuss and collaborate, and most importantly, have fun together";
   return base;
 };
 

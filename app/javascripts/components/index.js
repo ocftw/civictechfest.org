@@ -1,7 +1,6 @@
 export AppBar from "./AppBar";
 export MainSection from "./MainSection";
 export MainInfo from "./MainInfo";
-export About from "./About";
 export Milestone from "./Milestone";
 export SponsorsList from "./SponsorsList";
 export Footer from "./Footer";
