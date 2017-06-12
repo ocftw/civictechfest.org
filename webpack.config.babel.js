@@ -17,7 +17,7 @@ var plugins = [
     template: "app/templates/index.html"
   }),
   new CopyWebpackPlugin([
-		  {from: "app/javascripts/pages/**/*.png", to: "images/"},
+		  {from: "app/javascripts/pages/**/*.png", to: "images/", flatten: true},
 	  ]),
 ];
 
@@ -34,9 +34,9 @@ export default {
   },
 
   output: {
-    path: path.join(__dirname, "dist", "2016"),
+    path: path.join(__dirname, "dist"),
     filename: "[name].[hash].js",
-    publicPath: "/2016/",
+    publicPath: "/",
   },
 
   resolve: {
@@ -95,8 +95,8 @@ export default {
   devServer: {
     host: process.env.HOST || 'localhost',
     contentBase: path.join(__dirname, "dist"),
-    publicPath: '/2016/',
-    historyApiFallback: {index: '/2016/'},
+    publicPath: '/',
+    historyApiFallback: {index: '/'},
   },
 
   plugins,

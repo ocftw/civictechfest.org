@@ -13,7 +13,7 @@ import {basic, schedule, sponsors} from '../jld.js'
 *
 * Supported Keys
 * ==============
-* path:     URL segment after '/2016/'
+* path:     URL segment after '/'
 * title:    Strings to prepend before site name in title
 * desc:     Override the default open-graph description.
 * ogImage:  Override the default open-graph image with a (absolute) URL to new image.
@@ -67,7 +67,7 @@ const server = superstatic({
   config: {
     cleanUrls: true,
     debug: true,
-    rewrites: PAGES.map(({path}) => ({source: `/2016/${path}`, destination: '/2016/index.html'}))
+    rewrites: PAGES.map(({path}) => ({source: `/${path}`, destination: '/index.html'}))
   }
 })
 
@@ -77,7 +77,7 @@ let connectApp = server.listen(async () => {
   console.log(`Static server listening at http://localhost:${PORT}`)
 
   await Promise.all(PAGES.map(async page => {
-    const outputFilePath = resolve(__dirname, `../dist/2016/${page.path}.html`)
+    const outputFilePath = resolve(__dirname, `../dist/${page.path}.html`)
     let html = await renderToString(page)
 
     await writeFileAsync(outputFilePath, html, 'utf-8')
@@ -94,7 +94,7 @@ let connectApp = server.listen(async () => {
 
 async function renderToString(page){
   const browser = new Browser({waitDuration: '10s'})
-  await browser.visit(`/2016/${page.path}`)
+  await browser.visit(`/${page.path}`)
 
   if(page.title) {
     let titleElem = browser.document.querySelector('title')
@@ -149,6 +149,6 @@ var sitemap = sm.createSitemap({
 // Sitemap generation
 //
 
-PAGES.map(({path}) => sitemap.add({url: `/2016/${path}`, changefreq: 'weekly', priority: 0.7}))
+PAGES.map(({path}) => sitemap.add({url: `/${path}`, changefreq: 'weekly', priority: 0.7}))
 
-writeFileSync(resolve(__dirname, "../dist/2016/sitemap.xml"), sitemap.toString());
+writeFileSync(resolve(__dirname, "../dist/sitemap.xml"), sitemap.toString());
