@@ -44,6 +44,11 @@ class Header extends Component {
       hiddenMenu: !this.state.hiddenMenu,
     });
   }
+  hideMenu() {
+    this.setState({
+      hiddenMenu: true,
+    });
+  }
   render() {
     const { isActive } = this.context.router;
     return (
@@ -108,6 +113,7 @@ const Menu = () => {
         <IndexLink
           to="/"
           activeClassName={styles.active}
+          onClick={() => hideMenu()}
         >
           {info[getLocale()].home}
         </IndexLink>
@@ -116,6 +122,7 @@ const Menu = () => {
         <Link
           to="/schedules"
           activeClassName={styles.active}
+          onClick={() => hideMenu()}
         >
           {info[getLocale()].schedule}
         </Link>
@@ -124,6 +131,7 @@ const Menu = () => {
         <Link
           to="/speakers"
           activeClassName={styles.active}
+          onClick={() => hideMenu()}
         >
           {info[getLocale()].speakers}
         </Link>
@@ -132,6 +140,7 @@ const Menu = () => {
         <Link
           to="/sponsors"
           activeClassName={styles.active}
+          onClick={() => hideMenu()}
         >
           {info[getLocale()].sponsors}
         </Link>
@@ -140,6 +149,7 @@ const Menu = () => {
         <Link
           to="/transport"
           activeClassName={styles.active}
+          onClick={() => hideMenu()}
         >
           {info[getLocale()].transport}
         </Link>
@@ -148,6 +158,7 @@ const Menu = () => {
         <Link
           to="/live"
           activeClassName={styles.active}
+          onClick={() => hideMenu()}
         >
           {info[getLocale()].live}
         </Link>
@@ -156,6 +167,7 @@ const Menu = () => {
         <Link
           to="/staff"
           activeClassName={styles.active}
+          onClick={() => hideMenu()}
         >
           {info[getLocale()].staff}
         </Link>
