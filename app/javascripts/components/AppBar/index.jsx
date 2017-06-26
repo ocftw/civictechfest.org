@@ -68,24 +68,9 @@ class Header extends Component {
         </svg>
         <div className={styles.brand}>
           <h2 className={styles.title}>
-            <IndexLink to="/2016">g0v Summit</IndexLink>
+            <IndexLink to="/"><img src="images/ctf-logo.svg"></IndexLink>
           </h2>
-          <div className={styles.live}>
-            <svg width="48px" height="33px" viewBox="0 0 48 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-              <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                <g transform="translate(-218.000000, -12.000000)">
-                  <g transform="translate(219.000000, 13.000000)">
-                    <path d="M44.8887627,20.6529902 C43.034656,28.1106176 31.663456,31.7473431 19.4906293,28.7749902 C7.31718933,25.8032451 -1.04867733,17.3481471 0.805429333,9.89051961 C2.65892267,2.43228431 14.0301227,-1.20383333 26.2035627,1.76791176 C38.3770027,4.74026471 46.7428693,13.1953627 44.8887627,20.6529902" id="Fill-1" fill="#FDD974"></path>
-                    <path d="M44.8887627,20.6529902 C43.034656,28.1106176 31.663456,31.7473431 19.4906293,28.7749902 C7.31718933,25.8032451 -1.04867733,17.3481471 0.805429333,9.89051961 C2.65892267,2.43228431 14.0301227,-1.20383333 26.2035627,1.76791176 C38.3770027,4.74026471 46.7428693,13.1953627 44.8887627,20.6529902 L44.8887627,20.6529902 Z" id="Stroke-3" stroke="#050101" strokeWidth="1.787" strokeLinecap="round" strokeLinejoin="round"></path>
-                    <g id="Group-8">
-                      <path d="M12.932624,24.4490922 C12.932624,24.4490922 11.063184,28.3368569 6.400624,28.925249 C6.400624,28.925249 15.065184,32.4689745 19.490384,28.7751118" id="Fill-5" fill="#FDD974"></path>
-                      <path d="M12.932624,24.4490922 C12.932624,24.4490922 11.063184,28.3368569 6.400624,28.925249 C6.400624,28.925249 15.065184,32.4689745 19.490384,28.7751118" id="Stroke-7" stroke="#050101" strokeWidth="1.787" strokeLinecap="round" strokeLinejoin="round"></path>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-          </div>
+          
           {
             do {
               if (this.state.offsetWidth >= 1025) {
@@ -115,6 +100,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
+          <i class="icon-about-01"></i>
           {info[getLocale()].home}
         </IndexLink>
       </li>
@@ -124,16 +110,8 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
+          <i class="icon-agenda-01"></i>
           {info[getLocale()].schedule}
-        </Link>
-      </li>
-      <li className={styles.item}>
-        <Link
-          to="/speakers"
-          activeClassName={styles.active}
-          onClick={() => hideMenu()}
-        >
-          {info[getLocale()].speakers}
         </Link>
       </li>
       <li className={styles.item}>
@@ -142,25 +120,29 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
+          <i class="icon-side-event-01"></i>
           {info[getLocale()].sponsors}
         </Link>
       </li>
+      <li className={styles.item}>
+        <Link
+          to="/speakers"
+          activeClassName={styles.active}
+          onClick={() => hideMenu()}
+        >
+          <i class="icon-speaker-01"></i>
+          {info[getLocale()].speakers}
+        </Link>
+      </li>
+      
       <li className={styles.item}>
         <Link
           to="/transport"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
+          <i class="icon-venue-01"></i>
           {info[getLocale()].transport}
-        </Link>
-      </li>
-      <li className={styles.item}>
-        <Link
-          to="/live"
-          activeClassName={styles.active}
-          onClick={() => hideMenu()}
-        >
-          {info[getLocale()].live}
         </Link>
       </li>
       <li className={styles.item}>
@@ -169,11 +151,19 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
+          <i class="icon-ticket-01"></i>
           {info[getLocale()].staff}
         </Link>
       </li>
       <li className={styles.item}>
-        <a href="http://beta.hackfoldr.org/g0v-summit-2016" target="_blank">{info[getLocale()].wiki}</a>
+        <Link
+          to="/live"
+          activeClassName={styles.active}
+          onClick={() => hideMenu()}
+        >
+          <i class="icon-taipei-01"></i>
+          {info[getLocale()].live}
+        </Link>
       </li>
     </ul>
   );
