@@ -50,8 +50,8 @@
 
 @media screen and (min-width: 60em) {
   .hero-left {
-    top: 15%;
-    left: 15%;
+    top: 53%;
+    left: 52%;
   }
 
   .hero-right {
@@ -80,7 +80,7 @@
 }
 
 .agenda-header {
-  color: #00D2D6
+  color: #00D2D6;
 }
 
 .h6 {
@@ -90,15 +90,49 @@
 .ticket-header {
   background-color: rgb(240, 240, 240)
 }
+
+article {
+  max-width: 960px;
+}
+
+.brief::before, .brief::after {
+  font-size: 3em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.brief::before {
+  content: "{";
+  left: -20px;
+}
+.brief::after {
+  content: "}";
+  right: -20px;
+}
+p {
+  color: #4D4D4D;
+}
+
 </style>
 <main class="w-100">
 <article class="w-100 center relative">
-  <h2 class="dn db-ns white absolute hero-left f4-ns lh-title">Sep. 11th - 16th<br>TAIWAN</h2>
-  <h2 class="dn db-ns white absolute hero-right f4-ns lh-title">Co-host with WCIT 2017 &amp;<br>TICTeC@Taipei</h2>
+  <div class="dn db-ns absolute hero-left">
+    <h1 class="f1">#CivicTechFest</h1>
+    <h2 class="white f2 lh-title">Sep. 11th - 16th<br>Taipei, Taiwan</h2>
+  </div>
+  <!--<h2 class="dn db-ns white absolute hero-right f4-ns lh-title">Co-host with WCIT 2017 &amp;<br>TICTeC@Taipei</h2>-->
   <!-- date text on small screen -->
-  <h2 class="db dn-ns white absolute hero-min f4 lh-title">Sep. 11th - 16th TAIWAN</h2>
-  <img src="/images/hero.png" class="dn db-ns mw-100 mh-100">
-  <img src="/images/hero-2.png" class="db dn-ns mw-100 mh-100">
+  <img src="banner.jpg" class="dn db-ns mw-100 mh-100">
+  <img src="/images/banner.png" class="dn db-ns mw-100 mh-100">
+  <!--<img src="/images/hero-2.png" class="db dn-ns mw-100 mh-100">-->
+</article>
+
+<article class="w-100 center relative">
+  <div class="w-50 center relative brief">
+    <p class="b">Asia’s first ever civic technology festival with  a week-long collection of events.</p>
+  </div>
 </article>
 <!--<article class="ph3 ph6-ns pv4 mw9 mb6 center multi-bg">
   <div class="mw9 center">
@@ -121,7 +155,7 @@
   </div>
 </article>-->
 
-<article class="ph3 ph5-m ph6-l pv4 pv5-ns mw9 center multi-bg" id="about">
+<!--<article class="ph3 ph5-m ph6-l pv4 pv5-ns mw9 center multi-bg" id="about">
   <div>
     <div class="ph4 center tc">
       <h1 class="mv2 f3 f2-ns black-80 normal">#CivicTechFest</h1>
@@ -131,37 +165,37 @@
         <p>“Civic Tech Fest” is Asia’s first ever civic technology festival and conference, featuring a series of forums, workshops, roundtables, conferences and hackathons related to open data and open government. Civic Tech Fest will also host “TICTeC@Taipei: Impacts of Civic Technology Conference,” organized by mySociety.</p>
         <p>We will invite a number of experts, academics, hackers and members of governments to discuss and collaborate, and most importantly, have fun together!</p>
       </div>
-    </div>
+    </div>-->
 
-    <div class="mt4">
+   <!-- <div class="mt4">
       <div class="white bg-orange ph4 pv3 accordion-toggle pointer">- About #CivicTechFest</div>
-      <div class="bg-black-10 pv3 ph4 nested-copy-line-height">
+      <div class="bg-black-10 pv3 ph4 nested-copy-line-height">-->
         <!--<p class="pv2">2017 世界公民科技週，主軸將由開放文化基金會邀請英國知名公民科技組織 mySociety，於2017 年 9 月，與 WCIT 共同舉辦「公民科技動能推升研討會 The Impacts of Civic Technology Conference」。此研討會與 g0v 零時政府年會有所區隔，較具學術性，接軌公民科技與學界研究新領域。並於研討會前後邀請國際與亞洲相關組織，舉辦其它活動與國際組織會議，包括 Data Bootcamp for NGOs 、開放政府研究報告發布等議程，開啟建立世界民主科技網絡的相關討論，期待透過串連世界各地的相關專家、團體，在台灣逐漸打造全球公民科技之重鎮。</p>-->
-        <p class="pv2">Civic Tech Fest 2017 is a week-long collection of events coordinated by the Open Culture Foundation alongside the WCIT in September 2017. The main highlight for the Civic Tech Fest is “TICTeC@Taipei: The Impacts of Civic Technology Conference”, co-organized by mySociety.</p>
+        <!-- <p class="pv2">Civic Tech Fest 2017 is a week-long collection of events coordinated by the Open Culture Foundation alongside the WCIT in September 2017. The main highlight for the Civic Tech Fest is “TICTeC@Taipei: The Impacts of Civic Technology Conference”, co-organized by mySociety.</p>
 
         <p class="pv2">We invite regional and international groups to create events and activities over the span of the week. In addition to TICTeC@Taipei, featured events include data bootcamp for NGOs, presentation sessions on open government research, and g0v.tw hackathon. We hope through the course of our discussion, we can lay the groundwork for a global civic tech network, foster more collaborate in global civic tech movement.</p>
       </div>
-    </div>
-    <div class="mt3">
+    </div>-->
+    <!-- <div class="mt3">
       <div class="white bg-orange ph4 pv3 accordion-toggle pointer">+ About TICTeC@Taipei</div>
-      <div class="dn bg-black-10 pv3 ph4">
+      <div class="dn bg-black-10 pv3 ph4">-->
         <!--<p>TICTeC（The Impacts of Civic Technology Conference）為一年一度關注公民科技影響力的國際研討會，由英國歷史悠久的公民科技組織 mySociety 於 2015 年發起。該研討會旨於分析與評估公民科技的發展，並著重研究公民科技在不同社會環境與政治脈絡下的影響力與成效。 mySociety 在推動 TICTeC 前，曾於 2014 在智利舉辦 PoplusCon，也是最早開始串連世界各的公民科技社群、專案交流的大型網絡之一。</p>-->
 
-        <p>TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group “mySociety”. This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts.</p>
+        <!-- <p>TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group “mySociety”. This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts.</p>
 
-        <p>prior to TICTeC, mySociety organized PoplusCon in Chile in 2014, which was one of the first large-scale networking events that gathered the global civic tech scene together toward collaboration.</p>
+        <p>prior to TICTeC, mySociety organized PoplusCon in Chile in 2014, which was one of the first large-scale networking events that gathered the global civic tech scene together toward collaboration.</p>-->
 
         <!--<p>有鑑於目前公民科技的發展，仍然經常是各地方單打獨鬥，因此，TICTeC 希望透過研討會的形式，將國際上關心公民科技的行動者、評論家、學術界與投資者匯集一堂，深入分析線上審議與數位民主等等公民科技的影響力與普及度，作為未來發展的重要參考。有別於其它著重技術的研討會，TICTeC 更具有學術性的色彩，強調線上與線下、科技與社會的串連。在科技發展日新月異，而社會與政治的變動卻相對緩慢之下，TICTeC 為公民科技的倡議者與評論家搭建橋樑，共同激盪出對開放政府、民主深化、公民參與等面向上，具有影響力的解決方案。</p>-->
 
-        <p>Because the development of civic tech is often times not through a global context, but through individual groups working alone, TICTeC looks to bring together an international group of civic tech practitioners, critics, academics and investors.</p>
+        <!-- <p>Because the development of civic tech is often times not through a global context, but through individual groups working alone, TICTeC looks to bring together an international group of civic tech practitioners, critics, academics and investors.</p>
 
         <p>Over the course of the conference, TICTeC looks to provide in-depth analysis regarding online participation tools, digital democracy tools, as well as their influence and popularity. Their findings act as important reference points for future development of the field. In comparison to other tech focused conferences, TICTeC has a more research and academic focus, and emphasizes the connection between online/offline tech with society.</p>
 
-        <p>As technology develops faster each day, and as society and politics develop comparitively slower, TICTeC is a way for civic tech advocates and critics to build a bridge for open government, democratic deepening, and civic participation to march forward.</p>
+        <p>As technology develops faster each day, and as society and politics develop comparitively slower, TICTeC is a way for civic tech advocates and critics to build a bridge for open government, democratic deepening, and civic participation to march forward.</p>-->
 
         <!--<p>此次 TICTeC @ Taipei 是「公民科技影響力論壇(XXX: please use the same term)」首度於亞洲舉辦，預計邀請國際來自學術界、商業界、政治領域、NGOs 及教育機構的參與者，共同討論、發表研究並建立公民科技的網絡。</p>-->
 
-        <p>TICTeC@Taipei is the first ever conference about the influence of civic tech to be held in Asia. We’ve invited members of academia, business, politics, NGOs, education to participate, and discuss their research. We hope through this event, we can build a global network of civic tech enthusiasts.</p>
+        <!--<p>TICTeC@Taipei is the first ever conference about the influence of civic tech to be held in Asia. We’ve invited members of academia, business, politics, NGOs, education to participate, and discuss their research. We hope through this event, we can build a global network of civic tech enthusiasts.</p>
 
         <p>If you'd like to present your research or civic tech project at TICTeC@Taipei then please <a href="https://docs.google.com/forms/d/e/1FAIpQLScpVHtZvyTaCsVmkNtw4byEx-Jobb-vjkjtg5hSitVFHBochg/viewform?c=0&amp;w=1">submit your proposal here</a> by 16th June 2017. A small number of <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6Oq63xSQkDOCrMbYL4nOOfNT-4FfPc-dz4VcuLZyzxdwVrg/viewform?c=0&amp;w=1">travel grants</a> are available to attend TICTeC@Taipei and other Civic Tech Fest events. You can apply for a travel grant here.</p>
       </div>
@@ -184,7 +218,7 @@
         <p><a href="https://www.mysociety.org" target="_blank">https://www.mysociety.org</a></p>
       </div>
     </div>
-  </div>
+  </div>-->
 
   <div class="mt4">
     <div class="mw9 center tc pt4">
@@ -289,7 +323,7 @@
 </article>
 
 <!-- agenda -->
-<article class="ph3 ph6-ns pv4 pv4-ns bg-black-70 white-90 tc">
+<!-- <article class="ph3 ph6-ns pv4 pv4-ns bg-black-70 white-90 tc">
   <p class="relative"><a id="agenda" style="position: absolute; top: -100px"></a></p>
   <div class="center mw8">
     <h1 class="f3 f2-ns pb3 normal">Agenda &amp; Side Events</h1>
@@ -350,10 +384,10 @@
       </div>
     </div>
   </div>
-</article>
+</article> -->
 
 <!-- ticket -->
-<article class="ph3 ph6-ns pv4 pv5-ns cf ticket-bg">
+<!-- <article class="ph3 ph6-ns pv4 pv5-ns cf ticket-bg">
   <p class="relative"><a id="tickets" style="position: absolute; top: -100px"></a><a id="call-for-partners" style="position: absolute; top: -100px"></a></p>
   <div class="center mw8 flex-ns">
     <div class="fl w-100 w-50-ns pa2 flex-auto-ns">
@@ -386,10 +420,10 @@
       </div>
     </div>
   </div>
-</article>
+</article> -->
 
 <!-- location -->
-<article class="ph3 ph6-ns pv4 pv5-ns cf" id="info">
+<!-- <article class="ph3 ph6-ns pv4 pv5-ns cf" id="info">
   <div class="center mw8">
     <h1 class="bb b--orange tc f3 f2-ns ma3 pv3 normal">Location</h1>
     <section class="fl w-100 w-50-ns pa3">
@@ -407,10 +441,10 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.0256893588107!2d121.55864945119124!3d25.03320224439742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb61ab34fd9%3A0xcbb39196afb006db!2z5Y-w5YyX5ZyL6Zqb5pyD6K2w5Lit5b-DKFRJQ0Mp!5e0!3m2!1szh-TW!2stw!4v1493113879813" class="w-100" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
     </section>
   </div>
-</article>
+</article> -->
 
 <!-- gray info -->
-<article class="center ph3 ph6-ns pv4 pv5-ns bg-black-10 cf">
+<!-- <article class="center ph3 ph6-ns pv4 pv5-ns bg-black-10 cf">
   <div class="center mw8">
     <section class="fl w-100 w-50-ns pa3">
       <div class="w-100 tl">
@@ -431,12 +465,12 @@
       </div>
     </section>
   </div>
-</article>
+</article> -->
 
 <!-- sponsers -->
-<article class="ph3 ph6-ns pv4 pv5-ns cf" id="sponsers">
+<!--<article class="ph3 ph6-ns pv4 pv5-ns cf" id="sponsers">
   <div class="center tc mw8">
-    <!--
+    
                 <h1 class="mt0 f3 f2-ns normal">Sponsers</h1>
 
                 <section class="cf">
@@ -482,7 +516,7 @@
                     </div>
                 </section>
             </div>
-            -->
+            
 
     <div class="mt4 mw8 center tc">
       <h1 class="mt0 f3 f2-ns normal">Partners</h1>
@@ -510,5 +544,5 @@
         </div>
       </section>
     </div>
-</div></article>
+</div></article>-->
 </main>
