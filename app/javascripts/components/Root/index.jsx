@@ -27,14 +27,14 @@ class Root extends Component {
 
   render() {
     return (
-      <div>
+      <section>
         <AppBar />
         <MainSection>
           {this.props.children}
           {this.props.location.pathname !== '/2016/sponsors' ?  <SponsorsSummary /> : null}
           <Footer />
         </MainSection>
-      </div>
+      </section>
     );
   }
 };

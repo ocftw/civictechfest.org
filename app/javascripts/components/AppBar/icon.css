@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?v17dlm');
-  src:  url('fonts/icomoon.eot?v17dlm#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?v17dlm') format('truetype'),
-    url('fonts/icomoon.woff?v17dlm') format('woff'),
-    url('fonts/icomoon.svg?v17dlm#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?bs1fu7');
+  src:  url('fonts/icomoon.eot?bs1fu7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bs1fu7') format('truetype'),
+    url('fonts/icomoon.woff?bs1fu7') format('woff'),
+    url('fonts/icomoon.svg?bs1fu7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"]:before, [class*=" icon-"]:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -25,35 +25,42 @@
 
   /* make a round */
   border-radius: 50%;
-  margin: 0 5px;
+  top: 13px;
+  left: -1.3em;
   color: #fff;
+  width: 2em;
+  height: 2em;
+  vertical-align: center;
+  display: inline-block;
+  z-index: 1;
+  position: absolute;
 }
 
-.icon-about-01:before {
-  content: "\e900";
+.about:before {
+  content: "";
   background: #20C1D1;
 }
-.icon-agenda-01:before {
-  content: "\e901";
+.agenda:before {
+  content: "";
   background: #E8687F;
 }
-.icon-side-event-01:before {
-  content: "\e902";
+.side_event:before {
+  content: "";
   background: #00A69A;
 }
-.icon-speaker-01:before {
-  content: "\e903";
+.speaker:before {
+  content: "";
   background: #EA3D48;
 }
-.icon-taipei-01:before {
-  content: "\e904";
+.taipei:before {
+  content: "";
   background: #2995DF;
 }
-.icon-ticket-01:before {
-  content: "\e905";
+.ticket:before {
+  content: "";
   background: #89C33F;
 }
-.icon-venue-01:before {
-  content: "\e906";
+.venue:before {
+  content: "";
   background: #EE5A24;
 }

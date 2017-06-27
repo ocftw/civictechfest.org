@@ -1,4 +1,27 @@
 import React, { Component } from "react";
+import {
+  MainInfo,
+  Milestone,
+  About,
+  MainSection,
+} from "javascripts/components";
+
+
+
+class Home extends Component {
+  render() {
+    return (
+
+        <MainInfo />
+
+	);
+  }
+};
+
+export default Home;
+
+
+/*
 import __html from 'raw-loader!./template.html';
 // workaround https://github.com/webpack-contrib/raw-loader/issues/13
 var trimmed_html = __html.replace(/\\n/g, '\n').replace(/\\/g, "");
@@ -14,3 +37,4 @@ var Home = React.createClass({
 });
 
 export default Home;
+*/

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { IndexLink, Link } from "react-router";
 import { getLocale } from "javascripts/locale";
+import { IndexLink, Link } from "react-router";
 import info from "jsons/header.json";
-import styles from "./styles";
+import styles from "./styles.css";
+import icon from "./icon.css";
 
 class Header extends Component {
   constructor(props) {
@@ -68,7 +69,7 @@ class Header extends Component {
         </svg>
         <div className={styles.brand}>
           <h2 className={styles.title}>
-            <IndexLink to="/"><img src="images/ctf-logo.svg"></IndexLink>
+            <IndexLink to="/"><img className={styles.logo} src={require(`file!images/ctf-logo.svg`)} /></IndexLink>
           </h2>
           
           {
@@ -100,8 +101,9 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i class="icon-about-01"></i>
+          <i className={icon.about}></i>
           {info[getLocale()].home}
+          
         </IndexLink>
       </li>
       <li className={styles.item}>
@@ -110,7 +112,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i class="icon-agenda-01"></i>
+          <i className={icon.agenda}></i>
           {info[getLocale()].schedule}
         </Link>
       </li>
@@ -120,7 +122,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i class="icon-side-event-01"></i>
+          <i className={icon.side_event}></i>
           {info[getLocale()].sponsors}
         </Link>
       </li>
@@ -130,7 +132,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i class="icon-speaker-01"></i>
+          <i className={icon.speaker}></i>
           {info[getLocale()].speakers}
         </Link>
       </li>
@@ -141,7 +143,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i class="icon-venue-01"></i>
+          <i className={icon.venue}></i>
           {info[getLocale()].transport}
         </Link>
       </li>
@@ -151,7 +153,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i class="icon-ticket-01"></i>
+          <i className={icon.ticket}></i>
           {info[getLocale()].staff}
         </Link>
       </li>
@@ -161,7 +163,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i class="icon-taipei-01"></i>
+          <i className={icon.taipei}></i>
           {info[getLocale()].live}
         </Link>
       </li>

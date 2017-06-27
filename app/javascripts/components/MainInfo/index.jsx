@@ -7,9 +7,18 @@ class MainInfo extends Component {
   render() {
     return (
       <div className={styles.root}>
-	  	<img className={styles.hero} src={require('./images/hero.png')} />
-		<h2 className={styles.heroleft} >Sep. 11th - 16th<br/>TAIWAN</h2>
-		<h2 className={styles.heroright} >Co-host with WCIT 2017 &amp;<br/>TICTeC@Taipei</h2>
+      	<div className={styles.banner}>
+	  		<img className={styles.hero} src={require('./images/hero.jpg')} />
+	  		<div className={styles.herotext}>
+	  			<h1>#CivicTechFest</h1>
+				<h2>Sep. 11th - 16th<br/>Taipei, Taiwan</h2>
+			</div>
+		</div>
+		<article className={styles.relative}>
+		  <div className={styles.brief}>
+		    <p>Asia’s first ever civic technology festival with  a week-long collection of events.</p>
+		  </div>
+		</article>
       </div>
     );
   }

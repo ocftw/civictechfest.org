@@ -10,43 +10,77 @@
 }
 }
 
-h2 {
-  color: #fff;
+article {
+	display: block;
+  max-width: 960px;
+  min-height: 900px;
+  margin: 0 auto;
+}
+
+.banner {
+	position: relative;
+	display: block;
+	width: 100%;
 }
 
 .hero {
   max-width: 100%;
 }
 
-@media screen and (max-width: 430px) {
-  .heroleft {
+.herotext {
 	position: absolute;
-	left: 36%;
-	transform: translateX(-50%);
-	top: -5px;
-	color: white;
-	margin-bottom: 0;
-	width: 220px;
-	font-size: 18px;
-  }
-
-  .heroright {
-	display: none;
-  }
+  color: #fff;
+  bottom: 13%;
+  left: 52%;
 }
 
-@media screen and (min-width: 430px) {
-  .heroleft {
-	position: absolute;
-	top: 15%;
-	left: 15%;
-	font-size: 1.2em;
-  }
+.herotext h1 {
+	font-size: 4em;
+	margin: 0.2em 0;
+}
+.herotext h2 {
+	font-size: 3em;
+	margin: 0.2em 0;
+}
 
-  .heroright {
-	position: absolute;
-	top: 60%;
-	right: 14%;
-	font-size: 1.2em;
-  }
+@media screen and (max-width: 1280px) {
+.herotext h1 {
+	font-size: 3em;
+}
+.herotext h2 {
+	font-size: 2em;
+}
+
+}
+
+
+.brief {
+	max-width: 660px;
+	padding-left: 30px;
+	margin: 60px auto;
+	position: relative;
+}
+.brief::before, .brief::after {
+  font-size: 6em;
+  position: absolute;
+  top: -20px;
+  bottom: 0;
+  margin: 0;
+  color: #ccc;
+}
+
+.brief::before {
+  content: "{";
+  left: -50px;
+}
+.brief::after {
+  content: "}";
+  right: -50px;
+}
+.brief p {
+  color: #4D4D4D;
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
