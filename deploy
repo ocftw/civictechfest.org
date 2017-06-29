@@ -20,7 +20,7 @@ echo "==============================================="
 if [[ $MERGED != $CURRENT ]]; then
   mv dist dist-new
   git clone $REPO --depth 1 -b $publication dist
-  rsync -av --delete dist-new/ dist/
+  rsync -av dist-new/ dist/
   cd dist
   git status
   if [[ -z `git diff --shortstat` ]]; then echo "no diff. abort."; exit; fi
