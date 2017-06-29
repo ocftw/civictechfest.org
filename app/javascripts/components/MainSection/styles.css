@@ -1,9 +1,10 @@
-.root {
-  /*background-image: url(./images/bg.png);*/
-  background-repeat: no-repeat;
-  background-position: 100px 0px;
-  background-size: 90%;
-  width: 100%;
-  position: relative;
-  margin-top: 60px;
+@media screen and (min-width: 1200px) {
+	.root {
+	  background-image: url('/images/background-left.png'), url('/images/background-right.png');
+	  width: 100%;
+	  position: relative;
+	  margin-top: 60px;
+	  background-repeat: repeat-y, repeat-y;
+	  background-position: top left, top right;
+	}
 }
