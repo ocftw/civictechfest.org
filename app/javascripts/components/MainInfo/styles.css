@@ -391,9 +391,11 @@ article {
 	flex: initial;
 	width: 300px;
 	min-width: 150px;
-	background: #eee;
+	background: #fff;
 	border-top-left-radius: 16px;
 	border-bottom-left-radius: 16px;
+	overflow: hidden;
+	padding: 40px 20px;
 }
 
 .mainevent .eventcontent {
@@ -529,6 +531,7 @@ article[data-wide="true"] {
 	padding-top: 30%;
 	text-align: center;
 	margin: 3em 1.5%;
+	background: #fff;
 }
 .speakers .inner {
 	position: absolute;
@@ -537,6 +540,7 @@ article[data-wide="true"] {
 	top: 0;
 	left: 0;
 	padding: 20px;
+
 }
 .speakers .avatar {
 	width: 50%;

@@ -34,7 +34,7 @@ class MainInfo extends Component {
 				<h2 className={styles.orange}>Main Event</h2>
 				<div className={styles.mainevent}>
 					<div className={styles.eventimg}>
-						<img src="" />
+						<img className={styles.logo} src={require(`file!images/sponsors/tictec.jpg`)} />
 					</div>
 					<div className={styles.eventcontent}>
 						<h3>TICTeC @ Taipei</h3>
