@@ -10,10 +10,9 @@ class SponsorsSummary extends Component {
     return (
       (sponsor.url) ? <a href={sponsor.url} target="_blank" className={styles.sponsor} key={sponsor.name} >
         <img className={styles.logo} src={require(`file!images/sponsors/${sponsor.logo}`)} />
-        <span className={styles.name}>{name}</span>
+        
       </a> : <span className={styles.sponsor} key={sponsor.name} >
         <img className={styles.logo} src={require(`file!images/sponsors/${sponsor.logo}`)} />
-        <span className={styles.name}>{name}</span>
       </span>
     );
   }
@@ -21,6 +20,14 @@ class SponsorsSummary extends Component {
   render() {
     return (
       <div className={styles.root}>
+        <section id="" className={styles.section} key="">
+          <h2 className={styles.header}>Host</h2>
+          <div>
+            <a href="http://ocf.tw/" target="_blank" className={styles.sponsor} key="" >
+              <img className={styles.logo} src={require(`file!images/sponsors/OCF-LOGO-04.png`)} />
+            </a>
+          </div>
+        </section>
         { 
           sponsors[getLocale()].map( cat => {
             return (
@@ -31,10 +38,7 @@ class SponsorsSummary extends Component {
             )
           }) 
         }
-        <p>
-          {_[getLocale()].message}
-          <a href={`mailto:${_[getLocale()].email}`}>{_[getLocale()].email}</a>
-        </p>
+        
       </div>
     );
   }

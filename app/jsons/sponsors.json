@@ -5,12 +5,6 @@
       "title": "Partners",
       "sponsors": [
         {
-          "name": "OCF",
-          "logo": "OCF-LOGO-2.svg",
-          "url": "http://ocf.tw/",
-          "desc": ""
-        },
-        {
           "name": "mySociety",
           "logo": "mysociety-logo.png",
           "url": "https://www.mysociety.org/",
@@ -18,7 +12,7 @@
         },
         {
           "name": "WCIT",
-          "logo": "wcit-logo.png",
+          "logo": "wcit-logo-fin.jpg",
           "url": "http://www.wcit2017.org/",
           "desc": ""
         },

@@ -5,18 +5,12 @@ class Footer extends Component {
   render() {
     return (
       <footer className={styles.root}>
-        <div>
-          <a className={styles.old} href="/2014/">2014</a>
+        <div className={styles.footerlink}>
+          <a href="">support</a>
+          <a href="">contact</a>
         </div>
         <div>
-          Copyright © g0v Summit 2016・
-          <a
-            className={styles.coc}
-            href="https://g0v.hackpad.com/ep/pad/static/2mprMIpYMz9"
-            target="_blank"
-          >
-            Code of Conduct
-          </a>
+          Civic Tech Fest © 2017
         </div>
       </footer>
     );

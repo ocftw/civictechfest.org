@@ -40,6 +40,11 @@
   height: auto;
 }
 
+img {
+  width:100%;
+  height: auto;
+}
+
 .live {
   float: right;
   display: inline-block;

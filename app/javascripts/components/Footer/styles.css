@@ -1,14 +1,23 @@
 .root {
-  height: 117px;
-  background-color: #AC002B;
+  background-color: #E3E3E3;
   text-align: center;
-  color: #FFF;
+  color: #808080;
   padding: 20px 10px 25px;
   line-height: 2;
 }
 
-
-.old,
-.coc {
-  color: #FFF;
+.footerlink {
+  max-width: 960px;
+  border-top: 1px solid #808080;
+  padding: 10px 0 20px 0;
+  margin: 0 auto;
+  font-size: 1em;
 }
+
+.root a {
+  color: #F19E44;
+  margin: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+
