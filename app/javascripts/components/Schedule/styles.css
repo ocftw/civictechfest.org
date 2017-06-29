@@ -3,7 +3,7 @@ $container-width: 1000px;
 $appbar-height: 60px;
 
 .root {
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.8);
   box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.50);
   position: relative; /* For backdrop */
   lost-utility: clearfix;
@@ -38,6 +38,53 @@ $appbar-height: 60px;
   position: relative; /* For absolute-positioned filter */
   margin: 0 auto;
 }
+
+.container h2 {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 2em;
+  color: #4D4d4D;
+}
+.container h1 {
+  margin: 30px 0;
+  text-align: left;
+  display: block;
+}
+
+/* date line dot */
+
+.orange_dateline span {
+  border: 4px solid #29A8DF;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  color: #29A8DF;
+  line-height: 1.5em;
+  background: #fff;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.orange_dateline span {
+  color: #F19E44;
+  border-color: #F19E44;
+}
+
+.orange_dateline {
+  margin: -10px auto 60px auto;
+  text-align: center;
+}
+
+.orange_dateline span {
+  margin: 0 5px;
+}
+
+.orange_dateline span.grey {
+  color: #FFF;
+  border-color: #E3E3E3;
+}
+
 
 body.mobileScrollLock {
   overflow: hidden;
@@ -75,40 +122,49 @@ body.mobileScrollLock {
   transform: translate3d(0, 0, 0);
 }
 
-.Home-section.is-hidden {
+.Home-session.is-hidden {
   display: none;
 }
 
+.Home-section {
+  border: 1px solid #B0B0B0;
+  border-radius: 15px;
+  overflow: hidden;
+  border-top-left-radius: 0; 
+}
+
 @media screen and (min-width: $breakpoint){
-  $left-filter-width: 240px;
-  $left-filter-shirnked-width: 36px;
+  $filter-width: 220px;
+  $filter-shirnked-width: 50px;
 
   .Home-filter {
-    width: $left-filter-width;
+    width: $filter-width;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     display: block;
+    padding: 1.5em;
   }
+
   .Home-schedule {
-    margin-left: $left-filter-width;
-    border-left: 1px solid gray;
+    margin-right: $filter-width;
     position: relative; /* make z-index work & moves when session is showed up */
     z-index: 10;
     transition: left .2s cubic-bezier(.4,0,.2,1); /* Cannot use transform because we've got a sticky schedule title */
     left: 0;
+    width: calc(1000px - $filter-width - 15px);
   }
   .Home-schedule.with-session {
-    left: calc($left-filter-shirnked-width - $left-filter-width);
+    left: calc($filter-shirnked-width - $filter-width);
   }
   .Home-schedule .sticky {
     /* Overriding react-sticky to make sticky items move with Home-Schedule */
-    left: calc((100% - $container-width) / 2 + $left-filter-width + 1px) !important;
+    left: 0;
     transform: translate3d(0,0,0);
     transition: transform .2s cubic-bezier(.4,0,.2,1);
   }
   .Home-schedule.with-session .sticky {
-    transform: translate3d(calc($left-filter-shirnked-width - $left-filter-width),0,0);
+    transform: translate3d(calc($filter-shirnked-width - $filter-width),0,0);
   }
   .Home-session {
     position: fixed;
@@ -136,11 +192,11 @@ body.mobileScrollLock {
 
 .Schedule .sticky {
   z-index: 20;
+  border-bottom: 1px solid #B0B0B0;
 }
 
 .Schedule-title {
   background: rgba(255, 255, 255, .9);
-  border-bottom: 1px solid gray;
   width: 100%;
   z-index: 20;
   display: flex;
@@ -148,7 +204,6 @@ body.mobileScrollLock {
 @media screen and (min-width: $breakpoint){
   .Schedule-title {
     background: white;
-    border-bottom: 1px solid gray;
     width: 100%;
   }
 }
@@ -157,6 +212,7 @@ body.mobileScrollLock {
   line-height: 56px;
   align-self: center;
   cursor: pointer;
+  margin: 0 20px 0 auto;
 }
 
 /* FILTER */
@@ -233,20 +289,34 @@ $category-icon-size: 16px;
 $mobile-padding: 16px;
 $mobile-item-leftstop: 96px;
 
-.Schedule-dayButtonLeftstop {
-  width: calc($mobile-item-leftstop - $mobile-padding);
-}
+
 .Schedule-dayButton {
   font-size: 16px;
   text-transform: uppercase;
   padding: $mobile-padding;
   cursor: pointer;
-  margin-right: auto;
+  margin-right: 15px;
+  border: 1px solid #B0B0B0;
+  border-bottom: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #fff;
+  position: relative;
 }
 .Schedule-dayButton:hover, .Schedule-dayButton.is-active {
-  color: rgb(68,210,143);
-  text-decoration: underline;
+  color: #F19E44;
+  background-color: #F2F2F2;
 }
+.Schedule-dayButton.is-active:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  border-bottom: 15px solid #F2F2F2;
+  width: 100%;
+  left: 0;
+}
+
 .Schedule-day {
   background: #f3f3f3;
   border-bottom: 1px solid rgb(220,220,220);
@@ -361,8 +431,6 @@ $mobile-item-leftstop: 96px;
   }
 
   .Schedule-dayButtonLeftstop {
-    padding-left: calc(40px - $desktop-padding);
-    width: calc($desktop-item-leftstop - $desktop-padding);
   }
 
   .Schedule-time {

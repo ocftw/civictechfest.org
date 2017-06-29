@@ -9,6 +9,7 @@ import { StickyContainer, Sticky } from 'react-sticky';
 const cx = classnames.bind(styles);
 
 const venues = [
+  /* old room */
   {
     "id": "r1",
     "title": "R1",
@@ -23,7 +24,40 @@ const venues = [
     "id": "r2",
     "title": "R2",
     "color": "#4EA23B"
+  },
+
+  /* new room */
+  {
+    "id": "r0",
+    "title": "201 B",
+    "color": "#8CC63F"
+  },
+  {
+    "id": "r1",
+    "title": "201 C",
+    "color": "#00A99D"
+  },
+  {
+    "id": "r2",
+    "title": "4F Joy",
+    "color": "#F7931E"
+  },
+  {
+    "id": "r3",
+    "title": "4F Elegance",
+    "color": "#ED1C24"
+  },
+  {
+    "id": "r4",
+    "title": "201 A",
+    "color": "#29ABE2"
+  },
+  {
+    "id": "r5",
+    "title": "201 F",
+    "color": "#0071BC"
   }
+
 ];
 
 const venueObj = venues.reduce((aggObj, venue, idx) => {
@@ -104,6 +138,7 @@ function mapTimeSlotToItems(day, value, i) {
                            title={`Toggle venue "${venue}"`}
                            onClick={this.toggleVenue.bind(this, venueObj[venue].index)}
                            ></div>
+
                     ) : null
                   }
                 </div>
@@ -188,7 +223,20 @@ export default class Schedule extends Component {
   render () {
     return (
       <div className={styles.root} ref={c => this._root = c}>
-        <div style={{ color: '#FFF', backgroundColor: '#000', padding: '20px', textAlign: 'center'}}>{schedules[getLocale()].interpretation}</div>
+       <div className={styles.container}>
+        <h2>Agenda</h2>
+        <div className={styles.orange_dateline}>
+          <span className={styles.grey}>9</span>
+          <span className={styles.grey}>10</span>
+          <span>11</span>
+          <span>12</span>
+          <span>13</span>
+          <span className={styles.grey}>14</span>
+          <span className={styles.grey}>15</span>
+          <span className={styles.grey}>16</span>
+        </div>
+        <h1>TICTeC@Taipei</h1>
+       </div>
         <StickyContainer>
           <div className={styles.container}>
             <div className={cx({
@@ -227,6 +275,12 @@ export default class Schedule extends Component {
                            "is-active" : this.state.currentSection === "day2"
                          })}
                          onClick={this.setSection.bind(this, 'day2')}>Day 2</div>
+                    <div className={cx({
+                           "Schedule-dayButton" : true,
+                           "is-active" : this.state.currentSection === "day3"
+                         })}
+                         onClick={this.setSection.bind(this, 'day3')}>Day 3</div>
+
                     <div className="Schedule-switchBtn" onClick={this.props.onSwitch}>View Parallel</div>
                     <div className={cx({
                            'Schedule-filterBtn': true,
