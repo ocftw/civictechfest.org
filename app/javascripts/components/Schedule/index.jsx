@@ -312,7 +312,7 @@ export default class Schedule extends Component {
                   ref={(c) => this.day1 = c}
                   id="day1"
                 >
-                  <div className="Schedule-day">5/14 (Sat.)</div>
+                  <div className="Schedule-day">9/11 (Mon.)</div>
                   <section>
                     {schedules[getLocale()]["day1"].map(mapTimeSlotToItems.bind(this, 1))}
                   </section>
@@ -325,11 +325,12 @@ export default class Schedule extends Component {
                   ref={(c) => this.day2 = c}
                   id="day2"
                 >
-                  <div className="Schedule-day">5/15 (Sun.)</div>
+                  <div className="Schedule-day">9/12 (Tue.)</div>
                   <section>
                     {schedules[getLocale()]["day2"].map(mapTimeSlotToItems.bind(this, 2))}
                   </section>
                 </div>
+                
               </div>
             </div>
             <div className={cx({

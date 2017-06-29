@@ -203,7 +203,20 @@ export default class ScheduleParallel extends Component {
 
     return (
       <div className={styles.root} ref={c => this._root = c}>
-        <div style={{ color: '#FFF', backgroundColor: '#000', padding: '20px', textAlign: 'center'}}>{schedules[getLocale()].interpretation}</div>
+        <div className={styles.container}>
+        <h2>Agenda</h2>
+        <div className={styles.orange_dateline}>
+          <span className={styles.grey}>9</span>
+          <span className={styles.grey}>10</span>
+          <span>11</span>
+          <span>12</span>
+          <span>13</span>
+          <span className={styles.grey}>14</span>
+          <span className={styles.grey}>15</span>
+          <span className={styles.grey}>16</span>
+        </div>
+        <h1>TICTeC@Taipei</h1>
+       </div>
         <StickyContainer>
           <div className={styles.container}>
             <div className={classNames({
