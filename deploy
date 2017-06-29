@@ -10,16 +10,19 @@ CURRENT=`git rev-parse $upstream/$development`
 
 git fetch $upstream
 
+echo "==============================================="
 echo "upstream is $upstream"
 echo "works on $REPO"
 echo "$MERGED is last parent of $upstream/$publication"
 echo "$CURRENT is current $upstream/$development"
+echo "==============================================="
 
 if [[ $MERGED != $CURRENT ]]; then
   mv dist dist-new
   git clone $REPO --depth 1 -b $publication dist
   rsync -av --delete dist-new/ dist/
   cd dist
+  git status
   if [[ -z `git diff --shortstat` ]]; then echo "no diff. abort."; exit; fi
   git fetch --depth 1 $upstream $development:$development
   git add -A .
