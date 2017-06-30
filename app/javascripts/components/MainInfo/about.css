@@ -1,0 +1,80 @@
+.about {
+	border-radius: 15px;
+	border: 1px solid #B0B0B0;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	margin: 10px auto 60px auto;
+}
+
+
+.title {
+	width: 100%;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	background: #E6E6E6;
+	top: 0;
+	padding: 1.5em 2em;
+}
+
+.title h2 {
+	font-size: 1.5em;
+	color: #4D4D4D;
+	line-height: 1;
+	margin: 0 20px 0 auto;
+}
+
+.title h2, .title a {
+	display: inline-block;
+	vertical-align: middle;
+}
+.title a {
+	color: #999;
+}
+
+
+.content {
+	padding: 1.5em 3em;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 16px;
+}
+
+
+.content p {
+	display: inline-block;
+	font-size: 1.2em;
+	line-height: 1.8;
+	margin-top: 0;
+	word-wrap: break-word;
+	text-align: justify;
+	position: relative;
+}
+
+.icon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 0.5;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  padding: 0 5px 1px 5px;
+  color: #F19E44;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

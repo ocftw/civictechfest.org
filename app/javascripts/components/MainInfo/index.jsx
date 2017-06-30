@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
 import header from "jsons/header.json";
 import styles from "./styles.css";
-import appli from "stylesheets/application.css"
+import about from "./about.css";
 
 class MainInfo extends Component {
   render() {
@@ -54,6 +54,15 @@ class MainInfo extends Component {
 						<span className={styles.tabblue}>alongside with WCIT</span>
 						<br />
 						<span>Ticket</span>
+					</div>
+				</div>
+				<div className={about.about}>
+					<div className={about.title}>
+						<h2>About WCIT 2017 TAIWAN</h2>
+						<a href="http://www.wcit2017.org/" target="_blank"><i className={about.icon}>home</i>www.wcit2017.org</a>
+					</div>
+					<div className={about.content}>
+						<p>The 21st World Congress on Information Technology (WCIT 2017) is the parallel event of #CivicTechFest. It is held in the same time and at same location as TICTeC@Taipei and will be a really unique opportunity to showcase open government and civic tech initiatives to the wider IT industry.</p>
 					</div>
 				</div>
 			</article>
