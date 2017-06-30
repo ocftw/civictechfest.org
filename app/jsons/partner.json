@@ -1,0 +1,26 @@
+{
+  "en-US": [
+    {
+      "category": "partners",
+      "title": "Partners",
+      "sponsors": [
+        {
+          "name": "WCIT 2017 TAIWAN",
+          "logo": "wcit-logo-fin.jpg",
+          "url": "http://www.wcit2017.org/",
+          "urlname": "www.wcit2017.org",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "mySociety",
+          "logo": "mysociety-logo.png",
+          "url": "https://www.mysociety.org/",
+          "urlname": "www.mysociety.org",
+          "brief": "Co-host of TICTeC@Taipei",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}

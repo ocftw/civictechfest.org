@@ -1,27 +1,34 @@
 {
   "en-US": [
     {
-      "category": "partners",
-      "title": "Partners",
+      "category": "host",
+      "title": "Host",
       "sponsors": [
+        {
+          "name": "WCIT 2017 TAIWAN",
+          "logo": "wcit-logo-fin.jpg",
+          "url": "http://www.wcit2017.org/",
+          "urlname": "www.wcit2017.org",
+          "brief": "",
+          "desc": "The 21st World Congress on Information Technology(WCIT 2017) is the parallel event of #CivicTechFest. It is held in the same time and at same location as TICTeC@Taipei and will be a really unique opportunity to showcase open government and civic tech initiatives to the wider IT industry. \nThe World Congress on Information Technology (WCIT) first held in 1978 by WITSA (World Information Technology & Services Alliance) and has become the premier international IT forum. Discussion topics range from emerging markets and technologies to legal and policy issues, user perspectives, new business opportunities and developing political and economic trends. The WCIT consistently attracts high level, internationally recognized leaders from government, industry and academia."
+        },
+        {
+          "name": "Open Culture Foundation (OCF)",
+          "logo": "OCF-LOGO-04.png",
+          "url": "http://ocf.tw/en/p/2016/",
+          "urlname": "2016 Report",
+          "brief": "Host of #CivicTechFest",
+          "desc": "The Open Culture Foundation (OCF) is a nonpartisan, nonprofit organization, founded in 2014 by several members of Taiwan’s open source community. The main goal of OCF is to support local communities advocate the use of open technologies in broader sectors, including open source software, open hardware, and open data. The actions are among government, enterprises, and NGOs to help them better understand the benefits of adopting open source, and promote the importance of open data to the public sphere. OCF’s belief is that a culture of open collaboration is the foundation for an innovative society, and the engine of a participatory democracy.\nSince its establishment, OCF has supported local communities to run large-scale conferences, seminars, and hackathons, as well as collaborate with a number of international offices and multilateral institutions to deepen Taiwan’s connection to the global open culture community. The past collaboration partners include the American Institute in Taiwan, British Office Taipei, Bureau Francais de Taipei, and the World Bank. OCF also has strong connections with the global open source community, and regularly exchanges experiences with civic tech groups worldwide. The mission is to build bridges between local and global “open” communities, and hope to act as a mediator for open culture."
+        },
         {
           "name": "mySociety",
           "logo": "mysociety-logo.png",
           "url": "https://www.mysociety.org/",
-          "desc": ""
-        },
-        {
-          "name": "WCIT",
-          "logo": "wcit-logo-fin.jpg",
-          "url": "http://www.wcit2017.org/",
-          "desc": ""
-        },
-        {
-          "name": "g0v",
-          "logo": "g0v.svg",
-          "url": "http://g0v.tw",
-          "desc": ""
-        }
+          "urlname": "www.mysociety.org",
+          "brief": "Co-host of TICTeC@Taipei",
+          "desc": "mySociety is a not-for-profit social enterprise, based in the UK and working internationally. It believes that strong democratic accountability and a thriving civil society are vital to our common welfare, and that these only survive when people engage with government and communities.\nmySociety builds online technologies that give people the power to get things changed and shares these technologies so that they can be used anywhere."
+        }    
+        
       ]
     }
   ]

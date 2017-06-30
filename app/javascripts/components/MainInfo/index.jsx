@@ -58,7 +58,7 @@ class MainInfo extends Component {
 				</div>
 				<div className={about.about}>
 					<div className={about.title}>
-						<h2>About WCIT 2017 TAIWAN</h2>
+						<h3>About WCIT 2017 TAIWAN</h3>
 						<a href="http://www.wcit2017.org/" target="_blank"><i className={about.icon}>home</i>www.wcit2017.org</a>
 					</div>
 					<div className={about.content}>

@@ -1,21 +1,32 @@
 .root {
-  background: #FFFFFF;
-  background-color: rgba(255, 255, 255, 0.94);
   min-height: 400px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 103px;
   lost-utility: clearfix;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+  background: rgba(255, 255, 255, 0.8);
+  position: relative;
+  width: 100%;
+  }
 }
 
 .header {
   text-align: center;
   padding-top: 20px;
+  font-size: 2em;
 }
 
 .section {
-  text-align: center;
+  display: block;
+  max-width: 960px;
+  margin: 10px auto;
 }
+
 
 .sponsor {
   display: block;
@@ -31,53 +42,160 @@
   border-radius: 3px;
 }
 
-.logo {
-  width: 240px;
-  border: 1px solid #ccc;
-  float: left;
+
+
+.about {
+  border-radius: 15px;
+  border: 1px solid #B0B0B0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
 }
 
-.name {
-  display: block;
-  font-weight: bold;
-  color: #5D5D5D;
+
+.title {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background: #E6E6E6;
+  top: 0;
+  padding: 1.5em 2em;
+}
+
+.title h3 {
+  font-size: 1.5em;
+  color: #4D4D4D;
+  line-height: 1;
+  margin: 0 30px 0 auto;
+}
+
+.title h3, .title a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.title a {
+  color: #999;
+}
+
+
+.content {
+  padding: 1em 1.5em 1em 1.5em;
+  border-radius: 16px;
+  display: -webkit-flex;
+  display: flex;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.content .logo {
+  -webkit-flex: initial;
+  flex: initial;
+  max-width: 240px;
+  min-width: 180px;
+  height: auto;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  border-radius: 16px;
+}
+
+.content .desc {
+  -webkit-flex: 1;
+  flex: 1;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.7;
   margin-top: 0;
-  margin-bottom: 10px;
-  margin-left: 260px;
+  word-wrap: break-word;
+  text-align: justify;
+  position: relative;
+  padding: 0 1em;
 }
 
-.name a,
-.name a:visited {
-  color: #5d5d5d;
-  text-decoration: none;
-}
-.sponsor:hover .name a {
-  color: #5d5d5d;
-  border-bottom: 1px solid #5d5d5d;
+.desc p {
+  margin-top: 0;
+  margin-bottom: 0.7em;
 }
 
-.desc {
-  margin-top: 10px;
-  margin-left: 260px;
-  font-size: 16px;
-  line-height: 1.5;
+.brief {
+  font-size: 1.4em;
+  color: #F19E44;
 }
 
-@media screen and (max-width: 750px) {
-  .logo {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: none;
+.brief i {
+  font-size: 1em;
+  padding-bottom: 8px;
+}
+
+
+/* top section */
+.topsection {
+  display: block;
+  max-width: 1280px;
+  margin: 10px auto;
+}
+
+.topsection .logo {
+  max-width: 420px;
+  min-width: 280px;
+}
+
+.topsection .desc {
+  padding: 0 2em;
+}
+
+.icon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 0.5;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  padding: 0 5px 1px 0;
+  color: #F19E44;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+@media screen and (max-width: 768px) {
+  .content {
+  display: block;
   }
-
-  .name {
-    margin-top: 10px;
-    margin-left: 0;
-    text-align: center;
+  .content .logo {
+    margin: 15px auto;
+    display: block;
   }
   
-  .desc {
-    margin: 10px;
+  .content .desc {
+    display: block;
   }
+
 }
+
+

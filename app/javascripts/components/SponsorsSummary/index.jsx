@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
-import sponsors from "jsons/sponsors.json";
+import sponsors from "jsons/partner.json";
 import _ from "jsons/sponsors_summary.json";
 import styles from "./styles.css";
 
