@@ -266,13 +266,19 @@ export default class Schedule extends Component {
                       "with-session" : this.state.showSession,
                       "without-session" : !this.state.showSession
                     })}>
+
                     <div className="Schedule-dayButtonLeftstop">
                       <div className={cx({
                              "Schedule-dayButton" : true,
-                             "is-active" : this.state.currentSection === "day1"
+                             "is-active" : this.state.currentSection === "day0"
                            })}
-                           onClick={this.setSection.bind(this, 'day1')}>Day 1</div>
+                           onClick={this.setSection.bind(this, 'day0')}>Day 0</div>
                     </div>
+                    <div className={cx({
+                           "Schedule-dayButton" : true,
+                           "is-active" : this.state.currentSection === "day1"
+                         })}
+                         onClick={this.setSection.bind(this, 'day1')}>Day 1</div>
                     <div className={cx({
                            "Schedule-dayButton" : true,
                            "is-active" : this.state.currentSection === "day2"
@@ -307,6 +313,19 @@ export default class Schedule extends Component {
                             togglePanelHandler={this.toggleMobileFilter}/>
                   </div>
                 </Sticky>
+                <div
+                  className={cx({
+                    "Home-section": true,
+                    "is-hidden": this.state.currentSection !== ''&& this.state.currentSection !== 'day0'
+                  })}
+                  ref={(c) => this.day0 = c}
+                  id="day0"
+                >
+                  <div className="Schedule-day">9/10 (Sun.)</div>
+                  <section>
+                    {schedules[getLocale()]["day0"].map(mapTimeSlotToItems.bind(this, 0))}
+                  </section>
+                </div>
                 <div
                   className={cx({
                     "Home-section": true,
