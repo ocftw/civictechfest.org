@@ -141,17 +141,22 @@
 /* top section */
 .topsection {
   display: block;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 10px auto;
+}
+.topsection .content {
+  justify-content: center;
 }
 
 .topsection .logo {
   max-width: 420px;
-  min-width: 280px;
+  min-width: 300px;
+  flex: 1;
 }
 
 .topsection .desc {
   padding: 0 2em;
+  max-width: 720px;
 }
 
 .icon {
