@@ -1,20 +1,95 @@
+
+.icon, .howtogo dl dt:before, .howtogo dl dd:before {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 0.5;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  padding: 0 5px 3px 0;
+  color: #F19E44;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
 .root {
-  background: #FFFFFF;
-  box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.50);
-  background-color: rgba(255, 255, 255, 0.94);
   min-height: 400px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 103px;
+  lost-utility: clearfix;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+  background: rgba(255, 255, 255, 0.8);
+  position: relative;
+  width: 100%;
+  }
+}
+
+.header {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2em;
 }
 
 .section {
-  width: 50%;
+  display: block;
+  max-width: 960px;
+  margin: 10px auto;
 }
-.header {
-  padding-top: 20px;
-  margin: 0;
+
+
+/* date line dot */
+
+.orange_dateline,.blue_dateline {
+  margin: -10px auto 60px auto;
+  text-align: center;
 }
+
+.orange_dateline span, .blue_dateline span {
+  border: 4px solid #29A8DF;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  color: #29A8DF;
+  line-height: 1.5em;
+  background: #fff;
+  margin: 0 10px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.orange_dateline span {
+  color: #F19E44;
+  border-color: #F19E44;
+}
+
+.orange_dateline span.grey, .blue_dateline span.grey {
+  color: #FFF;
+  border-color: #E3E3E3;
+}
+
+
+/* about */
 
 .sponsor {
   display: block;
@@ -27,56 +102,212 @@
   border: 1px solid #999;
   zoom: 1;
   overflow: auto;
-  box-shadow: 1px 1px 6px rgba(0,0,0,0.3);
   border-radius: 3px;
 }
 
-.logo {
-  width: 240px;
-  height: 120px;
-  border: 1px solid #ccc;
-  float: left;
+
+
+.about {
+  border-radius: 15px;
+  border: 1px solid #B0B0B0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+.about h4 {
+  margin: 0;
+  font-size: 1.5em;
+}
+.content {
+    padding: 1.5em;
 }
 
-.name {
-  display: block;
-  font-weight: bold;
-  color: #5D5D5D;
-  margin-top: 0;
-  margin-bottom: 10px;
-  margin-left: 260px;
+
+
+.title {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background: #E6E6E6;
+  top: 0;
+  padding: 1.5em 2em;
 }
 
-.name a,
-.name a:visited {
-  color: #5d5d5d;
-  text-decoration: none;
-}
-.sponsor:hover .name a {
-  color: #5d5d5d;
-  border-bottom: 1px solid #5d5d5d;
+.title h3 {
+  font-size: 1.5em;
+  color: #4D4D4D;
+  line-height: 1;
+  margin: 0 30px 0 auto;
 }
 
-.desc {
-  margin-top: 10px;
-  margin-left: 260px;
-  font-size: 16px;
-  line-height: 1.5;
+.title h3, .title a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.title a {
+  color: #999;
 }
 
-.map {
+.title h4 {
+  margin: 0.5em 0 0 0;
+  font-size: 1.2em;
+  color: #F19E44;
+}
+
+.note {
+  color: #999;
+  vertical-align: text-bottom;
+}
+.venue, .howtogo {
+  margin-bottom: 2em;
+}
+.venue {
+  padding-left: 2.7em;
+  position: relative;
+}
+.venue a {
+    color: #999;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+.icon[data-size="big"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2.5em;
+}
+
+.icon[data-color="red"] {
+  color: #EE5A24;
+}
+
+.howtogo dl {
+  margin-bottom: 2em;
+}
+
+.howtogo dl dt {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.howtogo dl dd {
+  margin-bottom: 1em;
+}
+
+.howtogo dl dt:before{
+  content: "explore";
+}
+.howtogo dl dd:before{
+  content: "keyboard_arrow_right";
+}
+
+
+.flex{
+  padding: 1em 0;
+  border-radius: 16px;
+  display: -webkit-flex;
+  display: flex;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.flex .map {
+  -webkit-flex: 1;
+  flex: 1;
+  max-width: 50%;
+  min-width: 300px;
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+}
+
+.map img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  border-radius: 16px;
+}
+
+.map iframe {
   border: none;
-  margin-top: 15px;
-  width: 45%;
-  float: right;
+  width: 100%;
+  max-height: 300px;
 }
 
-@media(max-width: 720px){
-  .section {
-    width: auto;
-  }
-  .map {
-    width: 100%;
-    float: none;
-  }
+.map span {
+  font-size: 1.3em;
 }
+
+.content .desc {
+  -webkit-flex: 1;
+  flex: 1;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.7;
+  margin-top: 0;
+  word-wrap: break-word;
+  text-align: justify;
+  position: relative;
+  padding: 0 1em;
+}
+
+.desc p {
+  margin-top: 0;
+  margin-bottom: 0.7em;
+}
+
+.brief {
+  font-size: 1.4em;
+  color: #F19E44;
+}
+
+.brief i {
+  font-size: 1em;
+  padding-bottom: 8px;
+}
+
+
+/* top section */
+.topsection {
+  display: block;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.topsection .content {
+  justify-content: center;
+}
+
+.topsection .logo {
+  max-width: 420px;
+  min-width: 300px;
+  flex: 1;
+}
+
+.topsection .desc {
+  padding: 0 2em;
+  max-width: 720px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .flex {
+  display: block;
+  }
+  .flex .map {
+    margin: 15px auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .flex .desc {
+    display: block;
+  }
+
+}
+
+
