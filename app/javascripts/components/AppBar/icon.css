@@ -1,5 +1,16 @@
 
+[class^="icon-"] svg, [class*=" icon-"] svg {
+  position: absolute;
+  top: 13px;
+  left: -1.3em;
+  z-index: 2;
+  fill: currentColor;
+  width: 2em;
+  height: 2em;
+}
+
 [class^="icon-"]:before, [class*=" icon-"]:before {
+  content: "";
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -25,7 +36,6 @@
   z-index: 1;
   position: absolute;
 
-  color: transparent;
 }
 
 .about:before {

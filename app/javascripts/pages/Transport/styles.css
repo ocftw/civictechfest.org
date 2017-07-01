@@ -236,8 +236,9 @@
   max-height: 300px;
 }
 
-.map span {
+.map .mapname {
   font-size: 1.3em;
+  padding: 0 2em;
 }
 
 .content .desc {

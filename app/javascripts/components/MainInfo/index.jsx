@@ -39,7 +39,7 @@ class MainInfo extends Component {
 					<div className={styles.eventcontent}>
 						<h3>TICTeC @ Taipei</h3>
 						<p>TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group “mySociety”. This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts. </p>
-						<a className={styles.eventbtn}><span>Get Ticket !</span></a>
+						<a className={styles.eventbtn} href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank"><span>Get Ticket !</span></a>
 					</div>
 					<div className={styles.eventdate}>						
 						<div>

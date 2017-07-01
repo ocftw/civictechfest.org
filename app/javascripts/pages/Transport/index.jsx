@@ -59,11 +59,13 @@ class Transport extends Component {
                           <hr />
                           <div className={styles.flex}>
                             <div className={styles.map}>
-                              <span>2F</span>
+                              <span className={styles.mapname}>2F</span>
+                              <span>201A | 201B | 201C | 201F</span>
                               <img src={require(`images/venue/floor2.jpg`)} />
                             </div>
                             <div className={styles.map}>
-                              <span>4F</span>
+                              <span className={styles.mapname}>4F</span>
+                              <span>Joy | Elegance</span>
                               <img src={require(`images/venue/floor4.jpg`)} />
                             </div>
                           </div>

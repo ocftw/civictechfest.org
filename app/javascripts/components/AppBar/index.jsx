@@ -4,6 +4,7 @@ import { IndexLink, Link } from "react-router";
 import info from "jsons/header.json";
 import styles from "./styles.css";
 import icon from "./icon.css";
+import ICON from "../icon.jsx"
 
 class Header extends Component {
   constructor(props) {
@@ -87,6 +88,7 @@ class Header extends Component {
             }
           }
         }
+
       </header>
     );
   }
@@ -101,7 +103,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i className={icon.about}></i>
+          <i className={icon.about}><ICON icon="about" /></i>
           {info[getLocale()].home}
           
         </IndexLink>
@@ -112,7 +114,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i className={icon.agenda}></i>
+          <i className={icon.agenda}><ICON icon="agenda" /></i>
           {info[getLocale()].schedule}
         </Link>
       </li>
@@ -122,7 +124,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i className={icon.side_event}></i>
+          <i className={icon.side_event}><ICON icon="side_event" /></i>
           {info[getLocale()].sponsors}
         </Link>
       </li>
@@ -132,7 +134,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i className={icon.speaker}></i>
+          <i className={icon.speaker}><ICON icon="speaker" /></i>
           {info[getLocale()].speakers}
         </Link>
       </li>
@@ -143,7 +145,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i className={icon.venue}></i>
+          <i className={icon.venue}><ICON icon="venue" /></i>
           {info[getLocale()].transport}
         </Link>
       </li>
@@ -153,7 +155,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i className={icon.ticket}></i>
+          <i className={icon.ticket}><ICON icon="ticket" /></i>
           {info[getLocale()].staff}
         </Link>
       </li>
@@ -163,7 +165,7 @@ const Menu = () => {
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
-          <i className={icon.taipei}></i>
+          <i className={icon.taipei}><ICON icon="taipei" /></i>
           {info[getLocale()].live}
         </Link>
       </li>
