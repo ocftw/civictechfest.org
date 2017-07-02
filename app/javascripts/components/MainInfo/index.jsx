@@ -21,10 +21,12 @@ class MainInfo extends Component {
 			  </div>
 			  <div className={styles.dateline}>
 			  	<ul>
-			  		<li><a><span>Sep.</span><p>Events</p></a></li>
+			  		<li className={styles.month}><a><span>Sep.</span><p>Events</p></a></li>
 			  		<li><a><span>9</span><span>10</span><p></p></a></li>
 			  		<li><a><span>11</span><p>Civic Tech Grant DEMO Party</p></a></li>
 			  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>alongside with WCIT</h6></a></li>
+			  	</ul>
+			  	<ul>
 			  		<li><a><span>14</span><p>Asia Open Data Hackthon<br />Code for ALL</p></a></li>
 			  		<li><a><span>15</span><p></p></a></li>
 			  		<li><a><span>16</span><p>g0v Hackthon</p></a></li>
@@ -74,14 +76,14 @@ class MainInfo extends Component {
 				<div className={styles.blue_dateline}>
 					<span>9</span>
 					<span>10</span>
-					<span className={styles.grey}>11</span>
+					<span>11</span>
 					<span className={styles.grey}>12</span>
 					<span className={styles.grey}>13</span>
 					<span>14</span>
 					<span>15</span>
 					<span>16</span>
 				</div>
-				<div className={styles.sideevents} data-right="true">
+				<div className={styles.sideevents}>
 					<div className={styles.overhidden}>
 						<div className={styles.eventimg}>
 							<img src="" />
@@ -131,7 +133,7 @@ class MainInfo extends Component {
 					</div>
 				</div>
 
-				<div className={styles.sideevents} data-right="true">
+				<div className={styles.sideevents}>
 					<div className={styles.overhidden}>
 						<div className={styles.eventimg}>
 							<img src="" />
