@@ -87,7 +87,10 @@ export default class MainInfo extends Component {
     return (
       <div className={styles.root}>
       	<div className={styles.banner}>
-	  		<img className={styles.hero} src={require('./images/hero.jpg')} />
+      		<div className={styles.heroimg}>
+	  			<img className={styles.hero} src={require('./images/hero.jpg')} />
+	  			<img className={styles.shero} src={require('./images/banner_phone.jpg')} />
+	  		</div>
 	  		<div className={styles.herotext}>
 	  			<h1>#CivicTechFest</h1>
 				<h2>Sep. 11th - 16th<br/>Taipei, Taiwan</h2>
