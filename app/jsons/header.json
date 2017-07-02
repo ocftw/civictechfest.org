@@ -1,13 +1,13 @@
 {
   "en-US": {
-    "home": "Home",
-    "schedule": "Schedule",
+    "about": "About",
+    "agenda": "Agenda",
     "speakers": "Speakers",
-    "sponsors": "Sponsors",
-    "live": "Live",
-    "transport": "Transport",
+    "side_event": "Side Events",
+    "taipei": "Taipei",
+    "venue": "Venue",
     "unconf": "Unconf",
-    "staff": "Staff",
+    "ticket": "Ticket",
     "date": "14-15 May, 2016",
     "location": "Taipei",
     "wiki": "Wiki"

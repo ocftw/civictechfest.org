@@ -8,7 +8,6 @@ import {
   Sponsors,
   Transport,
   Unconf,
-  Live,
   Staff,
   Travel,
 } from 'javascripts/pages';
@@ -20,14 +19,13 @@ export default () => {
   return (
     <Route path="/" component={Root}>
       <IndexRoute component={Home} onEnter={scrollToTop} />
-      <Route path="live" component={Live} onEnter={scrollToTop} />
-      <Route path="schedules" component={Schedules} onEnter={scrollToTop}/>
+      <Route path="agenda" component={Schedules} onEnter={scrollToTop}/>
       <Route path="speakers" component={Speakers} onEnter={scrollToTop} />
-      <Route path="sponsors" component={Sponsors} onEnter={scrollToTop} />
-      <Route path="staff" component={Staff} onEnter={scrollToTop} />
-      <Route path="transport" component={Transport} onEnter={scrollToTop} />
-      <Route path="travel" component={Travel} onEnter={scrollToTop} />
-      <Route path="unconf" component={Unconf} onEnter={scrollToTop} />
+      <Route path="about" component={Sponsors} onEnter={scrollToTop} />
+      <Route path="ticket" component={Staff} onEnter={scrollToTop} />
+      <Route path="venue" component={Transport} onEnter={scrollToTop} />
+      <Route path="Taipei" component={Travel} onEnter={scrollToTop} />
+      <Route path="side_event" component={Unconf} onEnter={scrollToTop} />
     </Route>
   );
 }

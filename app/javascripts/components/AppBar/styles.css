@@ -107,6 +107,22 @@ img {
   z-index: 0;
 }
 
+.item a[data-islink="false"]:hover::after, .item a[data-islink="false"]:focus::after {
+  content: "release soon";
+  position: absolute;
+  background: #fff;
+  padding: 7px;
+  border-radius: 5px;
+  bottom: -1em;
+  left: 1em;
+  color: #4D4D4D;
+  display: inline-block;
+  z-index: 3;
+  box-shadow: 3px 3px 3px #999;
+  font-weight: 300;
+  font-size: xx-small;
+  width: 6em;
+}
 
 
 /*.item:hover a,

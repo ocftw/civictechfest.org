@@ -98,41 +98,43 @@ const Menu = () => {
   return (
     <ul className={styles.menu}>
       <li className={styles.item}>
-        <IndexLink
-          to="/"
+        <Link
+          to="/about"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
           <i className={icon.about}><ICON icon="about" /></i>
-          {info[getLocale()].home}
+          {info[getLocale()].about}
           
-        </IndexLink>
+        </Link>
       </li>
       <li className={styles.item}>
         <Link
-          to="/schedules"
+          to="/agenda"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
           <i className={icon.agenda}><ICON icon="agenda" /></i>
-          {info[getLocale()].schedule}
+          {info[getLocale()].agenda}
         </Link>
       </li>
       <li className={styles.item}>
         <Link
-          to="/sponsors"
-          activeClassName={styles.active}
+          to="#"
+          /*activeClassName={styles.active}*/
           onClick={() => hideMenu()}
+          data-islink="false" 
         >
           <i className={icon.side_event}><ICON icon="side_event" /></i>
-          {info[getLocale()].sponsors}
+          {info[getLocale()].side_event}
         </Link>
       </li>
       <li className={styles.item}>
         <Link
-          to="/speakers"
-          activeClassName={styles.active}
+          to="#"
+          /*activeClassName={styles.active}*/
           onClick={() => hideMenu()}
+          data-islink="false" 
         >
           <i className={icon.speaker}><ICON icon="speaker" /></i>
           {info[getLocale()].speakers}
@@ -141,32 +143,33 @@ const Menu = () => {
       
       <li className={styles.item}>
         <Link
-          to="/transport"
+          to="/venue"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
           <i className={icon.venue}><ICON icon="venue" /></i>
-          {info[getLocale()].transport}
+          {info[getLocale()].venue}
         </Link>
       </li>
       <li className={styles.item}>
         <Link
-          to="/staff"
+          to="/ticket"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
           <i className={icon.ticket}><ICON icon="ticket" /></i>
-          {info[getLocale()].staff}
+          {info[getLocale()].ticket}
         </Link>
       </li>
       <li className={styles.item}>
         <Link
-          to="/live"
-          activeClassName={styles.active}
+          to="#"
+          /*activeClassName={styles.active}*/
           onClick={() => hideMenu()}
+          data-islink="false" 
         >
           <i className={icon.taipei}><ICON icon="taipei" /></i>
-          {info[getLocale()].live}
+          {info[getLocale()].taipei}
         </Link>
       </li>
     </ul>
