@@ -30,13 +30,84 @@ $desktop-padding: 20px;
   font-size: 14px;
   cursor: pointer;
 }
-.filterCategoryIcon {
+.filterCategoryIcon[data-venue] {
   border-radius: 4px;
-  width: 18px; height: 18px;
-  
-  margin-right: 18px;
+  width: 18px; 
+  height: 18px;
+  margin-right: 10px;
+  margin-left: 25px;
   transition: background .3s;
+  border-width: 2px;
+  border-style: solid;
 }
+
+.filterCategoryIcon[data-venue="201B+C"]::after, .filterCategoryIcon[data-venue="201A+F"]::after {
+  content: "";
+  border-radius: 4px;
+  width: 14px; 
+  height: 14px;
+  margin-right: 10px;
+  margin-left: 25px;
+  transition: background .3s;
+  border-width: 2px;
+  border-style: solid;
+
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: -2px;
+}
+
+.filterCategoryIcon[data-venue="201A"] {
+  background: #29ABE2;
+  border-color: #29ABE2;
+}
+.filterCategoryIcon[data-venue="201B"] {
+  background: #8CC63F;
+  border-color: #8CC63F;
+}
+.filterCategoryIcon[data-venue="201C"] {
+  background: #00A99D;
+  border-color: #00A99D;
+}
+.filterCategoryIcon[data-venue="201F"] {
+  background: #0071BC;
+  border-color: #0071BC;
+}
+.filterCategoryIcon[data-venue="4F Joy"] {
+  background: #F7931E;
+  border-color: #F7931E;
+}
+.filterCategoryIcon[data-venue="4F Elegance"] {
+  background: #EA6955;
+  border-color: #EA6955;
+}
+
+.filterCategoryIcon[data-venue="201B+C"] {
+  background: #8CC63F;
+  border-color: #8CC63F;
+  margin-right: 35px;
+  margin-left: 0;
+}
+.filterCategoryIcon[data-venue="201A+F"] {
+  background: #29ABE2;
+  border-color: #29ABE2;
+  margin-right: 35px;
+  margin-left: 0;
+}
+
+.filterCategoryIcon[data-venue="201B+C"]::after {
+  background: #00A99D;
+  border-color: #00A99D;
+}
+.filterCategoryIcon[data-venue="201A+F"]::after {
+  background: #0071BC;
+  border-color: #0071BC;
+}
+
+.filterCategoryIcon[data-ison="false"], .filterCategoryIcon[data-venue="201B+C"][data-ison="false"]::after, .filterCategoryIcon[data-venue="201A+F"][data-ison="false"]::after {
+  background: #fff;
+}
+
 .filterActions {
   padding: $mobile-padding;
   font-size: 14px;

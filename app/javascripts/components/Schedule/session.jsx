@@ -9,6 +9,21 @@ import avatarURL from "javascripts/helpers/avatar";
 import styles from "./styles.css";
 import helptext from "./helptext.json";
 
+
+var multiParagraph = (text, className) => {
+  if (!text) {
+    return [];
+  }
+  var arr = text.split('\n');
+  var ret = [];
+  for (let i in arr) {
+    let line = arr[i];
+    ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+  }
+  return ret;
+}
+
+
 var by_name = {};
 
 speakers["en-US"].forEach((speaker) => {
@@ -54,7 +69,7 @@ export default React.createClass({
       var bio = bio_text ? (
         <div className="Session-biography" key={`speaker_bio_${speaker_name}`}>
             <div className="Session-subTitle">Biography</div>
-            <div dangerouslySetInnerHTML={{__html: bio_text}}></div>
+            <div>{multiParagraph(bio_text)}</div>
         </div>
       ): "";
       speakers_bio.push(bio);
@@ -128,8 +143,7 @@ export default React.createClass({
       </div>;
     });
 
-    const moderator_live = speakers[0] && getString(by_name[speakers[0]], 'live', locale);
-
+  
     if (time && speakers_profile.length) {
       return (
           <div className="Session">

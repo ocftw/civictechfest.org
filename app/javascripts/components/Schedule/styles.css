@@ -342,18 +342,41 @@ $mobile-item-leftstop: 96px;
     flex: 1 0 0;
   }
 }
-
-.Schedule-presenter {
+.Schedule-item[data-venue] {
+  color:#fff;
+  background: #ccc;
+}
+.Schedule-main h4 {
+  margin: 0;
+  max-width: 430px;
+}
+.Schedule-main h5 {
+  margin: 0;
+  max-width: 430px;
+  font-weight: 300;
+  font-size: 0.7em;
+  position: absolute;
+  top: 5px;
+  color: #808080;
+}
+.Schedule-presenter p, .Schedule-note p {
   color: rgb(125,124,123);
   font-size: 14px;
-  margin-top: 10px;
   font-weight: normal;
+  text-indent: -20px;
+  padding-left: 20px;
 }
-.Schedule-presenter:before {
-  content: "person";
+.Schedule-presenter p:before, .Schedule-note p:before {
+  content: "";
   font-family: 'Material Icons';
   vertical-align: bottom;
   padding: 0 3px 1px 3px;
+}
+.Schedule-presenter p:before {
+  content: "person";
+}
+.Schedule-note p:before {
+  content: "priority_high";
 }
 
 .Schedule-anchor {
@@ -432,20 +455,82 @@ a.Schedule-event:hover:before {
 
 .Schedule-categoryIcon {
   position: absolute;
+  top: 15px;
+  right: 10px;
+  display: block;
+}
+.Schedule-categoryIcon::before, .Schedule-categoryIcon::after {
+  content: "";
+  display: inline-block;
   width: $category-icon-size;
-  height: $category-icon-size;
-  right: 14px;
-  bottom: 17px;
-
+  height: calc($category-icon-size / 3);
+  vertical-align: top;
   border-radius: 3px;
   background: transparent;
   will-change: background;
   -webkit-transition: background .3s;
   transition: background .3s;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+.Schedule-categoryIcon::after {
+  position: absolute;
+  left: 20px;
+  top: 0;
 }
 
+/* venue color */
+
+.Schedule-categoryIcon[data-venue="201A"]::before, .Schedule-item[data-venue="201A"] {
+  background: #29ABE2;
+}
+.Schedule-categoryIcon[data-venue="201B"]::before, .Schedule-item[data-venue="201B"] {
+  background: #8CC63F;
+}
+.Schedule-categoryIcon[data-venue="201C"]::before, .Schedule-item[data-venue="201C"] {
+  background: #00A99D;
+}
+.Schedule-categoryIcon[data-venue="201F"]::before, .Schedule-item[data-venue="201F"] {
+  background: #0071BC;
+}
+.Schedule-categoryIcon[data-venue="4F Joy"]::before, .Schedule-item[data-venue="4F Joy"] {
+  background: #F7931E;
+}
+.Schedule-categoryIcon[data-venue="4F Elegance"]::before, .Schedule-item[data-venue="4F Elegance"] {
+  background: #EA6955;
+}
+.Schedule-item[data-venue="201B+C"] {
+  background: #8CC63F;
+}
+.Schedule-item[data-venue="201A+F"] {
+  background: #29ABE2;
+}
+.Schedule-categoryIcon[data-venue="201B+C"]::before {
+  background: #8CC63F;
+  margin-right: 25px;
+}
+.Schedule-categoryIcon[data-venue="201A+F"]::before {
+  background: #29ABE2;
+  margin-right: 25px;
+}
+
+.Schedule-categoryIcon[data-venue="201B+C"]::after {
+  background: #00A99D;
+}
+.Schedule-categoryIcon[data-venue="201A+F"]::after {
+  background: #0071BC;
+}
+
+/* venue text */
+.Schedule-categoryIcon[data-venue] span {
+  display: none;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+
 @media screen and (min-width: $breakpoint) {
-  $desktop-padding: 20px;
+  $desktop-padding: 25px;
   $desktop-item-leftstop: 200px;
 
   .Schedule-dayButton {
@@ -479,12 +564,25 @@ a.Schedule-event:hover:before {
   }
 
   .Schedule-categoryIcon {
-    top: 50%;
-    margin-top: calc(-$category-icon-size / 2);
-    right: 28px;
+    top: 25px;
+    right: 20px;
   }
   a.Schedule-event:before {
     display: inherit;
   }
+  .Schedule-main h5 {
+    font-size: 0.8em;
+    top: 8px;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .Schedule-categoryIcon[data-venue] span {
+    display: inline-block;
+  }
+  .Schedule-categoryIcon::before, .Schedule-categoryIcon::after {
+    height: $category-icon-size;
+  }
+}
+
 } /* ends :global */

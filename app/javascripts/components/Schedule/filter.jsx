@@ -23,22 +23,17 @@ export default React.createClass({
     var items = this.props.data.map((value,i)=>{
 
       if(!filterOn || value.active){
-        var style = {
-          "background" : value.color
-        }
+        var ison = "true"
       }else{
-        var style = {
-          "border" : `2px solid ${value.color}`
-        }
+        var ison = "false"
       }
 
       var icomoon = value.icomoon
 
       return (
         <div className={styles.filterCategory} key={i} onClick={this.props.toggleCategoryHandler.bind(null,i)}>
-          <div className={`${styles.filterCategoryIcon}`} style={style}></div>
-          <div className={icomoon}></div>
-          <div className={`${styles.filterCategoryText}`}>{value.title}</div>
+          <div className={`${styles.filterCategoryIcon}`} data-venue={value.title} data-ison={ison}></div>
+          <div>{value.title}</div>
         </div>
       )
     });

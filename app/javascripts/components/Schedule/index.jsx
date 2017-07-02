@@ -9,56 +9,54 @@ import { StickyContainer, Sticky } from 'react-sticky';
 const cx = classnames.bind(styles);
 
 const venues = [
-  /* old room */
   {
-    "id": "r1",
-    "title": "R1",
-    "color": "#8B4AA8"
+    "id": "r7",
+    "title": "201B+C",
+  },
+  {
+    "id": "r6",
+    "title": "201A+F",
   },
   {
     "id": "r0",
-    "title": "R0",
-    "color": "#36AAA8"
-  },
-  {
-    "id": "r2",
-    "title": "R2",
-    "color": "#4EA23B"
-  },
-
-  /* new room */
-  {
-    "id": "r0",
-    "title": "201 B",
-    "color": "#8CC63F"
+    "title": "201B",
   },
   {
     "id": "r1",
-    "title": "201 C",
-    "color": "#00A99D"
+    "title": "201C",
   },
   {
     "id": "r2",
     "title": "4F Joy",
-    "color": "#F7931E"
   },
   {
     "id": "r3",
     "title": "4F Elegance",
-    "color": "#ED1C24"
   },
   {
     "id": "r4",
-    "title": "201 A",
-    "color": "#29ABE2"
+    "title": "201A",
   },
   {
     "id": "r5",
-    "title": "201 F",
-    "color": "#0071BC"
+    "title": "201F",
   }
 
 ];
+
+var multiParagraph = (text, className) => {
+  if (!text) {
+    return [];
+  }
+  var arr = text.split('\n');
+  var ret = [];
+  for (let i in arr) {
+    let line = arr[i];
+    ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+  }
+  return ret;
+}
+
 
 const venueObj = venues.reduce((aggObj, venue, idx) => {
   aggObj[venue.title] = venue
@@ -86,7 +84,7 @@ function mapTimeSlotToItems(day, value, i) {
       <div
         className={cx({ "Schedule-item" : true, })}
         key={i}
-        style={{ color: '#FFF', backgroundColor: venueObj[value.venue].color}}
+        data-venue={venue}
       >
         <div className="Schedule-time">
           <span className={value.icomoon}></span>
@@ -129,16 +127,16 @@ function mapTimeSlotToItems(day, value, i) {
                 style={selected ? {backgroundColor: '#FFF7CB'} : {}}
                 onClick={this.setSession.bind(this, event, value.time)}>
                 <div className="Schedule-main">
-                  {value.event.title}
-                  <div className="Schedule-presenter">{value.event.speaker}</div>
+                  <h5>{value.event.panel}</h5>
+                  <h4>{value.event.title}</h4>
+                  <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
+                  <div className="Schedule-presenter">{multiParagraph(value.event.speaker)}</div>
                   {
                     venue ? (
-                      <div className="Schedule-categoryIcon" style={{
-                             "background" : venueObj[venue].color
-                           }}
+                      <div className="Schedule-categoryIcon" data-venue={venue}
                            title={`Toggle venue "${venue}"`}
                            onClick={this.toggleVenue.bind(this, venueObj[venue].index)}
-                           ></div>
+                           ><span>{venue}</span></div>
 
                     ) : null
                   }
@@ -290,15 +288,7 @@ export default class Schedule extends Component {
                          })}
                          onClick={this.setSection.bind(this, 'day3')}>Day 3</div>
 
-                    <div className="Schedule-switchBtn" onClick={this.props.onSwitch}>View Parallel</div>
-                    <div className={cx({
-                           'Schedule-filterBtn': true,
-                           'is-show': this.state.mobileFilterOn,
-                         })}
-                         onClick={this.toggleMobileFilter}>Filter
-                      <div className={cx({'Schedule-bar1': true, 'is-active': this.state.mobileFilterOn})}></div>
-                      <div className={cx({'Schedule-bar2': true, 'is-active': this.state.mobileFilterOn})}></div>
-                    </div>
+                    
                   </div>
                   <div className={cx({
                     'Schedule-filterPanel': true,
@@ -390,4 +380,3 @@ export default class Schedule extends Component {
   }
 }
 
-export {default as ScheduleParallel} from './parallel'
