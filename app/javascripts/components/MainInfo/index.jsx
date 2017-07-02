@@ -15,17 +15,18 @@ class MainInfo extends Component {
 					<h2>Sep. 11th - 16th<br/>Taipei, Taiwan</h2>
 				</div>
 			</div>
-			<article className={styles.relative}>
+			<article className={styles.relative} data-wide="true">
 			  <div className={styles.brief}>
 			    <p>Asia’s first ever civic technology festival with  a week-long collection of events.</p>
 			  </div>
 			  <div className={styles.dateline}>
 			  	<ul>
 			  		<li><a><span>Sep.</span><p>Events</p></a></li>
-			  		<li><a><span>9</span><span>10</span><p>Code for Gender</p></a></li>
+			  		<li><a><span>9</span><span>10</span><p></p></a></li>
+			  		<li><a><span>11</span><p>Civic Tech Grant DEMO Party</p></a></li>
 			  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>alongside with WCIT</h6></a></li>
-			  		<li><a><span>14</span><p>Toolbox Hackathon<br />Code for ALL<br />AODP</p></a></li>
-			  		<li><a><span>15</span><p>Democracy Forum</p></a></li>
+			  		<li><a><span>14</span><p>Asia Open Data Hackthon<br />Code for ALL</p></a></li>
+			  		<li><a><span>15</span><p></p></a></li>
 			  		<li><a><span>16</span><p>g0v Hackthon</p></a></li>
 			  	</ul>
 			  </div>
@@ -38,7 +39,7 @@ class MainInfo extends Component {
 					</div>
 					<div className={styles.eventcontent}>
 						<h3>TICTeC @ Taipei</h3>
-						<p>TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group “mySociety”. This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts. </p>
+						<p>The main highlight for the Civic Tech Fest is “TICTeC@Taipei: The Impacts of Civic Technology Conference”, co-organized by UK group “mySociety”. TICTeC is an annual international conference that focuses on the impact of civic tech since 2015 and will be hold in Asia in the first time. TICTeC@Taipei is a great opportunity to connect global network in the Asia base. </p>
 						<a className={styles.eventbtn} href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank"><span>Get Ticket !</span></a>
 					</div>
 					<div className={styles.eventdate}>						
