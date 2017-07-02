@@ -2,9 +2,60 @@ import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
 import header from "jsons/header.json";
 import styles from "./styles.css";
+import side_events from "jsons/side_events.json";
 import about from "./about.css";
 
-class MainInfo extends Component {
+var multiParagraph = (text, className) => {
+  if (!text) {
+    return [];
+  }
+  var arr = text.split('\n');
+  var ret = [];
+  for (let i in arr) {
+    let line = arr[i];
+    ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+  }
+  return ret;
+}
+
+
+export default class MainInfo extends Component {
+  SideEvent = (SideEvent, i) => {
+    return (
+      	<div className={styles.sideevents}>
+			<div className={styles.overhidden}>
+				<div className={styles.eventimg}>
+					<img data-type={SideEvent.imgtype} src={require(`file!images/sponsors/${SideEvent.img}`)} />
+				</div>
+				<div className={styles.eventcontent} data-open={SideEvent.isopen}>
+					<h3>{SideEvent.name}</h3>
+					{multiParagraph(SideEvent.desc)}
+
+					<a data-islink={SideEvent.islink} href={SideEvent.url} target="_blank" className={styles.eventbtn}><span>{SideEvent.urlname}</span></a>
+				</div>
+			</div>
+			<div className={styles.eventdate}>
+									
+				<div>
+					<span>Sep.</span>
+					{ SideEvent.date.map( (date) => {
+		        		return (
+				   			<span>{ date }</span>
+				   		)
+			          })}
+				</div>
+				
+			</div>
+			<div className={styles.venue}>
+				<span><i data-color={SideEvent.venue_color}>place</i>{SideEvent.venue}</span>
+			</div>
+			<div className={styles.tab}>
+				<span>{SideEvent.tab}</span>
+			</div>
+		</div>
+    );
+  }
+
   render() {
     return (
       <div className={styles.root}>
@@ -37,7 +88,7 @@ class MainInfo extends Component {
 				<h2 className={styles.orange}>Main Event</h2>
 				<div className={styles.mainevent}>
 					<div className={styles.eventimg}>
-						<img className={styles.logo} src={require(`file!images/sponsors/tictec.jpg`)} />
+						<img data-type="logo" src={require(`file!images/sponsors/tictec.jpg`)} />
 					</div>
 					<div className={styles.eventcontent}>
 						<h3>TICTeC @ Taipei</h3>
@@ -51,7 +102,7 @@ class MainInfo extends Component {
 						</div>
 					</div>
 					<div className={styles.venue}>
-						<span><i className={styles.colorTICC}>place</i>TICC</span>
+						<span><i data-color="1">place</i>TICC</span>
 					</div>
 					<div className={styles.tab}>
 						<span className={styles.tabblue}>alongside with WCIT</span>
@@ -70,97 +121,29 @@ class MainInfo extends Component {
 				</div>
 			</article>
 
-			<article className={styles.container}>
+			{ 
+		      side_events[getLocale()].map( cat => {
+		        return (
+				<article id={cat.category} className={styles.container} key={cat.category}>
 
-				<h2 className={styles.blue}>Side Events</h2>
-				<div className={styles.blue_dateline}>
-					<span>9</span>
-					<span>10</span>
-					<span>11</span>
-					<span className={styles.grey}>12</span>
-					<span className={styles.grey}>13</span>
-					<span>14</span>
-					<span>15</span>
-					<span>16</span>
-				</div>
-				<div className={styles.sideevents}>
-					<div className={styles.overhidden}>
-						<div className={styles.eventimg}>
-							<img src="" />
-						</div>
-						<div className={styles.eventcontent}>
-							<h3>TICTeC @ Taipei</h3>
-							<p>This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts. </p>
-							<a className={styles.eventbtn}><span>Sign up !</span></a>
-						</div>
+					<h2 className={styles.blue}>{cat.title}</h2>
+					<div className={styles.blue_dateline}>
+						<span>9</span>
+						<span>10</span>
+						<span>11</span>
+						<span className={styles.grey}>12</span>
+						<span className={styles.grey}>13</span>
+						<span>14</span>
+						<span>15</span>
+						<span>16</span>
+					</div>					
+			    	<div>
+		            { cat.side_events.map(this.SideEvent) }
 					</div>
-					<div className={styles.eventdate}>						
-						<div>
-							<span>Sep.</span>
-							<span>9</span><span>10</span>
-						</div>
-					</div>
-					<div className={styles.venue}>
-						<span><i className={styles.colorTICC}>place</i>TICC</span>
-					</div>
-					<div className={styles.tab}>
-						<span>Free</span>
-					</div>
-				</div>
-
-				<div className={styles.sideevents}>
-					<div className={styles.overhidden}>
-						<div className={styles.eventimg}>
-							<img src="" />
-						</div>
-						<div className={styles.eventcontent} data-open="true">
-							<h3>TICTeC @ Taipei</h3>
-							<p>This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts. </p>
-							<a className={styles.eventbtn}><span>Sign up !</span></a>
-						</div>
-					</div>
-					<div className={styles.eventdate}>						
-						<div>
-							<span>Sep.</span>
-							<span>14</span>
-						</div>
-					</div>
-					<div className={styles.venue}>
-						<span><i className={styles.colorTICC}>place</i>TICC</span>
-					</div>
-					<div className={styles.tab}>
-						<span>Free</span>
-					</div>
-				</div>
-
-				<div className={styles.sideevents}>
-					<div className={styles.overhidden}>
-						<div className={styles.eventimg}>
-							<img src="" />
-						</div>
-						<div className={styles.eventcontent}>
-							<h3>TICTeC @ Taipei</h3>
-							<p>This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts. </p>
-							<a className={styles.eventbtn}><span>Sign up !</span></a>
-						</div>
-					</div>
-					<div className={styles.eventdate}>						
-						<div>
-							<span>Sep.</span>
-							<span>15</span>
-						</div>
-					</div>
-					<div className={styles.venue}>
-						<span><i className={styles.colorTICC}>place</i>TICC</span>
-					</div>
-					<div className={styles.tab}>
-						<span className={styles.tabblue}>alongside with WCIT</span>
-						<br />
-						<span>Free</span>
-					</div>
-				</div>
-
-			</article>
+				</article>
+				)
+	          }) 
+	        }
 
 			<article className={styles.container} data-wide="true">
 
@@ -271,4 +254,3 @@ class MainInfo extends Component {
   }
 };
 
-export default MainInfo;

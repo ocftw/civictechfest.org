@@ -236,6 +236,7 @@ article {
 	height: auto;
 	top: 0;
 	max-width: 300px;
+	margin: 3em auto;
 }
 
 .eventimg img[data-type="pic"] {
@@ -285,6 +286,10 @@ article {
 .eventbtn:hover {
 	background: #F19E44;
 	color: #fff;
+}
+
+.eventbtn[data-islink="false"]{
+	display: none;
 }
 
 /* event date */
@@ -380,8 +385,23 @@ article {
   font-feature-settings: 'liga';
 }
 
-.colorTICC {
+*[data-color="1"] {
 	color: #EE5A24;
+}
+*[data-color="2"] {
+	color: #F19E44;
+}
+*[data-color="3"] {
+	color: #FBC718;
+}
+*[data-color="4"] {
+	color: #89C33f;
+}
+*[data-color="5"] {
+	color: #29A8DF;
+}
+*[data-color="6"] {
+	color: #C7368E;
 }
 
 
@@ -494,8 +514,8 @@ article {
 	width: 100%;
 	height: 300px; 
 	background: transparent;
-	border-top-left-radius: 16px;
-	border-top-right-radius: 16px;
+	border-radius: 16px;
+	text-align: center;
 }
 
 .sideevents .eventcontent {
@@ -505,10 +525,10 @@ article {
 	top: 58%;
 	transition: all 0.5s ease;
 	padding-top: 1.5em;
+	height: 100%;
 } 
 
 .sideevents .eventcontent:hover, .sideevents .eventcontent:focus, .sideevents .eventcontent[data-open="true"] {
-	height: 100%;
     position: absolute;
     top: 0;
 }
@@ -659,6 +679,10 @@ article[data-wide="true"] {
 	left: calc(2em + 1px );
 	display: inline;
 }
+
+
+
+
 
 
 @media screen and (min-width: 480px) {
