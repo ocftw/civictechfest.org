@@ -1,0 +1,115 @@
+{
+  "en-US": [
+    {
+      "category": "keynote_speakers",
+      "title": "Keynote Speakers",
+      "keynote_speakers": [
+        {
+          "name": "Mathilde Bras",
+          "title": "Open government officer",
+          "organization": "Etalab",
+          "nation": "French",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/Mathilde Bras.jpg"
+        },
+        {
+          "name": "Erie Meyer",
+          "title": "Co-founder",
+          "organization": "United States Digital Service",
+          "nation": "",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/n_avatar.png"
+        },
+        {
+          "name": "Rebecca Rumbul",
+          "title": "Head of Research",
+          "organization": "mySociety",
+          "nation": "",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/Rebecca Rumbul.jpg"
+        },
+        {
+          "name": "Michael Canares",
+          "title": "Regional Research Manager for Asia",
+          "organization": "World Wide Web Foundation",
+          "nation": "",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/Michael Canares.jpg"
+        },
+        {
+          "name": "Audrey Tang",
+          "title": "Digital Minister without portfolio",
+          "organization": "Government of Taiwan",
+          "nation": "",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/audrey.jpg"
+        },
+        {
+          "name": "Nanjira Sambuli",
+          "title": "Digital Equality Advocacy Manager",
+          "organization": " World Wide Web Foundation",
+          "nation": "",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/Nanjira Sambuli.jpg"
+        },
+        {
+          "name": "James Powell",
+          "title": "U-Report Global Lead",
+          "organization": "UNICEF",
+          "nation": "",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/n_avatar.png"
+        },
+        {
+          "name": "Masashi Crete-Nishihata",
+          "title": "Research Manager",
+          "organization": "Citizen Lab",
+          "nation": "",
+          "event": ["WCIT"],
+          "avatar": "./images/Masashi Crete-Nishihata.jpg"
+        },
+        {
+          "name": "Stephen King",
+          "title": "Partner",
+          "organization": "Omidyar Network",
+          "nation": "",
+          "event": ["WCIT","TICTeC"],
+          "avatar": "./images/Stephen King.jpg"
+        },
+        {
+          "name": "Luke Bacon",
+          "title": "",
+          "organization": "Open Australia Foundation",
+          "nation": "",
+          "event": ["TICTeC"],
+          "avatar": "./images/Luke Bacon.jpg"
+        },
+        {
+          "name": "Khairil Yusof",
+          "title": "Co-founder",
+          "organization": "Sinar Project",
+          "nation": "",
+          "event": ["TICTeC"],
+          "avatar": "./images/n_avatar.png"
+        },
+        {
+          "name": "Gemma Humphrys",
+          "title": "Events and Alaveteli Partnership Manager",
+          "organization": "mySociety",
+          "nation": "",
+          "event": ["TICTeC"],
+          "avatar": "./images/Gemma Humphrys.jpg"
+        },
+        {
+          "name": "Chia-liang Kao",
+          "title": "Board Member",
+          "organization": "Open Culture Foundation",
+          "nation": "",
+          "event": ["TICTeC"],
+          "avatar": "./images/clkao.png"
+        }
+      ]
+    }
+  ]
+}
+
