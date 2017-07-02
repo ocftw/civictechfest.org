@@ -1,5 +1,5 @@
 
-.icon, .howtogo dl dt:before, .howtogo dl dd:before {
+.icon, .howtogo dl dt::before, .howtogo dl dd::before {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -197,10 +197,10 @@
   margin-bottom: 1em;
 }
 
-.howtogo dl dt:before{
+.howtogo dl dt::before{
   content: "explore";
 }
-.howtogo dl dd:before{
+.howtogo dl dd::before{
   content: "keyboard_arrow_right";
 }
 

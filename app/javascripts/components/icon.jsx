@@ -46,7 +46,7 @@ const icons = {
 };
 
 const Icon = props => (
-  <svg width="30" height="30" viewBox="0 0 1024 1024">
+  <svg data-icon={props.icontype} width="30" height="30" viewBox="0 0 1024 1024">
     {icons[props.icon].map((result) => {
     return (<path d={result} ></path>);
     })}
@@ -55,6 +55,7 @@ const Icon = props => (
 
 Icon.propTypes = {
   icon: PropTypes.string.isRequired,
+  icontype: PropTypes.string,
 };
 
 export default Icon;
