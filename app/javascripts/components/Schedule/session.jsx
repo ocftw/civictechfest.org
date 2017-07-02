@@ -38,7 +38,7 @@ export default React.createClass({
             className="Session-interview"
             key={`speaker_bio_${speaker.id}`}
             dangerouslySetInnerHTML={{__html:
-              `<h4>${helptext[getLocale()].text}(<a target="_blank" href="http://www.youtube.com/timedtext_video?ref=share&v=${speaker.interview}">${helptext[getLocale()].help}</a>)</h4><iframe src="https://www.youtube.com/embed/${speaker.interview}" frameborder="0" allowfullscreen></iframe>`}}
+              `<h4>${helptext[getLocale()].text} <a target="_blank" href="http://www.youtube.com/timedtext_video?ref=share&v=${speaker.interview}"><i class="material-icons">mode_edit</i> ${helptext[getLocale()].help}</a></h4><iframe src="https://www.youtube.com/embed/${speaker.interview}" frameborder="0" allowfullscreen></iframe>`}}
           />
         );
       });
@@ -159,20 +159,21 @@ export default React.createClass({
                     {language}
                   </div>
                   
-                  
-                  
-
-                  { speakers_profile.map( profile => profile ) }
-
-                  
                   { speakers_interview }
+
                   { data.abstract && <div className="Session-abstract">
                       <div className="Session-subTitle">Abstract</div>
+                      <hr />
                       <div dangerouslySetInnerHTML={{__html: data.abstract}}></div>
                     </div>
                   }
+
+
+
                   { data.bio && <div className="Session-biography">
                       <div className="Session-subTitle">Biography</div>
+                      { speakers_profile.map( profile => profile ) }
+                      <hr />
                       <div dangerouslySetInnerHTML={{__html: data.bio}}></div>
                     </div>
                   }

@@ -11,9 +11,15 @@ $breakpoint2: 1600px;
   text-align: left;
 }
 .Session a, .Session a:visited{
-  color: rgb(153,155,154);
-
+  color: #F19E44;
+  font-weight: 600;
 }
+
+.Session a .material-icons {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
 .Session p {
   white-space: pre-wrap;
 }
@@ -127,8 +133,9 @@ $breakpoint2: 1600px;
 
 .Session-presenter {
   position: relative;
-  height: 128px;
-  padding: 15px 0;
+  height: auto;
+  margin: 15px 0;
+  min-height: 120px;
 }
 
 .Session-presenter-name {
@@ -144,7 +151,7 @@ $breakpoint2: 1600px;
 
 .Session-presenter-avatar {
   position: absolute;
-  top: -10px;
+  top: -20px;
   right: 0;
   width: 128px;
   height: 128px !important;
@@ -194,16 +201,21 @@ $breakpoint2: 1600px;
 }
 
 .Session-interview h4 {
-  margin: 0;
+  margin-top: 15px;
+  background: #f3f3f3;
+  padding: 5px 15px;
+  font-size: 15px;
+  color: #333;
+  font-weight: 300;
 }
 
 .Session-interview iframe {
   position: absolute;
-  top: 15px;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  margin-top: 20px;
+  margin-top: 49px;
 }
 
 .Session-video {
@@ -227,8 +239,12 @@ $breakpoint2: 1600px;
   border: none;
 }
 
-.Session-abstract, .Session-biography {
+.Session-abstract {
   margin: 30px 0;
+  color: rgb(53,55,54);
+}
+.Session-biography {
+  margin: 40px 0;
   color: rgb(53,55,54);
 }
 .Session-abstract p, .Session-biography p {
