@@ -395,7 +395,7 @@ a.Schedule-event:hover {
   background: #FFF7CB;
   transition: background .3s;
 }
-a.Schedule-event:hover:before {
+a.Schedule-event:before {
   content: "•••";
   position: absolute;
   left: -2em;
@@ -404,6 +404,12 @@ a.Schedule-event:hover:before {
   letter-spacing: 3px;
   padding-top: 15px;
   top:0;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+  display: none;
+}
+a.Schedule-event:hover:before {
+  opacity: 1;
 }
 
 .Schedule-events {
@@ -477,6 +483,8 @@ a.Schedule-event:hover:before {
     margin-top: calc(-$category-icon-size / 2);
     right: 28px;
   }
+  a.Schedule-event:before {
+    display: inherit;
+  }
 }
-
 } /* ends :global */
