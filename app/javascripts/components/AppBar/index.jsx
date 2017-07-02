@@ -99,7 +99,7 @@ const Menu = () => {
     <ul className={styles.menu}>
       <li className={styles.item}>
         <Link
-          to="/about"
+          to="/sponsors"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
@@ -110,7 +110,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/agenda"
+          to="/schedules"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
@@ -143,7 +143,7 @@ const Menu = () => {
       
       <li className={styles.item}>
         <Link
-          to="/venue"
+          to="/transport"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
@@ -153,7 +153,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/ticket"
+          to="/staff"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
