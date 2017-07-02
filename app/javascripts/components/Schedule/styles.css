@@ -1,4 +1,5 @@
 $breakpoint: 1000px;
+$breakpoint2: 1600px;
 $container-width: 1000px;
 $appbar-height: 60px;
 
@@ -12,20 +13,10 @@ $appbar-height: 60px;
 .backdrop {
   background: rgba(255, 255, 255, .5);
   position: absolute;
-  top: 0; right: 50%; bottom: 0; left: 0;
+  top: 0; right: 0; bottom: 0; left: 0;
   z-index: -1;
   opacity: 0;
   transition: opacity .2s;
-}
-
-.avatar {
-  float: right;
-  width: 128px;
-  height: 128px !important;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  background-color: rgba(254, 220, 117, 0.74);
 }
 
 .backdrop.isShown {
@@ -181,6 +172,13 @@ body.mobileScrollLock {
   }
   .Home-session.is-show {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: $breakpoint2){
+  .Home-session {
+    left: 60%;
+    width: 40%;
   }
 }
 

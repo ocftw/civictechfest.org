@@ -59,8 +59,8 @@ export default React.createClass({
       ): "";
       speakers_bio.push(bio);
 
-      return <div key={`speaker_${speaker_name}`}>
-        <div className="Session-presenter">
+      return <div className="Session-presenter" key={`speaker_${speaker_name}`}>
+        <div className="Session-presenter-name">
             {speaker_name}
             { twitterID &&
               <a
@@ -93,7 +93,7 @@ export default React.createClass({
         <div className="Session-presenter-organization">
             {speaker_organization}
         </div>
-        { avatar && <img className={styles.avatar} src={avatar} /> }
+        { avatar && <img className="Session-presenter-avatar" src={avatar} /> }
       </div>;
     });
 
@@ -133,28 +133,7 @@ export default React.createClass({
     if (time && speakers_profile.length) {
       return (
           <div className="Session">
-            <div style={{ color: '#FFF', backgroundColor: '#000', padding: '20px', textAlign: 'center'}}>
-              { moderator_live && <span>{helptext[getLocale()].text}(</span> }
-              { moderator_live && <a target="_blank" href={`http://www.youtube.com/timedtext_video?ref=share&v=${moderator_live}`}>{helptext[getLocale()].help}</a> }
-              { moderator_live && <span>)</span>}
-            </div>
-            <div className="Session-video">
-              { moderator_live && <iframe src={`https://www.youtube.com/embed/${moderator_live}`} frameborder="0" allowfullscreen></iframe>}
-            </div>
-              <div className="Session-close"
-                   onClick={sessionHandler}></div>
-              <div className="Session-content">
-                  <div className="Session-meta">
-                    {venue}
-                    <div className="Session-time">{time}</div>
-                    {language}
-                  </div>
-                  <div className="Session-title">
-                    {data.title}
-                  </div>
-
-                  { speakers_profile.map( profile => profile ) }
-
+              <div className="Session-title">
                   {
                     category ? (
                       <div className="Session-category">
@@ -165,13 +144,38 @@ export default React.createClass({
                       </div>
                     ) : null
                   }
+                
+                <h3>
+                  {data.title}
+                </h3>
+
+                <div className="Session-close"
+                   onClick={sessionHandler}></div>
+              </div>
+              <div className="Session-content">
+                  <div className="Session-meta">
+                    {venue}
+                    <div className="Session-time">{time}</div>
+                    {language}
+                  </div>
+                  
+                  
+                  
+
+                  { speakers_profile.map( profile => profile ) }
+
+                  
                   { speakers_interview }
                   { data.abstract && <div className="Session-abstract">
                       <div className="Session-subTitle">Abstract</div>
                       <div dangerouslySetInnerHTML={{__html: data.abstract}}></div>
                     </div>
                   }
-                  { speakers_bio.map( bio => bio) }
+                  { data.bio && <div className="Session-biography">
+                      <div className="Session-subTitle">Biography</div>
+                      <div dangerouslySetInnerHTML={{__html: data.bio}}></div>
+                    </div>
+                  }
               </div>
           </div>
       );
@@ -216,8 +220,8 @@ export default React.createClass({
             <div className="Session-close"
                  onClick={sessionHandler}></div>
             <div className="Session-content">
-                <div key={`speaker_${getString(data.value, 'name', locale)}`}>
-                  <div className="Session-presenter">
+                <div className="Session-presenter" key={`speaker_${getString(data.value, 'name', locale)}`}>
+                  <div className="Session-presenter-name">
                       {getString(data.value, 'name', locale)}
                   </div>
                   <div className="Session-presenter-title">

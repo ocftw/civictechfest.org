@@ -126,7 +126,7 @@ function mapTimeSlotToItems(day, value, i) {
                 className={cx({
                   "Schedule-event" : true,
                 })}
-                style={selected ? {backgroundColor: '#fff3f3'} : {}}
+                style={selected ? {backgroundColor: '#FFF7CB'} : {}}
                 onClick={this.setSession.bind(this, event, value.time)}>
                 <div className="Schedule-main">
                   {value.event.title}

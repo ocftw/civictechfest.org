@@ -1,4 +1,6 @@
 $breakpoint: 1000px;
+$breakpoint2: 1600px;
+
 
 :global {
 .Session {
@@ -16,11 +18,14 @@ $breakpoint: 1000px;
   white-space: pre-wrap;
 }
 .Session-close {
-  position: relative;
-  width: 42px;
-  height: 42px;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  right: 0;
   border-radius: 44px;
   cursor: pointer;
+  display: inline-block;
 }
 .Session-close:before {
   -webkit-transform: rotate(45deg);
@@ -37,36 +42,47 @@ $breakpoint: 1000px;
 .Session-close:before, .Session-close:after {
   -webkit-transition: background .3s;
   transition: background .3s;
-  width: 18px;
-  height: 1px;
+  width: 40px;
+  height: 2px;
   top: 30px;
-  left: 30px;
+  right: 20px;
   position: absolute;
   margin-left: -10px;
   margin-top: -1px;
-  background: gray;
-
+  background: grey;
+  opacity: 1;
 }
 .Session-close:hover:before, .Session-close:hover:after {
-  background: rgb(53,55,54);
+  opacity: 0.7;
 }
 .Session-content {
-    padding: 20px;
+    padding: 10px 20px;
     line-height: 1.6;
     background: white;
 }
 @media screen and (min-width: $breakpoint){
     .Session-close{
-      left: 20px;
+      right: 20px;
       top: 20px;
     }
     .Session-content {
-      padding: 40px;
+      padding: 10px 40px;
+      max-width: 40em; /* Don't make text too long & difficult to read */
+    }
+}
+@media screen and (min-width: $breakpoint2){
+    .Session-close{
+      right: 20px;
+      top: 20px;
+    }
+    .Session-content {
+      padding: 10px 40px;
       max-width: 40em; /* Don't make text too long & difficult to read */
     }
 }
 .Session-meta {
   font-size: 14px;
+  display: inline-block;
 }
 .Session-time {
   display: inline-block;
@@ -90,27 +106,52 @@ $breakpoint: 1000px;
 }
 
 .Session-title {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  padding: 30px 100px 10px 40px;
+} 
+.Session-title h3 {
   font-size: 26px;
   font-weight: 700;
-  color: #CB0031;
-
-  position: relative;
-  margin-top: 20px;
+  color: #F19E44;
+  margin: 0;
+  line-height: 1.5;
 }
 .Session-subTitle {
   font-weight: 600;
-  font-size: 20px;
-  color: rgb(53,55,54);
+  font-size: 22px;
+  color: #5d5d5d;
 }
+
 .Session-presenter {
+  position: relative;
+  height: 128px;
+  padding: 15px 0;
+}
+
+.Session-presenter-name {
   color: rgb(55,54,53);
   font-size: larger;
   position: relative;
 }
 
-.Session-presenter a {
+.Session-presenter-name a {
   display: inline-block;
   width: 24px;
+}
+
+.Session-presenter-avatar {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 128px;
+  height: 128px !important;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  background-color: rgba(254, 220, 117, 0.74);
 }
 
 .Session-social {
@@ -131,7 +172,7 @@ $breakpoint: 1000px;
   vertical-align: top;
   font-size: 14px;
   color: rgb(80,80,80);
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .Session-categoryIcon {
   display: inline-block;
@@ -139,7 +180,7 @@ $breakpoint: 1000px;
   width: 12px;
   height: 12px;
   vertical-align: top;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-right: 6px;
   border-radius: 2px;
 }
@@ -186,12 +227,15 @@ $breakpoint: 1000px;
   border: none;
 }
 
-.Session-abstract {
-  margin: 20px 0;
+.Session-abstract, .Session-biography {
+  margin: 30px 0;
   color: rgb(53,55,54);
 }
-.Session-biography {
+.Session-abstract p, .Session-biography p {
   margin: 20px 0;
   color: rgb(53,55,54);
+  word-wrap: break-word;
+  text-align: justify;
 }
+
 }
