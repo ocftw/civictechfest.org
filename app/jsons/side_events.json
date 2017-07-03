@@ -6,59 +6,59 @@
       "side_events": [
         {
           "date": ["11"],
-          "tab": "Free",
-          "venue": "venue",
+          "tab": "RSVP / Free",
+          "venue": "To be confirmed",
           "venue_color": "1",
           "name": "Civic Tech Grant DEMO Party",
           "isopen": "false",
-          "img": "banner_cube.jpg",
+          "img": "Demo Party black.png",
           "imgtype": "pic",
           "islink": "false",
           "url": "",
           "urlname": "Sign up",
-          "desc": "release soon"
-        },
-        {
-          "date": ["14","14"],
-          "tab": "Free",
-          "venue": "venue",
-          "venue_color": "2",
-          "name": "Asia Open Data Hackathon",
-          "isopen": "true",
-          "img": "n.png",
-          "imgtype": "logo",
-          "islink": "false",
-          "url": "",
-          "urlname": "Sign up",
-          "desc": "release soon"
+          "desc": "The first 7 g0v Grant awardees will demonstrate their civic tech prototypes after 6-month development."
         },
         {
           "date": ["14"],
-          "tab": "Free",
-          "venue": "venue",
+          "tab": "Public / Free",
+          "venue": "To be confirmed",
+          "venue_color": "2",
+          "name": "Asia Open Data Hackathon",
+          "isopen": "false",
+          "img": "ASIA OPEN DATA Hackation.jpg",
+          "imgtype": "pic",
+          "islink": "false",
+          "url": "",
+          "urlname": "Sign up",
+          "desc": "Call for hackers from Taiwan, Thailand, Japan and South Korea."
+        },
+        {
+          "date": ["14"],
+          "tab": "Closed meeting",
+          "venue": "To be confirmed",
           "venue_color": "3",
-          "name": "Code for ALL",
-          "isopen": "true",
-          "img": "n.png",
+          "name": "Code for All Summit",
+          "isopen": "false",
+          "img": "codeforall logo.png",
           "imgtype": "logo",
           "islink": "false",
           "url": "",
           "urlname": "Sign up",
-          "desc": "release soon"
+          "desc": "TBA"
         },
         {
           "date": ["16"],
-          "tab": "Free",
-          "venue": "venue",
+          "tab": "Public / Ticket",
+          "venue": "To be confirmed",
           "venue_color": "4",
-          "name": "g0v Hackthon",
+          "name": "g0v Hackathon",
           "isopen": "false",
           "img": "g0v.svg",
           "imgtype": "logo",
           "islink": "true",
-          "url": "http://g0v.tw/zh-TW/",
+          "url": "",
           "urlname": "Sign up",
-          "desc": "release soon"
+          "desc": "Come join one of the largest civic tech community in the world. Don’t ask why “nobody” is doing this, you are the “nobody”!"
         }
         
       ]
