@@ -5,5 +5,5 @@ export Sponsors from "./Sponsors";
 export Live from "./Live";
 export Transport from "./Transport";
 export Unconf from "./Unconf";
-export Staff from "./Staff";
+export Ticket from "./Ticket";
 export Travel from "./Travel";

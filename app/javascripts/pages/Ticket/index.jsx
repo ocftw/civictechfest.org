@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
 import styles from './styles.css';
-import ICON from "../icon.jsx"
+import ICON from "../../components/icon.jsx"
 
-class StaffList extends Component {
+class Ticket extends Component {
   render() {
     return (
       <div className={styles.root}>
@@ -63,4 +63,4 @@ class StaffList extends Component {
   }
 };
 
-export default StaffList;
+export default Ticket;

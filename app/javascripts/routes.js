@@ -8,7 +8,7 @@ import {
   Sponsors,
   Transport,
   Unconf,
-  Staff,
+  Ticket,
   Travel,
 } from 'javascripts/pages';
 
@@ -22,7 +22,7 @@ export default () => {
       <Route path="schedules" component={Schedules} onEnter={scrollToTop}/>
       <Route path="speakers" component={Speakers} onEnter={scrollToTop} />
       <Route path="sponsors" component={Sponsors} onEnter={scrollToTop} />
-      <Route path="staff" component={Staff} onEnter={scrollToTop} />
+      <Route path="ticket" component={Ticket} onEnter={scrollToTop} />
       <Route path="transport" component={Transport} onEnter={scrollToTop} />
       <Route path="Taipei" component={Travel} onEnter={scrollToTop} />
       <Route path="side_event" component={Unconf} onEnter={scrollToTop} />
