@@ -49,7 +49,7 @@
         "time": "11:15-12:30",
         "event": {
           "venue": "201B+C",
-          "speaker": "Moderator:Dr. Rebecca Rumbul, mySociety\nPanellists:Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya)",
+          "speaker": "Moderator:Dr. Rebecca Rumbul, mySociety\nPanellists:\nChia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
           "panel": "Panel 1",
           "title": "Examples of civic tech and its impacts from across the world"
         }
@@ -62,7 +62,7 @@
         "time": "14:00-14:45",
         "event": {
           "venue": "201B+C",
-          "Moderator": "Audrey Tang (Minister for Digital,Government of Taiwan)",
+          "speaker": "Moderator: Audrey Tang (Minister for Digital,Government of Taiwan)",
           "title": "Fireside chat with Stephen King from Omidyar",
           "abstract": "Why is civic tech important from a funder¡¦s perspective? "
         }
@@ -71,8 +71,7 @@
         "time": "14:45-15:45",
         "event": {
           "venue": "201B+C",
-          "Moderator": "Gemma Humphrys, mySociety",
-          "Panellists": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo (Philippines)\nJames Powell, U-Report\nOrianne Ledroit, French Digital Agency ",
+          "speaker": "Moderator: Gemma Humphrys, mySociety\nPanellists:\nNanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo (Philippines)\nJames Powell, U-Report\nOrianne Ledroit, French Digital Agency ",
           "panel":"Panel 2",
           "title": "How can civic tech reach more people? How can civic tech be more inclusive? ",
           "abstract": "Examples of civic tech that tackles digital exclusion. How can we make civic tech more global? "
@@ -86,8 +85,7 @@
         "time": "16:00-17:00",
         "event": {
           "venue": "201B+C",
-          "Moderator": "Jaclyn Tsai ",
-          "Panellists": "Erie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
+          "speaker": "Moderator: Jaclyn Tsai\nPanellists:\nErie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
           "panel":"Panel 3",
           "title": "Government-led civic technology: Best practice examples from across the world and lessons for the future "
         }
@@ -257,8 +255,8 @@
         "time": "14:00-14:40",
         "event": {
           "venue": "4F Joy",
-          "speaker": "UNCONFERENCE 3.1",
-          "title": "Interpolation and Visualization of Air Pollution based on Wind Fields"
+          "speaker": "",
+          "title": "UNCONFERENCE 3.1"
         }
       },
       {
@@ -278,6 +276,10 @@
         }
       },
       {
+        "time": "15:50-16:10",
+        "event": "Break"
+      },
+      {
         "time": "16:10-17:30",
         "event": {
           "venue": "4F Joy",
@@ -290,7 +292,7 @@
         "venue": "4F Elegance",
         "event": {
           "moderator": [
-            "Jimmy Huang"
+            ""
           ]
         }
       },
@@ -392,7 +394,7 @@
         "time": "11:20-12:30",
         "event": {
           "venue": "201A+F",
-          "title": "TICTeC Closing\nOpen Culture Foundation: What are their plans for civic tech in Taiwan in future/what lessons have they learnt? Where are the gaps in civic tech research there?"
+          "title": "TICTeC Closing - \nOpen Culture Foundation: What are their plans for civic tech in Taiwan in future/what lessons have they learnt? Where are the gaps in civic tech research there?"
         }
       },
       {
