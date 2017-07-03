@@ -70,7 +70,7 @@ class Header extends Component {
         </svg>
         <div className={styles.brand}>
           <h2 className={styles.title}>
-            <IndexLink to="/"><img className={styles.logo} src={require(`file!images/ctf-logo.svg`)} /></IndexLink>
+            <IndexLink to="/"><img className={styles.logo} src={require(`images/ctf-logo.svg`)} /></IndexLink>
           </h2>
           
           {
