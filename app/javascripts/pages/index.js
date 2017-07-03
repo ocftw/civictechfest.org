@@ -1,6 +1,6 @@
 export Home from "./Home";
 export Speakers from "./Speakers";
-export Schedules from "./Schedules";
+export Agenda from "./Agenda";
 export Sponsors from "./Sponsors";
 export Live from "./Live";
 export Transport from "./Transport";

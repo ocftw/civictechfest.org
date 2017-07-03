@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { default as Schedule, ScheduleParallel } from "javascripts/components/Schedule";
 
-class Schedules extends Component {
+class Agenda extends Component {
   state = {
     type: 'topic'
   }
@@ -22,4 +22,4 @@ class Schedules extends Component {
   }
 };
 
-export default Schedules;
+export default Agenda;

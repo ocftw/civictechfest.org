@@ -4,7 +4,7 @@ import { Root } from 'javascripts/components';
 import {
   Home,
   Speakers,
-  Schedules,
+  Agenda,
   Sponsors,
   Transport,
   Unconf,
@@ -19,7 +19,7 @@ export default () => {
   return (
     <Route path="/" component={Root}>
       <IndexRoute component={Home} onEnter={scrollToTop} />
-      <Route path="schedules" component={Schedules} onEnter={scrollToTop}/>
+      <Route path="agenda" component={Agenda} onEnter={scrollToTop}/>
       <Route path="speakers" component={Speakers} onEnter={scrollToTop} />
       <Route path="sponsors" component={Sponsors} onEnter={scrollToTop} />
       <Route path="ticket" component={Ticket} onEnter={scrollToTop} />
