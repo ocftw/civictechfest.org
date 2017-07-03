@@ -6,8 +6,7 @@ class Footer extends Component {
     return (
       <footer className={styles.root}>
         <div className={styles.footerlink}>
-          <a href="">support</a>
-          <a href="">contact</a>
+          <a href="mailto:intl@ocf.tw">Contact: intl@ocf.tw</a>
         </div>
         <div>
           Civic Tech Fest © 2017
