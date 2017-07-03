@@ -27,7 +27,7 @@ export default class MainInfo extends Component {
       	<div className={styles.sideevents}>
 			<div className={styles.overhidden}>
 				<div className={styles.eventimg}>
-					<img data-type={SideEvent.imgtype} src={require(`file!images/sponsors/${SideEvent.img}`)} />
+					<img data-type={SideEvent.imgtype} src={require(`images/sideevents/${SideEvent.img}`)} />
 				</div>
 				<div className={styles.eventcontent} data-open={SideEvent.isopen}>
 					<h3>{SideEvent.name}</h3>
@@ -37,7 +37,6 @@ export default class MainInfo extends Component {
 				</div>
 			</div>
 			<div className={styles.eventdate}>
-									
 				<div>
 					<span>Sep.</span>
 					{ SideEvent.date.map( (date) => {
@@ -69,7 +68,9 @@ export default class MainInfo extends Component {
 					</span>
 					<span className={styles.about}>
 						<h3>{Speaker.name}</h3>
-						<p>{Speaker.title}, {Speaker.organization}, {Speaker.nation}</p>
+						<p>{Speaker.title}</p>
+						<p>{Speaker.organization}</p>
+						<p>{Speaker.nation}</p>
 					</span>
 			</span>
 			<span className={styles.venue}>
@@ -108,9 +109,9 @@ export default class MainInfo extends Component {
 		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>alongside with WCIT</h6></a></li>
 		  	</ul>
 		  	<ul>
-		  		<li><a><span>14</span><p>Asia Open Data Hackthon<br />Code for ALL</p></a></li>
+		  		<li><a><span>14</span><p>Asia Open Data Hackathon<br />Code for ALL</p></a></li>
 		  		<li><a><span>15</span><p></p></a></li>
-		  		<li><a><span>16</span><p>g0v Hackthon</p></a></li>
+		  		<li><a><span>16</span><p>g0v Hackathon</p></a></li>
 		  	</ul>
 		  </div>
 		</article>

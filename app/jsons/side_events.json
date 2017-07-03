@@ -15,7 +15,7 @@
           "imgtype": "pic",
           "islink": "false",
           "url": "",
-          "urlname": "Sing up",
+          "urlname": "Sign up",
           "desc": "release soon"
         },
         {
@@ -23,13 +23,13 @@
           "tab": "Free",
           "venue": "venue",
           "venue_color": "2",
-          "name": "Asia Open Data Hackthon",
+          "name": "Asia Open Data Hackathon",
           "isopen": "true",
           "img": "n.png",
           "imgtype": "logo",
           "islink": "false",
           "url": "",
-          "urlname": "Sing up",
+          "urlname": "Sign up",
           "desc": "release soon"
         },
         {
@@ -43,7 +43,7 @@
           "imgtype": "logo",
           "islink": "false",
           "url": "",
-          "urlname": "Sing up",
+          "urlname": "Sign up",
           "desc": "release soon"
         },
         {
@@ -57,7 +57,7 @@
           "imgtype": "logo",
           "islink": "true",
           "url": "http://g0v.tw/zh-TW/",
-          "urlname": "Sing up",
+          "urlname": "Sign up",
           "desc": "release soon"
         }
         

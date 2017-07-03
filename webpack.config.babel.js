@@ -47,7 +47,7 @@ export default {
   module: {
     loaders: [
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(png|jpg|svg)$/,
         loader: 'url?limit=10000',
         exclude: /sponsors|og\.png$/, // Facebook can't recognize inline og:image.
       },
