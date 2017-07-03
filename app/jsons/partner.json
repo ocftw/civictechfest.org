@@ -19,6 +19,44 @@
           "urlname": "www.mysociety.org",
           "brief": "Co-host of TICTeC@Taipei",
           "desc": ""
+        },
+        {
+          "name": "#codeforgender",
+          "logo": "codeforfender_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "OGP Toolbox",
+          "logo": "OGP_Toolbox-Logo_big.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "WAGL",
+          "logo": "Wagl_logo_Eng_2017_504.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "category": "sponsors",
+      "title": "Sponsors",
+      "sponsors": [
+        {
+          "name": "Microsoft",
+          "logo": "MSFT_logo_rgb_C-Gray_D.jpg",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
         }
       ]
     }
