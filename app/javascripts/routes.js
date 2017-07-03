@@ -5,7 +5,7 @@ import {
   Home,
   Speakers,
   Agenda,
-  Sponsors,
+  About,
   Transport,
   Unconf,
   Ticket,
@@ -21,7 +21,7 @@ export default () => {
       <IndexRoute component={Home} onEnter={scrollToTop} />
       <Route path="agenda" component={Agenda} onEnter={scrollToTop}/>
       <Route path="speakers" component={Speakers} onEnter={scrollToTop} />
-      <Route path="sponsors" component={Sponsors} onEnter={scrollToTop} />
+      <Route path="about" component={About} onEnter={scrollToTop} />
       <Route path="ticket" component={Ticket} onEnter={scrollToTop} />
       <Route path="transport" component={Transport} onEnter={scrollToTop} />
       <Route path="Taipei" component={Travel} onEnter={scrollToTop} />

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { SponsorsList } from "javascripts/components";
 
-class Sponsors extends Component {
+class About extends Component {
   render() {
     return (
       <SponsorsList />
@@ -9,4 +9,4 @@ class Sponsors extends Component {
   }
 };
 
-export default Sponsors;
+export default About;

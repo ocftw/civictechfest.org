@@ -31,7 +31,7 @@ class Root extends Component {
         <AppBar />
         <MainSection>
           {this.props.children}
-          {this.props.location.pathname !== '/2016/sponsors' ?  <SponsorsSummary /> : null}
+          {this.props.location.pathname !== '/about' ?  <SponsorsSummary /> : null}
           <Footer />
         </MainSection>
       </section>

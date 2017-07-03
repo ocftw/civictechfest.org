@@ -99,7 +99,7 @@ const Menu = () => {
     <ul className={styles.menu}>
       <li className={styles.item}>
         <Link
-          to="/sponsors"
+          to="/about"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >
