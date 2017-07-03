@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
-import transports from "jsons/transport.json";
 import hotels from "jsons/hotels.json";
 import styles from "./styles.css";
 import content from "text/unconf";

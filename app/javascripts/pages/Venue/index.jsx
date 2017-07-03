@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
-import transports from "jsons/transport.json";
+import venues from "jsons/venues.json";
 import styles from "./styles.css";
 import { Link } from "react-router";
 
-class Transport extends Component {
+class Venue extends Component {
     render() {
           return (
               <div className={styles.root}>
@@ -90,7 +90,7 @@ class Transport extends Component {
                   </div>
                   <div>
                     {
-                      transports[getLocale()].map( cat => {
+                      venues[getLocale()].map( cat => {
                         return (
                           <section className={styles.about}>
                             <div className={styles.title}>
@@ -117,4 +117,4 @@ class Transport extends Component {
     }
 };
 
-export default Transport;
+export default Venue;

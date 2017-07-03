@@ -3,7 +3,7 @@ export Speakers from "./Speakers";
 export Agenda from "./Agenda";
 export About from "./About";
 export Live from "./Live";
-export Transport from "./Transport";
+export Venue from "./Venue";
 export Unconf from "./Unconf";
 export Ticket from "./Ticket";
 export Travel from "./Travel";
