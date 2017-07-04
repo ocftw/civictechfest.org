@@ -50,7 +50,8 @@
         "time": "11:15-12:30",
         "event": {
           "venue": "201B+C",
-          "speaker": "Moderator:Dr. Rebecca Rumbul, mySociety(UK)\nPanellists:\nChia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
+          "speaker": "Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
+          "moderator": "Dr. Rebecca Rumbul, mySociety(UK)",
           "panel": "Panel 1",
           "title": "Examples of civic tech and its impacts from across the world"
         }
@@ -63,7 +64,7 @@
         "time": "14:00-14:45",
         "event": {
           "venue": "201B+C",
-          "speaker": "Moderator: Audrey Tang, Digital Minister Taiwan",
+          "moderator": "Audrey Tang, Digital Minister Taiwan",
           "title": "Fireside chat: Stephen King, Omidyar Network",
           "abstract": "Why is civic tech important from a funder¡¦s perspective? "
         }
@@ -72,7 +73,8 @@
         "time": "14:45-15:45",
         "event": {
           "venue": "201B+C",
-          "speaker": "Moderator: Gemma Humphrys, mySociety\nPanellists:\nNanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo (Philippines)\nJames Powell, U-Report\nOrianne Ledroit, French Digital Agency ",
+          "speaker": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo (Philippines)\nJames Powell, U-Report\nOrianne Ledroit, French Digital Agency ",
+          "moderator": "Gemma Humphrys, mySociety",
           "panel":"Panel 2",
           "title": "How can Civic Tech reach more people? How can civic tech be more inclusive? ",
           "abstract": "Examples of civic tech that tackles digital exclusion. How can we make civic tech more global? "
@@ -86,7 +88,8 @@
         "time": "16:00-17:00",
         "event": {
           "venue": "201B+C",
-          "speaker": "Moderator: Jaclyn Tsai\nPanellists:\nErie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
+          "speaker": "Erie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
+          "moderator": "Jaclyn Tsai",
           "panel":"Panel 3",
           "title": "Government-led Civic Technology: successes and challenges"
         }
