@@ -109,7 +109,7 @@ export default class MainInfo extends Component {
 		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>alongside with WCIT</h6></a></li>
 		  	</ul>
 		  	<ul>
-		  		<li><a><span>14</span><p>Asia Open Data Hackathon<br />Code for ALL</p></a></li>
+		  		<li><a><span>14</span><p>AODP meeting<br />Code for ALL</p></a></li>
 		  		<li><a><span>15</span><p></p></a></li>
 		  		<li><a><span>16</span><p>g0v Hackathon</p></a></li>
 		  	</ul>
