@@ -23,36 +23,36 @@ const PAGES = [{
   path: 'index',
   ld: basic
 }, {
-  path: 'schedules',
-  title: '議程表',
+  path: 'agenda',
+  title: 'Agenda',
   ld: schedule
 }, {
   path: 'speakers',
-  title: '講者',
+  title: 'Speakers',
   ld: basic
 }, {
-  path: 'unconf',
-  title: '開放議程',
+  path: 'side_event',
+  title: 'Side Events',
   ld: basic
 }, {
-  path: 'sponsors',
-  title: '贊助商',
+  path: 'about',
+  title: 'About',
   ld: sponsors
 }, {
-  path: 'transport',
-  title: '交通',
+  path: 'venue',
+  title: 'Venue',
   ld: basic
 }, {
   path: 'live',
   title: '直播',
   ld: basic
 }, {
-  path: 'staff',
-  title: '工作人員',
+  path: 'ticket',
+  title: 'Ticket',
   ld: basic
 }, {
-  path: 'travel',
-  title: '旅遊資訊',
+  path: 'taipei',
+  title: 'Taipei',
   ld: basic
 }]
 
