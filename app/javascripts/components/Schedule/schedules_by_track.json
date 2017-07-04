@@ -32,6 +32,7 @@
       },
       {
         "time": "10:40-10:45",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
           "speaker": "Chia-liang Kao, Co-founder, Open Culture Foundation\nDr. Rebecca Rumbul, Head of Research, mySociety(UK)",
@@ -40,6 +41,7 @@
       },
       {
         "time": "10:45-11:15",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
           "speaker": "Dr Rebecca Rumbul, Head of Research, mySociety (UK)",
@@ -48,6 +50,7 @@
       },
       {
         "time": "11:15-12:30",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
           "speaker": "Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
@@ -62,6 +65,7 @@
       },
       {
         "time": "14:00-14:45",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
           "moderator": "Audrey Tang, Digital Minister Taiwan",
@@ -71,6 +75,7 @@
       },
       {
         "time": "14:45-15:45",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
           "speaker": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo (Philippines)\nJames Powell, U-Report\nOrianne Ledroit, French Digital Agency ",
@@ -86,6 +91,7 @@
       },
       {
         "time": "16:00-17:00",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
           "speaker": "Erie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
@@ -96,6 +102,7 @@
       },
       {
         "time": "17:00-17:30",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
           "title": "Lightning talks\n",
@@ -108,6 +115,7 @@
       },
       {
         "time": "19:00-21:30",
+        "expandable": false,
         "event": {
           "title": "Dinner Party at Google Taipei Office",
           "abstract": "RSVP"
@@ -122,6 +130,7 @@
       },
       {
         "time": "09:30-10:30",
+        "expandable": false,
         "event": {
           "venue": "201B",
           "speaker": "Impacts of leak sites: Masayuki Hatta, Surugadai University (Japan) \nImpacts of civic tech projects in Pakistan: Ebtihaj Khan, Code for Pakistan (Pakistan) \nImpacts of open data standards on transparency tools: Khairil Yusof, Sinar Project (Malaysia)",
@@ -135,6 +144,7 @@
       },
       {
         "time": "11:00-12:30",
+        "expandable": false,
         "event": {
           "venue": "201B",
           "speaker": "The impacts of the SmartCity platform: Gautham Ravichander, eGovernments Foundation (India) \nParticipatory City Planning with Open Data and Minecraft in Berlin: Dr Benjamin Seibel, Technologiestiftung Berlin (Germany) \nImpacts of 'school chooser' digital tools: Eric Reese, Center for Government Excellence at Johns Hopkins University (USA)  \nImpacts of Ipaidabribe.com and Ichangemycity.com: Venkatesh Kannaiah, Janaagraha (India)",
@@ -144,14 +154,12 @@
       {
         "title": "201C",
         "venue": "201C STREAM 2",
-        "event": {
-          "moderator": [
-            "§d»Ê°a"
-          ]
-        }
+        "expandable": false,
+        "event": ""
       },
       {
         "time": "09:30-10:30",
+        "expandable": false,
         "event": {
           "venue": "201C",
           "speaker": "Impacts of Budeshi.ng on Nigerian public procurement: Ifeoma Onyebuchi Judith, Public and Private Development Center (PPDC) (Nigeria)\nThe Impacts of Open Contracting Reforms in Ukraine and Slovakia: Gavin Hayman, Open Contracting Partnership (USA) \nSerenata de Amor: Tracking Congress People's expense claims in Brazil, Ana Schwendler or Jessica Temporal, Data Science Brigade (Brazil)",
@@ -164,6 +172,7 @@
       },
       {
         "time": "11:00-12:30",
+        "expandable": false,
         "event": {
           "venue": "201C",
           "speaker": "Findings of the Taiwan Open Government Report: Po-yu Tseng, Mg Lee, Open Culture Foundation (Taiwan)\nKeyboard Participation: An analysis of ¡§g0v¡¨ for Collaborative Participation by the Open Source Community: Cheng, Ting-Yu, National Taiwan University (Taiwan) \nThe impacts of PopVote in Hong Kong: Virgile Deville, Democracy Earth (France) \nDigital skills training for better citizen participation in France: Orianne Ledroit, The French Digital Agency (France) ",
@@ -177,11 +186,7 @@
       {
         "title": "201B",
         "venue": "201B",
-        "event": {
-          "moderator": [
-            "¼B­P©ý"
-          ]
-        }
+        "event": ""
       },
       {
         "time": "14:00-15:20",
@@ -192,6 +197,7 @@
       },
       {
         "time": "15:20-15:50",
+        "expandable": false,
         "event": {
           "venue": "201B",
           "title": "UNCONFERENCE 1"
@@ -203,6 +209,7 @@
       },
       {
         "time": "16:10-17:30",
+        "expandable": false,
         "event": {
           "venue": "201B",
           "title": "Invited Workshop 1.2"
@@ -211,14 +218,11 @@
       {
         "title": "201C",
         "venue": "201C",
-        "event": {
-          "moderator": [
-            "§d»Ê°a"
-          ]
-        }
+        "event": ""
       },
       {
         "time": "14:00-15:20",
+        "expandable": false,
         "event": {
           "venue": "201C",
           "title": "Invited Workshop 2.1"
@@ -226,6 +230,7 @@
       },
       {
         "time": "15:20-15:50",
+        "expandable": false,
         "event": {
           "venue": "201C",
           "title": "UNCONFERENCE 2"
@@ -237,6 +242,7 @@
       },
       {
         "time": "16:10-17:30",
+        "expandable": false,
         "event": {
           "venue": "201C",
           "title": "Invited Workshop 2.2"
@@ -245,6 +251,7 @@
       {
         "title": "4F Joy",
         "venue": "4F Joy",
+        "expandable": false,
         "event": {
           "moderator": [
             "Jimmy Huang"
@@ -253,6 +260,7 @@
       },
       {
         "time": "14:00-14:40",
+        "expandable": false,
         "event": {
           "venue": "4F Joy",
           "speaker": "",
@@ -261,6 +269,7 @@
       },
       {
         "time": "14:40-15:20",
+        "expandable": false,
         "event": {
           "venue": "4F Joy",
           "title": "UNCONFERENCE  3.2",
@@ -269,6 +278,7 @@
       },
       {
         "time": "15:20-15:50",
+        "expandable": false,
         "event": {
           "venue": "4F Joy",
           "title": "UNCONFERENCE  3.3",
@@ -281,6 +291,7 @@
       },
       {
         "time": "16:10-17:30",
+        "expandable": false,
         "event": {
           "venue": "4F Joy",
           "title": "UNCONFERENCE  3.4",
@@ -290,14 +301,11 @@
       {
         "title": "4F Elegance",
         "venue": "4F Elegance",
-        "event": {
-          "moderator": [
-            ""
-          ]
-        }
+        "event": ""
       },
       {
         "time": "14:00-14:40",
+        "expandable": false,
         "event": {
           "venue": "4F Elegance",
           "title": "UNCONFERENCE  4.1"
@@ -305,6 +313,7 @@
       },
       {
         "time": "14:40-15:20",
+        "expandable": false,
         "event": {
           "venue": "4F Elegance",
           "title": "UNCONFERENCE  4.2"
@@ -312,6 +321,7 @@
       },
       {
         "time": "15:20-15:50",
+        "expandable": false,
         "event": {
           "venue": "4F Elegance",
           "title": "UNCONFERENCE  4.3"
@@ -323,6 +333,7 @@
       },
       {
         "time": "16:10-17:30",
+        "expandable": false,
         "event": {
           "venue": "4F Elegance",
           "title": "UNCONFERENCE  4.4"
@@ -345,6 +356,7 @@
       },
       {
         "time": "10:00-10:50",
+        "expandable": false,
         "event": {
           "venue": "201A+F",
           "title": " UNCONFERENCE"
@@ -357,6 +369,7 @@
       },
       {
         "time": "10:00-10:50",
+        "expandable": false,
         "event": {
           "venue": "4F Joy",
           "title": " UNCONFERENCE"
@@ -365,6 +378,7 @@
       {
         "title": "4F Elegance",
         "venue": "4F Elegance",
+        "expandable": false,
         "event": {
           "moderator": [
             "Jimmy Huang"
@@ -373,6 +387,7 @@
       },
       {
         "time": "10:00-10:50",
+        "expandable": false,
         "event": {
           "venue": "4F Elegance",
           "title": " UNCONFERENCE"
@@ -384,6 +399,7 @@
       },
       {
         "time": "11:20-12:30",
+        "expandable": false,
         "event": {
           "venue": "201A+F",
           "title": "TICTeC Closing - \nOpen Culture Foundation: What are their plans for civic tech in Taiwan in future/what lessons have they learnt? Where are the gaps in civic tech research there?"
@@ -399,6 +415,7 @@
       },
       {
         "time": "14:30-15:30",
+        "expandable": false,
         "event": {
           "venue": "201A+F",
           "Moderator": "Frances West, Chairman, G3ict",
@@ -412,6 +429,7 @@
       },
       {
         "time": "16:00-17:30",
+        "expandable": false,
         "event": {
           "venue": "201A+F",
           "Moderator": "CL Kao, Board member of Open Culture Foundation, Taiwan",
