@@ -6,6 +6,7 @@
     "day0": [
       {
         "time": "15:00-20:00",
+        "expandable": false,
         "event": {
           "title": "Registration",
           "note": "The reception and the register process is the same as  WCIT.\nTICTeC@Taipei uses the same badge as WCIT."

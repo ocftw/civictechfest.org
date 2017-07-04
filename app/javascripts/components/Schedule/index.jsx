@@ -119,6 +119,28 @@ function mapTimeSlotToItems(day, value, i) {
           do {
             if (typeof value.event === 'string') {
               <div className="Schedule-event">{value.event}</div>
+            } else if ( value.expandable === false ) {
+              <div id={`slot-${id}`}
+                className={cx({
+                  "Schedule-event" : true,
+                })}
+                style={selected ? {backgroundColor: '#FFF7CB'} : {}}>
+                <div className="Schedule-main">
+                  <h5>{value.event.panel}</h5>
+                  <h4>{value.event.title}</h4>
+                  <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
+                  <div className="Schedule-presenter">{multiParagraph(value.event.speaker)}</div>
+                  {
+                    venue ? (
+                      <div className="Schedule-categoryIcon" data-venue={venue}
+                           title={`Toggle venue "${venue}"`}
+                           onClick={this.toggleVenue.bind(this, venueObj[venue].index)}
+                           ><span>{venue}</span></div>
+
+                    ) : null
+                  }
+                </div>
+              </div>
             } else {
               <a id={`slot-${id}`} href={`#${id}`}
                 className={cx({
