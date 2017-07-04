@@ -21,6 +21,8 @@
       {
         "time": "07:30-09:00",
         "event": "Registration"
+        "note": "The reception and the register process is the same as  WCIT.\nTICTeC@Taipei uses the same badge as WCIT."
+          }
       },
       {
         "time": "09:00-10:10",
@@ -34,23 +36,23 @@
         "time": "10:40-10:45",
         "event": {
           "venue": "201B+C",
-          "speaker": "Chia-liang Kao, Open Culture Foundation\nDr. Rebecca Rumbul, mySociety",
-          "title": "Welcome to TICTeC@Taipei!"
+          "speaker": "Chia-liang Kao, Co-founder, Open Culture Foundation\nDr. Rebecca Rumbul, Head of Research, mySociety(UK)",
+          "title": "Welcome to TICTeC@Taipei and Civic Tech Fest"
         }
       },
       {
         "time": "10:45-11:15",
         "event": {
           "venue": "201B+C",
-          "speaker": "Dr Rebecca Rumbul (Head of Research, mySociety, UK)",
-          "title": "What is civic tech? And how and why are we at mySociety measuring its impact?"
+          "speaker": "Dr Rebecca Rumbul, Head of Research, mySociety (UK)",
+          "title": "What is Civic Technology? And how and why is mySociety measuring its impact?"
         }
       },
       {
         "time": "11:15-12:30",
         "event": {
           "venue": "201B+C",
-          "speaker": "Moderator:Dr. Rebecca Rumbul, mySociety\nPanellists:\nChia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
+          "speaker": "Moderator:Dr. Rebecca Rumbul, mySociety(UK)\nPanellists:\nChia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
           "panel": "Panel 1",
           "title": "Examples of civic tech and its impacts from across the world"
         }
@@ -63,8 +65,8 @@
         "time": "14:00-14:45",
         "event": {
           "venue": "201B+C",
-          "speaker": "Moderator: Audrey Tang (Minister for Digital,Government of Taiwan)",
-          "title": "Fireside chat with Stephen King from Omidyar",
+          "speaker": "Moderator: Audrey Tang, Digital Minister Taiwan",
+          "title": "Fireside chat: Stephen King, Omidyar Network",
           "abstract": "Why is civic tech important from a funder¡¦s perspective? "
         }
       },
@@ -74,7 +76,7 @@
           "venue": "201B+C",
           "speaker": "Moderator: Gemma Humphrys, mySociety\nPanellists:\nNanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo (Philippines)\nJames Powell, U-Report\nOrianne Ledroit, French Digital Agency ",
           "panel":"Panel 2",
-          "title": "How can civic tech reach more people? How can civic tech be more inclusive? ",
+          "title": "How can Civic Tech reach more people? How can civic tech be more inclusive? ",
           "abstract": "Examples of civic tech that tackles digital exclusion. How can we make civic tech more global? "
         }
       },
@@ -88,7 +90,7 @@
           "venue": "201B+C",
           "speaker": "Moderator: Jaclyn Tsai\nPanellists:\nErie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
           "panel":"Panel 3",
-          "title": "Government-led civic technology: Best practice examples from across the world and lessons for the future "
+          "title": "Government-led Civic Technology: successes and challenges"
         }
       },
       {
@@ -106,7 +108,7 @@
       {
         "time": "19:00-21:30",
         "event": {
-          "title": "Dinner Party at Google Taipei ",
+          "title": "Dinner Party at Google Taipei Office",
           "abstract": "RSVP"
         }
       }
@@ -114,7 +116,7 @@
     "day2": [
       {
         "title": "201B",
-        "venue": "201B",
+        "venue": "STREAM 1",
         "event": {
           "moderator": [
             "¼B­P©ý"
@@ -144,7 +146,7 @@
       },
       {
         "title": "201C",
-        "venue": "201C",
+        "venue": "201C STREAM 2",
         "event": {
           "moderator": [
             "§d»Ê°a"
