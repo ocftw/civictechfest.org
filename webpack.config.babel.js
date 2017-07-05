@@ -10,7 +10,7 @@ import {basic} from "./jld.js";
 var plugins = [
   new ExtractTextPlugin("[name].[hash].css", {disable: process.env.NODE_ENV !== 'production'}), // Disable extract-text-plugin during development for hot-reloading CSS.
   new HtmlWebpackPlugin({
-    title: "Civic Tech Fest",
+    title: "#CivicTechFest",
     jld: basic,
     description: "Asia’s first ever civic technology festival and conference.",
     filename: "index.html",
