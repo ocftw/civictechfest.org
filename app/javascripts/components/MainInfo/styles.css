@@ -533,11 +533,11 @@ article {
 .sideevents .eventcontent {
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
-	display: inline-block;
 	top: 58%;
 	transition: all 0.5s ease;
 	padding-top: 1.5em;
 	height: 100%;
+	display: none;
 } 
 
 .sideevents .eventcontent:hover, .sideevents .eventcontent:focus, .sideevents .eventcontent[data-open="true"] {
@@ -769,6 +769,9 @@ article[data-wide="true"] {
 		margin: 0.2em 0;
 		bottom: 0;
 	}
+	.sideevents .eventcontent {
+		display: inline-block;
+	} 
 }
 
 @media screen and (min-width: 992px) {
