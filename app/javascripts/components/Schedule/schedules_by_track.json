@@ -134,7 +134,7 @@
     "day2": [
       {
         "title": "201B",
-        "venue": "STREAM 1",
+        "venue": "201B",
         "event": ""
       },
       {
@@ -162,7 +162,7 @@
       },
       {
         "title": "201C",
-        "venue": "STREAM 2",
+        "venue": "201C",
         "expandable": false,
         "event": ""
       },
