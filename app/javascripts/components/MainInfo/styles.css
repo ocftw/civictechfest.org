@@ -135,7 +135,7 @@ article {
 }
 
 .dateline li span, .eventdate span, .blue_dateline span, .orange_dateline span {
-	border: 2px solid #29A8DF;
+	border: 2px solid;
 	border-radius: 50%;
 	display: inline-block;
 	width: 2em;
@@ -154,6 +154,10 @@ article {
 .dateline li.main span, .mainevent .eventdate span, .orange_dateline span {
 	color: #F19E44;
 	border-color: #F19E44;
+}
+
+.blue_dateline span {
+    border-color: #29A8DF;
 }
 
 .blue_dateline, .orange_dateline {
@@ -727,8 +731,14 @@ article[data-wide="true"] {
 		font-size: 1em;
 	}
 	.dateline li span, .eventdate span, .blue_dateline span, .orange_dateline span {
-		border: 3px solid #29A8DF;
+		border: 3px solid;
 		line-height: 1.6em;
+	}
+	.blue_dateline span {
+	    border-color: #29A8DF;
+	}
+	.orange_dateline span {
+	    border-color: #F19E44;
 	}
 	.speakers {
 		display: inline-block;
