@@ -33,6 +33,9 @@
 .title a {
   text-decoration: none;
   color: #FFF;
+  width: auto;
+  display: block;
+  overflow: hidden;
 }
 
 .logo {
@@ -203,9 +206,12 @@ img {
 
 @media screen and (max-width: 430px) {
   .title {
-    padding: 13px 5px 0 21px;
+    padding: 13px 15px 0 21px;
     font-size: 16px;
     line-height: 36px;
+  }
+  .title a {
+    width: 40px;
   }
 
   .lang > .button {

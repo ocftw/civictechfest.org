@@ -39,7 +39,7 @@ article {
 	height: 100%;
 	width: auto;
 	display: block;
-	max-height: 850px;
+	max-height: 600px;
 }
 .heroimg {
 	display: flex;
@@ -55,35 +55,27 @@ article {
 }
 
 .herotext h1 {
-	font-size: 4em;
+	font-size: 2.2em;
 	margin: 1em 0;
 }
 .herotext h2 {
-	font-size: 3em;
+	font-size: 1.7em;
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 4em;
+	bottom: 2em;
 }
 
-@media screen and (max-width: 1280px) {
-	.herotext h1 {
-		font-size: 3em;
-	}
-	.herotext h2 {
-		font-size: 2em;
-	}
-}
 
 
 .brief {
 	max-width: 660px;
-	padding-left: 30px;
+	padding: 0 50px;
 	margin: 60px auto;
 	position: relative;
 }
 .brief::before, .brief::after {
-  font-size: 6em;
+  font-size: 5em;
   position: absolute;
   top: -20px;
   bottom: 0;
@@ -93,15 +85,15 @@ article {
 
 .brief::before {
   content: "{";
-  left: -50px;
+  left: 10px;
 }
 .brief::after {
   content: "}";
-  right: -50px;
+  right: 10px;
 }
 .brief p {
   color: #4D4D4D;
-  font-size: 1.8em;
+  font-size: 1em;
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -112,7 +104,7 @@ article {
 
 .dateline ul {
 	list-style: none;
-	font-size: 1em;
+	font-size: 0.7em;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -143,13 +135,13 @@ article {
 }
 
 .dateline li span, .eventdate span, .blue_dateline span, .orange_dateline span {
-	border: 4px solid #29A8DF;
+	border: 2px solid #29A8DF;
 	border-radius: 50%;
 	display: inline-block;
 	width: 2em;
 	height: 2em;
 	color: #29A8DF;
-	line-height: 1.5em;
+	line-height: 1.7em;
 	background: #fff;
 	margin: 0 10px;
 	text-align: center;
@@ -716,6 +708,28 @@ article[data-wide="true"] {
 }
 
 @media screen and (min-width: 768px) {
+	.brief::before, .brief::after {
+	  font-size: 6em;
+	}
+	.brief::before {
+  	left: -50px;
+	}
+	.brief::after {
+	  right: -50px;
+	}
+	.brief {
+		padding-left: 30px;
+	}
+	.brief p {
+	  font-size: 1.8em;
+	}
+	.dateline ul {
+		font-size: 1em;
+	}
+	.dateline li span, .eventdate span, .blue_dateline span, .orange_dateline span {
+		border: 3px solid #29A8DF;
+		line-height: 1.6em;
+	}
 	.speakers {
 		display: inline-block;
 		width: 47%;
