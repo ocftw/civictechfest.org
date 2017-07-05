@@ -44,9 +44,7 @@ class Venue extends Component {
                             <div className={styles.desc}>
                               <dl>
                                 <dt>MRT</dt>
-                                <dd>MRTdesc</dd> 
-                                <dt>BUS</dt>
-                                <dd>BUSdesc</dd> 
+                                <dd>The closest metro is “Taipei 101/World Trade Center” station (red line of Metro Taipei) Exit 1.</dd> 
                               </dl>
                             </div>
                             <div className={styles.map}>
