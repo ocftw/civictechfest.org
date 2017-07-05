@@ -9,7 +9,7 @@
         "expandable": false,
         "event": {
           "title": "Registration",
-          "note": "The reception and the register process is the same as  WCIT.\nTICTeC@Taipei uses the same badge as WCIT."
+          "note": "Please register at WCIT's reception.\nTICTeC@Taipei uses the same badge as WCIT."
           }
       },
       {
@@ -28,14 +28,14 @@
       },
       {
         "time": "10:10-10:40",
-        "event": "Tea Break"
+        "event": "Break"
       },
       {
         "time": "10:40-10:45",
         "expandable": false,
         "event": {
           "venue": "201B+C",
-          "speaker": "Chia-liang Kao, Co-founder, g0v.tw\nDr. Rebecca Rumbul, Head of Research, mySociety(UK)",
+          "speaker": "Chia-liang Kao,  Co-founder, g0v.tw /Board Member, Open Culture Foundation\nDr. Rebecca Rumbul, Head of Research, mySociety(UK)",
           "title": "Welcome to TICTeC@Taipei and Civic Tech Fest"
         }
       },
@@ -45,7 +45,8 @@
         "event": {
           "venue": "201B+C",
           "speaker": "Dr Rebecca Rumbul, Head of Research, mySociety (UK)",
-          "title": "What is Civic Technology? And how and why is mySociety measuring its impact?"
+          "title": "What is Civic Technology? And how and why is mySociety measuring its impact?",
+          "abstract": "Rebecca presents mySociety’s research projects which strive to evaluate the impacts (both positive and negative) of Civic Technologies in many countries worldwide."
         }
       },
       {
@@ -56,7 +57,8 @@
           "speaker": "Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
           "moderator": "Dr. Rebecca Rumbul, mySociety(UK)",
           "panel": "Panel 1",
-          "title": "Examples of civic tech and its impacts from across the world"
+          "title": "Examples of civic tech and its impacts from across the world",
+          "abstract": "Now that the Civic Technology sector has matured, we can take a step back and assess its worth. What positive impacts have these tools had? How have they changed society and the relationships between citizens and governments? What negative impacts can be understood, and what is the best way to counter these for the future?"
         }
       },
       {
@@ -70,7 +72,7 @@
           "venue": "201B+C",
           "moderator": "Audrey Tang, Digital Minister Taiwan",
           "title": "Fireside chat: Stephen King, Omidyar Network",
-          "abstract": "Why is civic tech important from a funder¡¦s perspective? "
+          "abstract": "Stephen is a partner at the Omidyar Network, one of the most significant benefactors for those working in Civic Tech. \n\nThrough the Governance & Citizen Engagement initiative, he oversees a portfolio that supports a broad range of organizations working in the US and around the world — including mySociety. \n\nMany are innovators in the use of technology to help make governments more responsive and aid citizens in holding their elected officials to account. In this session, we focus on why Civic Tech is important from a funder’s perspective, and what exactly they look for when it comes to making funding decisions. "
         }
       },
       {
@@ -78,11 +80,11 @@
         "expandable": false,
         "event": {
           "venue": "201B+C",
-          "speaker": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo (Philippines)\nJames Powell, U-Report\nOrianne Ledroit, French Digital Agency ",
+          "speaker": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications, (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency ",
           "moderator": "Gemma Humphrys, mySociety",
           "panel":"Panel 2",
           "title": "How can Civic Tech reach more people? How can civic tech be more inclusive? ",
-          "abstract": "Examples of civic tech that tackles digital exclusion. How can we make civic tech more global? "
+          "abstract": "Four speakers, with experience from around the world, present examples of technology projects that tackle digital exclusion. \n \nAs a community, coders and activists must ensure that tools genuinely benefit the communities who need them most: leave with a practical checklist to make that happen."
         }
       },
       {
@@ -97,7 +99,8 @@
           "speaker": "Erie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
           "moderator": "Jaclyn Tsai",
           "panel":"Panel 3",
-          "title": "Government-led Civic Technology: successes and challenges"
+          "title": "Government-led Civic Technology: successes and challenges",
+          "abstract": "Individual activists or civic society organizations have traditionally led the way when it comes to Civic Technology projects — but increasingly governments are innovating in this sphere themselves. \n \nWhat are the advantages and disadvantages of citizen-to-government applications implemented by governments themselves? What success stories are there? And what can we learn from the challenges they’ve encountered?"
         }
       },
       {
@@ -106,6 +109,7 @@
         "event": {
           "venue": "201B+C",
           "title": "Lightning talks\n",
+          "note": "To submit a lightning talk suggestion, please email: gemma@mysociety.org",
           "abstract": "to be announced"
         }
       },
@@ -117,7 +121,8 @@
         "time": "19:00-21:30",
         "expandable": false,
         "event": {
-          "title": "Dinner Party at Google Taipei Office",
+          "title": "Dinner Party at Google Taipei Office (Taipei101 75F)",
+          "note":"RSVP",
           "abstract": "RSVP"
         }
       }
@@ -125,7 +130,7 @@
     "day2": [
       {
         "title": "201B",
-        "venue": "201B",
+        "venue": "STREAM 1",
         "event": ""
       },
       {
@@ -153,7 +158,7 @@
       },
       {
         "title": "201C",
-        "venue": "201C",
+        "venue": "STREAM 2",
         "expandable": false,
         "event": ""
       },
@@ -162,7 +167,7 @@
         "expandable": false,
         "event": {
           "venue": "201C",
-          "speaker": "Impacts of Budeshi.ng on Nigerian public procurement: Ifeoma Onyebuchi Judith, Public and Private Development Center (PPDC) (Nigeria)\nThe Impacts of Open Contracting Reforms in Ukraine and Slovakia: Gavin Hayman, Open Contracting Partnership (USA) \nSerenata de Amor: Tracking Congress People's expense claims in Brazil, Ana Schwendler or Jessica Temporal, Data Science Brigade (Brazil)",
+          "speaker": "Impacts of Budeshi.ng on Nigerian public procurement: Ifeoma Onyebuchi Judith, Public and Private Development Center (PPDC) (Nigeria)\nThe Impacts of Open Contracting Reforms in Ukraine and Slovakia: Gavin Hayman, Open Contracting Partnership (USA) \nSerenata de Amor: Tracking Congress People's expense claims in Brazil, Ana Schwendler and Jessica Temporal, Data Science Brigade (Brazil)",
           "title": "Civic Tech for following the money"
         }
       },
@@ -192,7 +197,7 @@
         "time": "14:00-15:20",
         "event": {
           "venue": "201B",
-          "title": "Invited Workshop 1.1"
+          "title": "Workshop B1"
         }
       },
       {
@@ -200,7 +205,7 @@
         "expandable": false,
         "event": {
           "venue": "201B",
-          "title": "UNCONFERENCE 1"
+          "title": "UNCONFERENCE B1"
         }
       },
       {
@@ -212,7 +217,7 @@
         "expandable": false,
         "event": {
           "venue": "201B",
-          "title": "Invited Workshop 1.2"
+          "title": "Workshop B2"
         }
       },
       {
@@ -225,7 +230,7 @@
         "expandable": false,
         "event": {
           "venue": "201C",
-          "title": "Invited Workshop 2.1"
+          "title": "Workshop C1"
         }
       },
       {
@@ -233,7 +238,7 @@
         "expandable": false,
         "event": {
           "venue": "201C",
-          "title": "UNCONFERENCE 2"
+          "title": "UNCONFERENCE C1"
         }
       },
       {
@@ -245,7 +250,7 @@
         "expandable": false,
         "event": {
           "venue": "201C",
-          "title": "Invited Workshop 2.2"
+          "title": "Workshop C2"
         }
       },
       {
@@ -253,9 +258,7 @@
         "venue": "4F Joy",
         "expandable": false,
         "event": {
-          "moderator": [
-            "Jimmy Huang"
-          ]
+         
         }
       },
       {
@@ -264,7 +267,7 @@
         "event": {
           "venue": "4F Joy",
           "speaker": "",
-          "title": "UNCONFERENCE 3.1"
+          "title": "UNCONFERENCE J1"
         }
       },
       {
@@ -272,7 +275,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Joy",
-          "title": "UNCONFERENCE  3.2",
+          "title": "UNCONFERENCE  J2",
           "abstract": ""
         }
       },
@@ -281,7 +284,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Joy",
-          "title": "UNCONFERENCE  3.3",
+          "title": "UNCONFERENCE  J3",
           "abstract": ""
         }
       },
@@ -294,7 +297,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Joy",
-          "title": "UNCONFERENCE  3.4",
+          "title": "UNCONFERENCE  J4",
           "abstract": ""
         }
       },
@@ -308,7 +311,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": "UNCONFERENCE  4.1"
+          "title": "UNCONFERENCE  E1"
         }
       },
       {
@@ -316,7 +319,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": "UNCONFERENCE  4.2"
+          "title": "UNCONFERENCE  E2"
         }
       },
       {
@@ -324,7 +327,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": "UNCONFERENCE  4.3"
+          "title": "UNCONFERENCE  E3"
         }
       },
       {
@@ -336,7 +339,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": "UNCONFERENCE  4.4"
+          "title": "UNCONFERENCE  E4"
         }
       },
       {
@@ -345,7 +348,7 @@
       },
       {
         "time": "19:00-21:30",
-        "event": "Gala Dinner & ICT Award Ceremony\n(RSVP)"
+        "event": "WCIT Gala Dinner & ICT Award Ceremony\n(RSVP)"
       }
     ],
     "day3": [
@@ -359,7 +362,7 @@
         "expandable": false,
         "event": {
           "venue": "201A+F",
-          "title": " UNCONFERENCE"
+          "title": " UNCONFERENCE AF1"
         }
       },
       {
@@ -372,7 +375,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Joy",
-          "title": " UNCONFERENCE"
+          "title": " UNCONFERENCE J5"
         }
       },
       {
@@ -380,9 +383,6 @@
         "venue": "4F Elegance",
         "expandable": false,
         "event": {
-          "moderator": [
-            "Jimmy Huang"
-          ]
         }
       },
       {
@@ -390,7 +390,7 @@
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": " UNCONFERENCE"
+          "title": " UNCONFERENCE E5"
         }
       },
       {
@@ -417,7 +417,7 @@
         "time": "14:30-15:30",
         "expandable": false,
         "event": {
-          "venue": "201A+F",
+          "venue": "",
           "Moderator": "Frances West, Chairman, G3ict",
           "speaker": "R. B. Wu / Former President, Institute for Information Industry\nJames Powell / U-Report Global Lead, UNICEF\nBram Sieben / Concept Developer, Amsterdam Smart City Program & Alliander NV\nNanjira Sambuli / Digital Equality Advocacy Manager, World Wide Web Foundation",
           "title": "WCIT - Promoting Digital Inclusion and Equality"
@@ -431,7 +431,7 @@
         "time": "16:00-17:30",
         "expandable": false,
         "event": {
-          "venue": "201A+F",
+          "venue": "",
           "Moderator": "CL Kao, Board member of Open Culture Foundation, Taiwan",
           "speaker": "Erie Meyer / Co-founder of US Digital Service and a member of Code for American Leadership Team\nAudrey Tang / Digital Minister without Portfolio\nRebecca Rumbul / Head of research, mySociety\nMathilde Bras / Etalab, French Prime Minister's task force for Open Data, Open Gov and Data-driven transformation, France\nMichael Canares / Regional Research Manager, Open Data Lab Jarkata, Indonesia",
           "title": "WCIT Breakout Session - Civic Tech on Government Transparency and Citizen Participation"
