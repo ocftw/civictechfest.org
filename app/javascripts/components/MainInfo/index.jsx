@@ -19,6 +19,17 @@ var multiParagraph = (text, className) => {
   return ret;
 }
 
+function shuffleArray(array) {
+	let i = array.length - 1;
+	for (; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		const temp = array[i];
+		array[i] = array[j];
+		array[j] = temp;
+	}
+	return array;
+}
+
 
 export default class MainInfo extends Component {
 
@@ -99,7 +110,7 @@ export default class MainInfo extends Component {
 		</div>
 		<article className={styles.relative} data-wide="true">
 		  <div className={styles.brief}>
-		    <p>Asia’s first ever civic technology festival with  a week-long collection of events.</p>
+		    <p>Asia’s First Ever Civic Technology Festival with a week-long Collection of Events.</p>
 		  </div>
 		  <div className={styles.dateline}>
 		  	<ul>
@@ -143,7 +154,7 @@ export default class MainInfo extends Component {
 			</div>
 			<div className={about.about}>
 				<div className={about.title}>
-					<h3>About WCIT 2017 TAIWAN</h3>
+					<h3>About WCIT 2017</h3>
 					<a href="http://www.wcit2017.org/" target="_blank"><i className={about.icon}>home</i>www.wcit2017.org</a>
 				</div>
 				<div className={about.content}>
@@ -179,6 +190,7 @@ export default class MainInfo extends Component {
 
         { 
 	      keynote_speakers[getLocale()].map( cat => {
+			var keynote_speakers_shuffled = shuffleArray(cat.keynote_speakers)
 	        return (
 			<article id={cat.category} className={styles.container} key={cat.category} data-wide="true">
 
@@ -195,7 +207,7 @@ export default class MainInfo extends Component {
 				</div>
 
 				<div>
-				{ cat.keynote_speakers.map(this.Speaker) }
+				{ keynote_speakers_shuffled.map(this.Speaker) }
 				</div>
 			</article>
 			)

@@ -6,8 +6,8 @@
       "side_events": [
         {
           "date": ["11"],
-          "tab": "RSVP / Free",
-          "venue": "Google Taipei Office 75F",
+          "tab": "RSVP / FREE",
+          "venue": "Google Taipei",
           "venue_color": "1",
           "name": "Civic Tech Grant DEMO Party",
           "isopen": "false",
@@ -16,14 +16,14 @@
           "islink": "false",
           "url": "",
           "urlname": "Sign up",
-          "desc": "The first 7 g0v Grant awardees will demonstrate their civic tech prototypes after 6-month development."
+          "desc": "The first g0v Civic Tech Grant awardees will demonstrate their prototypes after 6-month development. Also the party!"
         },
         {
           "date": ["14"],
           "tab": "Closed meeting",
-          "venue": "To be confirmed",
+          "venue": "TBD",
           "venue_color": "2",
-          "name": "AODP meeting",
+          "name": "AODP",
           "isopen": "false",
           "img": "AODP.jpg",
           "imgtype": "pic",
@@ -35,7 +35,7 @@
         {
           "date": ["14"],
           "tab": "Closed meeting",
-          "venue": "To be confirmed",
+          "venue": "TBD",
           "venue_color": "3",
           "name": "Code for All Summit",
           "isopen": "false",
@@ -44,12 +44,12 @@
           "islink": "false",
           "url": "",
           "urlname": "Sign up",
-          "desc": "First Code for All meeting in Asia."
+          "desc": "Code for All Annual Summit"
         },
         {
           "date": ["16"],
-          "tab": "Public / Ticket",
-          "venue": "To be confirmed",
+          "tab": "RSVP / FREE",
+          "venue": "TBD",
           "venue_color": "4",
           "name": "g0v Hackathon",
           "isopen": "false",
@@ -58,7 +58,7 @@
           "islink": "true",
           "url": "",
           "urlname": "More info.",
-          "desc": "Come join one of the largest civic tech community in the world. Don’t ask why “nobody” is doing this, you are the “nobody”!"
+          "desc": "Come join one of the largest civic tech communities in the world. Don’t ask why “nobody” is doing this, you are the “nobody”!"
         }
         
       ]
