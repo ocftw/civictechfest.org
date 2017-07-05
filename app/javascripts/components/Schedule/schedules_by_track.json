@@ -14,13 +14,16 @@
       },
       {
         "time": "19:30-20:00",
-        "event": "Welcome Reception"
+        "event": "WCIT - Welcome Reception"
       }
     ],
     "day1": [
       {
-        "time": "07:30-09:00",
-        "event": "Registration"
+         "time": "07:30-09:00",
+        "expandable": false,
+        "event": {
+          "title": "Registration",
+          "note": "Please register at WCIT's reception.\nTICTeC@Taipei uses the same badge as WCIT."
       },
       {
         "time": "09:00-10:10",
@@ -348,7 +351,7 @@
       },
       {
         "time": "19:00-21:30",
-        "event": "WCIT Gala Dinner & ICT Award Ceremony\n(RSVP)"
+        "event": "WCIT - Gala Dinner & ICT Award Ceremony\n(RSVP)"
       }
     ],
     "day3": [
@@ -434,7 +437,7 @@
           "venue": "",
           "Moderator": "CL Kao, Board member of Open Culture Foundation, Taiwan",
           "speaker": "Erie Meyer / Co-founder of US Digital Service and a member of Code for American Leadership Team\nAudrey Tang / Digital Minister without Portfolio\nRebecca Rumbul / Head of research, mySociety\nMathilde Bras / Etalab, French Prime Minister's task force for Open Data, Open Gov and Data-driven transformation, France\nMichael Canares / Regional Research Manager, Open Data Lab Jarkata, Indonesia",
-          "title": "WCIT Breakout Session - Civic Tech on Government Transparency and Citizen Participation"
+          "title": "WCIT - Breakout Session - Civic Tech on Government Transparency and Citizen Participation"
         }
       },
       {
