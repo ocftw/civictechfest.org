@@ -6,7 +6,7 @@
       "side_events": [
         {
           "date": ["11"],
-          "tab": "RSVP / Free",
+          "tab": "RSVP / FREE",
           "venue": "Google Taipei",
           "venue_color": "1",
           "name": "Civic Tech Grant DEMO Party",
@@ -21,7 +21,7 @@
         {
           "date": ["14"],
           "tab": "Closed meeting",
-          "venue": "To be confirmed",
+          "venue": "TBD",
           "venue_color": "2",
           "name": "AODP meeting",
           "isopen": "false",
@@ -35,7 +35,7 @@
         {
           "date": ["14"],
           "tab": "Closed meeting",
-          "venue": "To be confirmed",
+          "venue": "TBD",
           "venue_color": "3",
           "name": "Code for All Summit",
           "isopen": "false",
@@ -48,7 +48,7 @@
         },
         {
           "date": ["16"],
-          "tab": "Public / Ticket",
+          "tab": "RSVP / FREE",
           "venue": "To be confirmed",
           "venue_color": "4",
           "name": "g0v Hackathon",
