@@ -33,13 +33,14 @@ $appbar-height: 60px;
 .container h2 {
   margin: 30px auto;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.6em;
   color: #4D4d4D;
 }
 .container h1 {
   margin: 30px 0;
   text-align: left;
   display: block;
+  font-size: 1.6em;
 }
 
 /* date line dot */
@@ -285,22 +286,23 @@ body.mobileScrollLock {
 /* ===================== */
 
 $category-icon-size: 16px;
-$mobile-padding: 16px;
+$mobile-padding: 20px;
 $mobile-item-leftstop: 96px;
 
 
 .Schedule-dayButton {
-  font-size: 16px;
+  font-size: 1.2em;
   text-transform: uppercase;
   padding: $mobile-padding;
   cursor: pointer;
-  margin-right: 15px;
+  margin-right: 10px;
   border: 1px solid #B0B0B0;
   border-bottom: 0px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-color: #fff;
   position: relative;
+  text-align: center;
 }
 .Schedule-dayButton:hover, .Schedule-dayButton.is-active {
   color: #F19E44;
@@ -319,7 +321,7 @@ $mobile-item-leftstop: 96px;
 .Schedule-day {
   background: #f3f3f3;
   border-bottom: 1px solid rgb(220,220,220);
-  font-size: 24px;
+  font-size: 1.2em;
   padding: $mobile-padding;
   font-weight: bold;
 }
@@ -335,7 +337,7 @@ $mobile-item-leftstop: 96px;
 }
 .Schedule-item {
   display: flex;
-  font-size: 16px;
+  font-size: 1.2em;
   border-bottom: 1px solid rgb(220,220,220);
 
   > .Schedule-event {
@@ -354,14 +356,14 @@ $mobile-item-leftstop: 96px;
   margin: 0;
   max-width: 430px;
   font-weight: 300;
-  font-size: 0.7em;
+  font-size: 0.9em;
   position: absolute;
   top: 5px;
   color: #808080;
 }
 .Schedule-presenter p, .Schedule-note p {
   color: rgb(125,124,123);
-  font-size: 14px;
+  font-size: 0.9em;
   font-weight: normal;
   text-indent: -20px;
   padding-left: 20px;
@@ -380,7 +382,7 @@ $mobile-item-leftstop: 96px;
 }
 
 .Schedule-anchor {
-  font-size: 14px;
+  font-size: 0.9em;
   margin-top: 4px;
   font-weight: normal;
 }
@@ -442,7 +444,7 @@ a.Schedule-event:hover:before {
   display: inline-block;
   padding: 1px 8px;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 1em;
   background: rgb(220,220,220);
   border-radius: 4px;
   color: gray;
@@ -534,8 +536,8 @@ a.Schedule-event:hover:before {
   $desktop-item-leftstop: 200px;
 
   .Schedule-dayButton {
-    font-size: 20px;
-    padding: $desktop-padding;
+    font-size: 1.2em;
+    padding: 15px $desktop-padding;
   }
 
   .Schedule-dayButtonLeftstop {
@@ -551,7 +553,7 @@ a.Schedule-event:hover:before {
   }
 
   .Schedule-day {
-    padding: $desktop-padding 20px;
+    padding: 15px $desktop-padding;
   }
 
   .Schedule-event, .Schedule-tagline {
@@ -571,8 +573,8 @@ a.Schedule-event:hover:before {
     display: inherit;
   }
   .Schedule-main h5 {
-    font-size: 0.8em;
-    top: 8px;
+    font-size: 0.9em;
+    top: 5px;
   }
 }
 

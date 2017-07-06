@@ -47,7 +47,7 @@
 .header {
   text-align: center;
   padding-top: 20px;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 .section {
@@ -118,7 +118,7 @@
 }
 .about h4 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 .content {
     padding: 1.5em;
@@ -136,7 +136,7 @@
 }
 
 .title h3 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #4D4D4D;
   line-height: 1;
   margin: 0 30px 0 auto;
@@ -237,7 +237,7 @@
 }
 
 .map .mapname {
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding: 0 2em;
 }
 
@@ -262,7 +262,7 @@
 }
 
 .brief {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #F19E44;
 }
 

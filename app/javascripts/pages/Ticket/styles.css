@@ -61,7 +61,7 @@ svg[data-icon="custom"] {
 .header {
   text-align: center;
   padding-top: 20px;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 .section {
@@ -132,7 +132,7 @@ svg[data-icon="custom"] {
 }
 .about h4 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 .content {
     padding: 1.5em;
@@ -150,7 +150,7 @@ svg[data-icon="custom"] {
 }
 
 .title h3 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #4D4D4D;
   line-height: 1;
   margin: 0 30px 0 auto;
@@ -174,7 +174,7 @@ svg[data-icon="custom"] {
   display: block;
   border: 3px solid #F19E44;
   border-radius: 1em;
-  font-size: 2em;
+  font-size: 1.6em;
   min-height: 2em;
   padding: 0.3em 1em;
   font-weight: 600;
@@ -252,7 +252,7 @@ svg[data-icon="custom"] {
   margin-top: 0;
   margin-bottom: 0.7em;
   padding-left: 2.1em;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 
@@ -283,7 +283,7 @@ svg[data-icon="custom"] {
 
 
 .brief {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #F19E44;
 }
 

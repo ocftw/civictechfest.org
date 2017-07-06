@@ -16,7 +16,7 @@ $breakpoint2: 1600px;
 }
 
 .Session a .material-icons {
-  font-size: 14px;
+  font-size: 1em;
   padding-left: 10px;
 }
 
@@ -87,7 +87,7 @@ $breakpoint2: 1600px;
     }
 }
 .Session-meta {
-  font-size: 14px;
+  font-size: 1em;
   display: inline-block;
 }
 .Session-time {
@@ -119,7 +119,7 @@ $breakpoint2: 1600px;
   padding: 30px 100px 10px 40px;
 } 
 .Session-title h3 {
-  font-size: 26px;
+  font-size: 1.6em;
   font-weight: 700;
   color: #F19E44;
   margin: 0;
@@ -127,7 +127,7 @@ $breakpoint2: 1600px;
 }
 .Session-subTitle {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 1.2em;
   color: #5d5d5d;
 }
 
@@ -140,7 +140,7 @@ $breakpoint2: 1600px;
 
 .Session-presenter-name {
   color: rgb(55,54,53);
-  font-size: larger;
+  font-size: 1.6em;
   position: relative;
 }
 
@@ -177,7 +177,7 @@ $breakpoint2: 1600px;
 .Session-category {
   position: relative;
   vertical-align: top;
-  font-size: 14px;
+  font-size: 1em;
   color: rgb(80,80,80);
   margin-bottom: 10px;
 }
@@ -204,7 +204,7 @@ $breakpoint2: 1600px;
   margin-top: 15px;
   background: #f3f3f3;
   padding: 5px 15px;
-  font-size: 15px;
+  font-size: 1em;
   color: #333;
   font-weight: 300;
 }
