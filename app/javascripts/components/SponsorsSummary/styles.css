@@ -14,20 +14,23 @@
 .section {
   text-align: center;
   padding-bottom: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .sponsor {
   display: inline-block;
   vertical-align: middle;
-  width: 260px;
+  height: 120px;
   text-align: center;
-  margin:10px 15px 20px 15px;
+  margin: 0 10px 20px 10px;
+  padding: 5px  10px;
   text-decoration: none;
 }
 
 .logo {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .name {
