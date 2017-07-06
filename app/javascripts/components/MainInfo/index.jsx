@@ -62,7 +62,7 @@ export default class MainInfo extends Component {
 				<span><i data-color={SideEvent.venue_color}>place</i>{SideEvent.venue}</span>
 			</div>
 			<div className={styles.tab}>
-				<span>{SideEvent.tab}</span>
+				<span data-color={SideEvent.tab_color}>{SideEvent.tab}</span>
 			</div>
 		</div>
     );
@@ -114,13 +114,13 @@ export default class MainInfo extends Component {
 		  </div>
 		  <div className={styles.dateline}>
 		  	<ul>
-		  		<li className={styles.month}><a><span>Sep.</span><p>Events</p></a></li>
+		  		<li className={styles.month}><span>Sep.</span><p>Events</p></li>
 		  		<li><a><span>9</span><span>10</span><p></p></a></li>
 		  		<li><a><span>11</span><p>Civic Tech Grant DEMO Party</p></a></li>
-		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>alongside with WCIT</h6></a></li>
+		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside with WCIT)</h6></a></li>
 		  	</ul>
 		  	<ul>
-		  		<li><a><span>14</span><p>AODP meeting<br />Code for ALL</p></a></li>
+		  		<li><a><span>14</span><p>AODP meeting<br /><br />Code for ALL</p></a></li>
 		  		<li><a><span>15</span><p></p></a></li>
 		  		<li><a><span>16</span><p>g0v Hackathon</p></a></li>
 		  	</ul>

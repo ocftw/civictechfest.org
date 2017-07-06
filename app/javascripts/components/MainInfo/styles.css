@@ -16,7 +16,7 @@
 article {
   display: block;
   max-width: 960px;
-  margin: 30px auto 30px auto;
+  margin: 40px auto;
 }
 
 .banner {
@@ -59,7 +59,7 @@ article {
 	margin: 1em 0;
 }
 .herotext h2 {
-	font-size: 1.7em;
+	font-size: 1.6em;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -69,9 +69,9 @@ article {
 
 
 .brief {
-	max-width: 660px;
+	max-width: 700px;
 	padding: 0 50px;
-	margin: 60px auto;
+	margin: 40px auto;
 	position: relative;
 }
 .brief::before, .brief::after {
@@ -93,18 +93,22 @@ article {
 }
 .brief p {
   color: #4D4D4D;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.8;
   letter-spacing: 1px;
 }
 
 
 /* dateline & eventdate dot */
 
+.dateline {
+	margin: 40px auto;
+}
+
 .dateline ul {
 	list-style: none;
-	font-size: 0.7em;
+	font-size: 1em;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -148,7 +152,8 @@ article {
 }
 
 .dateline li p {
-	line-height: 2;
+	line-height: 1;
+	margin: 1em auto;
 }
 
 .dateline li.main span, .mainevent .eventdate span, .orange_dateline span {
@@ -161,12 +166,12 @@ article {
 }
 
 .blue_dateline, .orange_dateline {
-	margin: -20px auto 80px auto;
+	margin: -20px -20px 80px -20px;
 	text-align: center;
 }
 
 .blue_dateline span, .orange_dateline span {
-	margin: 0 5px;
+	margin: 0 3px;
 }
 
 .blue_dateline span.grey, .orange_dateline span.grey {
@@ -175,14 +180,16 @@ article {
 }
 
 .dateline li.main p {
-	font-size: 2em;
-	line-height: 0;
+	font-size: 1.6em;
+	line-height: 1;
+	margin: 0.5em auto 0.4em auto;
 }
 .dateline li.main h6 {
-	font-size: 0.6em;
+	font-size: 1em;
 	color: #B0B0B0;
-	line-height: 1.5;
+	line-height: 1;
 	margin: 0 auto;
+	font-weight: 300;
 }
 
 .dateline li.month {
@@ -190,18 +197,18 @@ article {
 }
 .dateline li.month span, .eventdate span:first-child {
 	border: 3px solid #B0B0B0;
-	font-size: 1.8em;
-	height: 1.4em;
+	font-size: 1.6em;
 	width: auto;
-	border-radius: 0.7em;
+	height: auto;
+	border-radius: 1em;
 	line-height: 1.2;
 	color: #B0B0B0;
 	margin-top: -5px;
 	padding: 0 10px;
 }
 .dateline li.month p {
-	font-size: 1.3em;
-	line-height: 0.7;
+	font-size: 1em;
+	line-height: 1;
 }
 
 
@@ -219,14 +226,14 @@ article {
 
 .container {
 	background: transparent;
-	margin: 30px auto;
-	padding: 0 20px;
+	margin: 40px auto;
+	padding: 0 10px;
 }
 
 .container h2 {
-	margin: 60px auto 30px auto;
+	margin: 40px auto;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.6em;
 }
 
 .orange {
@@ -248,26 +255,30 @@ article {
 }
 
 .eventimg img[data-type="logo"] {
-	width: 100%;
-	height: auto;
-	top: 0;
-	max-width: 300px;
-	margin: 3em auto;
+	width: auto;
+	height: 100%;
+	margin: 30px auto;
 }
 
 .eventimg img[data-type="pic"] {
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 200%;
 	top: 0;
+}
+.mainevent .eventimg img[data-type="logo"] {
+	margin: 0 auto;
 }
 
 .eventcontent {
-	padding: 0 1.5em 2em 1.5em;
+	padding: 0 1em 2em 1em;
 	background: rgba(255, 255, 255, 0.8);
 }
 
+.eventcontent p {
+	padding: 0;
+}
+
 .eventcontent p:before {
-	content: "";
 	width: 0.5em;
 	height: 0.5em;
 	display: block;
@@ -282,7 +293,7 @@ article {
 	border-radius: 1em;
 	padding: 0.1em 1em 0.3em 1em;
 	min-height: 1.7em;
-	font-size: 1.7em;
+	font-size: 1.6em;
 	font-weight: 600;
 	color: #F19E44;
 	margin: 10px auto; 
@@ -293,8 +304,8 @@ article {
 }
 
 .mainevent .eventbtn {
-	margin: 15px 40px; 
-	font-size: 2em;
+	margin: 15px auto; 
+	font-size: 1.6em;
 	min-height: 2em;
 	padding: 0.3em 1em;
 }
@@ -320,7 +331,7 @@ article {
 	right: 0;
 	left: 0;
 	margin: auto;
-	text-align: center;
+	text-align: left;
 }
 
 .eventdate div {
@@ -330,9 +341,11 @@ article {
 
 .eventdate div span:first-child {
 	position: absolute;
-	left: -4em;
-	top: 0.2em;
-	font-size: 1.5em;
+	left: -5em;
+	top: 0.35em;
+	line-height: 1.6;
+	font-size: 1em;
+	display: none;
 }
 
 /* venue tab */
@@ -343,10 +356,10 @@ article {
 }
 
 .venue span {
-	padding: 0.8em 1em 0.6em 2.5em;
+	padding: 0.6em 1em 0.6em 2.5em;
 	min-height: 1em;
 	border-radius: 2em;
-	font-size: medium;
+	font-size: 1em;
 	background: #fff;
 	display: inline-block;
 	border: 1px solid #B0B0B0;
@@ -377,7 +390,7 @@ article {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 1.5em;  /* Preferred icon size */
+  font-size: 1.4em;  /* Preferred icon size */
   display: inline-block;
   line-height: 0.5;
   text-transform: none;
@@ -386,7 +399,7 @@ article {
   white-space: nowrap;
   direction: ltr;
   position: absolute;
-  top: 0.6em;
+  top: 0.65em;
   left: 0.5em;
 
   /* Support for all WebKit browsers. */
@@ -425,7 +438,7 @@ article {
 	top: 30px;
 	right: -5px;
 	text-align: right;
-	font-size: xx-small;
+	font-size: 1em;
 	color: #fff;
 }
 
@@ -440,7 +453,7 @@ article {
 	line-height: 3;
 }
 
-.tab span.tabblue {
+.tab span.tabblue, .tab span[data-color="blue"] {
 	background: #29A8DF;
 }
 
@@ -450,18 +463,20 @@ article {
 	display: block;
 	width: 100%;
 	height: auto;
-	margin: 10px auto 20px auto;
+	margin: 50px auto 30px auto;
 }
 
 .mainevent .eventimg {
 	flex: initial;
 	width: 100%;
 	min-width: 150px;
+	height: 300px;
 	background: #fff;
 	border-radius: 16px;
 	overflow: hidden;
 	padding: 40px 20px 0 20px;
 	text-align: center;
+
 }
 
 .mainevent .eventcontent {
@@ -471,7 +486,7 @@ article {
 } 
 
 .mainevent .eventcontent h3 {
-	font-size: 2.5em;
+	font-size: 1.6em;
 	font-weight: 600;
 	line-height: 1;
 	margin: 0.7em auto;
@@ -481,9 +496,8 @@ article {
 	font-size: 1.2em;
 	line-height: 1.8;
 	margin-top: 0;
-	word-wrap: break-word;
-	text-align: justify;
-	padding: 0 1.5em 0 2em;
+	word-wrap: normal;
+	text-align: left;
 	position: relative;
 }
 .mainevent .eventcontent p:before {
@@ -528,7 +542,7 @@ article {
 .sideevents .eventimg {
 	top: 0;
 	width: 100%;
-	height: 300px; 
+	height: 90%; 
 	background: transparent;
 	border-radius: 16px;
 	text-align: center;
@@ -537,45 +551,44 @@ article {
 .sideevents .eventcontent {
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
-	top: 58%;
+	top: calc(60% + 30px);
 	transition: all 0.5s ease;
-	padding-top: 1.5em;
-	height: 100%;
+	padding-top: 0;
+	height: calc(40% - 30px);
 	display: none;
 } 
 
-.sideevents .eventcontent:hover, .sideevents .eventcontent:focus, .sideevents .eventcontent[data-open="true"] {
+/*.sideevents .eventcontent:hover, .sideevents .eventcontent:focus, .sideevents .eventcontent[data-open="true"] {
     position: absolute;
     top: 0;
-}
+}*/
 
 .sideevents .eventcontent h3 {
-	font-size: 2em;
+	font-size: 1.6em;
 	font-weight: 600;
 	line-height: 1;
 	margin: 0.7em auto;
 }
 .sideevents .eventcontent p {
 	display: inline-block;
-	font-size: 1em;
-	line-height: 1.5;
+	font-size: 1.2em;
+	line-height: 1.8;
 	margin-top: 0;
-	word-wrap: break-word;
-	text-align: justify;
-	padding: 0 1em 0 1.5em;
+	word-wrap: normal;
+	text-align: left;
 	position: relative;
 }
 
 .sideevents .eventcontent p:before {
 	left: 5px;
 	top: 5px;
-	transform: rotate(-45deg);
+	transform: rotate(45deg);
 	transition: all 0.5s ease;
 }
 
-.eventcontent:hover p:before, .eventcontent:focus p:before, .eventcontent[data-open="true"] p:before {
+/*.eventcontent:hover p:before, .eventcontent:focus p:before, .eventcontent[data-open="true"] p:before {
 	transform: rotate(45deg);
-}
+}*/
 
 
 
@@ -643,13 +656,13 @@ article[data-wide="true"] {
 }
 
 .speakers .about h3 {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	line-height: 1;
 	font-weight: 400;
 	margin: 20px auto;
 }
 .speakers .about p {
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 1.5;
 	color: #969696;
 	margin: 0 auto;
@@ -668,7 +681,7 @@ article[data-wide="true"] {
 	padding: 0.8em 1em 0.6em 1em;
 	min-height: 1em;
 	border-radius: 2em;
-	font-size: medium;
+	font-size: 1.2em;
 	background: #fff;
 	display: inline-block;
 	border: 1px solid #B0B0B0;
@@ -709,6 +722,22 @@ article[data-wide="true"] {
 		width: 100%;
 		padding-top: 90%;
 	}
+	.mainevent .eventcontent p, .sideevent .eventcontent p {
+		word-wrap: break-word;
+		text-align: justify;
+	}
+	.eventdate {
+		text-align: center;
+	}
+	.eventdate div span:first-child {
+		display: inline;
+	}
+	.eventcontent p {
+		padding: 0 1em 0 1.5em;
+	}
+	.eventcontent p:before {
+		content: "";
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -716,7 +745,7 @@ article[data-wide="true"] {
 	  font-size: 6em;
 	}
 	.brief::before {
-  	left: -50px;
+  	  left: -50px;
 	}
 	.brief::after {
 	  right: -50px;
@@ -725,14 +754,13 @@ article[data-wide="true"] {
 		padding-left: 30px;
 	}
 	.brief p {
-	  font-size: 1.8em;
+	  	font-size: 1.6em;
 	}
 	.dateline ul {
 		font-size: 1em;
 	}
 	.dateline li span, .eventdate span, .blue_dateline span, .orange_dateline span {
 		border: 3px solid;
-		line-height: 1.6em;
 	}
 	.blue_dateline span {
 	    border-color: #29A8DF;
@@ -743,7 +771,7 @@ article[data-wide="true"] {
 	.speakers {
 		display: inline-block;
 		width: 47%;
-		padding-top: 50%;
+		padding-top: 55%;
 		margin: 3em 1.5%;
 	}
 	.banner {
@@ -770,23 +798,27 @@ article[data-wide="true"] {
 	}
 
 	.herotext h1 {
-		font-size: 4em;
+		font-size: 3.2em;
 		margin: 0.2em 0;
 	}
 	.herotext h2 {
 		position: relative;
-		font-size: 3em;
+		font-size: 1.8em;
 		margin: 0.2em 0;
 		bottom: 0;
 	}
 	.sideevents .eventcontent {
 		display: inline-block;
 	} 
+	.sideevents .eventimg {
+		height: 60%; 
+	}
+
 }
 
 @media screen and (min-width: 992px) {
 	.container {
-		padding: 0;
+		padding: 0 20px;
 	}
 	.mainevent { display: flex; }
 	.eventcontent {
@@ -795,9 +827,15 @@ article[data-wide="true"] {
 	.mainevent .eventimg {
 		display: inline-block;
 		max-width: 300px;
+		height: auto;
 	}
 	.mainevent .eventcontent {
 		display: inline-block;
+	}
+	.mainevent .eventimg img[data-type="logo"] {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
 	}
 	.sideevents {
 		width: 48%;
@@ -809,7 +847,7 @@ article[data-wide="true"] {
 	}
 	.speakers {
 		width: 30%;
-		padding-top: 35%;
+		padding-top: 40%;
 		margin: 3em 1.5%;
 	}
 }
@@ -817,7 +855,7 @@ article[data-wide="true"] {
 @media screen and (min-width: 1200px) {
 	.speakers {
 		width: 22%;
-		padding-top: 30%;
+		padding-top: 33%;
 		margin: 3em 1.5%;
 	}
 
