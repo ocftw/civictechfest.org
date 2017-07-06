@@ -39,7 +39,7 @@
         "expandable": false,
         "event": {
           "venue": "201B+C",
-          "speaker": "Chia-liang Kao,  Co-founder, g0v.tw /Board Member, Open Culture Foundation\nDr. Rebecca Rumbul, Head of Research, mySociety(UK)",
+          "speaker": "<b>Chia-liang Kao</b>,  Co-founder, g0v.tw /Board Member, Open Culture Foundation\n<b>Dr. Rebecca Rumbul</b>, Head of Research, mySociety(UK)",
           "title": "Welcome to TICTeC@Taipei and Civic Tech Fest"
         }
       },
@@ -57,8 +57,8 @@
         "expandable": false,
         "event": {
           "venue": "201B+C",
-          "speaker": "Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
-          "moderator": "Dr. Rebecca Rumbul, mySociety(UK)",
+          "speaker": "<b>Chia-liang Kao</b>, Open Culture Foundation (Taiwan)\n<b>Michael Canares</b>, World Wide Web Foundation\n<b>Luke Bacon</b>, Open Australia Foundation (Australia)\n<b>Gemma Humphrys</b>, mySociety (UK) \n<b>Nanjira Sambuli</b>, Web Foundation (Kenya) ",
+          "moderator": "<b>Dr. Rebecca Rumbul</b>, mySociety(UK)",
           "panel": "Panel 1",
           "title": "Examples of civic tech and its impacts from across the world",
           "abstract": "Now that the Civic Technology sector has matured, we can take a step back and assess its worth. What positive impacts have these tools had? How have they changed society and the relationships between citizens and governments? What negative impacts can be understood, and what is the best way to counter these for the future?"
@@ -72,7 +72,7 @@
         "time": "14:00-14:45",
         "event": {
           "venue": "201B+C",
-          "moderator": "Audrey Tang, Digital Minister Taiwan",
+          "moderator": "<b>Audrey Tang</b>, Digital Minister Taiwan",
           "title": "Fireside chat: Stephen King, Omidyar Network",
           "abstract": "Stephen is a partner at the Omidyar Network, one of the most significant benefactors for those working in Civic Tech. \n\nThrough the Governance & Citizen Engagement initiative, he oversees a portfolio that supports a broad range of organizations working in the US and around the world — including mySociety. \n\nMany are innovators in the use of technology to help make governments more responsive and aid citizens in holding their elected officials to account. In this session, we focus on why Civic Tech is important from a funder’s perspective, and what exactly they look for when it comes to making funding decisions. "
         }
@@ -81,8 +81,8 @@
         "time": "14:45-15:45",
         "event": {
           "venue": "201B+C",
-          "speaker": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications, (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency ",
-          "moderator": "Gemma Humphrys, mySociety",
+          "speaker": "<b>Nanjira Sambuli</b>, Web Foundation (Kenya)\n<b>Chat Garcia Ramilo</b>, Association for Progressive Communications, (Philippines)\n<b>James Powell</b>, UNICEF Global Innovation Centre\n<b>Orianne Ledroit</b>, French Digital Agency ",
+          "moderator": "<b>Gemma Humphrys</b>, mySociety",
           "panel":"Panel 2",
           "title": "How can Civic Tech reach more people? How can civic tech be more inclusive? ",
           "abstract": "Four speakers, with experience from around the world, present examples of technology projects that tackle digital exclusion. \n \nAs a community, coders and activists must ensure that tools genuinely benefit the communities who need them most: leave with a practical checklist to make that happen."
@@ -96,8 +96,8 @@
         "time": "16:00-17:00",
         "event": {
           "venue": "201B+C",
-          "speaker": "Erie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
-          "moderator": "Jaclyn Tsai",
+          "speaker": "<b>Erie Meyer</b>, Code for American (USA) \n<b>Mathilde Bras</b>, Etalab (France)\n<b>Shu Yang Lin</b>, The Public Digital Innovation Space (PDIS) (Taiwan)",
+          "moderator": "<b>Jaclyn Tsai</b>",
           "panel":"Panel 3",
           "title": "Government-led Civic Technology: successes and challenges",
           "abstract": "Individual activists or civic society organizations have traditionally led the way when it comes to Civic Technology projects — but increasingly governments are innovating in this sphere themselves. \n \nWhat are the advantages and disadvantages of citizen-to-government applications implemented by governments themselves? What success stories are there? And what can we learn from the challenges they’ve encountered?"
