@@ -36,7 +36,15 @@
       "sponsors": [
         {
           "name": "Microsoft",
-          "logo": "MSFT_logo_rgb_C-Gray_D.png",
+          "logo": "msft_logo_rgb_c-gray_d_360.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "Google",
+          "logo": "google.png",
           "url": "",
           "urlname": "",
           "brief": "",
@@ -49,6 +57,14 @@
       "title": "Partners",
       "sponsors": [
         {
+          "name": "g0v",
+          "logo": "g0v-only.svg",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
           "name": "#codeforgender",
           "logo": "codeforfender_logo.png",
           "url": "",
@@ -57,8 +73,48 @@
           "desc": ""
         },
         {
+          "name": "Code for All",
+          "logo": "code_for_all_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "Institut Francais",
+          "logo": "IF-Charte-graphique-170111.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "Bureau Francais de Taipei",
+          "logo": "BFT-Logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
           "name": "OGP Toolbox",
           "logo": "OGP_Toolbox-Logo_big.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "ODN",
+          "logo": "odn-logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "AODP",
+          "logo": "AODP-LOGO-fal.png",
           "url": "",
           "urlname": "",
           "brief": "",
