@@ -45,10 +45,9 @@
       },
       {
         "time": "10:45-11:15",
-        "expandable": false,
         "event": {
           "venue": "201B+C",
-          "speaker": "Dr Rebecca Rumbul, Head of Research, mySociety (UK)",
+          "speaker": "<b>Dr Rebecca Rumbul</b>, Head of Research, mySociety (UK)",
           "title": "What is Civic Technology? And how and why is mySociety measuring its impact?",
           "abstract": "Rebecca presents mySociety’s research projects which strive to evaluate the impacts (both positive and negative) of Civic Technologies in many countries worldwide."
         }
@@ -71,7 +70,6 @@
       },
       {
         "time": "14:00-14:45",
-        "expandable": false,
         "event": {
           "venue": "201B+C",
           "moderator": "Audrey Tang, Digital Minister Taiwan",
@@ -81,7 +79,6 @@
       },
       {
         "time": "14:45-15:45",
-        "expandable": false,
         "event": {
           "venue": "201B+C",
           "speaker": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications, (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency ",
@@ -97,7 +94,6 @@
       },
       {
         "time": "16:00-17:00",
-        "expandable": false,
         "event": {
           "venue": "201B+C",
           "speaker": "Erie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
@@ -109,7 +105,6 @@
       },
       {
         "time": "17:00-17:30",
-        "expandable": false,
         "event": {
           "venue": "201B+C",
           "title": "Lightning talks\n",
@@ -139,11 +134,35 @@
       },
       {
         "time": "09:30-10:30",
+        "event": "Civic Tech for transparency and tackling corruption.\nModerator: DONALD TRUMP"
+      },
+      {
+        "time": "09:30-10:30",
+        "expandable": false,
+        "event": {
+          "venue": "201B",
+          "speaker": "Masayuki Hatta, Surugadai University (Japan) \nImpacts of civic tech projects in Pakistan: Ebtihaj Khan, Code for Pakistan (Pakistan) \nImpacts of open data standards on transparency tools: Khairil Yusof, Sinar Project (Malaysia)",
+          "title": "Impacts of leak sites",
+          "abstract": ""
+        }
+      },
+      {
+        "time": "09:30-10:30",
+        "expandable": false,
+        "event": {
+          "venue": "201B",
+          "speaker": "COVFEFE",
+          "title": "COVFEFE COVFEFE asoiduaoisduoiasud",
+          "abstract": ""
+        }
+      },
+      {
+        "time": "09:30-10:30",
         "expandable": false,
         "event": {
           "venue": "201B",
           "speaker": "Impacts of leak sites: Masayuki Hatta, Surugadai University (Japan) \nImpacts of civic tech projects in Pakistan: Ebtihaj Khan, Code for Pakistan (Pakistan) \nImpacts of open data standards on transparency tools: Khairil Yusof, Sinar Project (Malaysia)",
-          "title": "Civic Tech for transparency and tackling corruption",
+          "title": "COVFEFE COVFEFE asoiduaoisduoiasud",
           "abstract": ""
         }
       },
