@@ -128,22 +128,22 @@
     ],
     "day2": [
       {
-        "title": "201B",
+        "title": "Morning section ",
         "venue": "201B",
         "event": ""
       },
       {
         "time": "09:30-10:30",
-        "event": "Civic Tech for transparency and tackling corruption.\nModerator: DONALD TRUMP"
+        "event": "Civic Tech for transparency and tackling corruption."
       },
       {
         "time": "09:30-10:30",
         "expandable": false,
         "event": {
           "venue": "201B",
-          "speaker": "Masayuki Hatta, Surugadai University (Japan) \nImpacts of civic tech projects in Pakistan: Ebtihaj Khan, Code for Pakistan (Pakistan) \nImpacts of open data standards on transparency tools: Khairil Yusof, Sinar Project (Malaysia)",
+          "speaker": "<b>Masayuki Hatta</b>, Surugadai University (Japan) ",
           "title": "Impacts of leak sites",
-          "abstract": ""
+          "abstract": "Inspired by the success — or notoriety — of Wikileaks, and the revelations of people such as Edward Snowden and Chelsea Manning, many local “leaksites” now run around the world.\n\nLeaksites are web-based whistleblowing initiatives which usually\nemploy encrypted Onion Routing (such as Tor) and related cutting-edge anonymization technologies for concealing the identity of whistleblowers. These initiatives are aimed at complementing weak or deeply flawed whistleblower protection systems in many countries, and now form a part of the real-world global journalism ecosystem. Despite their prevalence, until now research into the realities of running such sites has been lacking.\n\nMasayuki scrutinizes the history of leaksites and gives a brief overview of background technologies (including SecureDrop, GlobaLeaks and several obscure, now-defunct ones). Drawing on his original research of existing leaksites, based on a taxonomy and the several demographics available, Masayuki presents several case studies of notable examples and discusses their social impacts as well as the legal, cultural and political issues they provoke.\n\nFinally, he chronicles the genesis of his own leaksite for Japan, Whistleblowing.jp, and explains how it operates within the existing Japanese whistleblower protection system and newly enacted Special Secrecy Law."
         }
       },
       {
@@ -151,9 +151,9 @@
         "expandable": false,
         "event": {
           "venue": "201B",
-          "speaker": "COVFEFE",
-          "title": "COVFEFE COVFEFE asoiduaoisduoiasud",
-          "abstract": ""
+          "speaker": "<b>Ebtihaj Khan</b>, Code for Pakistan(Pakistan)",
+          "title": "Impacts of Civic Tech projects in Pakistan",
+          "abstract": "How do you change government in a third-world country that ranks 116 on the corruption index, where 4 out of 10 citizens live in poverty, and where 22.6 million children are out-of-school? \n\nHow can a Civic Tech organization make a meaningful difference in a province ravaged by the Taliban, where 12,456 citizens died in terror attacks between 2008-2013? How do you get citizens to work with a government so widely seen as inefficient and corrupt? What does impact even look like in such circumstances? \n\nIn the last three years, Code for Pakistan has worked with ten government departments, creating ten apps with five more in progress. From reporting systems to crowdfunding platforms to automated service delivery, these applications have improved government efficiency and the experiences of hundreds of citizens who interact with government every day. \n\nOne Civic Tech solution — the Traffic Police app — has transformed the culture within a government department. What factors enabled official buy-in and engagement with the user-centered discovery process, leading to subsequent adoption and daily government usage of the app? "
         }
       },
       {
@@ -161,9 +161,9 @@
         "expandable": false,
         "event": {
           "venue": "201B",
-          "speaker": "Impacts of leak sites: Masayuki Hatta, Surugadai University (Japan) \nImpacts of civic tech projects in Pakistan: Ebtihaj Khan, Code for Pakistan (Pakistan) \nImpacts of open data standards on transparency tools: Khairil Yusof, Sinar Project (Malaysia)",
-          "title": "COVFEFE COVFEFE asoiduaoisduoiasud",
-          "abstract": ""
+          "speaker": "<b>Khairil Yusof</b>, Sinar Project (Malaysia)",
+          "title": "Impacts of Open Data standards on transparency tools",
+          "abstract": "Most Open Data initiatives assume the provision of data by governments which will then be picked up and used by a variety of sectors for the good of all.\n\nBut for countries with opaque governments, or whose NGOs lack technical capacity, the promises of Open Data will fall far short of the reality. \n\nThis active research shows how adopting Open Data standards for government data helps civil society organizations collaborate in building usable Open Data sets for transparency, governance  — and tools that increase participation by citizens. \n\nAnd for those in places where government do not reliably release Open Data, discover how to source unstructured data by other means. Finally, Khairil discusses the contrasting impacts and uses of this approach in the two different environments of Malaysia and Myanmar."
         }
       },
       {
@@ -172,26 +172,86 @@
       },
       {
         "time": "11:00-12:30",
+        "event": "Civic Tech for better communities and improved service delivery "
+      },
+      {
+        "time": "11:00-12:30",
         "expandable": false,
         "event": {
           "venue": "201B",
-          "speaker": "The impacts of the SmartCity platform: Gautham Ravichander, eGovernments Foundation (India) \nParticipatory City Planning with Open Data and Minecraft in Berlin: Dr Benjamin Seibel, Technologiestiftung Berlin (Germany) \nImpacts of 'school chooser' digital tools: Eric Reese, Center for Government Excellence at Johns Hopkins University (USA)  \nImpacts of Ipaidabribe.com and Ichangemycity.com: Venkatesh Kannaiah, Janaagraha (India)",
-          "title": "Civic Tech for better communities and improved service delivery"
+          "speaker": "<b>Gautham Ravichander</b>, eGovernments Foundation (India)",
+          "title": "The impacts of the SmartCity platform",
+          "abstract": "In October 2015 the Government of Andhra Pradesh (GoAP) wanted to bring 110 cities and towns online, with the goals of improving service delivery to citizens, moving to data-driven governance processes, improving revenues and increasing transparency and accountability. \n\nGoAP partnered with eGovernments Foundation (eGov) to deploy eGov’s SmartCity platform, an integrated platform with 21 modules supporting key operations of city and town administrations, across all 110 locations. \n\nSmartCity is based on eGov’s 14 years of partnering with 300 cities and towns across India; customizable and configurable, it’s Open Source and available for free on the Github repository. \n\nGautham talks through the impacts the platform has already brought about, and the hopes for its future."
         }
       },
       {
-        "title": "201C",
+        "time": "11:00-12:30",
+        "expandable": false,
+        "event": {
+          "venue": "201B",
+          "speaker": "<b>Dr Benjamin Seibel</b>, Technologiestiftung Berlin (Germany)",
+          "title": "Participatory City Planning with Open Data and Minecraft in Berlin",
+          "abstract": "In 2016, the Berlin City Senate released its official 3D city model as Open Data. The digital city model, once a tool for administrative planners, architects and other experts, was now available to everybody — at least in theory. But what are common citizens supposed to do with gigabytes of complex geometries? \n\nIn an effort to get more people involved, the Ideation Lab at Technologiestiftung Berlin converted the model to work within Minecraft, a computer game especially popular with children and young adults. The Berlin map, available as a free download, enables young citizens to engage with their city and to redesign every building block by block. \n\nIn partnership with Joblinge, a local non-profit supporting school drop-outs and other disadvantaged teenagers, the Ideation Lab worked with a group of 12 teenagers on the ambitious project of redesigning Alexanderplatz, one of Berlin’s most prominent (and, arguably, ugly) public squares. \n\nThe group spoke with architects and city planners, conducted a series of on-site interviews and finally build their own version of Alexanderplatz in Minecraft. Learn how more citizens can be motivated to participate in urban planning by adding gamification to public datasets — and especially children and teenagers, who are often underrepresented in traditional public discourse."
+        }
+      },
+      {
+        "time": "11:00-12:30",
+        "expandable": false,
+        "event": {
+          "venue": "201B",
+          "speaker": "<b>Eric Reese</b>, Center for Government Excellence at Johns Hopkins University (USA)",
+          "title": "Impacts of ‘school chooser’ digital tools",
+          "abstract": "In this time of rising inequality and urban population growth, cities face real problems trying to achieve equity in service quality and access for their residents. \n\nSchooling presents a particularly large challenge  — and when the sole determinant of which school children attend is their residential address, it can produce a spiral of unequal schooling conditions that are difficult to remedy. \n\nOne solution is the creation of specializations in schools and attendance rules that permit children to matriculate across a range of schools. Through this technique, the close relationship between housing price and school resources can somewhat loosen, the resources of wealthier families can flow to a wider array of schools, and children from less-wealthy households can gain the advantages of a more economically diverse school environment and increased choice for where their children attend school. \n\nCivic Technology tools are playing a key role in improving the availability of information about schooling options to parents and increasing their interest in schools beyond their closest option. Eric examines the development process and effects of several “school chooser” tools currently implemented in the US and European cities of Vilnius, Boston, and Oakland.\n"
+        }
+      },
+      {
+        "time": "11:00-12:30",
+        "expandable": false,
+        "event": {
+          "venue": "201B",
+          "speaker": "<b>Venkatesh Kannaiah</b>,Janaagraha (India)",
+          "title": "Civic Tech in India and why digital citizen engagement matters",
+          "abstract": "Janaagraha are implementers of IPaidABribe.com, a unique corruption-reporting platform and IChangeMyCity.com, India's largest Civic Tech platform, with more than a million users. \n\nVenkatesh presents the organisation’s work in building communities, helping citizens interact with the government, and seeing civic grievances resolved both through public advocacy and connecting their network with that of the government. \n\nLearn how IChangeMyCity has resolved tens of thousands of complaints, and how IPaidABribe has brought about a culture of corruption reporting even within the traditional society found in India."
+        }
+      },
+      {
+        "title": "Morning Section ",
         "venue": "201C",
         "expandable": false,
         "event": ""
       },
       {
+        "time": "09:30-10:00",
+        "event": "Civic Tech for following the money"
+      },
+      {
         "time": "09:30-10:30",
         "expandable": false,
         "event": {
           "venue": "201C",
-          "speaker": "Impacts of Budeshi.ng on Nigerian public procurement: Ifeoma Onyebuchi Judith, Public and Private Development Center (PPDC) (Nigeria)\nThe Impacts of Open Contracting Reforms in Ukraine and Slovakia: Gavin Hayman, Open Contracting Partnership (USA) \nSerenata de Amor: Tracking Congress People's expense claims in Brazil, Ana Schwendler and Jessica Temporal, Data Science Brigade (Brazil)",
-          "title": "Civic Tech for following the money"
+          "speaker": "<b>Ifeoma Judith Onyebuchi</b>, Public and Private Development Center (PPDC) (Nigeria)",
+          "title": "Impacts of Budeshi.ng on Nigerian public procurement",
+          "abstract": "As citizens, we should have the right to monitor public contracts, but linking budget and procurement data to services using an open system is a significant challenge. Thus far, the difficulties inherent in tracking this complex area have made it impossible for even the keenest members of society to participate fully at every stage in the procurement cycle. \n\nPPDC, through years of experience around procurement governance, successfully advocated for the adoption of the Open Contracting Data Standards by the Nigerian Government in 2016. Using a dedicated platform known as Budeshi it was possible to demonstrate to public institutions the benefits of using unique identifiers to link budget and procurement data to public services. \n\nThe adoption resulted in an influx of requests and commitment from public institutions. One immediate result may be a reduction in the administrative burden of responding to Freedom of Information requests, as procurement information would be proactively published in a coherent way. \n\nThe process of piloting these standards holds several lessons, challenges and opportunities that showcase how Civic Technology can transform interactions between government and citizens; and how that can impact public service delivery. "
+        }
+      },
+      {
+        "time": "09:30-10:30",
+        "expandable": false,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Gavin Hayman</b>, Open Contracting Partnership (USA)",
+          "title": "The Impacts of open contracting reforms in Ukraine and Slovakia",
+          "abstract": "Open contracting brings together civic technologists and stakeholders through disclosure, data, and engagement to ensure that government contracting is conducted fairly and effectively. This is crucially important in Asia, and around the globe, as government contracting is worth trillions of dollars each year. \n\nOpen Contracting Partnership presents hard evidence of the impact of open contracting reforms from Ukraine, Slovakia and beyond, with plans to extend to Asia, especially Nepal, and Taiwan. What do they measure, how and why? What lessons have been learned — and what mistakes were made along the way? \n\nDrawing on remarkable results in Ukraine, Gavin suggests that this is the beginning of a monitoring, evaluation and learning  revolution for Civic Technology and open government.\n "
+        }
+      },
+      {
+        "time": "09:30-10:30",
+        "expandable": false,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Ana Schwendler and Jessica Temporal</b>, Data Science Brigade (Brazil)",
+          "title": "Serenata de Amor: Tracking Congress People's expense claims in Brazil",
+          "abstract": "Thanks to the introduction of the law on access to public information, the Brazilian government has made many databases available. One of these provides almost a decade’s worth of information on Lower House representatives’ expense reimbursements. \n\nThe data includes images of receipts, the value of reimbursements, and more. Drawing on this detailed data and the laws around expenses, the Serenata de Amor Operation team built an artificial intelligence capable of analyzing each expense and rating it for the probability of having broken the law. \n\nTo date the program has found more than 8,000 suspicious returns, using a set of six simple hypotheses coded into classifiers. Serenata de Amor Operation ended up as the most popular crowdfunded technology project on Brazil and has already reported 219 representatives for unlawful expenses, questioned 378,000 BRL worth of reimbursements, and seen financial resources returned to the public purse. \n\nAna and Jessica share how they were able to collect, wrangle and analyze this Open Data in a country that is conversely highly corrupt and highly transparent. In the process they created a community of more than 500 people with a diverse background, all interested in using technology to fight corruption and improving civic control."
         }
       },
       {
@@ -200,11 +260,46 @@
       },
       {
         "time": "11:00-12:30",
+        "event": "Technology for civic participation/engagement"
+      },
+      {
+        "time": "11:00-12:30",
         "expandable": false,
         "event": {
           "venue": "201C",
-          "speaker": "Findings of the Taiwan Open Government Report: Po-yu Tseng, Mg Lee, Open Culture Foundation (Taiwan)\nKeyboard Participation: An analysis of g0v for Collaborative Participation by the Open Source Community: Cheng, Ting-Yu, National Taiwan University (Taiwan) \nThe impacts of PopVote in Hong Kong: Virgile Deville, Democracy Earth (France) \nDigital skills training for better citizen participation in France: Orianne Ledroit, The French Digital Agency (France) ",
-          "title": "Technology for civic participation/engagement"
+          "speaker": "<b>Po-yu Tseng and Mg Lee</b>,Open Culture Foundation (Taiwan) ",
+          "title": "Findings of the Taiwan Open Government Report ",
+          "abstract": "Compared to countries in the West, Taiwan’s democratic system is relatively young — and accordingly, Open Government represents an opportunity as well as a challenge. \n\nThe government has implemented several policies to this end, releasing Open Data, and even appointing famous hacker Audrey Tang as first minister in charge of Open Government. However, Open Culture Foundation finds that there are significant structural issues at stake which, if left unfixed, will leave the concept of Open Government as little more than a beautiful slogan for Taiwan. \n\nA recent report found many issues requiring attention: its concerns include the finding that opinions gathered via civic participation are having little effect on policy decisions; and an inflexible and corrupt procurement process impedes innovative collaboration between the government and tech communities. \n\nPo Yun and Mg share key points from this research, and invite experts from both fields to join the debate. What are the achievements and failures in Taiwan’s move to Open Government, and how can the forthcoming challenges best be faced?"
+        }
+      },
+      {
+        "time": "11:00-12:30",
+        "expandable": false,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Ting-Yu Cheng</b>,National Taiwan University (Taiwan) ",
+          "title": "Keyboard participation: an analysis of 'g0v' for collaborative participation by the Open Source Community",
+          "abstract": "The new, digital native generation turns naturally to technology to participate in society. “Keyboard participation” can take various forms, from virtual conversations to real-life civic engagement. \n\nEstablished in 2012, g0v is a distributed, civic hacker community in Taiwan. Its members collaborate to translate the once dull, obscure, and scattered materials held by the authorities into easily accessible and visual information, bridging the information gap between the government and citizens — or more, enlightening and empowering citizens to oversee the government. \n\nTing-Yu’s study observes how the Open Source culture propagated by g0v has lowered the threshold for citizens to participate in public affairs, particularly noting that when the organisation’s technology collaborates with civil society, the  cross-border exchange creates a brand new culture of citizen participation."
+        }
+      },
+      {
+        "time": "11:00-12:30",
+        "expandable": false,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Virgile Deville </b>,Democracy Earth (France)",
+          "title": "The impacts of PopVote in Hong Kong",
+          "abstract": "Hong Kong’s \"small circle\" election system means that only 1,200 people had a vote for the Chief Executive of the city, from a population of 3.77 million.\n\nProf. Benny Tai, leader of the Umbrella Movement, working with more than 20 civic communities in Hong Kong, led a campaign against this lack of inclusion, and commissioned the building of the PopVote application.\n\nSeeing that the referendum provided an extraordinary opportunity for a large scale experiment, Democracy Earth were happy to collaborate to see how blockchain technologies such as Bitcoin or the IPFS network could best be leveraged to make the election process secure from cyber attacks. \n\nPopvote aimed to collect a million citizens’ votes for the Chief Executive election, but it looked to future reuse, too. On a low budget, it was built as Open Source software that could also cater for future referendums. Crucially, based on previous experiences, it also had to be able to withstand cyber attacks.\n\nVirgile shares the project’s outcomes, some encouraging; others disappointing. He also spells out how such collaborations are becoming more and more relevant to civil society, especially in a world of cyber attacks, data leaks and electoral fraud."
+        }
+      },
+      {
+        "time": "11:00-12:30",
+        "expandable": false,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Orianne Ledroit</b>,The French Digital Agency (France)",
+          "title": "Digital skills training for better citizen participation in France",
+          "abstract": "The Digital Society mission is part of the French Digital Agency, a governmental agency overseen by the Ministry for the Economy. It aims to provide citizens with the ability to seize the numerous opportunities brought forth by the digital revolution. \n\nIn France, Civic Technologies are becoming more and more widespread, with a thriving Open Source community supporting the efforts. But it is important that they reach people who have previously been excluded from the democratic process  — and often, the same people are struggling economically as are lacking digital skills. \n\nTaking stock of the many diverse types of training centre across France, the Digital Society created a voucher that local and national authorities could provide to citizens needing help woth digital democracy or the digitalization of administrative procedures. \n\nOriane presents the results of a five-month experiment, conducted in three French local districts: local tax departments issued vouchers to citizens who did not know how to file their tax returns online. These could be exchanged for basic digital skills training at public internet points. Discover the key findings and learn which parts of the initiative could be implemented in other regions looking to boost digital engagement."
         }
       },
       {
