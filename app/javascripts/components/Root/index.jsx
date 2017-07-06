@@ -31,6 +31,7 @@ class Root extends Component {
         <AppBar />
         <MainSection>
           {this.props.children}
+		  <SponsorsSummary />
           <Footer />
         </MainSection>
       </section>
