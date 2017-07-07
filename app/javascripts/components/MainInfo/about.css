@@ -36,7 +36,7 @@
 
 
 .content {
-	padding: 1.5em 3em;
+	padding: 1.5em 1em;
 	background: rgba(255, 255, 255, 0.8);
 	border-radius: 16px;
 }
@@ -85,5 +85,8 @@
 	.content p {
 		word-wrap: break-word;
 		text-align: justify;
+	}
+	.content {
+		padding: 1.5em 3em;
 	}
 }

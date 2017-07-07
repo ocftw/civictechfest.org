@@ -255,9 +255,9 @@ article {
 }
 
 .eventimg img[data-type="logo"] {
-	width: auto;
-	height: 100%;
-	margin: 30px auto;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
 }
 
 .eventimg img[data-type="pic"] {
@@ -512,7 +512,7 @@ article {
 .sideevents {
 	flex-direction: column;
 	width: 100%;
-	padding-top: 60%;
+	padding-top: 1em;
 	margin-bottom: 5em;
 	display: inline-block;
 }
@@ -524,7 +524,7 @@ article {
 
 .overhidden {
 	width: 100%;
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	height: 100%;
@@ -533,7 +533,7 @@ article {
 }
 
 .sideevents .eventimg, .sideevents .eventcontent {
-	position: absolute;
+	position: relative;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -546,6 +546,7 @@ article {
 	background: transparent;
 	border-radius: 16px;
 	text-align: center;
+	padding: 0 1em;
 }
 
 .sideevents .eventcontent {
@@ -555,7 +556,7 @@ article {
 	transition: all 0.5s ease;
 	padding-top: 0;
 	height: calc(40% - 30px);
-	display: none;
+	display: inline-block;
 } 
 
 /*.sideevents .eventcontent:hover, .sideevents .eventcontent:focus, .sideevents .eventcontent[data-open="true"] {
@@ -606,18 +607,17 @@ article[data-wide="true"] {
 	text-align: center;
 	background: #fff;
 	display: block;
-	width: 80%;
-	padding-top: 100%;
+	width: 100%;
+	padding-top: 1em;
 	margin: 3em auto;
 }
 .speakers .inner {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
 	padding: 20px;
-
 }
 .speakers .avatar {
 	width: 60%;
@@ -720,7 +720,6 @@ article[data-wide="true"] {
 @media screen and (min-width: 480px) {
 	.speakers {
 		width: 100%;
-		padding-top: 90%;
 	}
 	.mainevent .eventcontent p, .sideevent .eventcontent p {
 		word-wrap: break-word;
@@ -737,6 +736,14 @@ article[data-wide="true"] {
 	}
 	.eventcontent p:before {
 		content: "";
+	}
+	.speakers .avatar {
+		width: 50%;
+		padding-top: 50%;
+	}
+	.eventimg img[data-type="logo"] {
+		width: auto;
+		height: 100%;
 	}
 }
 
@@ -773,6 +780,9 @@ article[data-wide="true"] {
 		width: 47%;
 		padding-top: 55%;
 		margin: 3em 1.5%;
+	}
+	.speakers .inner {
+		position: absolute;
 	}
 	.banner {
 		height: auto;
@@ -814,6 +824,10 @@ article[data-wide="true"] {
 	.sideevents .eventimg {
 		height: 60%; 
 	}
+	.speakers .avatar {
+		width: 60%;
+		padding-top: 60%;
+	}
 
 }
 
@@ -837,7 +851,6 @@ article[data-wide="true"] {
 	.mainevent .eventimg img[data-type="logo"] {
 		width: 100%;
 		height: auto;
-		margin: 0 auto;
 	}
 	.sideevents {
 		width: 48%;
@@ -847,11 +860,19 @@ article[data-wide="true"] {
 	.sideevents:nth-child(2n) {
 		margin-left: 4%;
 	}
+	.overhidden {
+		position: absolute;
+	}
+
+	.sideevents .eventimg, .sideevents .eventcontent {
+		position: absolute;
+	}
 	.speakers {
 		width: 30%;
 		padding-top: 40%;
 		margin: 3em 1.5%;
 	}
+
 }
 
 @media screen and (min-width: 1200px) {
