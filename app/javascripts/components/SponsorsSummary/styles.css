@@ -2,13 +2,15 @@
   background-color: #E3E3E3;
   text-align: center;
   padding-bottom: 30px;
-  padding-top: 2.5em;
+  padding-top: 1em;
 }
 
 .header {
   text-align: center;
   padding-top: 20px;
   color: #B0B0B0;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
 
 .section {
