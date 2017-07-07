@@ -25,7 +25,7 @@ class Venue extends Component {
                     <section className={styles.about}>
                       <div className={styles.title}>
                         <h3>TICTeC@Taipei</h3>
-                        <span className={styles.note}>( alongside with WCIT 2017 )</span>
+                        <span className={styles.note}>( alongside WCIT 2017 )</span>
                         <h4>Sep. 11th-13th</h4>
                       </div>
                       <div className={styles.content}>
@@ -44,7 +44,7 @@ class Venue extends Component {
                             <div className={styles.desc}>
                               <dl>
                                 <dt>MRT</dt>
-                                <dd>The closest metro is “Taipei 101/World Trade Center” station (red line of Metro Taipei) Exit 1.</dd> 
+                                <dd>The closest metro is &quot;Taipei 101/World Trade Center&quot; station (red line of Metro Taipei) Exit 1.</dd> 
                               </dl>
                             </div>
                             <div className={styles.map}>
