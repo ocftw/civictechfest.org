@@ -3,7 +3,9 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Heiti TC", "Apple LiGothic Medium", "微軟正黑體", sans-serif;
   font-weight: 400;
