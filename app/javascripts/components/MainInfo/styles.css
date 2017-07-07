@@ -809,6 +809,7 @@ article[data-wide="true"] {
 	}
 	.sideevents .eventcontent {
 		display: inline-block;
+
 	} 
 	.sideevents .eventimg {
 		height: 60%; 
@@ -831,6 +832,7 @@ article[data-wide="true"] {
 	}
 	.mainevent .eventcontent {
 		display: inline-block;
+		padding: 1.5em 3em 2em 0;
 	}
 	.mainevent .eventimg img[data-type="logo"] {
 		width: 100%;
@@ -839,7 +841,7 @@ article[data-wide="true"] {
 	}
 	.sideevents {
 		width: 48%;
-		padding-top: 40%;
+		padding-top: 45%;
 	}
 
 	.sideevents:nth-child(2n) {
