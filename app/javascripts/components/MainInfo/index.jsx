@@ -110,14 +110,14 @@ export default class MainInfo extends Component {
 		</div>
 		<article className={styles.relative} data-wide="true">
 		  <div className={styles.brief}>
-		    <p>Asia’s First Ever Civic Technology Festival with a week-long Collection of Events.</p>
+		    <p>Asia&#39;s First Ever Civic Technology Festival with a week-long Collection of Events</p>
 		  </div>
 		  <div className={styles.dateline}>
 		  	<ul>
 		  		<li className={styles.month}><span>Sep.</span><p>Events</p></li>
 		  		<li><a><span>9</span><span>10</span><p></p></a></li>
 		  		<li><a><span>11</span><p>Civic Tech Grant DEMO Party</p></a></li>
-		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside with WCIT)</h6></a></li>
+		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside WCIT)</h6></a></li>
 		  	</ul>
 		  	<ul>
 		  		<li><a><span>14</span><p>AODP meeting<br /><br />Code for ALL</p></a></li>
@@ -134,8 +134,8 @@ export default class MainInfo extends Component {
 				</div>
 				<div className={styles.eventcontent}>
 					<h3>TICTeC @ Taipei</h3>
-					<p>The main highlight for the Civic Tech Fest is “TICTeC@Taipei: The Impacts of Civic Technology Conference”, co-organized by UK group “mySociety”. TICTeC is an annual international conference that focuses on the impact of civic tech since 2015 and will be hold in Asia in the first time. TICTeC@Taipei is a great opportunity to connect global network in the Asia base. </p>
-					<a className={styles.eventbtn} href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank"><span>Get Ticket !</span></a>
+					<p>Civic Tech Fest&#39;s main event is &quot;TICTeC@Taipei: The Impacts of Civic Technology Conference&quot;, co-organized by UK group &quot;mySociety&quot;. Started in 2015, TICTeC is the civic tech sector&#39;s annual research conference that focuses on the impacts of civic technology projects. This is the first time the conference has been held in Asia, making it a great opportunity to connect global civic tech actors from across the world.</p>
+					<a className={styles.eventbtn} href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank"><span>Register Now/span></a>
 				</div>
 				<div className={styles.eventdate}>						
 					<div>
@@ -147,7 +147,7 @@ export default class MainInfo extends Component {
 					<span><i data-color="1">place</i>TICC</span>
 				</div>
 				<div className={styles.tab}>
-					<span className={styles.tabblue}>alongside with WCIT</span>
+					<span className={styles.tabblue}>alongside WCIT</span>
 					<br />
 					<span>Ticket</span>
 				</div>
@@ -158,7 +158,7 @@ export default class MainInfo extends Component {
 					<a href="http://www.wcit2017.org/" target="_blank"><i className={about.icon}>home</i>www.wcit2017.org</a>
 				</div>
 				<div className={about.content}>
-					<p>The 21st World Congress on Information Technology (WCIT 2017) is the parallel event of #CivicTechFest. It is held in the same time and at same location as TICTeC@Taipei and will be a really unique opportunity to showcase open government and civic tech initiatives to the wider IT industry.</p>
+					<p>The 21st World Congress on Information Technology (WCIT 2017) is the parallel event of #CivicTechFest. It will be held at the same time and at the same location as TICTeC@Taipei and will be a really unique opportunity to showcase open government and civic tech initiatives to the wider IT industry.</p>
 				</div>
 			</div>
 		</article>
