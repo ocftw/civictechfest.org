@@ -2,16 +2,16 @@
   min-height: 400px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 103px;
+  padding-bottom: 30px;
   lost-utility: clearfix;
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
   .root {
-  background: rgba(255, 255, 255, 0.8);
-  position: relative;
-  width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 100%;
   }
 }
 
@@ -97,7 +97,6 @@
   background: #fff;
   border-radius: 16px;
   overflow: hidden;
-  padding-top: 10px;
 }
 
 .logo img {
@@ -146,17 +145,19 @@
 }
 .topsection .content {
   justify-content: center;
+  padding-top: 0;
 }
 
 .topsection .logo {
   max-width: 420px;
-  min-width: 300px;
+  min-width: 250px;
   flex: 1;
 }
 
 .topsection .desc {
   padding: 0 2em;
   max-width: 720px;
+  margin: 0 auto;
 }
 
 .icon {
@@ -187,8 +188,29 @@
   font-feature-settings: 'liga';
 }
 
+@media screen and (max-width: 480px) {
+  .root {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .content {
+    padding: 0 1em;
+  }
+  .content .desc {
+    word-wrap: normal;
+    text-align: left;
+    padding: 0;
+  }
+  .title {
+    padding: 1em;
+  }
+}
 
 @media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 992px) {
   .content {
   display: block;
   }
@@ -196,11 +218,15 @@
     margin: 15px auto;
     display: block;
   }
-  
   .content .desc {
     display: block;
   }
-
+  .section {
+    max-width: 720px;
+  }
+  .topsection .desc {
+    padding: 0;
+  }
 }
 
 
