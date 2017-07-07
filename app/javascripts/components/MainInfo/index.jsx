@@ -134,7 +134,7 @@ export default class MainInfo extends Component {
 				</div>
 				<div className={styles.eventcontent}>
 					<h3>TICTeC @ Taipei</h3>
-					<p>The main highlight for the Civic Tech Fest is &quot;TICTeC@Taipei: The Impacts of Civic Technology Conference&quot;, co-organized by UK group &quot;mySociety&quot;. TICTeC is an annual international conference that focuses on the impact of civic tech since 2015 and will be hold in Asia in the first time. TICTeC@Taipei is a great opportunity to connect global network in the Asia base. </p>
+					<p>Civic Tech Fest&#39;s main event is &quot;TICTeC@Taipei: The Impacts of Civic Technology Conference&quot;, co-organized by UK group &quot;mySociety&quot;. Started in 2015, TICTeC is the civic tech sector&#39;s annual research conference that focuses on the impacts of civic technology projects. This is the first time the conference has been held in Asia, making it a great opportunity to connect global civic tech actors from across the world.</p>
 					<a className={styles.eventbtn} href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank"><span>Get Ticket !</span></a>
 				</div>
 				<div className={styles.eventdate}>						
