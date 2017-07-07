@@ -110,7 +110,7 @@ export default class MainInfo extends Component {
 		</div>
 		<article className={styles.relative} data-wide="true">
 		  <div className={styles.brief}>
-		    <p>Asia’s First Ever Civic Technology Festival with a week-long Collection of Events.</p>
+		    <p>Asia&#39;s First Ever Civic Technology Festival with a week-long Collection of Events</p>
 		  </div>
 		  <div className={styles.dateline}>
 		  	<ul>
