@@ -8,7 +8,7 @@ class Ticket extends Component {
     return (
       <div className={styles.root}>
         <section className={styles.section}>
-                  <h2 className={styles.header}>Ticket</h2>
+                  <h2 className={styles.header}>Tickets</h2>
                   <div className={styles.orange_dateline}>
                     <span className={styles.grey}>9</span>
                     <span className={styles.grey}>10</span>
