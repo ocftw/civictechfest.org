@@ -117,7 +117,7 @@ export default class MainInfo extends Component {
 		  		<li className={styles.month}><span>Sep.</span><p>Events</p></li>
 		  		<li><a><span>9</span><span>10</span><p></p></a></li>
 		  		<li><a><span>11</span><p>Civic Tech Grant DEMO Party</p></a></li>
-		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside with WCIT)</h6></a></li>
+		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside WCIT)</h6></a></li>
 		  	</ul>
 		  	<ul>
 		  		<li><a><span>14</span><p>AODP meeting<br /><br />Code for ALL</p></a></li>
@@ -134,7 +134,7 @@ export default class MainInfo extends Component {
 				</div>
 				<div className={styles.eventcontent}>
 					<h3>TICTeC @ Taipei</h3>
-					<p>The main highlight for the Civic Tech Fest is “TICTeC@Taipei: The Impacts of Civic Technology Conference”, co-organized by UK group “mySociety”. TICTeC is an annual international conference that focuses on the impact of civic tech since 2015 and will be hold in Asia in the first time. TICTeC@Taipei is a great opportunity to connect global network in the Asia base. </p>
+					<p>The main highlight for the Civic Tech Fest is &quot;TICTeC@Taipei: The Impacts of Civic Technology Conference&quot;, co-organized by UK group &quot;mySociety&quot;. TICTeC is an annual international conference that focuses on the impact of civic tech since 2015 and will be hold in Asia in the first time. TICTeC@Taipei is a great opportunity to connect global network in the Asia base. </p>
 					<a className={styles.eventbtn} href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank"><span>Get Ticket !</span></a>
 				</div>
 				<div className={styles.eventdate}>						
@@ -147,7 +147,7 @@ export default class MainInfo extends Component {
 					<span><i data-color="1">place</i>TICC</span>
 				</div>
 				<div className={styles.tab}>
-					<span className={styles.tabblue}>alongside with WCIT</span>
+					<span className={styles.tabblue}>alongside WCIT</span>
 					<br />
 					<span>Ticket</span>
 				</div>
