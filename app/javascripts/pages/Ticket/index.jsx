@@ -31,7 +31,7 @@ class Ticket extends Component {
                           <div className={styles.desc}>
                             <ICON icon="ticket" icontype="custom"/>
                             <p>Ticket is required to enter the TICTeC@Taipei.</p>
-                            <a href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank" className={styles.eventbtn}><span>Get Ticket !</span></a>
+                            <a href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank" className={styles.eventbtn}><span>Register Now</span></a>
                           </div>
                           <div className={styles.logo}>
                             <img src={require(`file!images/sponsors/tictec.jpg`)} />
