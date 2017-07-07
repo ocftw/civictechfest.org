@@ -52,16 +52,16 @@ export default class SponsorsList extends Component {
                 </div>
                 <div className={styles.desc}>
                   <p className={styles.brief}>
-                     Asia’s first ever civic technology festival with  a week-long collection of events. 
+                     Asia&#39;s first ever civic technology festival with a week-long collection of events.
                   </p>
                   <p>
-                    “Civic Tech Fest” is Asia’s first ever civic technology festival and conference, featuring a series of forums, workshops, roundtables, conferences and hackathons related to open data and open government. 
+                    &quot;Civic Tech Fest&quot; is Asia&#39;s first ever civic technology festival and conference, featuring a series of forums, workshops, round tables, conferences and hackathons related to open data and open government.
                   </p>
                   <p>
-                    #CivicTechFest is a week-long collection of events coordinated by the Open Culture Foundation alongside the WCIT in September 2017. The main highlight for the Civic Tech Fest is “TICTeC@Taipei: The Impacts of Civic Technology Conference”, co-organized by mySociety. 
+                    #CivicTechFest is a week-long collection of events coordinated by the Open Culture Foundation alongside the WCIT in September 2017. Civic Tech Fest&#39;s main highlight is &quot;TICTeC@Taipei: The Impacts of Civic Technology Conference&quot;, co-organized by mySociety.
                   </p>
                   <p>
-                    We invite regional and international groups to create events and activities over the span of the week. In addition to TICTeC@Taipei, featured events include data bootcamp for NGOs, presentation sessions on open government research, and g0v.tw hackathon. We hope through the course of our discussion, we can lay the groundwork for a global civic tech network, foster more collaborate in global civic tech movement.
+                    We invite regional and international groups to create events and activities over the span of the week. In addition to TICTeC@Taipei, featured events include a data bootcamp for NGOs, presentation sessions on open government research, and the g0v.tw hackathon. We hope through the course of our discussions, we can lay the groundwork for a global civic tech network, and foster more collaboration in the global civic tech movement. 
                   </p>
                 </div>
               </div>
@@ -85,11 +85,11 @@ export default class SponsorsList extends Component {
                 <div className={styles.desc}>
                   <p className={styles.brief}>
                     
-                     TICTeC@Taipei is Asia’s first TICTeC and is the major event of #CivicTechFest.
+                     TICTeC@Taipei is Asia&#39;s first TICTeC and is the major event of #CivicTechFest.
                     
                   </p>
                   <p>
-                    TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group “mySociety”. This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts.</p> 
+                    TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group &quot;mySociety&quot;. This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts.</p> 
                   <p>Over the course of the conference, TICTeC looks to provide in-depth analysis regarding online participation tools, digital democracy tools, as well as their influence and popularity. Their findings act as important reference points for future development of the field. In comparison to other tech focused conferences, TICTeC has a more research and academic focus, and emphasizes the connection between online/offline tech with society.</p>
                   <p>As technology develops faster each day, and as society and politics develop comparatively slower, TICTeC is a way for civic tech advocates and critics to build a bridge for open government, democratic deepening, and civic participation to march forward. We hope through TICTeC@Taipei, we can build a global network of civic tech enthusiasts and have in-depth link to Taiwan & Asia communities. 
 
