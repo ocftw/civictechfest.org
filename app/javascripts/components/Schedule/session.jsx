@@ -113,7 +113,7 @@ export default React.createClass({
     });
 
     // Use the same flows of speakers, speakers_bio and speakers_profile variables
-    const moderator = data.moderator ? data.moderator : [];
+    const moderator = data.moderator ? [data.moderator] : [];
     const moderator_bio = [];
     const moderator_profile = moderator.map( moderator => by_name[moderator] ).map( moderator  => {
       const bio_text = ((moderator && getString(moderator, 'bio', locale)) || data.bio || '').replace(/\n/g, '<br/>');
