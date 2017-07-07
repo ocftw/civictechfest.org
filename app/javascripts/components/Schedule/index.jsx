@@ -129,7 +129,6 @@ function mapTimeSlotToItems(day, value, i) {
                   <h5>{value.event.panel}</h5>
                   <h4>{value.event.title}</h4>
                   <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
-                  <div className="Schedule-presenter">{multiParagraph(value.event.speaker)}</div>
                   {
                     value.event.moderator ? (
                       <div>
