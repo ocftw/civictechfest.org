@@ -23,7 +23,7 @@ class Ticket extends Component {
                     <section className={styles.about}>
                       <div className={styles.title}>
                         <h3>TICTeC@Taipei</h3>
-                        <span className={styles.note}>( alongside with WCIT 2017 )</span>
+                        <span className={styles.note}>( alongside WCIT 2017 )</span>
                         <h4>Sep. 11th-13th</h4>
                       </div>
                       <div className={styles.content}>
@@ -50,8 +50,8 @@ class Ticket extends Component {
                           <h4>Note</h4>
                           <hr />
                           <ul className={styles.notice}>
-                            <li>TICTeC@Taipei will use the same “Badge” and “Venue” with WCIT 2017.</li>
-                            <li>The “Badge” can be acquired in the WCIT registration desk.</li>
+                            <li>TICTeC@Taipei will use the same &quot;Badge&quot; and &quot;Venue&quot; with WCIT 2017.</li>
+                            <li>The &quot;Badge&quot; can be acquired in the WCIT registration desk.</li>
                           </ul>
                         </div>
                       </div>
