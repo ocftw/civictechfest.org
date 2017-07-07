@@ -115,6 +115,8 @@ export default class MainInfo extends Component {
 		  <div className={styles.dateline}>
 		  	<ul>
 		  		<li className={styles.month}><span>Sep.</span><p>Events</p></li>
+		  	</ul>
+		  	<ul>
 		  		<li><a><span>9</span><span>10</span><p></p></a></li>
 		  		<li><a><span>11</span><p>Civic Tech Grant DEMO Party</p></a></li>
 		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside WCIT)</h6></a></li>

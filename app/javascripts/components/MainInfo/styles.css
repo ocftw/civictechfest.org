@@ -111,7 +111,7 @@ article {
 	font-size: 1em;
 	position: relative;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: top;
 	width: 100%;
 	padding: 0;
@@ -145,9 +145,9 @@ article {
 	width: 2em;
 	height: 2em;
 	color: #29A8DF;
-	line-height: 1.7em;
+	line-height: 1.8em;
 	background: #fff;
-	margin: 0 10px;
+	margin: 0 3px;
 	text-align: center;
 }
 
@@ -168,10 +168,6 @@ article {
 .blue_dateline, .orange_dateline {
 	margin: -20px -20px 80px -20px;
 	text-align: center;
-}
-
-.blue_dateline span, .orange_dateline span {
-	margin: 0 3px;
 }
 
 .blue_dateline span.grey, .orange_dateline span.grey {
@@ -265,8 +261,10 @@ article {
 	height: 200%;
 	top: 0;
 }
-.mainevent .eventimg img[data-type="logo"] {
-	margin: 0 auto;
+
+.eventimg {
+	padding: 0 2em;
+	margin: 2em auto 0 auto;
 }
 
 .eventcontent {
@@ -470,13 +468,12 @@ article {
 	flex: initial;
 	width: 100%;
 	min-width: 150px;
-	height: 300px;
+	height: auto;
 	background: #fff;
 	border-radius: 16px;
 	overflow: hidden;
 	padding: 40px 20px 0 20px;
 	text-align: center;
-
 }
 
 .mainevent .eventcontent {
@@ -536,7 +533,6 @@ article {
 	position: relative;
 	left: 0;
 	right: 0;
-	margin: auto;
 }
 
 .sideevents .eventimg {
@@ -546,13 +542,12 @@ article {
 	background: transparent;
 	border-radius: 16px;
 	text-align: center;
-	padding: 0 1em;
 }
 
 .sideevents .eventcontent {
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
-	top: calc(60% + 30px);
+	top: 60%;
 	transition: all 0.5s ease;
 	padding-top: 0;
 	height: calc(40% - 30px);
@@ -737,6 +732,10 @@ article[data-wide="true"] {
 	.eventcontent p:before {
 		content: "";
 	}
+	.speakers {
+		width: 80%;
+		max-width: 400px;
+	}
 	.speakers .avatar {
 		width: 50%;
 		padding-top: 50%;
@@ -744,6 +743,12 @@ article[data-wide="true"] {
 	.eventimg img[data-type="logo"] {
 		width: auto;
 		height: 100%;
+	}
+	.mainevent .eventimg {
+		height: 300px;
+	}
+	.eventimg {
+		margin: 0 auto;
 	}
 }
 
@@ -768,6 +773,7 @@ article[data-wide="true"] {
 	}
 	.dateline li span, .eventdate span, .blue_dateline span, .orange_dateline span {
 		border: 3px solid;
+		line-height: 1.7em;
 	}
 	.blue_dateline span {
 	    border-color: #29A8DF;
