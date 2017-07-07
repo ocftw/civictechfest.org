@@ -45,16 +45,16 @@ svg[data-icon="custom"] {
   min-height: 400px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 103px;
+  padding-bottom: 30px;
   lost-utility: clearfix;
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
   .root {
-  background: rgba(255, 255, 255, 0.8);
-  position: relative;
-  width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 100%;
   }
 }
 
@@ -74,22 +74,21 @@ svg[data-icon="custom"] {
 /* date line dot */
 
 .orange_dateline,.blue_dateline {
-  margin: -10px auto 60px auto;
+  margin: -10px -20px 30px -20px;
   text-align: center;
 }
 
 .orange_dateline span, .blue_dateline span {
-  border: 4px solid #29A8DF;
+  border: 3px solid #29A8DF;
   border-radius: 50%;
   display: inline-block;
   width: 2em;
   height: 2em;
   color: #29A8DF;
-  line-height: 1.5em;
+  line-height: 1.7em;
   background: #fff;
-  margin: 0 10px;
   text-align: center;
-  margin: 0 5px;
+  margin: 0 3px;
 }
 
 .orange_dateline span {
@@ -182,8 +181,13 @@ svg[data-icon="custom"] {
   margin: 1em 30px; 
   text-align: center;
   position: relative;
+  transition: all 0.4s linear;
+  max-width: 500px;
 }
-
+.eventbtn:hover {
+  background: #F19E44;
+  color: #fff;
+}
 
 .note {
   color: #999;
@@ -314,7 +318,18 @@ svg[data-icon="custom"] {
   max-width: 720px;
 }
 
-
+@media screen and (max-width: 480px) {
+  .root {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .content {
+    padding: 1.5em 1em;
+  }
+  .eventbtn {
+    margin: 1em 0;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .flex {
@@ -328,6 +343,10 @@ svg[data-icon="custom"] {
   
   .flex .desc {
     display: block;
+  }
+  .content .desc {
+    word-wrap: normal;
+    text-align: left;
   }
 
 }
