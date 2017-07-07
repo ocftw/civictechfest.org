@@ -58,7 +58,7 @@ export default class SponsorsList extends Component {
                     &quot;Civic Tech Fest&quot; is Asia&#39;s first ever civic technology festival and conference, featuring a series of forums, workshops, round tables, conferences and hackathons related to open data and open government.
                   </p>
                   <p>
-                    #CivicTechFest is a week-long collection of events coordinated by the Open Culture Foundation alongside the WCIT in September 2017. Civic Tech Fest&#39;s main highlight is &quot;TICTeC@Taipei: The Impacts of Civic Technology Conference&quot;, co-organized by mySociety.
+                    #CivicTechFest is a week-long collection of events coordinated by the Open Culture Foundation alongside the WCIT in September 2017. Civic Tech Fest&#39;s main event is &quot;TICTeC@Taipei: The Impacts of Civic Technology Conference&quot;, co-organized by UK group &quot;mySociety&quot;.
                   </p>
                   <p>
                     We invite regional and international groups to create events and activities over the span of the week. In addition to TICTeC@Taipei, featured events include a data bootcamp for NGOs, presentation sessions on open government research, and the g0v.tw hackathon. We hope through the course of our discussions, we can lay the groundwork for a global civic tech network, and foster more collaboration in the global civic tech movement. 
