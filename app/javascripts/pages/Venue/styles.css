@@ -36,13 +36,6 @@
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
-  .root {
-  background: rgba(255, 255, 255, 0.8);
-  position: relative;
-  width: 100%;
-  }
-}
 
 .header {
   text-align: center;
@@ -60,22 +53,21 @@
 /* date line dot */
 
 .orange_dateline,.blue_dateline {
-  margin: -10px auto 60px auto;
+  margin: -10px -20px 30px -20px;
   text-align: center;
 }
 
 .orange_dateline span, .blue_dateline span {
-  border: 4px solid #29A8DF;
+  border: 3px solid #29A8DF;
   border-radius: 50%;
   display: inline-block;
   width: 2em;
   height: 2em;
   color: #29A8DF;
-  line-height: 1.5em;
+  line-height: 1.7em;
   background: #fff;
-  margin: 0 10px;
+  margin: 0 3px;
   text-align: center;
-  margin: 0 5px;
 }
 
 .orange_dateline span {
@@ -195,6 +187,7 @@
 }
 .howtogo dl dd {
   margin-bottom: 1em;
+  margin-left: 3em;
 }
 
 .howtogo dl dt::before{
@@ -202,6 +195,9 @@
 }
 .howtogo dl dd::before{
   content: "keyboard_arrow_right";
+  position: absolute;
+  top: 2.3em;
+  left: 1.8em;
 }
 
 
@@ -217,7 +213,6 @@
   -webkit-flex: 1;
   flex: 1;
   max-width: 50%;
-  min-width: 300px;
   height: auto;
   background: #fff;
   overflow: hidden;
@@ -293,11 +288,25 @@
   max-width: 720px;
 }
 
+@media screen and (max-width: 480px) {
+  .root {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .content {
+    padding: 1.5em 1em;
+  }
 
+}
 
 @media screen and (max-width: 768px) {
+  .root {
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 100%;
+  }
   .flex {
-  display: block;
+    display: block;
   }
   .flex .map {
     margin: 15px auto;
@@ -307,6 +316,11 @@
   
   .flex .desc {
     display: block;
+    word-wrap: normal;
+    text-align: left;
+  }
+  .howtogo dl dd::before{
+    top: 1.6em;
   }
 
 }
