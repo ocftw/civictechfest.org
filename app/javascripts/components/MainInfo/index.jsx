@@ -158,7 +158,7 @@ export default class MainInfo extends Component {
 					<a href="http://www.wcit2017.org/" target="_blank"><i className={about.icon}>home</i>www.wcit2017.org</a>
 				</div>
 				<div className={about.content}>
-					<p>The 21st World Congress on Information Technology (WCIT 2017) is the parallel event of #CivicTechFest. It is held in the same time and at same location as TICTeC@Taipei and will be a really unique opportunity to showcase open government and civic tech initiatives to the wider IT industry.</p>
+					<p>The 21st World Congress on Information Technology (WCIT 2017) is the parallel event of #CivicTechFest. It will be held at the same time and at the same location as TICTeC@Taipei and will be a really unique opportunity to showcase open government and civic tech initiatives to the wider IT industry.</p>
 				</div>
 			</div>
 		</article>
