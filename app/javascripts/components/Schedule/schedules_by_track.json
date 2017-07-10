@@ -105,9 +105,10 @@
       },
       {
         "time": "17:00-17:30",
+        "expandable": false,
         "event": {
           "venue": "201B+C",
-          "title": "Lightning talks\n",
+          "title": "Lightning talks",
           "note": "To submit a lightning talk suggestion, please email: gemma@mysociety.org",
           "abstract": "to be announced"
         }
