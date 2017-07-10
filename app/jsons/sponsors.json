@@ -1,9 +1,17 @@
 {
   "en-US": [
     {
-      "category": "host",
-      "title": "Host",
+      "category": "about",
+      "title": "About",
       "sponsors": [
+        {
+          "name": "TICTeC@Taipei",
+          "logo": "tictec.jpg",
+          "url": "http://tictec.mysociety.org/",
+          "urlname": "tictec.mysociety.org",
+          "brief": "TICTeC@Taipei is Asia&#39;s first TICTeC and is the major event of #CivicTechFest",
+          "desc": "TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group \"mySociety\". This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts.\nOver the course of the conference, TICTeC looks to provide in-depth analysis regarding online participation tools, digital democracy tools, as well as their influence and popularity. Their findings act as important reference points for future development of the field. In comparison to other tech focused conferences, TICTeC has a more research and academic focus, and emphasizes the connection between online/offline tech with society.\nAs technology develops faster each day, and as society and politics develop comparatively slower, TICTeC is a way for civic tech advocates and critics to build a bridge for open government, democratic deepening, and civic participation to march forward. We hope through TICTeC@Taipei, we can build a global network of civic tech enthusiasts and have in-depth link to Taiwan & Asia communities."
+        },
         {
           "name": "WCIT 2017 TAIWAN",
           "logo": "WCIT.png",
@@ -11,7 +19,13 @@
           "urlname": "www.wcit2017.org",
           "brief": "",
           "desc": "The 21st World Congress on Information Technology (WCIT 2017) is the parallel event of #CivicTechFest. It will be held at the same time and at the same location as TICTeC@Taipei and will be a really unique opportunity to showcase open government and civic tech initiatives to the wider IT industry. \nThe World Congress on Information Technology (WCIT) was first held in 1978 by WITSA (World Information Technology & Services Alliance) and has become the premier international IT forum. Discussion topics range from emerging markets and technologies to legal and policy issues, user perspectives, new business opportunities and developing political and economic trends. The WCIT consistently attracts high level, internationally recognized leaders from government, industry and academia."
-        },
+        }
+      ]
+    },
+    {
+      "category": "host",
+      "title": "Host",
+      "sponsors": [
         {
           "name": "Open Culture Foundation (OCF)",
           "logo": "OCF-LOGO-04.png",

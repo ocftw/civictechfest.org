@@ -69,37 +69,6 @@ export default class SponsorsList extends Component {
           </div>
         </section>
 
-
-        <section className={styles.section}>
-          <h2 className={styles.header}>About</h2>
-          <div>
-            <section className={styles.about}>
-              <div className={styles.title}>
-                <h3>About TICTeC@Taipei</h3>
-                <a href="" target="_blank"><i className={styles.icon}>home</i>tictec.mysociety.org</a>
-              </div>
-              <div className={styles.content}>
-                <div className={styles.logo}>
-                  <img src={require(`file!images/sponsors/tictec.jpg`)} />
-                </div>
-                <div className={styles.desc}>
-                  <p className={styles.brief}>
-                    
-                     TICTeC@Taipei is Asia&#39;s first TICTeC and is the major event of #CivicTechFest.
-                    
-                  </p>
-                  <p>
-                    TICTeC (The Impacts of Civic Technology Conference) is an annual international conference that focuses on the impact of civic tech, and was first established in 2015 by the influential UK group &quot;mySociety&quot;. This conference aims to analyze and assess the development of civic tech, and focuses on studying the impact and effectiveness of civic tech under different social environments and political contexts.</p> 
-                  <p>Over the course of the conference, TICTeC looks to provide in-depth analysis regarding online participation tools, digital democracy tools, as well as their influence and popularity. Their findings act as important reference points for future development of the field. In comparison to other tech focused conferences, TICTeC has a more research and academic focus, and emphasizes the connection between online/offline tech with society.</p>
-                  <p>As technology develops faster each day, and as society and politics develop comparatively slower, TICTeC is a way for civic tech advocates and critics to build a bridge for open government, democratic deepening, and civic participation to march forward. We hope through TICTeC@Taipei, we can build a global network of civic tech enthusiasts and have in-depth link to Taiwan & Asia communities. 
-
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </section>
-
         { 
           sponsors[getLocale()].map( cat => {
             return (
