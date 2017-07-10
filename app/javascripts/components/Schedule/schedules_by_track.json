@@ -312,7 +312,7 @@
         "event": ""
       },
       {
-        "time": "14:00-15:20",
+        "time": "14:00-15:10",
         "event": {
           "venue": "201B",
           "title": "Workshop B1"
@@ -344,7 +344,7 @@
         "event": ""
       },
       {
-        "time": "14:00-15:20",
+        "time": "14:00-15:10",
         "expandable": false,
         "event": {
           "venue": "201C",
@@ -380,7 +380,7 @@
         }
       },
       {
-        "time": "14:00-14:40",
+        "time": "14:00-14:30",
         "expandable": false,
         "event": {
           "venue": "4F Joy",
@@ -389,7 +389,7 @@
         }
       },
       {
-        "time": "14:40-15:20",
+        "time": "14:40-15:10",
         "expandable": false,
         "event": {
           "venue": "4F Joy",
@@ -411,11 +411,20 @@
         "event": "Break"
       },
       {
-        "time": "16:10-17:30",
+        "time": "16:10-16:40",
         "expandable": false,
         "event": {
           "venue": "4F Joy",
           "title": "UNCONFERENCE  J4",
+          "abstract": ""
+        }
+      },
+      {
+        "time": "16:50-17:30",
+        "expandable": false,
+        "event": {
+          "venue": "4F Joy",
+          "title": "UNCONFERENCE  J5",
           "abstract": ""
         }
       },
@@ -425,7 +434,7 @@
         "event": ""
       },
       {
-        "time": "14:00-14:40",
+        "time": "14:00-14:30",
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
@@ -433,7 +442,7 @@
         }
       },
       {
-        "time": "14:40-15:20",
+        "time": "14:40-15:10",
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
@@ -453,11 +462,19 @@
         "event": "Break"
       },
       {
-        "time": "16:10-17:30",
+        "time": "16:10-16:40",
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
           "title": "UNCONFERENCE  E4"
+        }
+      },
+      {
+        "time": "16:50-17:30",
+        "expandable": false,
+        "event": {
+          "venue": "4F Elegance",
+          "title": "UNCONFERENCE  E5"
         }
       },
       {
@@ -476,11 +493,11 @@
         "event": ""
       },
       {
-        "time": "10:00-10:50",
+        "time": "09:30-10:50",
         "expandable": false,
         "event": {
           "venue": "201A+F",
-          "title": " UNCONFERENCE AF1"
+          "title": " WORKSHOP AF1"
         }
       },
       {
@@ -489,11 +506,19 @@
         "event": ""
       },
       {
-        "time": "10:00-10:50",
+        "time": "09:30-10:00",
         "expandable": false,
         "event": {
           "venue": "4F Joy",
-          "title": " UNCONFERENCE J5"
+          "title": " UNCONFERENCE J6"
+        }
+      },
+      {
+        "time": "10:10-10:50",
+        "expandable": false,
+        "event": {
+          "venue": "4F Joy",
+          "title": " UNCONFERENCE J7"
         }
       },
       {
@@ -504,11 +529,19 @@
         }
       },
       {
-        "time": "10:00-10:50",
+        "time": "09:30-10:00",
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": " UNCONFERENCE E5"
+          "title": " UNCONFERENCE E6"
+        }
+      },
+      {
+        "time": "10:10-10:50",
+        "expandable": false,
+        "event": {
+          "venue": "4F Elegance",
+          "title": " UNCONFERENCE E7"
         }
       },
       {
