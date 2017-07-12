@@ -570,7 +570,7 @@
         "expandable": false,
         "event": {
           "venue": "",
-          "Moderator": "<b>Frances West</b>, Chairman, G3ict",
+          "moderator": "<b>Frances West</b>, Chairman, G3ict",
           "speaker": "<b>R. B. Wu</b>, Former President, Institute for Information Industry\n<b>James Powell</b>, U-Report Global Lead, UNICEF\n<b>Bram Sieben</b>, Concept Developer, Amsterdam Smart City Program & Alliander NV\n<b>Nanjira Sambuli</b>Digital Equality Advocacy Manager, World Wide Web Foundation",
           "title": "WCIT - Promoting Digital Inclusion and Equality"
         }
@@ -584,7 +584,7 @@
         "expandable": false,
         "event": {
           "venue": "",
-          "Moderator": "<b>CL Kao</b>, Board member of Open Culture Foundation, Taiwan",
+          "moderator": "<b>CL Kao</b>, Board member of Open Culture Foundation, Taiwan",
           "speaker": "<b>Erie Meyer</b>, Co-founder of US Digital Service and a member of Code for American Leadership Team\n<b>Audrey Tang </b>, Digital Minister without Portfolio\n<b>Rebecca Rumbul </b>, Head of research, mySociety\n<b>Mathilde Bras</b>, Etalab, French Prime Minister's task force for Open Data, Open Gov and Data-driven transformation, France\n<b>Michael Canares</b>, Regional Research Manager, Open Data Lab Jarkata, Indonesia",
           "title": "WCIT - Breakout Session - Civic Tech on Government Transparency and Citizen Participation"
         }
