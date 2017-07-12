@@ -70,9 +70,40 @@ class Venue extends Component {
                         </div>
                       </div>
                     </section>
+
+                    <section className={styles.about}>
+                      <div className={styles.title}>
+                        <h3>Hotel</h3>
+                        <span className={styles.note}>( The hotel for the accommodation ticket package )</span>
+                      </div>
+                      <div className={styles.content}>
+                        <div className={styles.venue}>
+                          <i className={styles.icon} data-size="big" data-color="red">place</i>
+                          <h4>Santos Hotel 三德大飯店</h4>
+                          <a href="https://www.google.com.tw/maps/place/%E4%B8%89%E5%BE%B7%E5%A4%A7%E9%A3%AF%E5%BA%97/@25.064918,121.5163663,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a946bf7550bd:0x6f515a581bbe8244!8m2!3d25.064918!4d121.518555" target="_blank"><i className={styles.icon}>keyboard_arrow_right</i>No.49, Sec. 3, Chengde Rd., Taipei City</a>
+                          <br />
+                          <a href="http://www.santoshotel.com/en/" target="_blank"><i className={styles.icon}>home</i>http://www.santoshotel.com/en/</a>
+                        </div>
+                        
+                        <div className={styles.howtogo}>
+                            <h4>How to go</h4>
+                            <hr />
+                          <div className={styles.flex}>
+                            <div className={styles.desc}>
+                              <dl>
+                                <dt>MRT</dt>
+                                <dd>The closest metro is “Mingquan W.Rd.” station (red & yellow line of Metro Taipei) exit 1.</dd>
+                              </dl>
+                            </div>
+                            <div className={styles.map}>
+                              <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=%E5%8F%B0%E7%81%A3TW-TPE%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5%E4%B8%89%E5%BE%B7%E5%A4%A7%E9%A3%AF%E5%BA%97&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
                   </div>
                 </section>
-
 
                 <section className={styles.section}>
                   <h2 className={styles.header}>Side Events Venue</h2>
