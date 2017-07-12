@@ -54,7 +54,7 @@
       },
       {
         "time": "11:15-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B+C",
           "speaker": "<b>Chia-liang Kao</b>, Open Culture Foundation (Taiwan)\n<b>Michael Canares</b>, World Wide Web Foundation\n<b>Luke Bacon</b>, Open Australia Foundation (Australia)\n<b>Gemma Humphrys</b>, mySociety (UK) \n<b>Nanjira Sambuli</b>, Web Foundation (Kenya) ",
@@ -139,7 +139,7 @@
       },
       {
         "time": "09:30-10:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B",
           "speaker": "<b>Masayuki Hatta</b>, Surugadai University (Japan) ",
@@ -149,7 +149,7 @@
       },
       {
         "time": "09:30-10:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B",
           "speaker": "<b>Ebtihaj Khan</b>, Code for Pakistan(Pakistan)",
@@ -159,7 +159,7 @@
       },
       {
         "time": "09:30-10:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B",
           "speaker": "<b>Khairil Yusof</b>, Sinar Project (Malaysia)",
@@ -177,7 +177,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B",
           "speaker": "<b>Gautham Ravichander</b>, eGovernments Foundation (India)",
@@ -187,7 +187,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B",
           "speaker": "<b>Dr Benjamin Seibel</b>, Technologiestiftung Berlin (Germany)",
@@ -197,7 +197,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B",
           "speaker": "<b>Eric Reese</b>, Center for Government Excellence at Johns Hopkins University (USA)",
@@ -207,7 +207,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201B",
           "speaker": "<b>Venkatesh Kannaiah</b>, Knight International Journalism Fellow (India)",
@@ -227,7 +227,7 @@
       },
       {
         "time": "09:30-10:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201C",
           "speaker": "<b>Ifeoma Judith Onyebuchi</b>, Public and Private Development Center (PPDC) (Nigeria)",
@@ -237,7 +237,7 @@
       },
       {
         "time": "09:30-10:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201C",
           "speaker": "<b>Gavin Hayman</b>, Open Contracting Partnership (USA)",
@@ -247,7 +247,7 @@
       },
       {
         "time": "09:30-10:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201C",
           "speaker": "<b>Ana Schwendler and Jessica Temporal</b>, Data Science Brigade (Brazil)",
@@ -265,7 +265,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201C",
           "speaker": "<b>Po-yu Tseng and Mg Lee</b>,Open Culture Foundation (Taiwan) ",
@@ -275,7 +275,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201C",
           "speaker": "<b>Ting-Yu Cheng</b>,National Taiwan University (Taiwan) ",
@@ -285,7 +285,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201C",
           "speaker": "<b>Virgile Deville </b>,Democracy Earth (France)",
@@ -295,7 +295,7 @@
       },
       {
         "time": "11:00-12:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "201C",
           "speaker": "<b>Orianne Ledroit</b>,The French Digital Agency (France)",
