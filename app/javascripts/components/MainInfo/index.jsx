@@ -19,17 +19,6 @@ var multiParagraph = (text, className) => {
   return ret;
 }
 
-function shuffleArray(array) {
-	let i = array.length - 1;
-	for (; i > 0; i--) {
-		const j = Math.floor(Math.random() * (i + 1));
-		const temp = array[i];
-		array[i] = array[j];
-		array[j] = temp;
-	}
-	return array;
-}
-
 
 export default class MainInfo extends Component {
 
@@ -192,7 +181,6 @@ export default class MainInfo extends Component {
 
         { 
 	      keynote_speakers[getLocale()].map( cat => {
-			var keynote_speakers_shuffled = shuffleArray(cat.keynote_speakers)
 	        return (
 			<article id={cat.category} className={styles.container} key={cat.category} data-wide="true">
 
@@ -209,7 +197,7 @@ export default class MainInfo extends Component {
 				</div>
 
 				<div>
-				{ keynote_speakers_shuffled.map(this.Speaker) }
+				{ cat.keynote_speakers.map(this.Speaker) }
 				</div>
 			</article>
 			)
