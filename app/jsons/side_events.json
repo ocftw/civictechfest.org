@@ -5,13 +5,30 @@
       "title": "Side Events",
       "side_events": [
         {
+          "date": [
+            "9",
+            "10"
+          ],
+          "tab": "Public",
+          "venue": "TBD",
+          "venue_color": "1",
+          "name": "#CodeforGender ",
+          "isopen": "true",
+          "img": "code for gender unite size.png",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://codeforgender.com/",
+          "urlname": "More info.",
+          "desc": "The very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue. Participants gather together for 48-hour intensive discussion, design, coding and production to create a possible solution toward gender issue."
+        },
+        {
           "date": ["11"],
           "tab": "RSVP / FREE",
           "venue": "Google Taipei",
           "venue_color": "1",
           "name": "Civic Tech Grant DEMO Party",
-          "isopen": "false",
-          "img": "g0v grant.png",
+          "isopen": "true",
+          "img": "Grant unite size.png",
           "imgtype": "logo",
           "islink": "false",
           "url": "",
@@ -24,14 +41,14 @@
           "tab_color": "blue",
           "venue": "TBD",
           "venue_color": "2",
-          "name": "AODP",
-          "isopen": "false",
-          "img": "AODP-LOGO-fal.png",
+          "name": "AODP Summit 2017",
+          "isopen": "true",
+          "img": "AODP unite size.png",
           "imgtype": "logo",
-          "islink": "false",
-          "url": "",
-          "urlname": "Sign up",
-          "desc": ""
+          "islink": "true",
+          "url": "http://opendata.tca.org.tw/asia/index.php",
+          "urlname": "More info.",
+          "desc": "Annual gathering between AODP partners and the awards ceremony of Asia Open Data Hackathon."
         },
         {
           "date": ["14"],
@@ -41,7 +58,7 @@
           "venue_color": "3",
           "name": "Code for All Summit",
           "isopen": "false",
-          "img": "code_for_all_logo.png",
+          "img": "CfAll unite size.png",
           "imgtype": "logo",
           "islink": "false",
           "url": "",
@@ -54,11 +71,11 @@
           "venue": "TBD",
           "venue_color": "4",
           "name": "g0v Hackathon",
-          "isopen": "false",
-          "img": "g0v-only.png",
+          "isopen": "true",
+          "img": "g0v unite size",
           "imgtype": "logo",
           "islink": "true",
-          "url": "",
+          "url": "http://g0v.tw/en-US/",
           "urlname": "More info.",
           "desc": "Come join one of the largest civic tech communities in the world. Don’t ask why “nobody” is doing this, you are the “nobody”!"
         }
