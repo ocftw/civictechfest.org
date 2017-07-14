@@ -554,7 +554,7 @@
         "expandable": false,
         "event": {
           "venue": "201A+F",
-          "title": "TICTeC Closing"
+          "title": "TICTeC Closing: All You Can ______!"
         }
       },
       {
@@ -591,7 +591,7 @@
       },
       {
         "time": "17:30-18:00",
-        "event": "WCIT - Closing Ceremony: All You Can ______!"
+        "event": "WCIT - Closing Ceremony"
       }
     ]
   }
