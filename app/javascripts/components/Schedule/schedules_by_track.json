@@ -180,7 +180,7 @@
         "expandable": true,
         "event": {
           "venue": "201B",
-          "speaker": "<b>Gautham Ravichander</b>, eGovernments Foundation (India)",
+          "speaker": "<b>Viraj Tyagi and Manu</b>, eGovernments Foundation (India)",
           "title": "The impacts of the SmartCity platform",
           "abstract": "In October 2015 the Government of Andhra Pradesh (GoAP) wanted to bring 110 cities and towns online, with the goals of improving service delivery to citizens, moving to data-driven governance processes, improving revenues and increasing transparency and accountability. \n\nGoAP partnered with eGovernments Foundation (eGov) to deploy eGov’s SmartCity platform, an integrated platform with 21 modules supporting key operations of city and town administrations, across all 110 locations. \n\nSmartCity is based on eGov’s 14 years of partnering with 300 cities and towns across India; customizable and configurable, it’s Open Source and available for free on the Github repository. \n\nGautham talks through the impacts the platform has already brought about, and the hopes for its future."
         }
@@ -298,7 +298,7 @@
         "expandable": true,
         "event": {
           "venue": "201C",
-          "speaker": "<b>Orianne Ledroit</b>,The French Digital Agency (France)",
+          "speaker": "<b>Orianne Ledroit and Pierre-Louis Rolle</b>,The French Digital Agency (France)",
           "title": "Digital skills training for better citizen participation in France",
           "abstract": "The Digital Society mission is part of the French Digital Agency, a governmental agency overseen by the Ministry for the Economy. It aims to provide citizens with the ability to seize the numerous opportunities brought forth by the digital revolution. \n\nIn France, Civic Technologies are becoming more and more widespread, with a thriving Open Source community supporting the efforts. But it is important that they reach people who have previously been excluded from the democratic process  — and often, the same people are struggling economically as are lacking digital skills. \n\nTaking stock of the many diverse types of training centre across France, the Digital Society created a voucher that local and national authorities could provide to citizens needing help woth digital democracy or the digitalization of administrative procedures. \n\nOriane presents the results of a five-month experiment, conducted in three French local districts: local tax departments issued vouchers to citizens who did not know how to file their tax returns online. These could be exchanged for basic digital skills training at public internet points. Discover the key findings and learn which parts of the initiative could be implemented in other regions looking to boost digital engagement."
         }
