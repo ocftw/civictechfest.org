@@ -45,6 +45,7 @@ export default React.createClass({
 
     const speakers = data.speaker_key ? data.speaker_key : data.speaker ? [data.speaker] : [];
     const speakers_bio = [];
+    // speakers_interview is not used in CTF
     const speakers_interview = speakers.map( speaker => by_name[speaker] )
       .filter( speaker => speaker && speaker.interview !== undefined )
       .map( speaker => {
@@ -66,13 +67,6 @@ export default React.createClass({
       const twitterID = speaker && getString(speaker, 'twitter', locale);
       const facebookID = speaker && getString(speaker, 'facebook', locale);
       const avatar = speaker ? avatarURL(speaker) : '';
-      var bio = bio_text ? (
-        <div className="Session-biography" key={`speaker_bio_${speaker_name}`}>
-            <div className="Session-subTitle">Biography</div>
-            <div>{multiParagraph(bio_text)}</div>
-        </div>
-      ): "";
-      speakers_bio.push(bio);
 
       return <div className="Session-presenter" key={`speaker_${speaker_name}`}>
         <div className="Session-presenter-name">
@@ -109,6 +103,10 @@ export default React.createClass({
             {speaker_organization}
         </div>
         { avatar && <img className="Session-presenter-avatar" src={avatar} /> }
+        <hr />
+        <div className="Session-presenter-biotext" key={`speaker_bio_${speaker_name}`}>
+            <div>{bio_text}</div>
+        </div>
       </div>;
     });
 
@@ -182,15 +180,10 @@ export default React.createClass({
                     </div>
                   }
 
-
-
-                  { data.bio && <div className="Session-biography">
-                      <div className="Session-subTitle">Biography</div>
-                      { speakers_profile.map( profile => profile ) }
-                      <hr />
-                      <div dangerouslySetInnerHTML={{__html: data.bio}}></div>
-                    </div>
-                  }
+                  <div className="Session-biography">
+                    <div className="Session-subTitle">Biography</div>
+                    { speakers_profile.map( profile => profile ) }
+                  </div>
               </div>
           </div>
       );
@@ -224,6 +217,7 @@ export default React.createClass({
           </div>
       );
     // nothing found in schedules_by_track.json,so display speaker.json's data instead
+    // data = schedules[getLocale()][dataArray[0]][dataArray[2]].event
     }else if(data.value !== undefined) {
       const avatar = data ? avatarURL(data) : '';
       return (
