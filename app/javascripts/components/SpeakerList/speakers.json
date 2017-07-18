@@ -1,13 +1,14 @@
 {
   "en-US": [
     {
-      "avatar": "./images/shigeomi.jpg",
+      "avatar": "./images/Rebecca Rumbul.jpg",
       "name": "Dr Rebecca Rumbul",
-      "organization": "COVFEFE COVFEFE",
-      "title": "asodiuowiqu asdoiu weriu",
-      "bio": "TRUMP TRUMP TRUMP",
-      "nation": "Galatic Republic",
-      "twitter": "@realDonaldTrump"
+      "organization": "mySociety(UK)",
+      "title": "Head of Research",
+      "bio": "Rebecca is mySociety’s Head of Research. Leading the organisation’s research strategy and implementation, she works with mySociety developers and with international partners to assess the impact of our tools and initiatives./nWhen she’s not working on mySociety projects, Rebecca continues to teach politics courses for adult learners through Cardiff University’s School for Lifelong Learning, is a fellow of the Royal Society of Arts, and in 2015 was awarded a Winston Churchill Memorial Trust Fellowship. /nShe is a seasoned political commentator, providing expert analysis to BBC Wales and ITV, and is a regular paper reviewer on BBC Radio’s Good Morning Wales programme.
+",
+      "nation": "UK",
+      "twitter": ""
     },
     {
       "id": "ekmodd",
