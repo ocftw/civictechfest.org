@@ -1,14 +1,13 @@
 {
   "en-US": [
     {
-      "id": "1",
-      "avatar": "./shigeomi.jpg",
+      "avatar": "./images/shigeomi.jpg",
       "name": "Dr Rebecca Rumbul",
       "organization": "COVFEFE COVFEFE",
       "title": "asodiuowiqu asdoiu weriu",
       "bio": "TRUMP TRUMP TRUMP",
-      "nation": "",
-      "twitter": ""
+      "nation": "Galatic Republic",
+      "twitter": "@realDonaldTrump"
     },
     {
       "id": "ekmodd",
