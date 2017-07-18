@@ -129,13 +129,9 @@
     ],
     "day2": [
       {
-        "title": "Morning section part 1 ",
-        "tagline":"Civic Tech for transparency and tackling corruption.",
+        "title": "Morning section part 1.1 ",
+        "tagline": "Civic Tech for transparency and tackling corruption.",
         "venue": "201B",
-        "event": "Civic Tech for transparency and tackling corruption."
-      },
-      {
-        "time": "09:30-10:30",
         "event": "Civic Tech for transparency and tackling corruption."
       },
       {
@@ -169,12 +165,51 @@
         }
       },
       {
+        "title": "Morning Section2.1 ",
+        "tagline": "Civic Tech for following the money.",
+        "venue": "201C",
+        "expandable": false,
+        "event": ""
+      },
+      {
+        "time": "09:30-10:30",
+        "expandable": true,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Ifeoma Judith Onyebuchi</b>, Public and Private Development Center (PPDC) (Nigeria)",
+          "title": "Impacts of Budeshi.ng on Nigerian public procurement",
+          "abstract": "As citizens, we should have the right to monitor public contracts, but linking budget and procurement data to services using an open system is a significant challenge. Thus far, the difficulties inherent in tracking this complex area have made it impossible for even the keenest members of society to participate fully at every stage in the procurement cycle. \n\nPPDC, through years of experience around procurement governance, successfully advocated for the adoption of the Open Contracting Data Standards by the Nigerian Government in 2016. Using a dedicated platform known as Budeshi it was possible to demonstrate to public institutions the benefits of using unique identifiers to link budget and procurement data to public services. \n\nThe adoption resulted in an influx of requests and commitment from public institutions. One immediate result may be a reduction in the administrative burden of responding to Freedom of Information requests, as procurement information would be proactively published in a coherent way. \n\nThe process of piloting these standards holds several lessons, challenges and opportunities that showcase how Civic Technology can transform interactions between government and citizens; and how that can impact public service delivery. "
+        }
+      },
+      {
+        "time": "09:30-10:30",
+        "expandable": true,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Gavin Hayman</b>, Open Contracting Partnership (USA)",
+          "title": "The Impacts of open contracting reforms in Ukraine and Slovakia",
+          "abstract": "Open contracting brings together civic technologists and stakeholders through disclosure, data, and engagement to ensure that government contracting is conducted fairly and effectively. This is crucially important in Asia, and around the globe, as government contracting is worth trillions of dollars each year. \n\nOpen Contracting Partnership presents hard evidence of the impact of open contracting reforms from Ukraine, Slovakia and beyond, with plans to extend to Asia, especially Nepal, and Taiwan. What do they measure, how and why? What lessons have been learned — and what mistakes were made along the way? \n\nDrawing on remarkable results in Ukraine, Gavin suggests that this is the beginning of a monitoring, evaluation and learning  revolution for Civic Technology and open government.\n "
+        }
+      },
+      {
+        "time": "09:30-10:30",
+        "expandable": true,
+        "event": {
+          "venue": "201C",
+          "speaker": "<b>Ana Schwendler and Jessica Temporal</b>, Data Science Brigade (Brazil)",
+          "title": "Serenata de Amor: Tracking Congress People's expense claims in Brazil",
+          "abstract": "Thanks to the introduction of the law on access to public information, the Brazilian government has made many databases available. One of these provides almost a decade’s worth of information on Lower House representatives’ expense reimbursements. \n\nThe data includes images of receipts, the value of reimbursements, and more. Drawing on this detailed data and the laws around expenses, the Serenata de Amor Operation team built an artificial intelligence capable of analyzing each expense and rating it for the probability of having broken the law. \n\nTo date the program has found more than 8,000 suspicious returns, using a set of six simple hypotheses coded into classifiers. Serenata de Amor Operation ended up as the most popular crowdfunded technology project on Brazil and has already reported 219 representatives for unlawful expenses, questioned 378,000 BRL worth of reimbursements, and seen financial resources returned to the public purse. \n\nAna and Jessica share how they were able to collect, wrangle and analyze this Open Data in a country that is conversely highly corrupt and highly transparent. In the process they created a community of more than 500 people with a diverse background, all interested in using technology to fight corruption and improving civic control."
+        }
+      },
+      {
         "time": "10:30-11:00",
         "event": "Refreshment break"
       },
       {
-        "time": "11:00-12:30",
-        "event": "Civic Tech for better communities and improved service delivery "
+        "title": "Morning section part 1.2 ",
+        "tagline": "Civic Tech for better communities and improved service delivery.",
+        "venue": "201B",
+        "event": "Civic Tech for better communities and improved service delivery."
       },
       {
         "time": "11:00-12:30",
@@ -217,52 +252,11 @@
         }
       },
       {
-        "title": "Morning Section ",
+        "title": "Morning Section2.2 ",
+        "tagline": "Technology for civic participation/engagement.",
         "venue": "201C",
         "expandable": false,
         "event": ""
-      },
-      {
-        "time": "09:30-10:00",
-        "event": "Civic Tech for following the money"
-      },
-      {
-        "time": "09:30-10:30",
-        "expandable": true,
-        "event": {
-          "venue": "201C",
-          "speaker": "<b>Ifeoma Judith Onyebuchi</b>, Public and Private Development Center (PPDC) (Nigeria)",
-          "title": "Impacts of Budeshi.ng on Nigerian public procurement",
-          "abstract": "As citizens, we should have the right to monitor public contracts, but linking budget and procurement data to services using an open system is a significant challenge. Thus far, the difficulties inherent in tracking this complex area have made it impossible for even the keenest members of society to participate fully at every stage in the procurement cycle. \n\nPPDC, through years of experience around procurement governance, successfully advocated for the adoption of the Open Contracting Data Standards by the Nigerian Government in 2016. Using a dedicated platform known as Budeshi it was possible to demonstrate to public institutions the benefits of using unique identifiers to link budget and procurement data to public services. \n\nThe adoption resulted in an influx of requests and commitment from public institutions. One immediate result may be a reduction in the administrative burden of responding to Freedom of Information requests, as procurement information would be proactively published in a coherent way. \n\nThe process of piloting these standards holds several lessons, challenges and opportunities that showcase how Civic Technology can transform interactions between government and citizens; and how that can impact public service delivery. "
-        }
-      },
-      {
-        "time": "09:30-10:30",
-        "expandable": true,
-        "event": {
-          "venue": "201C",
-          "speaker": "<b>Gavin Hayman</b>, Open Contracting Partnership (USA)",
-          "title": "The Impacts of open contracting reforms in Ukraine and Slovakia",
-          "abstract": "Open contracting brings together civic technologists and stakeholders through disclosure, data, and engagement to ensure that government contracting is conducted fairly and effectively. This is crucially important in Asia, and around the globe, as government contracting is worth trillions of dollars each year. \n\nOpen Contracting Partnership presents hard evidence of the impact of open contracting reforms from Ukraine, Slovakia and beyond, with plans to extend to Asia, especially Nepal, and Taiwan. What do they measure, how and why? What lessons have been learned — and what mistakes were made along the way? \n\nDrawing on remarkable results in Ukraine, Gavin suggests that this is the beginning of a monitoring, evaluation and learning  revolution for Civic Technology and open government.\n "
-        }
-      },
-      {
-        "time": "09:30-10:30",
-        "expandable": true,
-        "event": {
-          "venue": "201C",
-          "speaker": "<b>Ana Schwendler and Jessica Temporal</b>, Data Science Brigade (Brazil)",
-          "title": "Serenata de Amor: Tracking Congress People's expense claims in Brazil",
-          "abstract": "Thanks to the introduction of the law on access to public information, the Brazilian government has made many databases available. One of these provides almost a decade’s worth of information on Lower House representatives’ expense reimbursements. \n\nThe data includes images of receipts, the value of reimbursements, and more. Drawing on this detailed data and the laws around expenses, the Serenata de Amor Operation team built an artificial intelligence capable of analyzing each expense and rating it for the probability of having broken the law. \n\nTo date the program has found more than 8,000 suspicious returns, using a set of six simple hypotheses coded into classifiers. Serenata de Amor Operation ended up as the most popular crowdfunded technology project on Brazil and has already reported 219 representatives for unlawful expenses, questioned 378,000 BRL worth of reimbursements, and seen financial resources returned to the public purse. \n\nAna and Jessica share how they were able to collect, wrangle and analyze this Open Data in a country that is conversely highly corrupt and highly transparent. In the process they created a community of more than 500 people with a diverse background, all interested in using technology to fight corruption and improving civic control."
-        }
-      },
-      {
-        "time": "10:30-11:00",
-        "event": "Refreshment break"
-      },
-      {
-        "time": "11:00-12:30",
-        "event": "Technology for civic participation/engagement"
       },
       {
         "time": "11:00-12:30",
