@@ -19,21 +19,21 @@
           "islink": "true",
           "url": "https://codeforgender.com/",
           "urlname": "More info.",
-          "desc": "The very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue. Participants gather together for 48-hour intensive discussion, design, coding and production to create a possible solution toward gender issue."
+          "desc": "The very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue."
         },
         {
           "date": ["11"],
           "tab": "RSVP / FREE",
           "venue": "Google Taipei",
           "venue_color": "1",
-          "name": "Civic Tech Grant DEMO Party",
+          "name": "Civic Tech Grant DEMO Party & TICTeC dinner party",
           "isopen": "true",
           "img": "g0v grant unite size 2.png",
           "imgtype": "logo",
           "islink": "false",
           "url": "",
           "urlname": "Sign up",
-          "desc": "The first g0v Civic Tech Grant awardees will demonstrate their prototypes after 6 months of development. Join the party!"
+          "desc": "Prototypes demonstration from the first g0v Civic Tech Grant awardees." 
         },
         {
           "date": ["14"],
@@ -51,10 +51,10 @@
           "desc": "Annual gathering between AODP partners and the awards ceremony of Asia Open Data Hackathon."
         },
         {
-          "date": ["14"],
-          "tab": "Closed meeting",
+          "date": ["15"],
+          "tab": "Public",
           "tab_color": "blue",
-          "venue": "TBD",
+          "venue": "TICC 101",
           "venue_color": "3",
           "name": "Code for All Summit",
           "isopen": "false",
