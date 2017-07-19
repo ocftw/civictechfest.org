@@ -23,14 +23,14 @@ class Ticket extends Component {
                     <section className={styles.about}>
                       <div className={styles.title}>
                         <h3>TICTeC@Taipei</h3>
-                        <span className={styles.note}>( alongside WCIT 2017 )</span>
+                        <span className={styles.note}>( includes entry to WCIT 2017 )</span>
                         <h4>Sep. 11th-13th</h4>
                       </div>
                       <div className={styles.content}>
                         <div className={styles.flex}>
                           <div className={styles.desc}>
                             <ICON icon="ticket" icontype="custom"/>
-                            <p>Ticket is required to enter the TICTeC@Taipei.</p>
+                            <p>Tickets are required to enter TICTeC@Taipei.</p>
                             <a href="https://ocftw.kktix.cc/events/civictechfest2017" target="_blank" className={styles.eventbtn}><span>Register Now</span></a>
                           </div>
                           <div className={styles.logo}>
@@ -38,20 +38,20 @@ class Ticket extends Component {
                           </div>
                         </div>
                         <div className={styles.block}>
-                          <h4>Tickets Included</h4>
+                          <h4>Tickets Include</h4>
                           <hr />
                           <ul className={styles.included}>
-                            <li>Single room with breakfest of 4 stars hotel for 4 nights during Sep.10th-14th
-                            (excpet regurlar ticket without accommodation)</li>
-                            <li>Free to enter TICTec@Taipei & WCIT 2017 and Social events (RSVP)</li>
+                            <li>Single room with breakfest of 4-stars hotel for 4 nights from Sep.10th-14th
+                            (excpet regurlar tickets without accommodation)</li>
+                            <li>Free entrance to TICTec@Taipei & WCIT 2017,plus social events (RSVP needed)</li>
                           </ul>
                         </div>
                         <div className={styles.block}>
                           <h4>Note</h4>
                           <hr />
                           <ul className={styles.notice}>
-                            <li>TICTeC@Taipei will use the same &quot;Badge&quot; and &quot;Venue&quot; with WCIT 2017.</li>
-                            <li>The &quot;Badge&quot; can be acquired in the WCIT registration desk.</li>
+                            <li>TICTeC@Taipei will use the same &quot;Badge&quot; and &quot;Venue&quot; as WCIT 2017.</li>
+                            <li>The &quot;Badge&quot; can be acquired at the WCIT registration desk.</li>
                           </ul>
                         </div>
                       </div>
