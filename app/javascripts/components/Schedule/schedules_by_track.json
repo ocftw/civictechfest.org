@@ -96,7 +96,7 @@
         "time": "16:00-17:00",
         "event": {
           "venue": "201B+C",
-          "speaker": "Erie Meyer, Code for American (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, The Public Digital Innovation Space (PDIS) (Taiwan)",
+          "speaker": "Erie Meyer, Code for America (USA) \nMathilde Bras, Etalab (France)\nShu Yang Lin, PDIS (Taiwan)",
           "moderator": "<b>Jaclyn Tsai</b>",
           "panel":"Panel 3",
           "title": "Government-led Civic Technology: successes and challenges",
@@ -216,7 +216,7 @@
         "expandable": true,
         "event": {
           "venue": "201B",
-          "speaker": "Viraj Tyagi and Manu, eGovernments Foundation (India)",
+          "speaker": "Viraj Tyagi and Krishnakumar Thiagarajan, eGovernments Foundation (India)",
           "title": "The impacts of the SmartCity platform",
           "abstract": "In October 2015 the Government of Andhra Pradesh (GoAP) wanted to bring 110 cities and towns online, with the goals of improving service delivery to citizens, moving to data-driven governance processes, improving revenues and increasing transparency and accountability. \n\nGoAP partnered with eGovernments Foundation (eGov) to deploy eGov’s SmartCity platform, an integrated platform with 21 modules supporting key operations of city and town administrations, across all 110 locations. \n\nSmartCity is based on eGov’s 14 years of partnering with 300 cities and towns across India; customizable and configurable, it’s Open Source and available for free on the Github repository. \n\nGautham talks through the impacts the platform has already brought about, and the hopes for its future."
         }
@@ -247,8 +247,8 @@
         "event": {
           "venue": "201B",
           "speaker": "Venkatesh Kannaiah, Knight International Journalism Fellow (India)",
-          "title": "Impacts of Civic Tech experiments in India: IPaidABribe and IChangeMyCity",
-          "abstract": "Janaagraha are implementers of IPaidABribe.com, a unique corruption-reporting platform and IChangeMyCity.com, India's largest Civic Tech platform, with more than a million users. \n\nVenkatesh presents the organisation’s work in building communities, helping citizens interact with the government, and seeing civic grievances resolved both through public advocacy and connecting their network with that of the government. \n\nLearn how IChangeMyCity has resolved tens of thousands of complaints, and how IPaidABribe has brought about a culture of corruption reporting even within the traditional society found in India."
+          "title": "Impacts and challenges of Civic Tech experiments in India",
+          "abstract": "Venkatesh Kannaiah, Knight international Journalism Fellow, and Civic Tech evangelist speaks about Civic Tech experiments in India, including I Change My City and I Paid A Bribe - two of the websites he was associated with until recently. He will speak about the challenges in building online communities of social change and how technology can play a vital role in forming these networks of citizens and helping them in solving civic grievances, apart from advocating for social change. He will also speak about challenges in communicating with citizens, civic leaders, bureaucracies and the political class on the need for using data and technology in resolving civic issues. From his experience in the media, he will throw light on how the media in India views Civic Tech and the challenges in communicating the 'civic tech story' in a cohesive and compelling manner."
         }
       },
       {
