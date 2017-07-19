@@ -36,7 +36,7 @@
     {
       "id": "",
       "live": "",
-      "avatar": "./image/Viraj Tyagi.png",
+      "avatar": "./images/Viraj Tyagi.png",
       "name": "Viraj Tyagi",
       "organization": "eGovernments Foundation (India)",
       "title": "",
@@ -48,7 +48,7 @@
     {
       "id": "",
       "live": "",
-      "avatar": "./image/Benjamin Seibel.jpg",
+      "avatar": "./images/Benjamin Seibel.jpg",
       "name": "Dr Benjamin Seibel",
       "featured": true,
       "organization": "Technologiestiftung Berlin (Germany)",
@@ -61,7 +61,7 @@
     {
       "id": "",
       "live": "",
-      "avatar": "./image/Eric Reese.jpg",
+      "avatar": "./images/Eric Reese.jpg",
       "name": "Eric Reese",
       "featured": true,
       "organization": "Center for Government Excellence at Johns Hopkins University (USA)",
@@ -73,7 +73,7 @@
     {
       "id": "",
       "live": "",
-      "avatar": "./image/Venkatesh Kannaiah.jpg",
+      "avatar": "./images/Venkatesh Kannaiah.jpg",
       "name": "Venkatesh Kannaiah",
       "featured": true,
       "organization": "Knight International Journalism Fellow (India)",
@@ -86,7 +86,7 @@
     {
       "id": "",
       "live": "",
-      "avatar": "./image/Gavin Hayman.jpeg",
+      "avatar": "./images/Gavin Hayman.jpeg",
       "name": "Gavin Hayman",
       "organization": "Open Contracting Partnership (USA)",
       "title": "",
@@ -98,7 +98,7 @@
     {
       "id": "",
       "live": "",
-      "avatar": "./image/Ana Schwendler.png",
+      "avatar": "./images/Ana Schwendler.png",
       "name": "Ana Schwendler",
       "organization": "Data Science Brigade (Brazil) ",
       "title": "Developer, PyLadies and Django Girls participant",
