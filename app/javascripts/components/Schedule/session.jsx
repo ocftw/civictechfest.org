@@ -131,7 +131,7 @@ export default React.createClass({
                   { data.abstract && <div className="Session-abstract">
                       <div className="Session-subTitle">Abstract</div>
                       <hr />
-                      <div dangerouslySetInnerHTML={{__html: data.abstract}}></div>
+                      <div>{multiParagraph(data.abstract)}</div>
                     </div>
                   }
 
