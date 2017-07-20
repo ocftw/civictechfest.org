@@ -142,7 +142,7 @@ export default React.createClass({
     });
 
   
-    if (time && speakers_profile.length) {
+    if (time && (speakers_profile.length || moderator_profile.length)) {
       return (
           <div className="Session">
               <div className="Session-title">
@@ -184,35 +184,6 @@ export default React.createClass({
                     <div className="Session-subTitle">Biography</div>
                     { speakers_profile.map( profile => profile ) }
                   </div>
-              </div>
-          </div>
-      );
-    } else if(moderator_profile.length) {
-      return (
-          <div className="Session">
-              <div className="Session-close"
-                   onClick={sessionHandler}></div>
-              <div className="Session-content">
-
-                  { moderator_profile.map( profile => profile ) }
-
-                  {
-                    category ? (
-                      <div className="Session-category">
-                        <div className="Session-categoryIcon" style={{
-                               "background" : category.color
-                             }}></div>
-                        {category.title} - {category.tagline}
-                      </div>
-                    ) : null
-                  }
-
-                  { data.abstract && <div className="Session-abstract">
-                      <div className="Session-subTitle">Abstract</div>
-                      <div dangerouslySetInnerHTML={{__html: data.abstract}}></div>
-                    </div>
-                  }
-                  { moderator_bio.map( bio => bio) }
               </div>
           </div>
       );
