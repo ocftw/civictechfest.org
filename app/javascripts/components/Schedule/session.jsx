@@ -94,7 +94,7 @@ export default React.createClass({
         { avatar && <img className="Session-presenter-avatar" src={avatar} /> }
         <hr />
         <div className="Session-presenter-biotext" key={`speaker_bio_${speaker_name}`}>
-            <div>{bio_text}</div>
+            <div dangerouslySetInnerHTML={{__html: bio_text}}></div>
         </div>
       </div>;
     });
