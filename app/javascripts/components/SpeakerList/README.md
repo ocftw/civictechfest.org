@@ -1,4 +1,4 @@
-## `speakers.json`
+## `presenters.json`
 
 ```
 {
@@ -12,7 +12,11 @@
 },
 ```
 
-- avatar: path to speaker photo, relative to the path of `speakers.json`
+Presenters = speakers + moderators
+
+`presenters.json` was previously named `speakers.json`
+
+- avatar: path to speaker photo, relative to the path of `presenters.json`
 - name
 - bio: biography, can use "\n" to line break
 - nation: currently has no effect

@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import "./session.css";
-import speakers from '../SpeakerList/speakers.json';
+import presenters from '../SpeakerList/presenters.json';
 import schedules from './schedules.json';
 import categories from './categories.json';
 import { getLocale, getString } from "javascripts/locale";
@@ -26,7 +26,7 @@ var multiParagraph = (text, className) => {
 
 var by_name = {};
 
-speakers["en-US"].forEach((speaker) => {
+presenters["en-US"].forEach((speaker) => {
   if (speaker.name_zh) {
     by_name[speaker.name_zh] = speaker;
   }
@@ -43,12 +43,12 @@ export default React.createClass({
     var language = (data.EN) ? <div className="Session-en">EN</div> : "";
     const [locale] = getLocale().split('-');
 
-    var speakers = data.speaker_key ? data.speaker_key : data.speaker ? [data.speaker] : [];
+    var presenters = data.speaker_key ? data.speaker_key : data.speaker ? [data.speaker] : [];
     var moderators = data.moderator ? [data.moderator] : [];
-    speakers.push(moderators);
+    presenters.push(moderators);
     const speakers_bio = [];
 
-    const speakers_profile = speakers.map( speaker => by_name[speaker] ).map( speaker => {
+    const presenters_profile = presenters.map( speaker => by_name[speaker] ).map( speaker => {
       const bio_text = ((speaker && getString(speaker, 'bio', locale)) || data.bio || '').replace(/\n/g, '<br/>');
       const speaker_title = speaker && getString(speaker, 'title', locale);
       const speaker_organization = speaker && getString(speaker, 'organization', locale);
@@ -99,7 +99,7 @@ export default React.createClass({
       </div>;
     });
 
-    if (time && (speakers_profile.length || moderator_profile.length)) {
+    if (time && presenters_profile.length ) {
       return (
           <div className="Session">
               <div className="Session-title">
@@ -137,7 +137,7 @@ export default React.createClass({
 
                   <div className="Session-biography">
                     <div className="Session-subTitle">Biography</div>
-                    { speakers_profile.map( profile => profile ) }
+                    { presenters_profile.map( profile => profile ) }
                   </div>
               </div>
           </div>

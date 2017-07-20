@@ -3,7 +3,7 @@ import { getLocale, getString } from "javascripts/locale";
 import avatarURL from "javascripts/helpers/avatar";
 import Lightbox from "javascripts/components/Lightbox";
 import styles from "./styles.css";
-import speakers from "./speakers.json";
+import presenters from "./presenters.json";
 import schedulesByTrack from "javascripts/components/Schedule/schedules_by_track.json";
 import classnames from "classnames/bind";
 import Session from "javascripts/components/Schedule/session";
@@ -33,7 +33,7 @@ class SpeakerList extends Component {
       });
     } else if (hash.includes("none")) {
       let id = hash.replace('#', '').split('-');
-      let data  = speakers["en-US"][id[1]];
+      let data  = presenters["en-US"][id[1]];
       this.setState({
         showSession: true,
         currentSession: () => ({
@@ -148,7 +148,7 @@ class SpeakerList extends Component {
        (id == "")){
 
       let speakerElement = [];
-      speakers['en-US'].map((element, i) => {
+      presenters['en-US'].map((element, i) => {
           speakerElement[i] = getString(element, 'name', locale);
       });
 
@@ -189,10 +189,10 @@ class SpeakerList extends Component {
           講者
         </h2>
         <div className= {cx({"speaker-parent" : this.state.showSession })} >
-          { speakers['en-US'].filter((s) => s.featured).sort(this.sortFunc).map(this.speaker) }
+          { presenters['en-US'].filter((s) => s.featured).sort(this.sortFunc).map(this.speaker) }
         </div>
         <div className= {cx({"speaker-parent" : this.state.showSession })} >
-          { speakers['en-US'].filter((s) => !s.featured).sort(this.sortFunc).map(this.speaker) }
+          { presenters['en-US'].filter((s) => !s.featured).sort(this.sortFunc).map(this.speaker) }
         </div>
 
         <div className={cx({
