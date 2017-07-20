@@ -45,19 +45,6 @@ export default React.createClass({
 
     const speakers = data.speaker_key ? data.speaker_key : data.speaker ? [data.speaker] : [];
     const speakers_bio = [];
-    // speakers_interview is not used in CTF
-    const speakers_interview = speakers.map( speaker => by_name[speaker] )
-      .filter( speaker => speaker && speaker.interview !== undefined )
-      .map( speaker => {
-        return (
-          <div
-            className="Session-interview"
-            key={`speaker_bio_${speaker.id}`}
-            dangerouslySetInnerHTML={{__html:
-              `<h4>${helptext[getLocale()].text} <a target="_blank" href="http://www.youtube.com/timedtext_video?ref=share&v=${speaker.interview}"><i class="material-icons">mode_edit</i> ${helptext[getLocale()].help}</a></h4><iframe src="https://www.youtube.com/embed/${speaker.interview}" frameborder="0" allowfullscreen></iframe>`}}
-          />
-        );
-      });
 
     const speakers_profile = speakers.map( speaker => by_name[speaker] ).map( speaker => {
       const bio_text = ((speaker && getString(speaker, 'bio', locale)) || data.bio || '').replace(/\n/g, '<br/>');
