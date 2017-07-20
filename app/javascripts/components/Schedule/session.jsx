@@ -43,7 +43,9 @@ export default React.createClass({
     var language = (data.EN) ? <div className="Session-en">EN</div> : "";
     const [locale] = getLocale().split('-');
 
-    const speakers = data.speaker_key ? data.speaker_key : data.speaker ? [data.speaker] : [];
+    var speakers = data.speaker_key ? data.speaker_key : data.speaker ? [data.speaker] : [];
+    var moderators = data.moderator ? [data.moderator] : [];
+    speakers.push(moderators);
     const speakers_bio = [];
 
     const speakers_profile = speakers.map( speaker => by_name[speaker] ).map( speaker => {
@@ -97,38 +99,6 @@ export default React.createClass({
       </div>;
     });
 
-    // Use the same flows of speakers, speakers_bio and speakers_profile variables
-    const moderator = data.moderator ? [data.moderator] : [];
-    const moderator_bio = [];
-    const moderator_profile = moderator.map( moderator => by_name[moderator] ).map( moderator  => {
-      const bio_text = ((moderator && getString(moderator, 'bio', locale)) || data.bio || '').replace(/\n/g, '<br/>');
-      const moderator_title = moderator && getString(moderator, 'title', locale);
-      const moderator_organization = moderator && getString(moderator, 'organization', locale);
-      const moderator_name = moderator && getString(moderator, 'name', locale);
-      const avatar = moderator ? avatarURL(moderator) : '';
-      var bio = bio_text ? (
-        <div className="Session-biography" key={`moderator_bio_${moderator_name}`}>
-            <div className="Session-subTitle">Biography</div>
-            <div dangerouslySetInnerHTML={{__html: bio_text}}></div>
-        </div>
-      ): "";
-      moderator_bio.push(bio);
-
-      return <div key={`moderator_${moderator_name}`}>
-        <div className="Session-presenter">
-            {moderator_name}
-        </div>
-        <div className="Session-presenter-title">
-            {moderator_title}
-        </div>
-        <div className="Session-presenter-organization">
-            {moderator_organization}
-        </div>
-        { avatar && <img className={styles.avatar} src={avatar} /> }
-      </div>;
-    });
-
-  
     if (time && (speakers_profile.length || moderator_profile.length)) {
       return (
           <div className="Session">

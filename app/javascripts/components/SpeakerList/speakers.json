@@ -2,6 +2,15 @@
   "en-US": [
     {
       "avatar": "./images/Rebecca Rumbul.jpg",
+      "name": "Audrey Tang",
+      "organization": "TAIWAN NUMBER ONE",
+      "title": "VERY GOOD",
+      "bio": "FEFEFEFE",
+      "nation": "UK",
+      "twitter": ""
+    },
+    {
+      "avatar": "./images/Rebecca Rumbul.jpg",
       "name": "Dr Rebecca Rumbul",
       "organization": "mySociety(UK)",
       "title": "Head of Research",
