@@ -158,8 +158,6 @@ export default React.createClass({
                     {language}
                   </div>
                   
-                  { speakers_interview }
-
                   { data.abstract && <div className="Session-abstract">
                       <div className="Session-subTitle">Abstract</div>
                       <hr />
