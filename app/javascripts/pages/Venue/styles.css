@@ -290,8 +290,8 @@
 
 @media screen and (max-width: 480px) {
   .root {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .content {
     padding: 1.5em 1em;
