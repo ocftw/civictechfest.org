@@ -104,15 +104,16 @@ export default class MainInfo extends Component {
 		  <div className={styles.dateline}>
 		  	<ul>
 		  		<li className={styles.month}><span>Sep.</span><p>Events</p></li>
+		  		<li><a><span>9</span><span>10</span><p>Code for Gender</p></a></li>
+		  		<li><a><span>10</span><p>Taiwan Open Gov.<br />Observation<br />Report Release</p></a></li>
 		  	</ul>
 		  	<ul>
-		  		<li><a><span>9</span><span>10</span><p></p></a></li>
-		  		<li><a><span>11</span><p>Civic Tech Grant DEMO Party</p></a></li>
+		  		<li><a><span>11</span><p>Civic Tech Grant<br />Demo Party</p></a></li>
 		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside WCIT)</h6></a></li>
 		  	</ul>
 		  	<ul>
-		  		<li><a><span>14</span><p>AODP meeting<br /><br />Code for ALL</p></a></li>
-		  		<li><a><span>15</span><p></p></a></li>
+		  		<li><a><span>14</span><span>15</span><p>AODP summit</p></a></li>
+		  		<li><a><span>14</span><p>Data Bootcamp for NGOs<br /><br />Toolbox BarCamp<br /><br />Code for ALL Summit<br /><br /></p></a></li>
 		  		<li><a><span>16</span><p>g0v Hackathon</p></a></li>
 		  	</ul>
 		  </div>
