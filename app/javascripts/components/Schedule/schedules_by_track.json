@@ -47,7 +47,7 @@
         "time": "10:45-11:15",
         "event": {
           "venue": "201B+C",
-          "speaker": "Dr Rebecca Rumbul",
+          "speaker": "Dr. Rebecca Rumbul",
           "title": "What is Civic Technology? And how and why is mySociety measuring its impact?",
           "abstract": "Rebecca presents mySociety’s research projects which strive to evaluate the impacts (both positive and negative) of Civic Technologies in many countries worldwide."
         }
@@ -57,8 +57,8 @@
         "expandable": true,
         "event": {
           "venue": "201B+C",
-          "speaker": "Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Canares, World Wide Web Foundation(Indonesia)\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK) \nNanjira Sambuli, Web Foundation (Kenya) ",
-          "moderator": "</b>Dr. Rebecca Rumbul</b>, mySociety(UK)",
+          "speaker": ["Chia-liang Kao", "Michael Canares", "Luke Bacon", "Gemma Humphrys", "Nanjira Sambuli"],
+          "moderator": "Dr. Rebecca Rumbul",
           "panel": "Panel 1",
           "title": "Examples of Civic Technologies and their impacts",
           "abstract": "Now that the Civic Technology sector has matured, we can take a step back and assess its worth. What positive impacts have these tools had? How have they changed society and the relationships between citizens and governments? What negative impacts can be understood, and what is the best way to counter these for the future?"

@@ -43,12 +43,24 @@ export default React.createClass({
     var language = (data.EN) ? <div className="Session-en">EN</div> : "";
     const [locale] = getLocale().split('-');
 
-    var presenters = data.speaker_key ? data.speaker_key : data.speaker ? [data.speaker] : [];
-    var moderators = data.moderator ? [data.moderator] : [];
-    presenters.push(moderators);
-    const speakers_bio = [];
+    var presenters = [];
+    if ( data.hasOwnProperty("speaker") ) {
+      if ( Array.isArray(data.speaker) ) {
+        Array.prototype.push.apply(presenters, data.speaker);
+      } else {
+        presenters.push(data.speaker);
+      }
+    }
+    if ( data.hasOwnProperty("moderator") ) {
+      if ( Array.isArray(data.moderator) ) {
+        Array.prototype.push.apply(presenters, data.moderator);
+      } else {
+        presenters.push(data.moderator);
+      }
+    }
 
     const presenters_profile = presenters.map( speaker => by_name[speaker] ).map( speaker => {
+      if ( ! speaker ) return;
       const bio_text = ((speaker && getString(speaker, 'bio', locale)) || data.bio || '').replace(/\n/g, '<br/>');
       const speaker_title = speaker && getString(speaker, 'title', locale);
       const speaker_organization = speaker && getString(speaker, 'organization', locale);
@@ -137,7 +149,7 @@ export default React.createClass({
 
                   <div className="Session-biography">
                     <div className="Session-subTitle">Biography</div>
-                    { presenters_profile.map( profile => profile ) }
+                    { presenters_profile }
                   </div>
               </div>
           </div>

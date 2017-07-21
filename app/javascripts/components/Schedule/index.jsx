@@ -44,15 +44,22 @@ const venues = [
 
 ];
 
-var multiParagraph = (text, className) => {
-  if (!text) {
+var multiParagraph = (textorArray, className) => {
+  if (!textorArray) {
     return [];
   }
-  var arr = text.split('\n');
   var ret = [];
-  for (let i in arr) {
-    let line = arr[i];
-    ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+  if ( Array.isArray(textorArray) ) {
+    for (let i in textorArray) {
+      let line = textorArray[i];
+      ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+    }
+  } else if ( typeof textorArray === 'string' ) {
+    var arr = textorArray.split('\n');
+    for (let i in arr) {
+      let line = arr[i];
+      ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+    }
   }
   return ret;
 }
