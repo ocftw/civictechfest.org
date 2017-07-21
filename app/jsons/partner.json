@@ -129,6 +129,28 @@
           "desc": ""
         }
       ]
+    },
+    {
+      "category": "promoting_partners",
+      "title": "Promoting Partners",
+      "sponsors": [
+        {
+          "name": "Code for Japan",
+          "logo": "codeforjapan_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "STI",
+          "logo": "STI_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        }
+      ]
     }
   ]
 }
