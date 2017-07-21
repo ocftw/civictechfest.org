@@ -112,8 +112,8 @@ export default class MainInfo extends Component {
 		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside WCIT)</h6></a></li>
 		  	</ul>
 		  	<ul>
-		  		<li><a><span>14</span><span>15</span><p>AODP summit</p></a></li>
 		  		<li><a><span>14</span><p>Data Bootcamp for NGOs<br /><br />Toolbox BarCamp<br /><br />Code for ALL Summit<br /><br /></p></a></li>
+		  		<li><a><span>15</span><p>AODP Summit</p></a></li>
 		  		<li><a><span>16</span><p>g0v Hackathon</p></a></li>
 		  	</ul>
 		  </div>
