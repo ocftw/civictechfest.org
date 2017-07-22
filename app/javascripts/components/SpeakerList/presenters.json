@@ -1,32 +1,5 @@
 {
-  "en-US": [
-    {
-      "avatar": "./images/Rebecca Rumbul.jpg",
-      "name": "Michael Canares",
-      "organization": "WATER PLANT",
-      "title": "PLUMBER",
-      "bio": "woot woot woot woot",
-      "nation": "",
-      "twitter": ""
-    },
-    {
-      "avatar": "./images/Rebecca Rumbul.jpg",
-      "name": "Chia-liang Kao",
-      "organization": "OCFEFEFEFE",
-      "title": "PRESIDENT",
-      "bio": "FEFEFEFE",
-      "nation": "",
-      "twitter": ""
-    },
-    {
-      "avatar": "./images/Rebecca Rumbul.jpg",
-      "name": "Audrey Tang",
-      "organization": "TAIWAN NUMBER ONE",
-      "title": "VERY GOOD",
-      "bio": "FEFEFEFE",
-      "nation": "UK",
-      "twitter": ""
-    },
+  "en-US":  [
     {
       "avatar": "./images/Rebecca Rumbul.jpg",
       "name": "Dr. Rebecca Rumbul",
