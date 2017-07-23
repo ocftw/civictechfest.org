@@ -134,7 +134,7 @@ $breakpoint2: 1600px;
 .Session-presenter {
   position: relative;
   height: auto;
-  margin: 15px 0;
+  margin: 60px 0 100px 0;
   min-height: 120px;
 }
 
@@ -151,7 +151,7 @@ $breakpoint2: 1600px;
 
 .Session-presenter-avatar {
   position: absolute;
-  top: -20px;
+  top: -45px;
   right: 0;
   width: 128px;
   height: 128px !important;
