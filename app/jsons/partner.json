@@ -149,6 +149,38 @@
           "urlname": "",
           "brief": "",
           "desc": ""
+        },
+        {
+          "name": "OKFG",
+          "logo": "OKFG_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "Civic Hall",
+          "logo": "civichall_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "NDI",
+          "logo": "NDI_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "Sinar Project",
+          "logo": "sinarproject_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
         }
       ]
     }
