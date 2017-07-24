@@ -39,7 +39,7 @@
         "expandable": false,
         "event": {
           "venue": "201B+C",
-          "speaker": "Chia-liang Kao, Co-founder, g0v.tw /Board Member, Open Culture Foundation\nDr. Rebecca Rumbul, Head of Research, mySociety(UK)",
+          "speaker_f": "Chia-liang Kao, Co-founder, g0v.tw /Board Member, Open Culture Foundation\nDr. Rebecca Rumbul, Head of Research, mySociety(UK)",
           "title": "Welcome to TICTeC@Taipei and Civic Tech Fest"
         }
       },
@@ -91,7 +91,7 @@
         "event": {
           "venue": "201B+C",
           "speaker": ["Nanjira Sambuli", "Chat Garcia Ramilo", "James Powell", "Orianne Ledroit"],
-          "speaker_f": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications, (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency (France)",
+          "speaker_f": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency (France)",
           "moderator": "Gemma Humphrys",
           "moderator_f": "Gemma Humphrys, mySociety (UK)",
           "panel":"Panel 2",
@@ -155,7 +155,7 @@
         "event": {
           "venue": "201B",
           "speaker": "Ebtihaj Khan",
-          "speaker_f": "Ebtihaj Khan, Code for Pakistan(Pakistan)",
+          "speaker_f": "Ebtihaj Khan, Code for Pakistan (Pakistan)",
           "title": "Impacts of Civic Tech Projects in Pakistan",
           "abstract": "How do you change government in a third-world country that ranks 116 on the corruption index, where 4 out of 10 citizens live in poverty, and where 22.6 million children are out-of-school? \nHow can a Civic Tech organization make a meaningful difference in a province ravaged by the Taliban, where 12,456 citizens died in terror attacks between 2008-2013? How do you get citizens to work with a government so widely seen as inefficient and corrupt? What does impact even look like in such circumstances? \nIn the last three years, Code for Pakistan has worked with ten government departments, creating ten apps with five more in progress. From reporting systems to crowdfunding platforms to automated service delivery, these applications have improved government efficiency and the experiences of hundreds of citizens who interact with government every day. \nOne Civic Tech solution — the Traffic Police app — has transformed the culture within a government department. What factors enabled official buy-in and engagement with the user-centered discovery process, leading to subsequent adoption and daily government usage of the app? "
         }
@@ -547,7 +547,7 @@
           "moderator_f": "",
           "speaker": "",
           "speaker_f": "",
-          "title": "Roundtable: Struggling Democracy: How Can Civic Tech Fight Against Openwashing?",
+          "title": "Roundtable \nStruggling Democracy: How Can Civic Tech Fight Against Openwashing?",
           "abstract": ""
         }
       },
@@ -572,8 +572,8 @@
         "expandable": false,
         "event": {
           "venue": "",
-          "moderator": "Frances West, Chairman, G3ict",
-          "speaker": "R. B. Wu, Former President, Institute for Information Industry \nJames Powell, U-Report Global Lead, UNICEF \nBram Sieben, Concept Developer, Amsterdam Smart City Program & Alliander NV \nNanjira Sambuli, Digital Equality Advocacy Manager, Web Foundation",
+          "moderator_f": "Frances West, Chairman, G3ict",
+          "speaker_f": "R. B. Wu, Former President, Institute for Information Industry \nJames Powell, U-Report Global Lead, UNICEF \nBram Sieben, Concept Developer, Amsterdam Smart City Program & Alliander NV \nNanjira Sambuli, Digital Equality Advocacy Manager, Web Foundation",
           "title": "WCIT - Promoting Digital Inclusion and Equality"
         }
       },
@@ -586,8 +586,8 @@
         "expandable": false,
         "event": {
           "venue": "",
-          "moderator": "Chia-liang Kao, Co-founder, g0v.tw /Board Member, Open Culture Foundation",
-          "speaker": "Erie Meyer, Co-founder of US Digital Service and a member of Code for American Leadership Team \nAudrey Tang, Digital Minister without Portfolio \nRebecca Rumbul, Head of research, mySociety \nMathilde Bras, Etalab, French Prime Minister's task force for Open Data, Open Gov and Data-driven transformation, France \nMichael Canares, Regional Research Manager, Open Data Lab Jarkata, Indonesia",
+          "moderator_f": "Chia-liang Kao, Co-founder, g0v.tw /Board Member, Open Culture Foundation",
+          "speaker_f": "Erie Meyer, Co-founder of US Digital Service and a member of Code for American Leadership Team \nAudrey Tang, Digital Minister without Portfolio \nRebecca Rumbul, Head of research, mySociety \nMathilde Bras, Etalab, French Prime Minister's task force for Open Data, Open Gov and Data-driven transformation, France \nMichael Canares, Regional Research Manager, Open Data Lab Jarkata, Indonesia",
           "title": "WCIT - Breakout Session - Civic Tech on Government Transparency and Citizen Participation"
         }
       },
