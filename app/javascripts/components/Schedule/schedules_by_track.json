@@ -58,7 +58,9 @@
         "event": {
           "venue": "201B+C",
           "speaker": ["Chia-liang Kao", "Michael Canares", "Luke Bacon", "Gemma Humphrys", "Nanjira Sambuli"],
+          "speaker_f": "COVFEFE\nTRUMP\nFRASSBRAUSE\nSUCH",
           "moderator": "Dr. Rebecca Rumbul",
+          "moderator_f": "NOXX",
           "panel": "Panel 1",
           "title": "Examples of Civic Technologies and their impacts",
           "abstract": "Now that the Civic Technology sector has matured, we can take a step back and assess its worth. What positive impacts have these tools had? How have they changed society and the relationships between citizens and governments? What negative impacts can be understood, and what is the best way to counter these for the future?"

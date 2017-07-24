@@ -140,7 +140,7 @@ function mapTimeSlotToItems(day, value, i) {
                     value.event.moderator ? (
                       <div>
                         <p>Moderator</p>
-                        <div className="Schedule-presenter">{multiParagraph(value.event.moderator)}</div>
+                        <div className="Schedule-presenter">{multiParagraph(value.event.moderator_f)}</div>
                       </div>
                       ) : null
                   }
@@ -148,7 +148,7 @@ function mapTimeSlotToItems(day, value, i) {
                     value.event.speaker ? (
                       <div>
                         <p>Speaker</p>
-                        <div className="Schedule-presenter">{multiParagraph(value.event.speaker)}</div>
+                        <div className="Schedule-presenter">{multiParagraph(value.event.speaker_f)}</div>
                       </div>
                       ) : null
                   }
@@ -178,7 +178,7 @@ function mapTimeSlotToItems(day, value, i) {
                     value.event.moderator ? (
                       <div>
                         <p>Moderator</p>
-                        <div className="Schedule-presenter">{multiParagraph(value.event.moderator)}</div>
+                        <div className="Schedule-presenter">{multiParagraph(value.event.moderator_f)}</div>
                       </div>
                       ) : null
                   }
@@ -186,7 +186,7 @@ function mapTimeSlotToItems(day, value, i) {
                     value.event.speaker ? (
                       <div>
                         <p>Speaker</p>
-                        <div className="Schedule-presenter">{multiParagraph(value.event.speaker)}</div>
+                        <div className="Schedule-presenter">{multiParagraph(value.event.speaker_f)}</div>
                       </div>
                       ) : null
                   }
