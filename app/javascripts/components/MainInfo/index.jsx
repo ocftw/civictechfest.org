@@ -94,7 +94,7 @@ export default class MainInfo extends Component {
 	  		</div>
 	  		<div className={styles.herotext}>
 	  			<h1>#CivicTechFest</h1>
-				<h2>Sep. 11th - 16th<br/>Taipei, Taiwan</h2>
+				<h2>Sep. 10th - 16th<br/>Taipei, Taiwan</h2>
 			</div>
 		</div>
 		<article className={styles.relative} data-wide="true">
@@ -104,7 +104,7 @@ export default class MainInfo extends Component {
 		  <div className={styles.dateline}>
 		  	<ul>
 		  		<li className={styles.month}><span>Sep.</span><p>Events</p></li>
-		  		<li><a><span>9</span><span>10</span><p>Code for Gender</p></a></li>
+		  		<li><a><span>10</span><p>Code for Gender</p></a></li>
 		  		<li><a><span>10</span><p>Taiwan Open Gov.<br />Observation<br />Report Release</p></a></li>
 		  	</ul>
 		  	<ul>
@@ -112,7 +112,7 @@ export default class MainInfo extends Component {
 		  		<li className={styles.main}><a><span>11</span><span>12</span><span>13</span><p>TICTeC</p><h6>(alongside WCIT)</h6></a></li>
 		  	</ul>
 		  	<ul>
-		  		<li><a><span>14</span><p>Data Bootcamp for NGOs<br /><br />Toolbox BarCamp<br /><br />Code for ALL Summit<br /><br /></p></a></li>
+		  		<li><a><span>14</span><p>Data Bootcamp for NGOs<br /><br />Creative Workshop<br /><br />Code for ALL Summit<br /><br /></p></a></li>
 		  		<li><a><span>15</span><p>AODP Summit</p></a></li>
 		  		<li><a><span>16</span><p>g0v Hackathon</p></a></li>
 		  	</ul>
@@ -162,7 +162,6 @@ export default class MainInfo extends Component {
 
 				<h2 className={styles.blue}>{cat.title}</h2>
 				<div className={styles.blue_dateline}>
-					<span>9</span>
 					<span>10</span>
 					<span>11</span>
 					<span className={styles.grey}>12</span>
@@ -187,7 +186,6 @@ export default class MainInfo extends Component {
 
 				<h2 className={styles.orange}>{cat.title}</h2>
 				<div className={styles.orange_dateline}>
-					<span className={styles.grey}>9</span>
 					<span className={styles.grey}>10</span>
 					<span>11</span>
 					<span>12</span>
