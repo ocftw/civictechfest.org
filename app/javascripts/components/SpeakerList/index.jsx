@@ -76,22 +76,29 @@ class SpeakerList extends Component {
     let data = this.mapToDescription(speaker, locale);
 
     return (
-      <div className={cx({
-                          "speaker": !this.state.showSession,
-                          "speaker-shrink": this.state.showSession
-        })} key={speaker.name}
+      <a className={styles.speakers} key={speaker.name}
+        id = {`slot-${data.id}`}
+        href= {`#${data.id}`}
+        onClick={this.enableSession.bind(this, data.event, data.time)} 
+        data-session={cx({
+                          "false": !this.state.showSession,
+                          "true": this.state.showSession
+        })} 
       >
-        <a
-          id = {`slot-${data.id}`}
-          href= {`#${data.id}`}
-          onClick={this.enableSession.bind(this, data.event, data.time)}
-        >
-          <img className={styles.avatar} src={avatar} />
-        </a>
-        <div className={styles.name}>{getString(speaker, 'name', locale)}</div>
-        {speaker.title && <div className={styles.title}>{getString(speaker, 'title', locale)}</div>}
-        {speaker.organization && <div className={styles.organization}>{getString(speaker, 'organization', locale)}</div>}
-      </div>
+        <span className={styles.inner}>
+          <span className={styles.avatar}>
+            <span>
+              <img src={avatar} />
+            </span>
+          </span>
+          <span className={styles.about}>
+            <h3>{speaker.name}</h3>
+            <p>{speaker.title}</p>
+            <p>{speaker.organization}</p>
+          </span>
+        </span>
+
+      </a>
     );
   }
   /*
@@ -182,11 +189,12 @@ class SpeakerList extends Component {
   render() {
     return (
       <div className={styles.root}>
+      <article className={styles.container} data-wide="true">
         <h2 className={cx({
           "header": true,
           "header-shrink" : this.state.showSession})}
         >
-          講者
+          Speakers
         </h2>
         <div className= {cx({"speaker-parent" : this.state.showSession })} >
           { presenters['en-US'].filter((s) => s.featured).sort(this.sortFunc).map(this.speaker) }
@@ -206,7 +214,9 @@ class SpeakerList extends Component {
             time={this.state.currentSessionTime}
           />
         </div>
+      </article>
       </div>
+
     );
   }
 };

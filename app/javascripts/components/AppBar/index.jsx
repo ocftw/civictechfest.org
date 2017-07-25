@@ -131,10 +131,9 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="#"
+          to="/speakers"
           /*activeClassName={styles.active}*/
           onClick={() => hideMenu()}
-          data-islink="false" 
         >
           <i className={icon.speaker}><ICON icon="speaker" /></i>
           {info[getLocale()].speakers}
