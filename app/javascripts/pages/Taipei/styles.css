@@ -1,4 +1,16 @@
 
+
+svg[data-icon="google"] {
+  color: inherit;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline;
+  vertical-align: middle;
+  margin-top: -7px;
+}
+
+
 .icon, .howtogo dl dt::before, .howtogo dl dd::before {
   font-family: 'Material Icons';
   font-weight: normal;

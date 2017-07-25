@@ -46,7 +46,7 @@ const icons = {
 };
 
 const Icon = props => (
-  <svg data-icon={props.icontype} width="30" height="30" viewBox="0 0 1024 1024">
+  <svg data-icon={props.icontype} fill="#000000" height="30" viewBox="0 0 1024 1024" width="30" xmlns="http://www.w3.org/2000/svg">
     {icons[props.icon].map((result) => {
     return (<path d={result} ></path>);
     })}

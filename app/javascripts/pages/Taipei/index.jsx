@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
 import styles from "./styles.css";
-import ICON from "../../components/icon.jsx"
+import ICON_G from "../../components/icon_g.jsx"
 
 class Taipei extends Component {
   render() {
@@ -14,7 +14,7 @@ class Taipei extends Component {
 
           	<section className={styles.about}>
               <div className={styles.title}>
-                <h3>Apply Data SIM Card</h3>
+                <h3><ICON_G icon="sim" icontype="google"/> Apply Data SIM Card</h3>
                 
               </div>
               <div className={styles.content}>
@@ -31,14 +31,15 @@ class Taipei extends Component {
             <h2 className={styles.header}>Taipei Transportation</h2>
             <section className={styles.about}>
               <div className={styles.title}>
-                <h3>Airport</h3>
+                <h3><ICON_G icon="airplain" icontype="google"/> Airport</h3>
                 
               </div>
               <div className={styles.content}>
                 
                 
                 <div className={styles.howtogo}>
-                    <h4>Taoyuan (TPE) Airport</h4>
+                    
+                    <h4><ICON_G icon="airplain" icontype="google"/> Taoyuan (TPE) Airport</h4>
                     <hr />
                   
                     <div className={styles.desc}>
@@ -52,7 +53,7 @@ class Taipei extends Component {
                   
                 </div>
                 <div className={styles.floor}>
-                  <h4>Songshan (TSA) Airport</h4>
+                  <h4><ICON_G icon="airplain" icontype="google"/> Songshan (TSA) Airport</h4>
                   <hr />
                   <div className={styles.flex}>
                     <div className={styles.desc}>
@@ -68,7 +69,7 @@ class Taipei extends Component {
 
             <section className={styles.about}>
               <div className={styles.title}>
-                <h3>MRT</h3>
+                <h3><ICON_G icon="mrt" icontype="google"/> MRT</h3>
                 
               </div>
               <div className={styles.content}>
@@ -100,7 +101,7 @@ class Taipei extends Component {
                 
                 
                 <div className={styles.howtogo}>
-                    <h4>Taxi</h4>
+                    <h4><ICON_G icon="taxi" icontype="google"/> Taxi</h4>
                     <hr />
                   
                     <div className={styles.desc}>
@@ -111,7 +112,7 @@ class Taipei extends Component {
                     
                 </div>
                 <div className={styles.howtogo}>
-                  <h4>Buses</h4>
+                  <h4><ICON_G icon="bus" icontype="google"/> Buses</h4>
                   <hr />
                   <div className={styles.flex}>
                     <div className={styles.desc}>
@@ -123,7 +124,7 @@ class Taipei extends Component {
                   </div>
                 </div>
                 <div className={styles.floor}>
-                  <h4>YouBike</h4>
+                  <h4><ICON_G icon="bike" icontype="google"/> YouBike</h4>
                   <hr />
                   <div className={styles.flex}>
                     <div className={styles.desc}>
