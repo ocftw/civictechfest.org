@@ -35,7 +35,6 @@
         {
           "date": ["14"],
           "tab": "Public",
-          "tab_color": "blue",
           "venue": "TBD",
           "venue_color": "2",
           "name": "AODP Summit 2017",
@@ -46,6 +45,20 @@
           "url": "http://opendata.tca.org.tw/asia/index.php",
           "urlname": "More info.",
           "desc": "Annual gathering between AODP partners and the awards ceremony of Asia Open Data Hackathon."
+        },
+        {
+          "date": ["14"],
+          "tab": "RSVP / FREE",
+          "venue": "TBD",
+          "venue_color": "1",
+          "name": "Creative workshop: finding solutions together for the biggest challenges of civic tech",
+          "isopen": "true",
+          "img": "toolbox.jpg ",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://www.eventbrite.ca/e/creative-workshop-solutionsfor-the-biggest-challenges-of-civic-tech-tickets-36441755271",
+          "urlname": "Register Now",
+          "desc": "Civic tech is still a fairly new practice, let's take advantage of the global gathering to identify challenges and work on solutions."
         },
         {
           "date": ["15"],
