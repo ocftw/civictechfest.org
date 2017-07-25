@@ -153,7 +153,7 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="/ticket"
+          to="/tickets"
           activeClassName={styles.active}
           onClick={() => hideMenu()}
         >

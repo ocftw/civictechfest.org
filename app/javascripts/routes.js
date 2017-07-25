@@ -22,7 +22,7 @@ export default () => {
       <Route path="agenda" component={Agenda} onEnter={scrollToTop}/>
       <Route path="speakers" component={Speakers} onEnter={scrollToTop} />
       <Route path="about" component={About} onEnter={scrollToTop} />
-      <Route path="ticket" component={Ticket} onEnter={scrollToTop} />
+      <Route path="tickets" component={Ticket} onEnter={scrollToTop} />
       <Route path="venue" component={Venue} onEnter={scrollToTop} />
       <Route path="Taipei" component={Travel} onEnter={scrollToTop} />
       <Route path="side_event" component={Unconf} onEnter={scrollToTop} />
