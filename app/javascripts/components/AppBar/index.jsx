@@ -162,10 +162,9 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="#"
+          to="/taipei"
           /*activeClassName={styles.active}*/
-          onClick={() => hideMenu()}
-          data-islink="false" 
+          onClick={() => hideMenu()} 
         >
           <i className={icon.taipei}><ICON icon="taipei" /></i>
           {info[getLocale()].taipei}

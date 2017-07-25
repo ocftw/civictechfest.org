@@ -1,0 +1,309 @@
+
+.icon, .howtogo dl dt::before, .howtogo dl dd::before {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 0.5;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  padding: 0 5px 3px 0;
+  color: #F19E44;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.root {
+  min-height: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  lost-utility: clearfix;
+  position: relative;
+}
+
+
+.header {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.6em;
+}
+
+.section {
+  display: block;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+
+/* about */
+
+.sponsor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 960px;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #999;
+  zoom: 1;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+
+
+.about {
+  border-radius: 15px;
+  border: 1px solid #B0B0B0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+.about h4 {
+  margin: 0;
+  font-size: 1.6em;
+}
+.content {
+    padding: 1.5em;
+}
+
+
+
+.title {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background: #E6E6E6;
+  top: 0;
+  padding: 1.5em 2em;
+}
+
+.title h3 {
+  font-size: 1.6em;
+  color: #4D4D4D;
+  line-height: 1;
+  margin: 0 30px 0 auto;
+}
+
+.title h3, .title a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.title a {
+  color: #999;
+}
+
+.title h4 {
+  margin: 0.5em 0 0 0;
+  font-size: 1.2em;
+  color: #F19E44;
+}
+.content h4 {
+  color: #F19E44;
+}
+
+.note {
+  color: #999;
+  vertical-align: text-bottom;
+}
+
+.venue, .howtogo {
+  margin-bottom: 2em;
+}
+.venue {
+  padding-left: 2.7em;
+  position: relative;
+}
+.venue a {
+    color: #999;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+.icon[data-size="big"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2.5em;
+}
+
+.icon[data-color="red"] {
+  color: #EE5A24;
+}
+
+.howtogo dl {
+  margin-bottom: 2em;
+}
+
+.howtogo dl dt {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.howtogo dl dd {
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+
+.howtogo dl dt::before{
+  content: "explore";
+}
+.howtogo dl dd::before{
+  content: "keyboard_arrow_right";
+  position: absolute;
+  top: 2.3em;
+  left: 1.8em;
+}
+
+
+.flex{
+  padding: 1em 0;
+  border-radius: 16px;
+  display: -webkit-flex;
+  display: flex;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.flex .map {
+  -webkit-flex: 1;
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+}
+.map {
+  max-width: 650px;
+  margin: 0 auto; 
+}
+.map img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  border-radius: 16px;
+}
+
+.map iframe {
+  border: none;
+  width: 100%;
+  max-height: 300px;
+}
+
+.map .mapname {
+  font-size: 1.2em;
+  padding: 0 2em;
+}
+
+.content .desc {
+  -webkit-flex: 1;
+  flex: 1;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.7;
+  margin-top: 0;
+  word-wrap: break-word;
+  text-align: justify;
+  position: relative;
+  padding: 0 1em;
+}
+
+
+.desc p {
+  margin-top: 0;
+  margin-bottom: 0.7em;
+}
+
+.brief {
+  font-size: 1.2em;
+  color: #F19E44;
+}
+
+.brief i {
+  font-size: 1em;
+  padding-bottom: 8px;
+}
+
+.content p a {
+  color: #F19E44;
+}
+
+
+/* top section */
+.topsection {
+  display: block;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.topsection .content {
+  justify-content: center;
+}
+
+.topsection .logo {
+  max-width: 420px;
+  min-width: 300px;
+  flex: 1;
+}
+
+.topsection .desc {
+  padding: 0 2em;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 480px) {
+  .root {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .content {
+    padding: 1.5em 1em;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 100%;
+  }
+  .flex {
+    display: block;
+  }
+  .flex .map {
+    margin: 15px auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .flex .desc {
+    display: block;
+    word-wrap: normal;
+    text-align: left;
+  }
+  .howtogo dl dd::before{
+    top: 1.6em;
+  }
+
+}
+
+

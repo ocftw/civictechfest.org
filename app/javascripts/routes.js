@@ -9,7 +9,7 @@ import {
   Venue,
   Unconf,
   Ticket,
-  Travel,
+  Taipei,
 } from 'javascripts/pages';
 
 function scrollToTop() {
@@ -24,7 +24,7 @@ export default () => {
       <Route path="about" component={About} onEnter={scrollToTop} />
       <Route path="tickets" component={Ticket} onEnter={scrollToTop} />
       <Route path="venue" component={Venue} onEnter={scrollToTop} />
-      <Route path="Taipei" component={Travel} onEnter={scrollToTop} />
+      <Route path="taipei" component={Taipei} onEnter={scrollToTop} />
       <Route path="side_event" component={Unconf} onEnter={scrollToTop} />
     </Route>
   );

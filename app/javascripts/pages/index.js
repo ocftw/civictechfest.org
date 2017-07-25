@@ -6,4 +6,4 @@ export Live from "./Live";
 export Venue from "./Venue";
 export Unconf from "./Unconf";
 export Ticket from "./Ticket";
-export Travel from "./Travel";
+export Taipei from "./Taipei";

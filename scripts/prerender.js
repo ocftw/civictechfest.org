@@ -47,8 +47,8 @@ const PAGES = [{
   title: '直播',
   ld: basic
 }, {
-  path: 'ticket',
-  title: 'Ticket',
+  path: 'tickets',
+  title: 'Tickets',
   ld: basic
 }, {
   path: 'taipei',
