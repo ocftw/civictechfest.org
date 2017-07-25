@@ -5,10 +5,7 @@
       "title": "Side Events",
       "side_events": [
         {
-          "date": [
-            "9",
-            "10"
-          ],
+          "date": ["10"],
           "tab": "Public",
           "venue": "TBD",
           "venue_color": "1",
@@ -26,7 +23,7 @@
           "tab": "RSVP / FREE",
           "venue": "Google Taipei",
           "venue_color": "1",
-          "name": "Civic Tech Grant DEMO Party & TICTeC dinner party",
+          "name": "Civic Tech Grant DEMO Party & Social Event",
           "isopen": "true",
           "img": "g0v grant.png",
           "imgtype": "logo",
@@ -37,7 +34,7 @@
         },
         {
           "date": ["14"],
-          "tab": "Closed meeting",
+          "tab": "Public",
           "tab_color": "blue",
           "venue": "TBD",
           "venue_color": "2",
@@ -52,7 +49,7 @@
         },
         {
           "date": ["15"],
-          "tab": "Public",
+          "tab": "Closed meeting",
           "tab_color": "blue",
           "venue": "TICC 101",
           "venue_color": "3",
