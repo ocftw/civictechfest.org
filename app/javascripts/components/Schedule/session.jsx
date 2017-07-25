@@ -70,6 +70,7 @@ export default React.createClass({
       const avatar = speaker ? avatarURL(speaker) : '';
 
       return <div className="Session-presenter" key={`speaker_${speaker_name}`}>
+        { avatar && <img className="Session-presenter-avatar" src={avatar} /> }
         <div className="Session-presenter-name">
             {speaker_name}
             { twitterID &&
@@ -97,13 +98,14 @@ export default React.createClass({
               </a>
             }
         </div>
+
         <div className="Session-presenter-title">
             {speaker_title}
         </div>
         <div className="Session-presenter-organization">
             {speaker_organization}
         </div>
-        { avatar && <img className="Session-presenter-avatar" src={avatar} /> }
+        
         <hr />
         <div className="Session-presenter-biotext" key={`speaker_bio_${speaker_name}`}>
             <div dangerouslySetInnerHTML={{__html: bio_text}}></div>
@@ -166,6 +168,7 @@ export default React.createClass({
                  onClick={sessionHandler}></div>
             <div className="Session-content">
                 <div className="Session-presenter" key={`speaker_${getString(data.value, 'name', locale)}`}>
+                  {avatar && <img className={styles.avatar} src={avatar}/>}
                   <div className="Session-presenter-name">
                       {getString(data.value, 'name', locale)}
                   </div>
@@ -175,7 +178,7 @@ export default React.createClass({
                   <div className="Session-presenter-organization">
                       {getString(data.value, 'organization', locale)}
                   </div>
-                  {avatar && <img className={styles.avatar} src={avatar}/>}
+                  
                 </div>
                 <div className="Session-biography" key={`bio_${data.value.bio}`}>
                     <div className="Session-subTitle">Biography</div>

@@ -66,26 +66,7 @@ $breakpoint2: 1600px;
     line-height: 1.6;
     background: white;
 }
-@media screen and (min-width: $breakpoint){
-    .Session-close{
-      right: 20px;
-      top: 20px;
-    }
-    .Session-content {
-      padding: 10px 40px;
-      max-width: 40em; /* Don't make text too long & difficult to read */
-    }
-}
-@media screen and (min-width: $breakpoint2){
-    .Session-close{
-      right: 20px;
-      top: 20px;
-    }
-    .Session-content {
-      padding: 10px 40px;
-      max-width: 40em; /* Don't make text too long & difficult to read */
-    }
-}
+
 .Session-meta {
   font-size: 1em;
   display: inline-block;
@@ -134,7 +115,7 @@ $breakpoint2: 1600px;
 .Session-presenter {
   position: relative;
   height: auto;
-  margin: 60px 0 100px 0;
+  margin: 40px 0 80px 0;
   min-height: 120px;
 }
 
@@ -150,8 +131,8 @@ $breakpoint2: 1600px;
 }
 
 .Session-presenter-avatar {
-  position: absolute;
-  top: -45px;
+  position: relative;
+  top: 0;
   right: 0;
   width: 128px;
   height: 128px !important;
@@ -254,4 +235,33 @@ $breakpoint2: 1600px;
   text-align: justify;
 }
 
+@media screen and (min-width: $breakpoint){
+    .Session-close{
+      right: 20px;
+      top: 20px;
+    }
+    .Session-content {
+      padding: 10px 40px;
+      max-width: 40em; /* Don't make text too long & difficult to read */
+    }
+    .Session-presenter-avatar {
+      position: absolute;
+      top: -45px;
+    }
+    .Session-presenter {
+      margin: 60px 0 100px 0;
+    }
 }
+@media screen and (min-width: $breakpoint2){
+    .Session-close{
+      right: 20px;
+      top: 20px;
+    }
+    .Session-content {
+      padding: 10px 40px;
+      max-width: 40em; /* Don't make text too long & difficult to read */
+    }
+}
+
+}
+
