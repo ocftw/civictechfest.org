@@ -78,7 +78,9 @@ svg[data-icon="google"] {
   border-radius: 3px;
 }
 
-
+.textcenter {
+  text-align: center;
+}
 
 .about {
   border-radius: 15px;

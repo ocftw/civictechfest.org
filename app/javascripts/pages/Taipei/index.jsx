@@ -29,6 +29,7 @@ class Taipei extends Component {
             </section>
 
             <h2 className={styles.header}>Taipei Transportation</h2>
+            <p className={styles.textcenter}>Google Maps is your good friend.</p>
             <section className={styles.about}>
               <div className={styles.title}>
                 <h3><ICON_G icon="airplain" icontype="google"/> Airport</h3>
