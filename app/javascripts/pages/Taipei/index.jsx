@@ -21,8 +21,8 @@ class Taipei extends Component {
                 
                     <div className={styles.desc}>
                       <p>
-                      	At Taoyuan (TPE) (Mostly International flights) or Songshan (TSA) airport you can buy Data SIM card from main carriers of Taiwan. Due to the law, you must have BOTH your passport AND your local ID or international driver license to buy one. 😞
-                      	</p>
+                      	At <a href="http://www.taoyuan-airport.com/english" target="_blank">Taoyuan (TPE) (Mostly International flights)</a> or <a href="http://www.tsa.gov.tw/tsa/en/home.aspx" target="_blank">Songshan (TSA) airport</a> you can buy Data SIM card from main carriers of Taiwan. Due to the law, you must have BOTH your passport AND your local ID or international driver license to buy one. 😞
+                      </p>
                     </div>
                                  
               </div>
