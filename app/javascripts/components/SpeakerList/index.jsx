@@ -112,25 +112,97 @@ class SpeakerList extends Component {
     let event = null;
     let id = "";
 
+    /*
+    for (var day_key in schedulesByTrack[getLocale()]) {
+      if ( !day_key.startsWith('day') ) continue;//skip header, etc TODO schedules_by_track.json bad structure
+      console.log("day: "+day_key);
+      for (var event_key in schedulesByTrack[getLocale()][day_key]) {
+        console.log("event: "+event_key);
+        data = schedulesByTrack[getLocale()][day_key][event_key];
+        if ( !Array.isArray(data.event) ) continue;
+        var thisevent = data.event;
+        console.log(thisevent);
+        if ( thisevent.hasOwnProperty('speaker') ) {
+          console.log('cheching speaker');
+          if ( Array.isArray(thisevent.speaker) ) {
+            if ( thisevent.speaker.includes(getString(speaker, 'name', locale)) ) {
+              event = thisevent;
+              id = day_key+"-"+event_key;
+              //data ?
+            }
+          } else if ( thisevent.speaker == getString(speaker, 'name', locale) ) {
+            event = thisevent;
+            id = day_key+"-"+event_key;
+          }
+          console.log('checked speaker');
+        } else if ( thisevent.hasOwnProperty('moderator') ) {
+          if ( Array.isArray(thisevent.moderator) ) {
+            if ( thisevent.moderator.includes(getString(speaker, 'name', locale)) ) {
+              event = thisevent;
+              id = day_key+"-"+event_key;
+              //data ?
+            }
+          } else if ( thisevent.moderator == getString(speaker, 'name', locale) ) {
+            event = thisevent;
+            id = day_key+"-"+event_key;
+          }
+          console.log('checked moderator');
+        } else {
+          console.log("no session found");
+        }
+      }
+    }
+    console.log(id);
+    return {
+      event: event,
+      id: id,
+      time: data.time
+    };
     // search day1 first
-    data = schedulesByTrack[getLocale()]["day1"].filter((day, index) => {
-      if(day.event.speaker && day.event.speaker.includes(getString(speaker, 'name', locale))||
-         (day.event.moderator && day.event.moderator[0] === getString(speaker, 'name', locale)) //||
+    */
+    data = schedulesByTrack[getLocale()]["day0"].filter((day, index) => {
+      if(day.event.speaker_f && day.event.speaker_f.includes(getString(speaker, 'name', locale))||
+         (day.event.moderator_f && day.event.moderator_f === getString(speaker, 'name', locale)) //||
         ) {
-        id = "day1-all-" + index.toString();
+        id = "day0-all-" + index.toString();
         return true;
       }else {
         return false;
       }
     });
+    
+    if(id == "") {
+      data = schedulesByTrack[getLocale()]["day1"].filter((day, index) => {
+        if(day.event.speaker_f && day.event.speaker_f.includes(getString(speaker, 'name', locale))||
+          (day.event.moderator_f && day.event.moderator_f === getString(speaker, 'name', locale)) //||
+          ) {
+          id = "day1-all-" + index.toString();
+          return true;
+        }else {
+          return false;
+        }
+      });
+    }
 
     // nothing found in day1, then try search day2
     if(id == "") {
       data = schedulesByTrack[getLocale()]["day2"].filter((day, index) => {
-        if(day.event.speaker && day.event.speaker.includes(getString(speaker, 'name', locale))||
-           ((day.event.moderator && day.event.moderator[0]) === getString(speaker, 'name', locale))
+        if(day.event.speaker_f && day.event.speaker_f.includes(getString(speaker, 'name', locale))||
+           ((day.event.moderator_f && day.event.moderator_f) === getString(speaker, 'name', locale))
           ) {
           id = "day2-all-" + index.toString();
+          return true;
+        }else {
+          return false;
+        }
+      });
+    }
+    if(id == "") {
+      data = schedulesByTrack[getLocale()]["day3"].filter((day, index) => {
+        if(day.event.speaker_f && day.event.speaker_f.includes(getString(speaker, 'name', locale))||
+           ((day.event.moderator_f && day.event.moderator_f) === getString(speaker, 'name', locale))
+          ) {
+          id = "day3-all-" + index.toString();
           return true;
         }else {
           return false;
