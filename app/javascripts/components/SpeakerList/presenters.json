@@ -12,7 +12,7 @@
     {
       "avatar": "./images/Rebecca Rumbul.jpg",
       "name": "Dr. Rebecca Rumbul",
-      "organization": "mySociety(UK)",
+      "organization": "mySociety (UK)",
       "title": "Head of Research",
       "bio": "Rebecca is mySociety’s Head of Research. Leading the organisation’s research strategy and implementation, she works with mySociety developers and with international partners to assess the impact of our tools and initiatives.\nWhen she’s not working on mySociety projects, Rebecca continues to teach politics courses for adult learners through Cardiff University’s School for Lifelong Learning, is a fellow of the Royal Society of Arts, and in 2015 was awarded a Winston Churchill Memorial Trust Fellowship. \nShe is a seasoned political commentator, providing expert analysis to BBC Wales and ITV, and is a regular paper reviewer on BBC Radio’s Good Morning Wales programme.",
       "nation": "UK",
@@ -75,7 +75,7 @@
     {
       "avatar": "./images/Chat Garcia Ramilo.jpg",
       "name": "Chat Garcia Ramilo",
-      "organization": "Association for Progressive Communications",
+      "organization": "Association for Progressive Communications (Philippines)",
       "title": "Executive Director",
       "bio": "Chat Garcia Ramilo became the executive director of APC in April 2017, after several years as the organisation's deputy executive director. She first jointed the APC staff in 2000, and is an experienced manager, evaluator, resource person and speaker on gender and ICTs internationally. Chat was the manager of the APC’s women’s programme from 2005 to 2012 and led the development, fundraising and management of nine multi-country ICT for development projects that focused on gender equality and women’s empowerment. She managed APC’s Gender Evaluation Methodology project from 2001 to 2005 and was lead author of the Gender Evaluation Methodologies for Internet and ICTs (GEM) manual, published in 2005.\nChat has worked as a gender and ICT consultant for the Canadian International Development Agency (CIDA), the the International Development Research Centre (IDRC), the World Bank, UNIFEM, UNESCAP and the United Nations Division for the Advancement of Women. She is also the board chair of the Center for Migrant Advocacy in the Philippines.",
       "nation": "Philippines",
@@ -93,7 +93,7 @@
     {
       "avatar": "./images/Orianne Ledroit.jpg",
       "name": "Orianne Ledroit",
-      "organization": " French Digital Agency  (France) ",
+      "organization": " French Digital Agency (France) ",
       "title": "Director of the Digital Society Program",
       "bio": "Orianne Ledroit, Director of the Digital Society Program – French Digital Agency\nOrianne manages the Digital Society Program at the French Digital Agency, which aims at teaming up toward an innovative and inclusive digital society. She teaches also “Digital, Democracy and Public policy” at Sciences Po. She contributes to several local initiatives on commons, open knowledge and collaborative city. Before joining the Agency, she advised MP and local governments on innovation and digital strategies. As an entrepreneur, she co-founded a structure which elaborates learning expeditions for corporate teams. She studied political sciences.",
       "nation": "France",
@@ -111,7 +111,7 @@
     {
       "avatar": "./images/Erie Meyer.jpg",
       "name": "Erie Meyer",
-      "organization": "Code for America",
+      "organization": "Code for America (USA)",
       "title": "Senior Director",
       "bio": "",
       "nation": "USA",
@@ -210,7 +210,7 @@
     {
       "avatar": "./images/Ifeoma Judith Onyebuchi.jpeg",
       "name": "Ifeoma Onyebuchi Judith",
-      "organization": "Public and Private Development Center (Nigeria)  ",
+      "organization": "Public and Private Development Center (Nigeria)",
       "title": "Developer, PyLadies and Django Girls participant",
       "bio": "Ifeoma Onyebuchi Judith is currently a Program Officer at the Public and Private Development Center(PPDC), a Civil Society Organization that seeks to promote increased citizen’s participation in governance in a way that improves integrity in public sector governance systems through monitoring and reporting on public finance expenditure.  With strong research and analytical skills targeted to enhancing sectoral reforms, she is committed to influencing public policy for good. To achieve this, she uses evidence-based feedback from procurement monitoring activities and data published on budeshi (www.budeshi.org) to assess the impacts of public projects for better service delivery. \nIfeoma is also a member of the Nigerian Open Contracting Portal Working Group(NOCOPO), a partnership comprising of Bureau of Public Procurement, CSOs and the Private Sector working together to develop the Nigerian Open Contracting Portal.",
       "nation": "Nigeria",
@@ -228,7 +228,7 @@
     {
       "avatar": "./images/Ana Schwendler.png",
       "name": "Ana Schwendler",
-      "organization": "Data Science Brigade (Brazil) ",
+      "organization": "Data Science Brigade (Brazil)",
       "title": "Data scientist",
       "bio": "Data scientist, responsible for developing natural language processing models that can identify anomalies in data and scrapping tools. She is an active participant of initiatives that promotes gender equality in tech, like Rails Girls and Django Girls.",
       "nation": "Brazil",
@@ -237,7 +237,7 @@
     {
       "avatar": "./images/Jessica Temporal.png",
       "name": "Jessica Temporal",
-      "organization": "Data Science Brigade (Brazil) ",
+      "organization": "Data Science Brigade (Brazil)",
       "title": "Developer, PyLadies and Django Girls participant",
       "bio": "Developer, PyLadies and Django Girls participant. She is addicted to data science, and has already participated in projects hacking the genome code or researching tweets with NLP and Python. Today she works as a data scientist at Data Science Brigade on Serenata de Amor Operation.",
       "nation": "Brazil",
@@ -246,7 +246,7 @@
     {
       "avatar": "./images/Po-yu Tseng.png",
       "name": "Po-yu Tseng",
-      "organization": "Open Culture Foundation (Taiwan) ",
+      "organization": "Open Culture Foundation (Taiwan)",
       "title": "Researcher",
       "bio": "Po-yu is an activist concerned with human rights, gender equality and generational justice. Po-yu was involved with Taiwan’s Sunflower Movement in 2014, and was a candidate for the Legislative Yuan (Taiwan’s Congress) during the 2016 general elections. She has also worked at Taipei City Hall’s media affairs department. Po-yu is secretary of the Network of Young Democratic Asians, an alliance of young activists in Asia working to achieve effective democracy and protection of human rights.",
       "nation": "Taiwan",
@@ -255,7 +255,7 @@
     {
       "avatar": "./images/Mg Lee.jpg",
       "name": "Mg Lee",
-      "organization": "Open Culture Foundation (Taiwan) ",
+      "organization": "Open Culture Foundation (Taiwan)",
       "title": "Researcher",
       "bio": "Mei-chun (also known as MG) is an anthropology PhD candidate at the University of California, Davis, and a g0v community participant. She also holds a master degree from the University of Cambridge. Her research interests include hackitivism, open movements, digital democracy and activism. She is currently conducting fieldwork of civic technology in Taiwan.",
       "nation": "Taiwan",
@@ -273,7 +273,7 @@
     {
       "avatar": "./images/Virgile Deville.jpg",
       "name": "Virgile Deville",
-      "organization": "Democracy Earth (France) ",
+      "organization": "Democracy Earth (France)",
       "title": "",
       "bio": "",
       "nation": "France",
@@ -282,7 +282,7 @@
     {
       "avatar": "./images/Pierre Louis-Rolle.jpg",
       "name": "Pierre-Louis Rolle",
-      "organization": "French Digital Agency (France) ",
+      "organization": "French Digital Agency (France)",
       "title": "Senior Policy Officer at the Digital Society Program",
       "bio": "Pierre-Louis oversees several projects of the Digital Society Program at the French Digital Agency, such as the Laboratory or the co-operative for digital inclusion. Before joining the Agency, Pierre-Louis worked for local governments where he developed policies for digital inclusion and digital democracy. A civic tech advocate, he contributes to several not-for-profit open source initiatives such as OpenDemocracyNow. He has a background in sociology.",
       "nation": "France",
