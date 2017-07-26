@@ -162,8 +162,6 @@ export default React.createClass({
       const avatar = data ? avatarURL(data) : '';
       return (
         <div className="Session">
-          <div style={{ color: '#FFF', backgroundColor: '#000', padding: '20px', textAlign: 'center'}}>{schedules[getLocale()].interpretation}
-          </div>
             <div className="Session-close"
                  onClick={sessionHandler}></div>
             <div className="Session-content">
