@@ -14,7 +14,7 @@
           "img": "codeforfender_logo.png",
           "imgtype": "logo",
           "islink": "true",
-          "url": "https://codeforgender.com/",
+          "url": "https://codeforgender.com/en",
           "urlname": "More info.",
           "desc": "The very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue."
         },
@@ -45,7 +45,7 @@
           "islink": "false",
           "url": "",
           "urlname": "Sign up",
-          "desc": "Code for All Annual Summit"
+          "desc": "Code for All 2017 Annual Summit"
         },
         {
           "date": ["14"],
@@ -87,7 +87,7 @@
           "islink": "true",
           "url": "http://g0v.tw/en-US/",
           "urlname": "More info.",
-          "desc": "Come join one of the largest civic tech communities in the world. Don’t ask why “nobody” is doing this, you are the “nobody”!"
+          "desc": "Come join one of the largest civic tech communities in the world."
         }
         
       ]
