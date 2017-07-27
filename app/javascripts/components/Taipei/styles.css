@@ -349,20 +349,20 @@ svg[data-icon="google"] {
 }
 
 
-.eventimg img[data-type="logo"] {
+.eventimg[data-type="logo"] img {
   width: 70%;
   height: auto;
   margin: 0 auto;
 }
 
-.eventimg img[data-type="pic"] {
-  width: auto;
-  height: 200%;
+.eventimg[data-type="pic"] img {
+  width: 100%;
+  height: auto;
   top: 0;
 }
 
 
-.eventimg {
+.eventimg[data-type="logo"] {
   padding: 0 2em;
   margin: 2em auto 0 auto;
 }
@@ -426,8 +426,8 @@ svg[data-icon="google"] {
   right: 0;
 }
 
-.sideevents .eventimg {
-  top: 10%;
+.sideevents .eventimg[data-type="logo"] {
+  top: 5%;
   width: 100%;
   height: 90%; 
   background: transparent;
@@ -438,10 +438,10 @@ svg[data-icon="google"] {
 .sideevents .eventcontent {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
-  top: 38%;
+  top: 48%;
   transition: all 0.5s ease;
   padding-top: 0;
-  height: calc(60% - 30px);
+  height: calc(40% - 30px);
   display: inline-block;
 } 
 
@@ -552,10 +552,6 @@ svg[data-icon="google"] {
   } 
   .sideevents .eventimg {
     height: 36%; 
-  }
-  .speakers .avatar {
-    width: 60%;
-    padding-top: 60%;
   }
 
 }

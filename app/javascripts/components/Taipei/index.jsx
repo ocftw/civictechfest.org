@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
 import styles from "./styles.css";
 import ICON_G from "./../icon_g.jsx"
-import taipei from "jsons/taipei.json";
+import taipei_info from "jsons/taipei_info.json";
 
 
 var multiParagraph = (text, className) => {
@@ -20,18 +20,19 @@ var multiParagraph = (text, className) => {
 
 export default class Taipei extends Component {
 
-  SideEvent = (SideEvent, i) => {
-    return (
-        <div className={styles.sideevents}>
-      <div className={styles.overhidden}>
-        <div className={styles.eventimg}>
-          <img data-type={SideEvent.imgtype} src={require(`images/sideevents/${SideEvent.img}`)} />
-        </div>
-        <div className={styles.eventcontent} data-open={SideEvent.isopen}>
-          <h3>{SideEvent.name}</h3>
-          {multiParagraph(SideEvent.desc)}
 
-          <a data-islink={SideEvent.islink} href={SideEvent.url} target="_blank" className={styles.eventbtn}><span>{SideEvent.urlname}</span></a>
+  TaipeiInfo = (TaipeiInfo, i) => {
+    return (
+      <div className={styles.sideevents}>
+      <div className={styles.overhidden}>
+        <div className={styles.eventimg} data-type={TaipeiInfo.imgtype}>
+          <img src={require(`images/taipei/${TaipeiInfo.img}`)} />
+        </div>
+        <div className={styles.eventcontent} data-open={TaipeiInfo.isopen}>
+          <h3>{TaipeiInfo.name}</h3>
+          {multiParagraph(TaipeiInfo.desc)}
+
+          <a data-islink={TaipeiInfo.islink} href={TaipeiInfo.url} target="_blank" className={styles.eventbtn}><span>{TaipeiInfo.urlname}</span></a>
         </div>
       </div>
       
@@ -39,17 +40,18 @@ export default class Taipei extends Component {
     );
   };
 
+
   render() {
     return (
       <div className={styles.root}>
-        <div className={styles.banner}>
-          <div className={styles.heroimg}>
-            <img className={styles.hero} src={require(`images/taipei/banner.jpg`)} />
-          </div>
-          <div className={styles.herotext}>
-            <h2>Welcome Taipei</h2>
-          </div>
-        </div>
+              <div className={styles.banner}>
+                <div className={styles.heroimg}>
+                  <img className={styles.hero} src={require(`images/taipei/banner.jpg`)} />
+                </div>
+                <div className={styles.herotext}>
+                  <h2></h2>
+                </div>
+              </div>
         <section className={styles.section}>
           <h2 className={styles.header}>Taipei</h2>
           
@@ -183,14 +185,14 @@ export default class Taipei extends Component {
             </section>
             
             { 
-              taipei[getLocale()].map( cat => {
+              taipei_info[getLocale()].map( cat => {
                 return (
                   <section id={cat.category} className={styles.container} key={cat.category}>
 
                       <h2 className={styles.header}>{cat.title}</h2>
 
                       <div>
-                          { cat.taipei.map(this.SideEvent) }
+                          { cat.taipei_info.map(this.TaipeiInfo) }
                     </div>
                   </section>
                 )
