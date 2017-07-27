@@ -7,7 +7,7 @@ import {
   Agenda,
   About,
   Venue,
-  Unconf,
+  SideEvents,
   Ticket,
   Taipei,
 } from 'javascripts/pages';
@@ -25,7 +25,7 @@ export default () => {
       <Route path="tickets" component={Ticket} onEnter={scrollToTop} />
       <Route path="venue" component={Venue} onEnter={scrollToTop} />
       <Route path="taipei" component={Taipei} onEnter={scrollToTop} />
-      <Route path="side_event" component={Unconf} onEnter={scrollToTop} />
+      <Route path="side_events" component={SideEvents} onEnter={scrollToTop} />
     </Route>
   );
 }

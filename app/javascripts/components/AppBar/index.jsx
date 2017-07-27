@@ -120,10 +120,9 @@ const Menu = () => {
       </li>
       <li className={styles.item}>
         <Link
-          to="#"
+          to="/side_events"
           /*activeClassName={styles.active}*/
           onClick={() => hideMenu()}
-          data-islink="false" 
         >
           <i className={icon.side_event}><ICON icon="side_event" /></i>
           {info[getLocale()].side_event}

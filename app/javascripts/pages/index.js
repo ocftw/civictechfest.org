@@ -2,6 +2,7 @@ export Home from "./Home";
 export Speakers from "./Speakers";
 export Agenda from "./Agenda";
 export About from "./About";
+export SideEvents from "./SideEvents";
 export Live from "./Live";
 export Venue from "./Venue";
 export Unconf from "./Unconf";
