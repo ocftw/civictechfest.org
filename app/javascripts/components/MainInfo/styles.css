@@ -747,6 +747,10 @@ article[data-wide="true"] {
 		width: auto;
 		height: 70%;
 	}
+	.sideevents .eventimg img[data-type="logo"] {
+		width: auto;
+		height: 70%;
+	}
 	.mainevent .eventimg {
 		height: 300px;
 	}
@@ -861,6 +865,7 @@ article[data-wide="true"] {
 		width: 100%;
 		height: auto;
 	}
+	
 	.sideevents {
 		width: 48%;
 		padding-top: 60%;
