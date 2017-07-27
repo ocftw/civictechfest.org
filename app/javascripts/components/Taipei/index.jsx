@@ -2,11 +2,54 @@ import React, { Component } from "react";
 import { getLocale } from "javascripts/locale";
 import styles from "./styles.css";
 import ICON_G from "./../icon_g.jsx"
+import taipei from "jsons/taipei.json";
+
+
+var multiParagraph = (text, className) => {
+  if (!text) {
+    return [];
+  }
+  var arr = text.split('\n');
+  var ret = [];
+  for (let i in arr) {
+    let line = arr[i];
+    ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+  }
+  return ret;
+}
 
 export default class Taipei extends Component {
+
+  SideEvent = (SideEvent, i) => {
+    return (
+        <div className={styles.sideevents}>
+      <div className={styles.overhidden}>
+        <div className={styles.eventimg}>
+          <img data-type={SideEvent.imgtype} src={require(`images/sideevents/${SideEvent.img}`)} />
+        </div>
+        <div className={styles.eventcontent} data-open={SideEvent.isopen}>
+          <h3>{SideEvent.name}</h3>
+          {multiParagraph(SideEvent.desc)}
+
+          <a data-islink={SideEvent.islink} href={SideEvent.url} target="_blank" className={styles.eventbtn}><span>{SideEvent.urlname}</span></a>
+        </div>
+      </div>
+      
+    </div>
+    );
+  };
+
   render() {
     return (
       <div className={styles.root}>
+        <div className={styles.banner}>
+          <div className={styles.heroimg}>
+            <img className={styles.hero} src={require(`images/taipei/banner.jpg`)} />
+          </div>
+          <div className={styles.herotext}>
+            <h2>Welcome Taipei</h2>
+          </div>
+        </div>
         <section className={styles.section}>
           <h2 className={styles.header}>Taipei</h2>
           
@@ -139,6 +182,21 @@ export default class Taipei extends Component {
               </div>
             </section>
             
+            { 
+              taipei[getLocale()].map( cat => {
+                return (
+                  <section id={cat.category} className={styles.container} key={cat.category}>
+
+                      <h2 className={styles.header}>{cat.title}</h2>
+
+                      <div>
+                          { cat.taipei.map(this.SideEvent) }
+                    </div>
+                  </section>
+                )
+              }) 
+            }
+
           </div>
         </section>
 

@@ -41,13 +41,57 @@ svg[data-icon="google"] {
 
 .root {
   min-height: 400px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 30px;
   lost-utility: clearfix;
   position: relative;
 }
 
+
+.banner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #F19E44;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.shero {
+  height: 100%;
+  width: auto;
+  display: block;
+  max-height: 600px;
+}
+.heroimg {
+  display: flex;
+  justify-content: center;
+}
+.herotext {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+}
+
+.herotext h1 {
+  font-size: 2.2em;
+  margin: 1em 0;
+}
+.herotext h2 {
+  font-size: 1.6em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2em;
+}
 
 .header {
   text-align: center;
@@ -59,6 +103,9 @@ svg[data-icon="google"] {
   display: block;
   max-width: 800px;
   margin: 10px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
 }
 
 
@@ -283,11 +330,146 @@ svg[data-icon="google"] {
   max-width: 720px;
 }
 
+/* two column */
+/* side events */
+
+.sideevents {
+  border-radius: 15px;
+  border: 1px solid #B0B0B0;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 1em;
+  margin-bottom: 5em;
+  display: inline-block;
+}
+
+.sideevents:nth-child(2n) {
+  margin-left: 0;
+}
+
+
+.eventimg img[data-type="logo"] {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.eventimg img[data-type="pic"] {
+  width: auto;
+  height: 200%;
+  top: 0;
+}
+
+
+.eventimg {
+  padding: 0 2em;
+  margin: 2em auto 0 auto;
+}
+
+.eventcontent {
+  padding: 0 1em 2em 1em;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.eventcontent p {
+  padding: 0;
+}
+
+.eventcontent p:before {
+  width: 0.5em;
+  height: 0.5em;
+  display: block;
+  position: absolute;
+  border-right: 3px solid #F19E44;
+  border-bottom: 3px solid #F19E44;
+}
+
+.eventbtn {
+  display: block;
+  border: 3px solid #F19E44;
+  border-radius: 1em;
+  padding: 0.1em 1em 0.3em 1em;
+  min-height: 1.7em;
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #F19E44;
+  margin: 10px auto; 
+  text-align: center;
+  position: relative;
+  transition: all 0.4s linear;
+  max-width: 500px;
+}
+
+.eventbtn:hover {
+  background: #F19E44;
+  color: #fff;
+}
+
+.eventbtn[data-islink="false"]{
+  display: none;
+}
+
+.overhidden {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.sideevents .eventimg, .sideevents .eventcontent {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.sideevents .eventimg {
+  top: 10%;
+  width: 100%;
+  height: 90%; 
+  background: transparent;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.sideevents .eventcontent {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  top: 38%;
+  transition: all 0.5s ease;
+  padding-top: 0;
+  height: calc(60% - 30px);
+  display: inline-block;
+} 
+
+
+.sideevents .eventcontent h3 {
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0.7em auto;
+}
+.sideevents .eventcontent p {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-top: 0;
+  word-wrap: normal;
+  text-align: left;
+  position: relative;
+}
+
+.sideevents .eventcontent p:before {
+  left: 5px;
+  top: 5px;
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
 @media screen and (max-width: 480px) {
-  .root {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
   .content {
     padding: 1.5em 1em;
   }
@@ -295,10 +477,8 @@ svg[data-icon="google"] {
 }
 
 @media screen and (max-width: 768px) {
-  .root {
+  .section {
     background: rgba(255, 255, 255, 0.8);
-    position: relative;
-    width: 100%;
   }
   .flex {
     display: block;
@@ -320,4 +500,84 @@ svg[data-icon="google"] {
 
 }
 
+@media screen and (min-width: 480px) {
+  .sideevent .eventcontent p {
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  .eventcontent p {
+    padding: 0 1em 0 1.5em;
+  }
+  .eventimg img[data-type="logo"] {
+    width: auto;
+    height: 70%;
+  }
+  .eventimg {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: block;
+  }
+
+  .shero {
+    display: none;
+  }
+  .heroimg {
+    display: block;
+  }
+  .herotext {
+    position: absolute;
+    top: auto;
+    bottom:13%;
+    left: 52%;
+    right: auto;
+  }
+
+  .herotext h1 {
+    font-size: 3.2em;
+    margin: 0.2em 0;
+  }
+  .herotext h2 {
+    position: relative;
+    font-size: 1.8em;
+    margin: 0.2em 0;
+    bottom: 0;
+  }
+  .sideevents .eventcontent {
+    display: inline-block;
+
+  } 
+  .sideevents .eventimg {
+    height: 36%; 
+  }
+  .speakers .avatar {
+    width: 60%;
+    padding-top: 60%;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .eventcontent {
+    padding: 1.5em 1.5em 2em 1.5em;
+  }
+  .sideevents {
+    width: 48%;
+    padding-top: 60%;
+  }
+
+  .sideevents:nth-child(2n) {
+    margin-left: 4%;
+  }
+  .overhidden {
+    position: absolute;
+  }
+
+  .sideevents .eventimg, .sideevents .eventcontent {
+    position: absolute;
+  }
+}
 

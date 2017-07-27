@@ -1,0 +1,249 @@
+{
+  "en-US": [
+    {
+      "category": "side_events",
+      "title": "Side Events",
+      "taipei": [
+        {
+          "date": ["10"],
+          "time": "14:00-17:30",
+          "place": "Taipei NGO House",
+          "entry": "RSVP",
+          "tab": "RSVP / FREE",
+          "venue": "NGO house",
+          "venue_color": "7",
+          "name": "Taiwan Open Government Report Release and Forum",
+          "isopen": "false",
+          "img": "OGR logo.png",
+          "imgtype": "logo",
+          "islink": "false",
+          "url": "",
+          "urlname": "More info.",
+          "desc": "Come to learn the comprehensive research on the development of open government in Taiwan from 2014 to 2016.",
+          "desc_long": "Taiwan Open Government Report is a research project conducted by the Open Culture Foundation in September, 2017 to review the practice and impacts of open government policies in Taiwan from 2014 to 2016. In this report, we focus on four main fields of open government: (1) law and policies, (2) transparency through open data, (3) civic participation, and (4) collaboration through civic technology.",
+          "remind_type": "agenda",
+          "remind_title": "This event will comprise two parts.",
+          "remind": [
+            {
+              "remind_sub": "14:00-15:00 Report Release (English)",
+              "remind_desc": "The first part is the International Press Release. We will share our findings to the press, international guests, and our government servants."
+            },
+            {
+              "remind_sub": "15:30-17:30 Open Government Forum (Chinese)",
+              "remind_desc": "The second part is a forum. We will invite open government experts and practitioners to have a conversation with our researchers. This forum is open to the general public, and we welcome all engaged citizens to participate in the conversation."
+            }
+          ],
+          "host": [
+            {
+              "host_name": "OCF",
+              "host_logo": "OCF-LOGO-04.png"
+            }
+          ]
+        },
+        {
+          "date": ["10"],
+          "time": "TBD",
+          "place": "TBD",
+          "entry": "TBD",
+          "tab": "Public",
+          "venue": "TBD",
+          "venue_color": "1",
+          "name": "#CodeforGender",
+          "isopen": "true",
+          "img": "codeforfender_logo.png",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://codeforgender.com/en",
+          "urlname": "More info.",
+          "desc": "The very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue.",
+          "desc_long": "#CodeforGender Hackathon, which is the very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue. Participants gather together for 48-hour intensive discussion, design, coding and production to create a possible solution toward gender issue. ",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "Womany",
+              "host_logo": "womany_logo.png"
+            }
+          ]
+        },
+        {
+          "date": ["11"],
+          "time": "17:30-18:30 ; 18:30-20:30",
+          "place": "Google Taipei Office at Taipei 101 75F",
+          "entry": "RSVP",
+          "tab": "RSVP / FREE",
+          "venue": "Google Taipei",
+          "venue_color": "2",
+          "name": "Civic Tech Grant DEMO Party",
+          "isopen": "true",
+          "img": "g0v grant.png",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://grants.g0v.tw/",
+          "urlname": "More info",
+          "desc": "The first g0v Civic Tech Grant awardees will demonstrate their prototypes after 6 months of development. Join the party!",
+          "brief": "If you have NT.300,000-500,000, what will you do to improve the society with technology?",
+          "desc_long": "To encourage more talents to invest in the field of civic technology, to speed up the incubation of more results, g0v raises “Civic Tech Grant“ from the domestic and international media and technology industry. This spring, the first awardees are selected. Six projects start to develop prototypes or built up operations. They are going to demonstrate the results at this demo party.",
+          "remind_type": "notitle",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "17:30-18:30 The on-stage introduction and demonstration.",
+              "remind_desc": ""
+            },
+            {
+              "remind_sub": "18:30-20:30 Roundtable sharing: each awardee group leads one table.",
+              "remind_desc": "Welcome everyone sit down and have more detail talks about their projects. Also, the cocktail party of TICTeC@Taipei is held in the same time. Join the party and find more about the Taiwan civic tech."
+            }
+          ],
+          "host": [
+            {
+              "host_name": "g0v",
+              "host_logo": "g0v-only.png"
+            }
+          ]
+        },
+        {
+          "date": ["14"],
+          "time": "09:00-17:00",
+          "place": "Yehjinfa Rice House",
+          "entry": "Closed meeting",
+          "tab": "Closed meeting",
+          "tab_color": "blue",
+          "venue": "Yehjinfa house",
+          "venue_color": "5",
+          "name": "Code for All Summit",
+          "isopen": "false",
+          "img": "code_for_all_logo.png",
+          "imgtype": "logo",
+          "islink": "false",
+          "url": "",
+          "urlname": "Sign up",
+          "desc": "Code for All 2017 Annual Summit",
+          "desc_long": "Code for All is an international network of organizations who believe that digital technology opens new channels for citizens to more meaningfully engage in the public sphere and have a positive impact on their communities.",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "Code for All",
+              "host_logo": "code_for_all_logo.png"
+            }
+          ]
+        },
+        {
+          "date": ["14"],
+          "time": "14:00-20:00",
+          "place": "TAF innovation base",
+          "entry": "RSVP/Free",
+          "tab": "RSVP / FREE",
+          "venue": "TAF base",
+          "venue_color": "3",
+          "name": "Creative workshop: solutions for the biggest challenges of civic tech",
+          "isopen": "true",
+          "img": "toolbox 2.jpg",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://www.eventbrite.ca/e/creative-workshop-solutionsfor-the-biggest-challenges-of-civic-tech-tickets-36441755271",
+          "urlname": "Register Now",
+          "desc": "Let's take advantage of the global gathering to identify challenges and work on solutions.",
+          "desc_long": "Civic tech is still a fairly new practice, even though we all work in different socio economical and political local contexts it seems the challenges we face are similar. Be it scaling to reach more people, making accessible to every one or even sometimes just having impact on the decision that is taken, those challenges are numerous. \nThe event format is Barcamp which is an open, participatory workshop-event, the content of which is provided by participants. We will split up in small interdisciplinary groups and make the best use of design thinking pratices to make sure we are able to work on prototype solutions and pitch results at the end of the event.",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "ODN(open democracy now)",
+              "host_logo": "odn-logo.png"
+            },
+            {
+              "host_name": "OGP toolbox",
+              "host_logo": "OGP_Toolbox-Logo.png"
+            }
+          ]
+        },
+        {
+          "date": ["15"],
+          "time": "10:00-16:40",
+          "place": "Room 101, Taipei International Convention Center",
+          "entry": "TBD",
+          "tab": "Public",
+          "venue": "TICC",
+          "venue_color": "4",
+          "name": "2017 International Data Economy Summit",
+          "isopen": "true",
+          "img": "AODP-LOGO-fal.png",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "http://opendata.tca.org.tw/asia/news-article.php?id=12",
+          "urlname": "Moer Info.",
+          "desc": "3th Asia Open Data Partnership Conference.",
+          "desc_long": "This year, 3th Asia Open Data Partnership(AODP) Conference-2017 International Data Economy Summit is held in Taiwan. AODP is a multi-counties’ alliance to improve international cooperation base in Asia’s culture and needs. AODP is formed in 2015, the members include: Taiwan, Korea, Philippines, Thailand, Japan. Each country will have a \"government recognized organization\" to join the partnership as a member.\n2017 International Data Economy Summit has the overall theme in \"Global Cooperation, Local Impact\". It will cover a variety of topics related to the key challenges of data infrastructure and data markets under data economy.",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "AODP Taiwan member- Taiwan Open Data Alliance",
+              "host_logo": "AODP-LOGO-fal.png"
+            }
+          ]
+        },
+        {
+          "date": ["16"],
+          "time": "TBD",
+          "place": "TAF innovation base",
+          "entry": "RSVP",
+          "tab": "RSVP / FREE",
+          "venue": "TAF base",
+          "venue_color": "6",
+          "name": "g0v Hackathon",
+          "isopen": "true",
+          "img": "g0v-only.png",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "http://g0v.tw/en-US/",
+          "urlname": "More info.",
+          "desc": "Come join one of the largest civic tech communities in the world.",
+          "desc_long": "g0v.tw is a civic tech community in Taiwan since 2012 with deep open-source roots. With 1,000+ contributors through 40+ hackathons, it is recognized as one of the largest group in the global civic tech community. The community focuses on building tools for better information disclosure, engagement, and online democracy, advocating government transparency through the power of information technology.\nThrough the years, the g0v community stimulated the progress of open government, open data, civic participation, and new media in Taiwan. Today the open community is still one of the main driving force for grass root civic movements, through interdisciplinary collaboration.",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "g0v",
+              "host_logo": "g0v-only.png"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}
