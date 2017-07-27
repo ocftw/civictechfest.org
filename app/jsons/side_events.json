@@ -6,6 +6,20 @@
       "side_events": [
         {
           "date": ["10"],
+          "tab": "RSVP / FREE",
+          "venue": "NGO house",
+          "venue_color": "7",
+          "name": "Taiwan Open Government Report Release and Forum",
+          "isopen": "false",
+          "img": "OGR logo.png",
+          "imgtype": "logo",
+          "islink": "false",
+          "url": "",
+          "urlname": "More info.",
+          "desc": "Come to learn the comprehensive research on the development of open government in Taiwan from 2014 to 2016."
+        },
+        {
+          "date": ["10"],
           "tab": "Public",
           "venue": "TBD",
           "venue_color": "1",
