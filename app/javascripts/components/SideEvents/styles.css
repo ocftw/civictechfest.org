@@ -97,6 +97,7 @@ svg[data-icon="sideevent"] {
   font-size: 1.2em;
   font-weight: 400;
   margin-bottom: 0;
+  line-height: 1.5;
 }
 .title p svg {
   color: #29A8DF;
@@ -186,6 +187,14 @@ a[data-islink="false"]{
   padding-bottom: 8px;
 }
 
+.remind[data-type="none"]{
+  display: none;
+}
+
+.remind[data-type="notitle"] h4{
+  display: none;
+}
+
 
 .eventbtn {
   display: inline-block;
@@ -223,8 +232,9 @@ a[data-islink="false"]{
 .host img {
   display: inline-block;
   vertical-align: middle;
-  max-width: 160px;
-  margin: 0 15px;
+  height: 80px;
+  width: auto;
+  margin-left: 15px;
 }
 
 
@@ -324,11 +334,35 @@ a[data-islink="false"]{
 
 
 
+@media screen and (max-width: 992px) {
+  .content {
+  display: block;
+  }
+  .content .logo {
+    margin: 15px auto;
+    display: block;
+  }
+  .content .desc {
+    display: block;
+    padding: 0 1em;
+  }
+  .section {
+    max-width: 720px;
+  }
+  .topsection .desc {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
 
 @media screen and (max-width: 480px) {
   .root {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .content {
     padding: 0 1em;
@@ -341,30 +375,13 @@ a[data-islink="false"]{
   .title {
     padding: 1em;
   }
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 992px) {
-  .content {
-  display: block;
-  }
-  .content .logo {
-    margin: 15px auto;
+  .title p span {
     display: block;
   }
-  .content .desc {
-    display: block;
-  }
-  .section {
-    max-width: 720px;
-  }
-  .topsection .desc {
-    padding: 0;
-  }
 }
+
+
+
 
 @media screen and (min-width: 768px) {
   .dateline li span, .blue_dateline span {

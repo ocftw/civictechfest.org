@@ -35,8 +35,11 @@ export default class SideEvents extends Component {
             <img src={require(`images/sideevents/${sideevent.img}`)} />
           </div>
           <div className={styles.desc}>
+            <p className={styles.brief}>
+                {sideevent.brief}
+            </p>
             {multiParagraph(sideevent.desc_long)}
-            <div className={styles.remind}>
+            <div className={styles.remind} data-type={sideevent.remind_type}>
               <h4><ICON_G icon="info_outline" icontype="sideevent"/> {sideevent.remind_title}</h4>
               <hr />
               { 
