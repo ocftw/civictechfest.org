@@ -255,6 +255,9 @@ article {
 	height: auto;
 	margin: 0 auto;
 }
+.sideevents .eventimg img[data-type="logo"] {
+	width: 50%;
+}
 
 .eventimg img[data-type="pic"] {
 	width: auto;
