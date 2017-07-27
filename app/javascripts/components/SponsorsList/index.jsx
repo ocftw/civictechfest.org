@@ -52,7 +52,7 @@ export default class SponsorsList extends Component {
                 </div>
                 <div className={styles.desc}>
                   <p className={styles.brief}>
-                     Asia&#39;s first ever civic technology festival with a week-long collection of events.
+                     Asia's first ever civic technology festival with a week-long collection of events.
                   </p>
                   <p>
                     &quot;Civic Tech Fest&quot; is Asia&#39;s first ever civic technology festival and conference, featuring a series of forums, workshops, round tables, conferences and hackathons related to open data and open government.
