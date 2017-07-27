@@ -169,7 +169,7 @@ export default class MainInfo extends Component {
 					<span>14</span>
 					<span>15</span>
 					<span>16</span>
-				</div>					
+				</div>
 		    	<div>
 	            { cat.side_events.map(this.SideEvent) }
 				</div>

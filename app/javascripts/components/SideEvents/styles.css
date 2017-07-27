@@ -1,3 +1,15 @@
+
+svg[data-icon="sideevent"] {
+  color: inherit;
+  fill: currentColor;
+  width: 1.2em;
+  height: 1.2em;
+  display: inline;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+
 .root {
   min-height: 400px;
   padding-left: 15px;
@@ -19,6 +31,7 @@
   text-align: center;
   padding-top: 20px;
   font-size: 1.6em;
+  margin-bottom: 40px;
 }
 
 .section {
@@ -79,9 +92,23 @@
   color: #999;
 }
 
+.title p {
+  color: #999;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.title p svg {
+  color: #29A8DF;
+}
+
+.title p span {
+  margin-right: 18px;
+}
+
 
 .content {
-  padding: 1em 1.5em 1em 1.5em;
+  padding: 1.2em 1.5em;
   border-radius: 16px;
   display: -webkit-flex;
   display: flex;
@@ -122,12 +149,31 @@ a[data-islink="false"]{
   word-wrap: break-word;
   text-align: justify;
   position: relative;
-  padding: 0 1em;
+  padding: 0 0 0 2em;
 }
 
 .desc p {
   margin-top: 0;
   margin-bottom: 0.7em;
+}
+
+.desc h4 {
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+.desc dl {
+  padding-left: 1em;
+}
+
+.desc dt {
+  color: #F19E44;
+  font-weight: 600;
+}
+
+.desc dd {
+  margin-left: 26px;
 }
 
 .brief {
@@ -141,6 +187,45 @@ a[data-islink="false"]{
 }
 
 
+.eventbtn {
+  display: inline-block;
+  border: 2px solid #F19E44;
+  border-radius: 2em;
+  padding: 0.3em 2em 0.4em 2em;
+  min-height: 1.7em;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #F19E44;
+  margin: 10px auto; 
+  text-align: center;
+  position: relative;
+  transition: all 0.4s linear;
+  vertical-align: middle;
+}
+
+
+.eventbtn:hover {
+  background: #F19E44;
+  color: #fff;
+}
+
+.eventbtn[data-islink="false"]{
+  display: none;
+}
+
+.host {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  color: #bbb;
+}
+
+.host img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 160px;
+  margin: 0 15px;
+}
 
 
 /* top section */
@@ -166,33 +251,79 @@ a[data-islink="false"]{
   margin: 0 auto;
 }
 
-.icon {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1.5em;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 0.5;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  vertical-align: middle;
-  padding: 0 5px 1px 0;
-  color: #F19E44;
+/* dateline & eventdate dot */
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+.dateline ul {
+  list-style: none;
+  font-size: 1em;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  width: 100%;
+  padding: 0;
+  vertical-align: top;
 }
+.dateline ul:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  top: 1em;
+  z-index: -1;
+  border-top: 1px solid #E3E3E3;
+}
+
+.dateline li {
+  margin: 0 10px;
+  text-align: center;
+  vertical-align: top;
+  color: #666;
+}
+
+.dateline li a {
+  display: block;
+}
+
+.dateline li span, .blue_dateline span {
+  border: 2px solid;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  color: #29A8DF;
+  line-height: 1.8em;
+  background: #fff;
+  margin: 0 3px;
+  text-align: center;
+}
+
+.dateline li p {
+  line-height: 1;
+  margin: 1em auto;
+}
+
+.dateline li.main span {
+  color: #F19E44;
+  border-color: #F19E44;
+}
+
+.blue_dateline span {
+    border-color: #29A8DF;
+}
+
+.blue_dateline {
+  margin: -20px -20px 20px -20px;
+  text-align: center;
+}
+
+.blue_dateline span.grey {
+  color: #FFF;
+  border-color: #E3E3E3;
+}
+
+
+
 
 @media screen and (max-width: 480px) {
   .root {
@@ -235,4 +366,13 @@ a[data-islink="false"]{
   }
 }
 
+@media screen and (min-width: 768px) {
+  .dateline li span, .blue_dateline span {
+    border: 3px solid;
+    line-height: 1.7em;
+  }
+  .blue_dateline span {
+      border-color: #29A8DF;
+  }
+}
 
