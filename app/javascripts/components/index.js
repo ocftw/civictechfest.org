@@ -9,3 +9,4 @@ export SpeakerList from "./SpeakerList";
 export Schedule from "./Schedule";
 export SponsorsSummary from "./SponsorsSummary";
 export SideEvents from "./SideEvents";
+export Taipei from "./Taipei";
