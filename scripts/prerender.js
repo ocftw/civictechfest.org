@@ -31,7 +31,7 @@ const PAGES = [{
   title: 'Speakers',
   ld: basic
 }, {
-  path: 'side_event',
+  path: 'side_events',
   title: 'SideEvents',
   ld: basic
 }, {
