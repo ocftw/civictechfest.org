@@ -3,7 +3,7 @@
 <url> <loc>http://summit.g0v.org/index</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://summit.g0v.org/agenda</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://summit.g0v.org/speakers</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://summit.g0v.org/side_event</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://summit.g0v.org/side_events</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://summit.g0v.org/about</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://summit.g0v.org/venue</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://summit.g0v.org/live</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
