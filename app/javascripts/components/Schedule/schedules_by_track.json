@@ -92,7 +92,7 @@
         "event": {
           "venue": "201B+C",
           "speaker": ["Nanjira Sambuli", "Chat Garcia Ramilo", "James Powell", "Orianne Ledroit"],
-          "speaker_f": "Nanjira Sambuli, Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency (France)",
+          "speaker_f": "Nanjira Sambuli, World Wide Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency (France)",
           "moderator": "Gemma Humphrys",
           "moderator_f": "Gemma Humphrys, mySociety (UK)",
           "panel":"Panel 2",
@@ -548,7 +548,7 @@
           "moderator_f": "",
           "speaker": "",
           "speaker_f": "",
-          "title": "Roundtable \nStruggling Democracy: How Can Civic Tech Fight Against Openwashing?",
+          "title": "Struggling Democracy: How Can Civic Tech Fight Against Openwashing?",
           "abstract": ""
         }
       },
