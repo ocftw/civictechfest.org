@@ -243,39 +243,37 @@
           ]
         },
         {
-  "date": [
-    "16"
-  ],
-  "time": "TBD",
-  "place": "National Tsing Hua Universitye",
-  "entry": "RSVP",
-  "tab": "RSVP / FREE",
-  "venue": "Tsing Hua University",
-  "venue_color": "6",
-  "name": "Wikimedia Taiwan 10th anniversary",
-  "isopen": "true",
-  "img": "wikimedia.jpg",
-  "imgtype": "logo",
-  "islink": "true",
-  "url": "https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/10th_anniversary/Anniversary",
-  "urlname": "More info.",
-  "desc": "Come to know what we have done and what to do for the next 10 years.",
-  "desc_long": "Wikimedia Taiwan was founded in 2007, after Jimmy Wales and Wikimania come to Taiwan. Wikipedia, the new open-knowledge platform, just begin to become a well known website from then.\nTen years have gone. Wikipedia is a portal of knowledge for people in Taiwan now, but there are still a lot of things that need be improved: we need more editors, more diversity, more impact, and less knowledge gap.\nNow, we invite community members, researchers, our partners, and anyone who care about open culture to join the Wikimedia Taiwan 10 Anniversary Conference. To know what we have done, and to tell us what we need to do for the next 10 years.",
-  "remind_type": "none",
-  "remind_title": "",
-  "remind": [
-    {
-      "remind_sub": "",
-      "remind_desc": ""
-    }
-  ],
-  "host": [
-    {
-      "host_name": "Wikimedia Taiwan",
-      "host_logo": "wikimedia.jpg"
-    }
-  ]
-}
+          "date": ["16"],
+          "time": "TBD",
+          "place": "National Tsing Hua Universitye",
+          "entry": "RSVP",
+          "tab": "RSVP / FREE",
+          "venue": "Tsing Hua University",
+          "venue_color": "6",
+          "name": "Wikimedia Taiwan 10th anniversary",
+          "isopen": "true",
+          "img": "wikimedia.jpg",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/10th_anniversary/Anniversary",
+          "urlname": "More info.",
+          "desc": "Come to know what we have done and what to do for the next 10 years.",
+          "desc_long": "Wikimedia Taiwan was founded in 2007, after Jimmy Wales and Wikimania come to Taiwan. Wikipedia, the new open-knowledge platform, just begin to become a well known website from then.\nTen years have gone. Wikipedia is a portal of knowledge for people in Taiwan now, but there are still a lot of things that need be improved: we need more editors, more diversity, more impact, and less knowledge gap.\nNow, we invite community members, researchers, our partners, and anyone who care about open culture to join the Wikimedia Taiwan 10 Anniversary Conference. To know what we have done, and to tell us what we need to do for the next 10 years.",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "Wikimedia Taiwan",
+              "host_logo": "wikimedia.jpg"
+            }
+          ]
+        }
       ]
     }
   ]
