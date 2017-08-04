@@ -21,14 +21,6 @@
           "avatar": "./images/audrey.jpg"
         },
         {
-          "name": "Erie Meyer",
-          "title": "Co-founder",
-          "organization": "United States Digital Service",
-          "nation": "",
-          "event": ["WCIT","TICTeC"],
-          "avatar": "./images/Erie Meyer.jpg"
-        },
-        {
           "name": "Nanjira Sambuli",
           "title": "Digital Equality Advocacy Manager",
           "organization": "Web Foundation",
