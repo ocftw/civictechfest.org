@@ -32,7 +32,7 @@ export default class SideEvents extends Component {
         </div>
         <div className={styles.content}>
           <div className={styles.logo}>
-            <img src={require(`images/sideevents/${sideevent.img}`)} />
+            <img src={require(`file!images/sideevents/${sideevent.img}`)} />
           </div>
           <div className={styles.desc}>
             <p className={styles.brief}>
