@@ -13,3 +13,16 @@ Side event 的 venues
 ### `side_events.json`
 
 - `img`: 圖片的檔名，圖片要放在 `app/images/sideevents/`
+
+Side event host
+
+```
+          "host": [
+            {
+              "host_name": "g0v",
+              "host_logo": "g0v-only.png"
+            }
+          ]
+```
+
+- `host_logo`: 主辦單位 logo，主辦單位是一個 "sponsor" ，所以 logo 必須要放在 `app/images/sponsors/`
