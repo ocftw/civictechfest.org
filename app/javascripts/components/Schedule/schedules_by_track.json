@@ -119,11 +119,11 @@
         }
       },
       {
-        "time": "17:30-19:00",
+        "time": "17:30-18:30",
         "event": "Free Time"
       },
       {
-        "time": "19:00-21:30",
+        "time": "18:30-21:30",
         "expandable": false,
         "event": {
           "title": "Civic Tech Grant Demo Party and Social Event-Cocktail Party at Google Taipei Office (Taipei 101, 75F)",
@@ -327,31 +327,31 @@
         "event": ""
       },
       {
-        "time": "14:00-15:10",
+        "time": "14:00-15:00",
         "expandable": false,
         "event": {
           "venue": "201B",
-          "title": "Workshop B1"
+          "title": "UNCONFERENCE B1"
         }
       },
       {
-        "time": "15:20-15:50",
+        "time": "15:00-16:00",
+        "expandable": false,
+        "event": {
+          "venue": "201B",
+          "title": "UNCONFERENCE B2"
+        }
+      },
+      {
+        "time": "16:00-16:30",
+        "event": "Refreshment Break"
+      },
+      {
+        "time": "16:30-17:30",
         "expandable": false,
         "event": {
           "venue": "201B",
           "title": "UNCONFERENCE B3"
-        }
-      },
-      {
-        "time": "15:50-16:10",
-        "event": "Refreshment Break"
-      },
-      {
-        "time": "16:10-17:30",
-        "expandable": false,
-        "event": {
-          "venue": "201B",
-          "title": "Workshop B4"
         }
       },
       {
@@ -360,7 +360,7 @@
         "event": ""
       },
       {
-        "time": "14:00-14:30",
+        "time": "14:00-15:00",
         "expandable": false,
         "event": {
           "venue": "201C",
@@ -368,23 +368,23 @@
         }
       },
       {
-        "time": "14:40-15:50",
+        "time": "15:00-16:00",
         "expandable": false,
         "event": {
           "venue": "201C",
-          "title": "Workshop C2"
+          "title": "UNCONFERENCE C2"
         }
       },
       {
-        "time": "15:50-16:10",
+        "time": "16:00-16:30",
         "event": "Refreshment Break"
       },
       {
-        "time": "16:10-17:30",
+        "time": "16:30-17:30",
         "expandable": false,
         "event": {
           "venue": "201C",
-          "title": "Workshop C4"
+          "title": "UNCONFERENCE C3"
         }
       },
       {
@@ -394,7 +394,7 @@
         "event": ""
       },
       {
-        "time": "14:00-14:30",
+        "time": "14:00-15:00",
         "expandable": false,
         "event": {
           "venue": "4F Joy",
@@ -402,7 +402,7 @@
         }
       },
       {
-        "time": "14:40-15:10",
+        "time": "15:00-16:00",
         "expandable": false,
         "event": {
           "venue": "4F Joy",
@@ -410,31 +410,15 @@
         }
       },
       {
-        "time": "15:20-15:50",
+        "time": "16:00-16:30",
+        "event": "Refreshment Break"
+      },
+      {
+        "time": "16:30-17:30",
         "expandable": false,
         "event": {
           "venue": "4F Joy",
           "title": "UNCONFERENCE  J3"
-        }
-      },
-      {
-        "time": "15:50-16:10",
-        "event": "Refreshment Break"
-      },
-      {
-        "time": "16:10-16:40",
-        "expandable": false,
-        "event": {
-          "venue": "4F Joy",
-          "title": "UNCONFERENCE  J4"
-        }
-      },
-      {
-        "time": "16:50-17:30",
-        "expandable": false,
-        "event": {
-          "venue": "4F Joy",
-          "title": "UNCONFERENCE  J5"
         }
       },
       {
@@ -443,47 +427,31 @@
         "event": ""
       },
       {
-        "time": "14:00-14:30",
+        "time": "14:00-15:00",
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": "UNCONFERENCE  E1"
+          "title": "WORKSHOP  E1"
         }
       },
       {
-        "time": "14:40-15:10",
+        "time": "15:00-16:00",
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": "UNCONFERENCE  E2"
+          "title": "WORKSHOP  E2"
         }
       },
       {
-        "time": "15:20-15:50",
-        "expandable": false,
-        "event": {
-          "venue": "4F Elegance",
-          "title": "UNCONFERENCE  E3"
-        }
-      },
-      {
-        "time": "15:50-16:10",
+        "time": "16:00-16:30",
         "event": "Refreshment Break"
       },
       {
-        "time": "16:10-16:40",
+        "time": "16:30-17:30",
         "expandable": false,
         "event": {
           "venue": "4F Elegance",
-          "title": "UNCONFERENCE  E4"
-        }
-      },
-      {
-        "time": "16:50-17:30",
-        "expandable": false,
-        "event": {
-          "venue": "4F Elegance",
-          "title": "UNCONFERENCE  E5"
+          "title": "WORKSHOP  E3"
         }
       },
       {
@@ -540,20 +508,21 @@
         "event": "Refreshment Break"
       },
       {
-        "time": "11:00-12:00",
+        "time": "11:00-12:15",
         "expandable": true,
         "event": {
           "venue": "201A+F",
-          "moderator": "",
-          "moderator_f": "",
-          "speaker": "",
-          "speaker_f": "",
+          "moderator": "Wu Min Hsuan (ttcat)",
+          "moderator_f": "Wu Min Hsuan (Ttcat), Open Culture Foundation (Taiwan)",
+          "speaker": ["Sheba Najmi", "Khairil Yusof", "Arthit Suriyawongkul", "Hal Seki"],
+          "speaker_f": "Sheba Najmi, Code for Pakistan \nKhairil Yusof, Sinar Project (Malaysia) \nArthit Suriyawongkul,Thai Netizen Network \nHal Seki, Code for Japan",
+          "panel": "Roundtable",
           "title": "Struggling Democracy: How Can Civic Tech Fight Against Openwashing?",
-          "abstract": ""
+          "abstract": "This roundtable discusses the relationship between Civic Tech and democracy, and some urgent issues (such as openwashing) that we now face across the globe. Our panelists will share their unique experiences and the difficulties they have encountered in their development of Civic Tech and advocacy of open government. While the panelists of this roundtable have a special focus on Asian contexts, we invite all attendees to engage in this conversation and reflect on the challenges of Civic Tech as a global network."
         }
       },
       {
-        "time": "12:00-12:30",
+        "time": "12:15-12:30",
         "expandable": false,
         "event": {
           "venue": "201A+F",
