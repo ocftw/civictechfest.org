@@ -278,6 +278,42 @@
       "bio": "Pierre-Louis oversees several projects of the Digital Society Program at the French Digital Agency, such as the Laboratory or the co-operative for digital inclusion. Before joining the Agency, Pierre-Louis worked for local governments where he developed policies for digital inclusion and digital democracy. A civic tech advocate, he contributes to several not-for-profit open source initiatives such as OpenDemocracyNow. He has a background in sociology.",
       "nation": "France",
       "twitter": ""
+    },
+    {
+      "avatar": "./images/Hal Seki.jpeg",
+      "name": "Hal Seki",
+      "organization": "Code for Japan",
+      "title": "",
+      "bio": "Hal Seki has been working as a Geo Developer since 2002. He is a CEO of Georepublic Japan, which is providing location based system consulting/developing services, as well as a representative of Code for Japan. He is well known as a community manager for solving social issues in Japan. Also, He is entitled as Ushahidi Certificated Developer since he has been a managing director of Sinsai.info, a cloud sourcing crisis information collecting platform using Ushahidi since 2010, the Great East Japan Earthquake occurred. He is also a member of Open Knowledge of Foundation Japan and OpenStreetMap Foundation Japan.",
+      "nation": "Japan",
+      "twitter": ""
+    },  
+    {
+      "avatar": "./images/ttcat.jpg",
+      "name": "Wu Min Hsuan (ttcat)",
+      "organization": "Open Culture Foundation (Taiwan)",
+      "title": "Deputy CEO",
+      "bio": "Min-hsuan (ttcat) is an activist and campaigner of a number of social movements in Taiwan, including the anti-nuclear movement, environmental, LGBT and Human Rights movement. He has expertise in creative planning, as well as communication and design programming. He has provided the g0v community with perspectives on social networking, and horizontal links. Min-hsuan is responsible for the Open Culture Foundation’s International Network Program with g0v, Taiwan civic tech community.",
+      "nation": "Taiwan",
+      "twitter": ""
+    },
+    {
+      "avatar": "./images/Sheba Najmi.jpg",
+      "name": "Sheba Najmi",
+      "organization": "Code for Pakistan",
+      "title": "Founder & Executive Director",
+      "bio": "Sheba Najmi is the Founder & Executive Director of Code for Pakistan, which engages and empowers Pakistani tech talent to address their country’s needs in public services and collaborate with government to improve the lives of their fellow citizens. In addition, Sheba works at the intersection of User Experience, Product, and civic technology. She worked at Yahoo! for over 6 years as User Experience Design Lead before shifting to civic good and becoming a Code for America Fellow in 2012. Sheba holds MS and BS degrees in Symbolic Systems from Stanford University. She is frequently found speaking about human-centered civic technology and bridging the gap between government and citizens.",
+      "nation": "Pakistan",
+      "twitter": ""
+    },
+    {
+      "avatar": "./images/Arthit.png",
+      "name": "Arthit Suriyawongkul",
+      "organization": "Thai Netizen Network",
+      "title": "",
+      "bio": "A computer scientist and anthropologist by training. Arthit started his career as a software localization engineer in “The Network is the Computer” company. Later joined academic and industrial artificial intelligence research groups, in journalism and medical domains. Since 2006, he giving consultation and working for a number of organizations involving ICT for developments, Internet freedom, journalism, and information rights, like Mekong ICT Camp, Campaign for Popular Media Reform, Creative Commons Thailand, Opendream, and Thai Netizen Network. In 2012, he finished his anthropology master on cultural politics on Thai online social network during the time of national conflicts, from a university near Bangkok’s backpacker haven. In recent years, he travels regularly in Southeast Asia for #barcamp, local tech community workshops and conferences. Tweeting tweeting as @bact. — A recent interview, about his life & work, on The Nation newspaper.",
+      "nation": "Thailand",
+      "twitter": ""
     }
   ]
 }
