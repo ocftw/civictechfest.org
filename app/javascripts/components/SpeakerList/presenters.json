@@ -30,7 +30,7 @@
     {
       "avatar": "./images/Luke Bacon.jpg",
       "name": "Luke Bacon",
-      "organization": "Open Australia Foundation (Australia)",
+      "organization": "Open Australia Foundation",
       "title": "Designer",
       "bio": "Luke is a designer at the OpenAustralia Foundation, based in Sydney. His main work for the Foundation has been on Australian Parliamentary Monitoring site They Vote For You and FOI platform Right To Know. \nHe is co-founder of Detention Logs, a journalism project that launched with support from The Guardian Australia, New Matilda and The Global Mail to uncover evidence of conditions in immigration detention. Luke loves HTML, typography, film, noise and science fiction!",
       "nation": "Australia",
@@ -48,7 +48,7 @@
     {
      "avatar": "./images/Nanjira Sambuli.jpg",
       "name": "Nanjira Sambuli",
-      "organization": "Web Foundation (Kenya)",
+      "organization": "World Wide Web Foundation (Kenya)",
       "title": "Digital Equality Advocacy Manager",
       "bio": "Nanjira was until recently Research Lead at iHub, in Nairobi Kenya, providing strategic guidance for the growth of technology research in East Africa and has just taken on a new role as Digital Equality Advocacy Manager at the Web Foundation. She focuses on the unfolding impacts of ICT adoption to governance, innovation, entrepreneurship and societal culture in Kenya, and across Africa, with a particular passion for the gendered aspects to technology access and adoption.\nNanjira is on the Advisory Board (Africa) for Sum of Us, board member at Kenya’s Media Policy Research Centre and mySociety, and sits on the UN High Level Panel on Women’s Economic Empowerment where she works with panel members to demonstrate high-level leadership and renewed commitment and action towards making women’s economic empowerment a reality in our lifetime.",
       "nation": "Kenya",
@@ -57,7 +57,7 @@
     {
       "avatar": "./images/Audrey Tang.jpg",
       "name": "Audrey Tang",
-      "organization": "Taiwan’s Digital Minister (Taiwan)",
+      "organization": "Taiwan’s Digital Minister",
       "title": "",
       "bio": "Audrey Tang, a civic hacker and Taiwan’s Digital Minister, is known for revitalizing global open source communities such as Perl and Haskell.\nIn the public sector, Audrey served on Taiwan national development council’s open data committee and K-12 curriculum committee; and led the country’s first e-Rulemaking project.\nIn the private sector, Audrey worked as a consultant with Apple on computational linguistics, with Oxford University Press on crowd lexicography, and with Socialtext on social interaction design.\nIn the third sector, Audrey actively contributes to Taiwan’s 'g0v', a vibrant community focusing on creating tools for the civil society, with the call to 'fork the government'.",
       "nation": "Taiwan",
@@ -93,7 +93,7 @@
     {
       "avatar": "./images/Orianne Ledroit.jpg",
       "name": "Orianne Ledroit",
-      "organization": " French Digital Agency (France) ",
+      "organization": " French Digital Agency",
       "title": "Director of the Digital Society Program",
       "bio": "Orianne Ledroit, Director of the Digital Society Program – French Digital Agency\nOrianne manages the Digital Society Program at the French Digital Agency, which aims at teaming up toward an innovative and inclusive digital society. She teaches also “Digital, Democracy and Public policy” at Sciences Po. She contributes to several local initiatives on commons, open knowledge and collaborative city. Before joining the Agency, she advised MP and local governments on innovation and digital strategies. As an entrepreneur, she co-founded a structure which elaborates learning expeditions for corporate teams. She studied political sciences.",
       "nation": "France",
@@ -138,7 +138,7 @@
     {
       "avatar": "./images/Ebtihaj Khan.JPG",
       "name": "Ebtihaj Khan",
-      "organization": "Code for Pakistan (Pakistan)",
+      "organization": "Code for Pakistan",
       "title": "",
       "bio": "Ebtihaj was a part of the first batch of KP Civic Innovation Fellowship Program where he founded Messiah and has since then been working on becoming a full time civic hacker. His natural penchant for technology and innovation came very early and kept on honing his skills throughout his High School and Bachelors. He developed an aptitude for civic innovation and open data and is also looking into digital services now. Ebtihaj is currently working with Code for Pakistan as a Program Manager of the KP Civic Innovation Fellowship Program and has been handed over the task to train 20 professionals to help their city and country grow. Besides being a sports enthusiast, he enjoys reading technology related blogs and explores the startups world.",
       "nation": "Pakistan",
@@ -210,10 +210,10 @@
     {
       "avatar": "./images/Gavin Hayman.jpeg",
       "name": "Gavin Hayman",
-      "organization": "Open Contracting Partnership (USA)",
+      "organization": "Open Contracting Partnership (UK)",
       "title": "Executive Director",
       "bio": "Before joining the Open Contracting Partnership, Gavin was Director of Campaigns and then Executive Director of Global Witness. He oversaw the organisation’s groundbreaking and award-winning investigative, campaigning and advocacy work uncovering secret deals, corruption and conflict around the world. He helped create the international Publish What You Pay campaign and helped negotiate the intergovernmental Extractive Industries Transparency Initiative that brings together oil and mining companies, home- and host-governments and civil society to improve disclosure and oversight of over $1 trillion dollars of oil and mining money.\nHe is an expert on illicit financial flows, and helped lead global efforts to end the abuse of anonymous shell companies for money laundering and financial crime, including working with the British government’s recent presidency of the G8 and the Open Government Partnership. He has a Doctorate from the University of Reading and has worked with Chatham House in London and the United National Environmental Programme in the past on analysing and investigating global environmental crime.",
-      "nation": "USA",
+      "nation": "UK",
       "twitter": ""
     },
     {
@@ -255,7 +255,7 @@
     {
       "avatar": "./images/Cheng Ting-Yu.jpg",
       "name": "Ting-Yu Cheng",
-      "organization": "National Taiwan University (Taiwan)",
+      "organization": "National Taiwan University",
       "title": "Graduate student",
       "bio": "Although my major is Political Science, I explore lots of interesting things beyond this field. G0v Summit 2014 was the turning point for me. In g0v, I see a fantastic hacking world, which was fresh and amazing to me-a muggle who can’t code. Since then, I observe, participate in this civic tech community. Collaboration, citizen engagement and open source culture become my thesis topic.",
       "nation": "Taiwan",
@@ -273,7 +273,7 @@
     {
       "avatar": "./images/Pierre Louis-Rolle.jpg",
       "name": "Pierre-Louis Rolle",
-      "organization": "French Digital Agency (France)",
+      "organization": "French Digital Agency",
       "title": "Senior Policy Officer at the Digital Society Program",
       "bio": "Pierre-Louis oversees several projects of the Digital Society Program at the French Digital Agency, such as the Laboratory or the co-operative for digital inclusion. Before joining the Agency, Pierre-Louis worked for local governments where he developed policies for digital inclusion and digital democracy. A civic tech advocate, he contributes to several not-for-profit open source initiatives such as OpenDemocracyNow. He has a background in sociology.",
       "nation": "France",
