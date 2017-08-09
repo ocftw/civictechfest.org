@@ -5,24 +5,24 @@
       "title": "Taipei Info",
       "taipei_info": [
         {
-          "name": "test",
+          "name": "Fun",
           "isopen": "false",
-          "img": "mrt.jpg",
+          "img": "Taipei Fun.jpg",
           "imgtype": "pic",
           "islink": "false",
           "url": "",
           "urlname": "More info.",
-          "desc": "desc"
+          "desc": "coming soon"
         },
         {
-          "name": "test",
+          "name": "Food",
           "isopen": "false",
-          "img": "mrt.jpg",
+          "img": "Taipei Food.jpg",
           "imgtype": "logo",
           "islink": "false",
           "url": "",
           "urlname": "More info.",
-          "desc": "desc"
+          "desc": "coming soon"
         }
       ]
     }
