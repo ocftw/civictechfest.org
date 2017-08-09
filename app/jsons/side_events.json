@@ -38,21 +38,21 @@
         },
         {
           "date": ["10"],
-          "time": "TBD",
-          "place": "TBD",
-          "entry": "TBD",
-          "tab": "Public",
+          "time": "08:30-17:30",
+          "place": "Taipei Teacher’s Hostel",
+          "entry": "RSVP",
+          "tab": "RSVP",
           "venue": "TBD",
           "venue_color": "1",
-          "name": "#CodeforGender",
+          "name": "2017 SotM Taiwan Summit",
           "isopen": "true",
-          "img": "codeforfender_logo.png",
+          "img": "OpenStreetMap.jpg",
           "imgtype": "logo",
           "islink": "true",
-          "url": "https://codeforgender.com/en",
-          "urlname": "More info.",
-          "desc": "The very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue.",
-          "desc_long": "#CodeforGender Hackathon, which is the very first and only Hackathon in Chinese World that aims to use technology to resolve gender issue. Participants gather together for 48-hour intensive discussion, design, coding and production to create a possible solution toward gender issue. ",
+          "url": "https://sotmtw.kktix.cc/events/2017sotmtw",
+          "urlname": "Register",
+          "desc": "Host by OpenStreetMap Taiwan community. Providing mappers to interact data/skills.",
+          "desc_long": "State of the Map Taiwan is an annual conference organized by OpenStreetMap Taiwan community. The conference provides mappers to interact with each other in mapping skills, map/data usage, and geospatial technologies. In this SotM Taiwan, we have an invited talk from OSM Japan community for presenting an experience of map design via using open data, and 9 talks from local community for sharing their experiences in use and development of the map.",
           "remind_type": "none",
           "remind_title": "",
           "remind": [
@@ -63,8 +63,8 @@
           ],
           "host": [
             {
-              "host_name": "Womany",
-              "host_logo": "womany_logo.png"
+              "host_name": "OpenStreetMap Taiwan",
+              "host_logo": "Sotm.png"
             }
           ]
         },
