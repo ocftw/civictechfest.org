@@ -431,6 +431,8 @@
         "expandable": true,
         "event": {
           "venue": "4F Elegance",
+          "speaker": "",
+          "speaker_f": "",
           "title": "Dirty Data & Open Congress: Watchout’s Topical Data Laboratory",
           "panel": "Workshop",
           "abstract": "What is it like working inside Watchout’s Topical Data Laboratory? When dealing with a relevant topic currently in debate inside Taiwan’s Congress, we at Watchout spend a lot of time (1) reading through different versions of proposed bills, (2) creating sensible, progressive frameworks for quantified comparisons between the bills, and finally (3) designing friendly & interactive visual presentations for the general public. Interested? Become one of our data researcher and let’s do some good research together! \n Organizer: Watchout \nWatchout is an independent news media & civic tech company. We specialize in congressional oversight and political analysis across key topics at the national level. We do daily live broadcasting and chat rooms to make Congress more open and engaging; we do data journalism and town hall events with legislators to inform people’s choices, while building bridges between the public, NGOs, and government offices. All of our works are of a common purpose: to empower Taiwan’s civic understanding and participation in politics."
@@ -441,6 +443,8 @@
         "expandable": true,
         "event": {
           "venue": "4F Elegance",
+          "speaker": "",
+          "speaker_f": "",
           "title": "Securing Funding in Civic Tech",
           "panel": "Workshop",
           "abstract": "Internationally, civic tech organizations need to be increasingly creative in securing funding for their initiatives.  The panel discussion will provide an opportunity for civic tech organizations to share thoughts about the funding environment for civic tech.  How do civic tech leaders finance their initiatives, while still remaining focused on their mission, rather than being focused primarily on resource mobilization?   What advice do funders of civic tech work have for those seeking funding for civic tech?  This panel seeks to address these questions, and to engage with the audience in discussing funding models that hold the most promise for the future. \nPanelists: \nJustin Arenstein, Code for Africa (confirmed) \nStephen King, Omidyar Network (invited) \nMicrosoft (invited) \nChris Winnicker, Code for America (not yet invited) \nJulia Kloiber, Code for Germany (not yet invited); \n Potential Moderator: Scott Hubli, NDI"
@@ -455,6 +459,8 @@
         "expandable": true,
         "event": {
           "venue": "4F Elegance",
+          "speaker": "",
+          "speaker_f": "",
           "title": "A Civic Hackers Guide to the Galaxy - Don’t Panic!",
           "panel": "Workshop",
           "abstract": "In this session we will develop a handy guide for how to successfully run a civic tech project. Contribute your tips, tricks, stardust and talk with us about common hurdles and how to overcome them. We will kick off with a short input about two civic tech funds and some learnings. \nNo matter if you are a beginner or a pro – this interactive session will guide you through the civic tech galaxy. Don’t forget to bring a towel! \nFacilitators: \ng0v Grant (Taiwan): Yun-Chen \nPrototype Fund (Germany): Elisa Lindinger & Julia Kloiber \ninnovateAFRICA.fund (pan-Africa): Justin Arenstein (Code for Africa)"
@@ -506,6 +512,8 @@
         "expandable": true,
         "event": {
           "venue": "4F Elegance",
+          "speaker": "",
+          "speaker_f": "",
           "title": "Policy Impacts of Extractives Data in Asia",
           "panel": "Workshop",
           "abstract": "This session will discuss how open data is catalyzed to inform much needed reforms in the oil, gas and mining sectors. The Natural Resource Governance Institute will address this question by drawing from its work and partners in Asia. In Myanmar, we will explore how open data and published reports on ‘conflict minerals’, especially jade and gemstones, are being transformed into interactive portal and visuals, leveraged for policy dialogue with the decision-makers, and used to mobilize the media and civil society as they engage in the development of a new mineral law and the institutional overhaul of Myanmar Gemstone Enterprise (MGE), a state-owned company. In the Philippines, an NRGI partner will describe how the disclosure of mining contracts and payments to sub-national governments is catalyzing community participation in the management of local share in mining revenues while being used in doing fiscal modeling on large mining projects with huge environmental and social costs. The discussion will also address questions on approaches and scaling up multi-stakeholder use of open data to sustain the impacts to extractive policy making and implementation. \nParticipants: \nAye Kyithar Swe, Senior Myanmar Officer, NRGI \nTina Pimentel, National Coordinator, Bantay Kita Philippines \nModerator, Jelson Garcia, Asia Pacific Director, NRGI"
