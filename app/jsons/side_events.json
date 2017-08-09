@@ -39,7 +39,7 @@
         {
           "date": ["10"],
           "time": "08:30-17:30",
-          "place": "Taipei Teacher’s Hostel",
+          "place": "Taipei Teacher Hostel",
           "entry": "RSVP",
           "tab": "RSVP",
           "venue": "TBD",
@@ -51,7 +51,7 @@
           "islink": "true",
           "url": "https://sotmtw.kktix.cc/events/2017sotmtw",
           "urlname": "Register",
-          "desc": "Host by OpenStreetMap Taiwan community. Providing mappers to interact data/skills.",
+          "desc": "Host by OpenStreetMap Taiwan community. Providing mappers to interact data and skills.",
           "desc_long": "State of the Map Taiwan is an annual conference organized by OpenStreetMap Taiwan community. The conference provides mappers to interact with each other in mapping skills, map/data usage, and geospatial technologies. In this SotM Taiwan, we have an invited talk from OSM Japan community for presenting an experience of map design via using open data, and 9 talks from local community for sharing their experiences in use and development of the map.",
           "remind_type": "none",
           "remind_title": "",
