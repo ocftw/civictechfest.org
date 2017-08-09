@@ -6,7 +6,7 @@
       "side_events": [
         {
           "date": ["10"],
-          "time": "14:00-17:30",
+          "time": "14:00-17:00",
           "place": "Taipei NGO House",
           "entry": "RSVP",
           "tab": "RSVP / FREE",
@@ -20,17 +20,13 @@
           "url": "",
           "urlname": "More info.",
           "desc": "Come to learn the comprehensive research on the development of open government in Taiwan from 2014 to 2016.",
-          "desc_long": "Taiwan Open Government Report is a research project conducted by the Open Culture Foundation in September, 2017 to review the practice and impacts of open government policies in Taiwan from 2014 to 2016. In this report, we focus on four main fields of open government: (1) law and policies, (2) transparency through open data, (3) civic participation, and (4) collaboration through civic technology.",
+          "desc_long": "We are glad to announce the release of Taiwan Open Government Report. Taiwan Open Government Report is a research project conducted by the Open Culture Foundation to review the practice and impacts of open government policies in Taiwan from 2014 to 2016. In this report, we focus on four main fields of open government: (1) law and policies, (2) transparency through open data, (3) civic participation, and (4) collaboration through civic technology. \nIn this event, we will share our findings to our community, the government servants, the press, and our Civic Tech Fest guests. We will also invite open government experts and practitioners to have a conversation with our researchers. The event is open to the general public (RSVP needed), and we welcome all engaged citizens to participate in the conversation.",
           "remind_type": "agenda",
-          "remind_title": "This event will comprise two parts.",
+          "remind_title": "This event will be conducted in Chinese. However, English interpretation will be available.",
           "remind": [
             {
-              "remind_sub": "14:00-15:00 Report Release (English)",
-              "remind_desc": "The first part is the International Press Release. We will share our findings to the press, international guests, and our government servants."
-            },
-            {
-              "remind_sub": "15:30-17:30 Open Government Forum (Chinese)",
-              "remind_desc": "The second part is a forum. We will invite open government experts and practitioners to have a conversation with our researchers. This forum is open to the general public, and we welcome all engaged citizens to participate in the conversation."
+              "remind_sub": "",
+              "remind_desc": ""
             }
           ],
           "host": [
