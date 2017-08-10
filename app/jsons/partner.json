@@ -121,8 +121,16 @@
           "desc": ""
         },
         {
-          "name": "WAGL",
-          "logo": "Wagl_logo_Eng_2017_504.png",
+          "name": "Wiki Taiwan",
+          "logo": "wikimedia.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "Open street map Taiwan",
+          "logo": "Sotm.png",
           "url": "",
           "urlname": "",
           "brief": "",
@@ -209,6 +217,14 @@
         {
           "name": "Hacks/Hackers Taipei",
           "logo": "hhtpe-logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "WAGL",
+          "logo": "Wagl_logo_Eng_2017_504.png",
           "url": "",
           "urlname": "",
           "brief": "",
