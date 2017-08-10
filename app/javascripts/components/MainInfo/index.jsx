@@ -104,7 +104,7 @@ export default class MainInfo extends Component {
 		  <div className={styles.dateline}>
 		  	<ul>
 		  		<li className={styles.month}><span>Sep.</span><p>Events</p></li>
-		  		<li><a><span>10</span><p>Code for Gender</p></a></li>
+		  		<li><a><span>10</span><p>2017 SotM<br />Taiwan Summit</p></a></li>
 		  		<li><a><span>10</span><p>Taiwan Open Gov.<br />Observation<br />Report Release</p></a></li>
 		  	</ul>
 		  	<ul>
