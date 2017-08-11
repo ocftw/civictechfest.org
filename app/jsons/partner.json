@@ -49,6 +49,14 @@
           "urlname": "",
           "brief": "",
           "desc": ""
+        },
+        {
+          "name": "富邦",
+          "logo": "fubon_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
         }
       ]
     },
@@ -122,7 +130,7 @@
         },
         {
           "name": "Wiki Taiwan",
-          "logo": "wikimedia.png",
+          "logo": "wikimedia_logo.png",
           "url": "",
           "urlname": "",
           "brief": "",
@@ -130,7 +138,7 @@
         },
         {
           "name": "Open street map Taiwan",
-          "logo": "Sotm.png",
+          "logo": "OSMT_logo.png",
           "url": "",
           "urlname": "",
           "brief": "",
@@ -241,6 +249,14 @@
         {
           "name": "公革力",
           "logo": "t4p-logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "CDHK",
+          "logo": "CDHK_logo.png",
           "url": "",
           "urlname": "",
           "brief": "",
