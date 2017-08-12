@@ -109,8 +109,8 @@
         "expandable": true,
         "event": {
           "venue": "201B+C",
-          "speaker": ["Mathilde Bras", "Shu Yang Lin"],
-          "speaker_f": "Mathilde Bras, Etalab (France)\nShu Yang Lin, PDIS (Taiwan)",
+          "speaker": ["Mathilde Bras", "Shu Yang Lin", "Sarah White"],
+          "speaker_f": "Mathilde Bras, Etalab (France)\nShu Yang Lin, PDIS (Taiwan)\nSarah White, Code for America",
           "moderator": "Jaclyn Tsai",
           "moderator_f": "Jaclyn Tsai",
           "panel":"Panel 3",
@@ -576,8 +576,8 @@
           "venue": "",
           "moderator": "Chia-liang Kao",
           "moderator_f": "Chia-liang Kao, Co-founder, g0v.tw /Board Member, Open Culture Foundation",
-          "speaker": ["Audrey Tang", "Rebecca Rumbul", "Mathilde Bras", "Michael Canares"],
-          "speaker_f": "Audrey Tang, Digital Minister without Portfolio \nRebecca Rumbul, Head of research, mySociety \nMathilde Bras, Etalab, French Prime Minister's task force for Open Data, Open Gov and Data-driven transformation, France \nMichael Canares, Regional Research Manager, Open Data Lab Jarkata, Indonesia",
+          "speaker": ["Audrey Tang", "Rebecca Rumbul", "Mathilde Bras", "Michael Canares", "Sarah White"],
+          "speaker_f": "Audrey Tang, Digital Minister without Portfolio \nRebecca Rumbul, Head of research, mySociety \nMathilde Bras, Etalab, French Prime Minister's task force for Open Data, Open Gov and Data-driven transformation, France \nMichael Canares, Regional Research Manager, Open Data Lab Jarkata, Indonesia \nSarah White, Program & Partnerships Manager, Code for America",
           "title": "WCIT - Civic Tech on Government Transparency and Citizen Participation"
         }
       },
