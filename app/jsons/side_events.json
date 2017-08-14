@@ -241,7 +241,7 @@
         {
           "date": ["16","17"],
           "time": "TBD",
-          "place": "National Tsing Hua Universitye",
+          "place": "National Tsing Hua University",
           "entry": "RSVP / FREE",
           "tab": "RSVP / FREE",
           "venue": "TsingHuaUniversity",
@@ -266,7 +266,7 @@
           "host": [
             {
               "host_name": "Wikimedia Taiwan",
-              "host_logo": "wikimedia.jpg"
+              "host_logo": "wikimedia_logo.png"
             }
           ]
         }
