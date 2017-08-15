@@ -394,31 +394,15 @@
         "event": ""
       },
       {
-        "time": "14:00-15:00",
-        "expandable": false,
+        "time": "14:00-18:30",
+        "expandable": true,
         "event": {
           "venue": "4F Joy",
-          "title": "UNCONFERENCE J1"
-        }
-      },
-      {
-        "time": "15:00-16:00",
-        "expandable": false,
-        "event": {
-          "venue": "4F Joy",
-          "title": "UNCONFERENCE  J2"
-        }
-      },
-      {
-        "time": "16:00-16:30",
-        "event": "Refreshment Break"
-      },
-      {
-        "time": "16:30-17:30",
-        "expandable": false,
-        "event": {
-          "venue": "4F Joy",
-          "title": "UNCONFERENCE  J3"
+          "speaker": "",
+          "speaker_f": "",
+          "title": "Creative workshop: solutions for the biggest challenges of civic tech"
+          "panel": "Workshop",
+          "abstract": "Civic tech is still a fairly new practice, even though we all work in different socio economical and political local contexts it seems the challenges we face are similar. Be it scaling to reach more people, making accessible to every one or even sometimes just having impact on the decision that is taken, those challenges are numerous. That's why we wanted to take advantage of the global gathering that is the Civic Tech Fest to organize a creative workshop to identify those challenges and work on solutions together. \nHelp us identify those challenges by participating in this pol.is conversation : https://pol.is/2bf7vrrmnb \nThe event format is Barcamp which is an open, participatory workshop-event, the content of which is provided by participants. We will split up in small interdisciplinary groups and make the best use of design thinking pratices to make sure we are able to work on prototype solutions and pitch results at the end of the event. \nRegister Here: https://goo.gl/BMw8hP \nOrganizer:Open Democracy Now!"
         }
       },
       {
