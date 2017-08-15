@@ -35,6 +35,14 @@
       "title": "Sponsors",
       "sponsors": [
         {
+          "name": "富邦",
+          "logo": "fubon_logo.png",
+          "url": "",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
           "name": "Microsoft",
           "logo": "msft_logo_rgb_c-gray_d_360.png",
           "url": "",
@@ -45,14 +53,6 @@
         {
           "name": "Google",
           "logo": "google.png",
-          "url": "",
-          "urlname": "",
-          "brief": "",
-          "desc": ""
-        },
-        {
-          "name": "富邦",
-          "logo": "fubon_logo.png",
           "url": "",
           "urlname": "",
           "brief": "",
