@@ -113,9 +113,9 @@
           "place": "Hall 1, Taipei World Trade Center",
           "entry": "RSVP / Invite only",
           "tab": "RSVP",
-          "venue": "Taipei World Trade Center",
+          "venue": "TWTC",
           "venue_color": "8",
-          "name": "Gala Dinner & ICT Award",
+          "name": "WCIT Gala Dinner & ICT Award",
           "isopen": "true",
           "img": "gala dinner.png",
           "imgtype": "logo",
@@ -124,16 +124,12 @@
           "urlname": "RSVP",
           "desc": "Let’s enjoy a great evening feast and have more relax interaction.",
           "desc_long": "Welcome to the biggest civic tech event in Asia! \nOur co-host The 21st World Congress on Information Technology (WCIT 2017) is going to host Gala Dinner for our guests. Let’s enjoy a great evening feast and have more relax interaction.\n ## The party is RSVP required.\n ## The party only opens for those who already registered in TICTeC@Taipei",
-          "remind_type": "notitle",
+          "remind_type": "none",
           "remind_title": "",
           "remind": [
             {
-              "remind_sub": "17:30-18:30 Demo party part 1:The on-stage introduction and demonstration.",
+              "remind_sub": "",
               "remind_desc": ""
-            },
-            {
-              "remind_sub": "18:30-20:30 Cocktail Party & Demo party part 2: Roundtable sharing",
-              "remind_desc": "Each awardee group will leads one table. Welcome everyone sit down and have more detail talks about their projects. Also, the cocktail party of TICTeC@Taipei is held in the same time. Join the party and find more about the Taiwan civic tech."
             }
           ],
           "host": [
