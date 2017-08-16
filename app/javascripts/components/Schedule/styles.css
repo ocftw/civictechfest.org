@@ -467,6 +467,7 @@ a.Schedule-event:hover:before {
   top: 9px;
   right: 10px;
   display: block;
+  line-height: 1;
 }
 .Schedule-categoryIcon::before, .Schedule-categoryIcon::after {
   content: "";
