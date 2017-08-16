@@ -123,12 +123,12 @@
         "event": "Free Time"
       },
       {
-        "time": "18:30-21:30",
+        "time": "18:30-20:30",
         "expandable": false,
         "event": {
           "title": "Civic Tech Grant Demo Party and Social Event-Cocktail Party at Google Taipei Office (Taipei 101, 75F)",
-          "note":"RSVP",
-          "abstract": "RSVP"
+          "note":"RSVP required!",
+          "abstract": "RSVP required!"
         }
       }
     ],
