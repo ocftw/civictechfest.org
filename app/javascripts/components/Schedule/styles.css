@@ -46,28 +46,23 @@ $appbar-height: 60px;
 /* date line dot */
 
 .orange_dateline span {
-  border: 3px solid #29A8DF;
+  border: 3px solid #F19E44;
   border-radius: 50%;
   display: inline-block;
   width: 2em;
   height: 2em;
-  color: #29A8DF;
+  color: #F19E44;
   line-height: 1.7em;
   background: #fff;
   margin: 0 3px;
   text-align: center;
-}
-
-.orange_dateline span {
-  color: #F19E44;
-  border-color: #F19E44;
+  font-size: $mobile-fontsize;
 }
 
 .orange_dateline {
   margin: -10px -20px 30px -20px;
   text-align: center;
 }
-
 
 .orange_dateline span.grey {
   color: #FFF;
@@ -83,6 +78,14 @@ body.mobileScrollLock {
   margin-right: 6px;
 }
 
+span.gicon {
+  font-family: 'Material Icons';
+  vertical-align: bottom;
+  padding-right: 3px;
+}
+span.nobreak {
+  display: inline-block;
+}
 
 @media screen and (min-width: $breakpoint) {
   body.mobileScrollLock {
@@ -117,10 +120,12 @@ body.mobileScrollLock {
 
 .Home-section {
   border: 1px solid #B0B0B0;
-  border-radius: 15px;
+  border-radius: 0px;
   overflow: hidden;
   border-top-left-radius: 0; 
   margin-bottom: 15px;
+  border-left: 0;
+  border-right: 0;
 }
 
 @media screen and (min-width: $breakpoint){
@@ -283,16 +288,17 @@ body.mobileScrollLock {
 /* ===================== */
 
 $category-icon-size: 16px;
-$mobile-padding: 20px;
+$computer-padding: 20px;
+$mobile-padding: 14px;
 $mobile-item-leftstop: 96px;
-
+$mobile-fontsize: 1em;
 
 .Schedule-dayButton {
-  font-size: 1.2em;
+  font-size: $mobile-fontsize;
   text-transform: uppercase;
-  padding: $mobile-padding;
+  padding: $mobile-padding $mobile-padding 10px;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 3px;
   border: 1px solid #B0B0B0;
   border-bottom: 0px;
   border-top-left-radius: 15px;
@@ -318,7 +324,7 @@ $mobile-item-leftstop: 96px;
 .Schedule-day {
   background: #f3f3f3;
   border-bottom: 1px solid rgb(220,220,220);
-  font-size: 1.2em;
+  font-size: $mobile-fontsize;
   padding: $mobile-padding;
   font-weight: bold;
 }
@@ -334,7 +340,7 @@ $mobile-item-leftstop: 96px;
 }
 .Schedule-item {
   display: flex;
-  font-size: 1.2em;
+  font-size: $mobile-fontsize;
   border-bottom: 1px solid rgb(220,220,220);
 
   > .Schedule-event {
@@ -353,17 +359,20 @@ $mobile-item-leftstop: 96px;
   margin: 0;
   max-width: 430px;
   font-weight: 300;
-  font-size: 0.9em;
   position: absolute;
   top: 5px;
   color: #808080;
+}
+.Schedule-main p {
+  margin-bottom: 0;
 }
 .Schedule-presenter p, .Schedule-note p {
   color: rgb(125,124,123);
   font-size: 0.9em;
   font-weight: normal;
-  text-indent: -20px;
-  padding-left: 20px;
+  text-indent: calc(-1.1em - 5px);
+  padding-left: 1.1em;
+  margin-top: 0.8em;
 }
 .Schedule-presenter p:before, .Schedule-note p:before {
   content: "";
@@ -385,8 +394,9 @@ $mobile-item-leftstop: 96px;
 }
 
 .Schedule-time {
-  width: calc($mobile-item-leftstop - 14px);  /* 14px = event left padding */
-  padding: $mobile-padding;
+  width: calc($mobile-item-leftstop - 28px);  /* 14px = event left padding */
+  padding: $computer-padding $mobile-padding;
+  font-size: 0.9em;
 }
 .Schedule-timeEnd {
   display: none;
@@ -397,7 +407,7 @@ $mobile-item-leftstop: 96px;
   position: relative; /* For categoryIcon */
   font-weight: bold;
   text-decoration: none;
-  padding: $mobile-padding 14px;
+  padding: $computer-padding $mobile-padding $mobile-padding;
   transition: background .3s;
   border-bottom: 1px solid rgb(220,220,220);
 
@@ -422,9 +432,9 @@ a.Schedule-event:before {
   position: absolute;
   left: -2em;
   color: #808080;
-  font-size: 1.5em;
+  font-size: $mobile-fontsize;
   letter-spacing: 3px;
-  padding-top: 15px;
+  padding-top: $computer-padding;
   top:0;
   opacity: 0;
   transition: opacity 0.4s linear;
@@ -441,7 +451,7 @@ a.Schedule-event:hover:before {
   display: inline-block;
   padding: 1px 8px;
   margin-bottom: 5px;
-  font-size: 1em;
+  font-size: $mobile-fontsize;
   background: rgb(220,220,220);
   border-radius: 4px;
   color: gray;
@@ -454,7 +464,7 @@ a.Schedule-event:hover:before {
 
 .Schedule-categoryIcon {
   position: absolute;
-  top: 15px;
+  top: 9px;
   right: 10px;
   display: block;
 }
@@ -524,25 +534,32 @@ a.Schedule-event:hover:before {
 .Schedule-categoryIcon[data-venue] span {
   display: none;
   font-weight: 300;
-  font-size: 1em;
+  font-size: $mobile-fontsize;
 }
 
 
 @media screen and (min-width: $breakpoint) {
-  $desktop-padding: 25px;
+  $desktop-padding: 20px;
   $desktop-item-leftstop: 200px;
+  $desktop-fontsize: 1.1em;
 
   .Schedule-dayButton {
-    font-size: 1.2em;
+    font-size: $mobile-fontsize;
     padding: 15px $desktop-padding;
   }
 
-  .Schedule-dayButtonLeftstop {
+  .Schedule-dayButtonLeftstop:before {
+    content: "";
+    height: 10px;
+    border-left: 1px solid #b0B0B0;
+    position: absolute;
+    bottom: -10px;
   }
 
   .Schedule-time {
     width: calc($desktop-item-leftstop - 14px); /* 14px = event left padding */
-    padding: $desktop-padding 20px;
+    padding: $desktop-padding 0px $desktop-padding 20px;
+    font-size: $mobile-fontsize;
   }
 
   .Schedule-timeEnd {
@@ -569,9 +586,8 @@ a.Schedule-event:hover:before {
   a.Schedule-event:before {
     display: inherit;
   }
-  .Schedule-main h5 {
-    font-size: 0.9em;
-    top: 5px;
+  .Home-section section {
+    font-size: $desktop-fontsize;
   }
 }
 
@@ -582,6 +598,18 @@ a.Schedule-event:hover:before {
   .Schedule-categoryIcon::before, .Schedule-categoryIcon::after {
     height: $category-icon-size;
   }
+  .Schedule-dayButton {
+    padding: $computer-padding;
+    margin-right: 10px;
+  }
+  .Schedule-categoryIcon {
+    top: 15px;
+  }
+  .Home-section {
+    border: 1px solid #B0B0B0;
+    border-radius: 15px;
+  }
+
 }
 
 } /* ends :global */

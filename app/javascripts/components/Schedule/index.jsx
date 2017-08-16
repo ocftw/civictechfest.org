@@ -94,8 +94,7 @@ function mapTimeSlotToItems(day, value, i) {
         data-venue={venue}
       >
         <div className="Schedule-time">
-          <span className={value.icomoon}></span>
-          {value.title}／{venue}
+          {value.title}<span className={styles.nobreak}><span className={styles.gicon}>place</span>{venue}</span>
         </div>
 
         <a id={`slot-${id}`} href={`#${id}`}
@@ -286,7 +285,6 @@ export default class Schedule extends Component {
        <div className={styles.container}>
         <h2>Agenda</h2>
         <div className={styles.orange_dateline}>
-          <span className={styles.grey}>9</span>
           <span className={styles.grey}>10</span>
           <span>11</span>
           <span>12</span>
