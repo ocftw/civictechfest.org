@@ -70,45 +70,46 @@ export default React.createClass({
       const avatar = speaker ? avatarURL(speaker) : '';
 
       return <div className="Session-presenter" key={`speaker_${speaker_name}`}>
-        { avatar && <img className="Session-presenter-avatar" src={avatar} /> }
-        <div className="Session-presenter-name">
-            {speaker_name}
-            { twitterID &&
-              <a
-                className="Session-twitter"
-                href={`https://twitter.com/${twitterID}`}
-                target="_blank"
-              >
-                <img
-                  className="Session-social"
-                  src={require('./twitter.png')}
-                />
-              </a>
-            }
-            { facebookID &&
-              <a
-                className="Session-facebook"
-                href={`https://facebook.com/${facebookID}`}
-                target="_blank"
-              >
-                <img
-                  className="Session-social"
-                  src={require('./fb.png')}
-                />
-              </a>
-            }
-        </div>
+        <div className="Session-presenter-top">
+          { avatar && <img className="Session-presenter-avatar" src={avatar} /> }
+          <div className="Session-presenter-name">
+              {speaker_name}
+              { twitterID &&
+                <a
+                  className="Session-twitter"
+                  href={`https://twitter.com/${twitterID}`}
+                  target="_blank"
+                >
+                  <img
+                    className="Session-social"
+                    src={require('./twitter.png')}
+                  />
+                </a>
+              }
+              { facebookID &&
+                <a
+                  className="Session-facebook"
+                  href={`https://facebook.com/${facebookID}`}
+                  target="_blank"
+                >
+                  <img
+                    className="Session-social"
+                    src={require('./fb.png')}
+                  />
+                </a>
+              }
+          </div>
 
-        <div className="Session-presenter-title">
-            {speaker_title}
+          <div className="Session-presenter-title">
+              {speaker_title}
+          </div>
+          <div className="Session-presenter-organization">
+              {speaker_organization}
+          </div>
         </div>
-        <div className="Session-presenter-organization">
-            {speaker_organization}
-        </div>
-        
         <hr />
         <div className="Session-presenter-biotext" key={`speaker_bio_${speaker_name}`}>
-            <div dangerouslySetInnerHTML={{__html: bio_text}}></div>
+            <p dangerouslySetInnerHTML={{__html: bio_text}}></p>
         </div>
       </div>;
     });

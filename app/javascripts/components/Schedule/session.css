@@ -118,7 +118,9 @@ $breakpoint2: 1600px;
   margin: 40px 0 80px 0;
   min-height: 120px;
 }
-
+.Session-presenter-top {
+  position: relative;
+}
 .Session-presenter-name {
   color: rgb(55,54,53);
   font-size: 1.6em;
@@ -246,7 +248,8 @@ $breakpoint2: 1600px;
     }
     .Session-presenter-avatar {
       position: absolute;
-      top: -45px;
+      bottom: 6px;
+      top: auto;
     }
     .Session-presenter {
       margin: 60px 0 100px 0;
