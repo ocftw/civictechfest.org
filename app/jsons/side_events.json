@@ -9,7 +9,16 @@
           "time": "14:00-17:00",
           "place": "Taipei NGO House",
           "entry": "RSVP / FREE",
-          "tab": "RSVP / FREE",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            },
+            {
+              "tab_name": "FREE",
+              "tab_color": ""
+            }
+          ],
           "venue": "NGO house",
           "venue_color": "7",
           "name": "Taiwan Open Government Report Release Forum",
@@ -41,7 +50,12 @@
           "time": "08:30-17:30",
           "place": "Taipei Teacher Hostel",
           "entry": "RSVP",
-          "tab": "RSVP",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            }
+          ],
           "venue": "TBD",
           "venue_color": "1",
           "name": "2017 SotM Taiwan Summit",
@@ -73,7 +87,12 @@
           "time": "18:30-20:30",
           "place": "Google Taipei Office at Taipei 101 75F",
           "entry": "RSVP / Invite only",
-          "tab": "RSVP",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            }
+          ],
           "venue": "Google Taipei",
           "venue_color": "2",
           "name": "Social Event & Civic Tech Grant DEMO Party",
@@ -112,7 +131,12 @@
           "time": "19:00-21:30",
           "place": "Hall 1, Taipei World Trade Center",
           "entry": "RSVP / Invite only",
-          "tab": "RSVP",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            }
+          ],
           "venue": "TWTC",
           "venue_color": "8",
           "name": "WCIT Gala Dinner & ICT Award",
@@ -144,8 +168,12 @@
           "time": "09:00-17:00",
           "place": "Yehjinfa Rice House",
           "entry": "Closed meeting",
-          "tab": "Closed meeting",
-          "tab_color": "blue",
+          "tab": [
+            {
+              "tab_name": "Closed meeting",
+              "tab_color": "blue"
+            }
+          ],
           "venue": "Yehjinfa house",
           "venue_color": "5",
           "name": "Code for All Summit",
@@ -177,7 +205,16 @@
           "time": "14:00-20:00",
           "place": "TAF innovation base",
           "entry": "RSVP / FREE",
-          "tab": "RSVP / FREE",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            },
+            {
+              "tab_name": "FREE",
+              "tab_color": ""
+            }
+          ],
           "venue": "TAF base",
           "venue_color": "3",
           "name": "Creative workshop: solutions for the biggest challenges of civic tech",
@@ -213,7 +250,12 @@
           "time": "10:00-16:40",
           "place": "Room 101, Taipei International Convention Center",
           "entry": "TBD",
-          "tab": "Public",
+          "tab": [
+            {
+              "tab_name": "Public",
+              "tab_color": ""
+            }
+          ],
           "venue": "TICC",
           "venue_color": "4",
           "name": "2017 International Data Economy Summit",
@@ -245,7 +287,16 @@
           "time": "TBD",
           "place": "TAF innovation base",
           "entry": "RSVP / FREE",
-          "tab": "RSVP / FREE",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            },
+            {
+              "tab_name": "FREE",
+              "tab_color": ""
+            }
+          ],
           "venue": "TAF base",
           "venue_color": "6",
           "name": "g0v 5th Anniversary Hackathon",
@@ -277,7 +328,16 @@
           "time": "TBD",
           "place": "National Tsing Hua University",
           "entry": "RSVP / FREE",
-          "tab": "RSVP / FREE",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            },
+            {
+              "tab_name": "FREE",
+              "tab_color": ""
+            }
+          ],
           "venue": "TsingHuaUniv.",
           "venue_color": "7",
           "name": "Wikimedia Taiwan 10th anniversary",

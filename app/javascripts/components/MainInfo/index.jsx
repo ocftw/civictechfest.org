@@ -51,11 +51,16 @@ export default class MainInfo extends Component {
 				<span><i data-color={SideEvent.venue_color}>place</i>{SideEvent.venue}</span>
 			</div>
 			<div className={styles.tab}>
-				<span data-color={SideEvent.tab_color}>{SideEvent.tab}</span>
+				{ SideEvent.tab.map( (tab) => {
+	        		return (
+			   			<span data-color={tab.tab_color}>{ tab.tab_name }</span>
+			   		)
+		          })}
 			</div>
 		</div>
     );
   };
+
 
   Speaker = (Speaker, i) => {
     return (
