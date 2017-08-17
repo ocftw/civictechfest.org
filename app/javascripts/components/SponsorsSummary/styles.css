@@ -47,3 +47,7 @@
 a.sponsor:hover .name {
   text-decoration: underline;
 }
+
+.sponsor[data-nobreak="true"] {
+  display: block;
+}

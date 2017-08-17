@@ -11,7 +11,7 @@ class SponsorsSummary extends Component {
       (sponsor.url) ? <a href={sponsor.url} target="_blank" className={styles.sponsor} key={sponsor.name} >
         <img className={styles.logo} src={require(`file!images/sponsors/${sponsor.logo}`)} />
         
-      </a> : <span className={styles.sponsor} key={sponsor.name} >
+      </a> : <span className={styles.sponsor} key={sponsor.name} data-nobreak={sponsor.nobreak}>
         <img className={styles.logo} src={require(`file!images/sponsors/${sponsor.logo}`)} />
       </span>
     );

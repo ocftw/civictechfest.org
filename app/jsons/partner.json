@@ -36,11 +36,12 @@
       "sponsors": [
         {
           "name": "富邦",
-          "logo": "fubon_logo.png",
+          "logo": "fubon_logo2.png",
           "url": "",
           "urlname": "",
           "brief": "",
-          "desc": ""
+          "desc": "",
+          "nobreak": "true"
         },
         {
           "name": "Microsoft",
