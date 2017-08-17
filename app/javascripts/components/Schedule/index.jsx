@@ -132,9 +132,19 @@ function mapTimeSlotToItems(day, value, i) {
                 })}
                 style={selected ? {backgroundColor: '#FFF7CB'} : {}}>
                 <div className="Schedule-main">
-                  <h5>{value.event.panel}</h5>
+                  {
+                    value.event.panel ? (
+                      <h5>{value.event.panel}</h5>
+                      ) : null
+                  }
+                  
                   <h4>{value.event.title}</h4>
-                  <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
+                  {
+                    value.event.note ? (
+                      <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
+                      ) : null
+                  }
+                  
                   {
                     value.event.moderator ? (
                       <div>
@@ -170,9 +180,18 @@ function mapTimeSlotToItems(day, value, i) {
                 style={selected ? {backgroundColor: '#FFF7CB'} : {}}
                 onClick={this.setSession.bind(this, event, value.time)}>
                 <div className="Schedule-main">
-                  <h5>{value.event.panel}</h5>
+                  {
+                    value.event.panel ? (
+                      <h5>{value.event.panel}</h5>
+                      ) : null
+                  }
+                  
                   <h4>{value.event.title}</h4>
-                  <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
+                  {
+                    value.event.note ? (
+                      <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
+                      ) : null
+                  }
                   {
                     value.event.moderator ? (
                       <div>

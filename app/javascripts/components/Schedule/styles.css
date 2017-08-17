@@ -359,9 +359,9 @@ $mobile-fontsize: 1em;
   margin: 0;
   max-width: 430px;
   font-weight: 300;
-  position: absolute;
-  top: 5px;
+  position: relative;
   color: #808080;
+  margin-bottom: 1px;
 }
 .Schedule-main p {
   margin-bottom: 0;
