@@ -53,7 +53,11 @@ export default class MainInfo extends Component {
 			<div className={styles.tab}>
 				{ SideEvent.tab.map( (tab) => {
 	        		return (
-			   			<span data-color={tab.tab_color}>{ tab.tab_name }</span>
+	        			<div>
+	        				<span data-color={tab.tab_color}>{ tab.tab_name }</span>
+	        				<br />
+	        			</div>
+			   			
 			   		)
 		          })}
 			</div>
