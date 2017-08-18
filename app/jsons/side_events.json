@@ -201,9 +201,9 @@
           ]
         },
         {
-          "date": ["14"],
-          "time": "14:00-20:00",
-          "place": "TAF innovation base",
+          "date": ["12"],
+          "time": "14:30-18:30",
+          "place": "Taipei International Convention Center",
           "entry": "RSVP / FREE",
           "tab": [
             {
@@ -215,7 +215,7 @@
               "tab_color": ""
             }
           ],
-          "venue": "TAF base",
+          "venue": "TICC",
           "venue_color": "3",
           "name": "Creative workshop: solutions for the biggest challenges of civic tech",
           "isopen": "true",
