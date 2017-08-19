@@ -306,7 +306,14 @@
           "urlname": "RSVP",
           "desc": " Hands-on training on the use of open data for NGOs workers! ",
           "desc_long": "This bootcamp will provide NGO workers with hands-on training on the use of open data. In the age of open data, we need new skills to deal with an overwhelming amount of information. This data bootcamp will provide NGO workers with training on scraping, visualizing, and analyzing data using free Google spreadsheets and software. With practical hands-on exercises and group sharing, we hope to ensure that NGO workers quickly grasp the key to data analysis! \n## This event will be in Chinese." ,
-                
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],     
             "host": [
             {
               "host_name": "OCF",
