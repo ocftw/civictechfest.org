@@ -200,6 +200,7 @@
             }
           ]
         },
+        
         {
           "date": ["12"],
           "time": "14:30-18:30",
@@ -245,6 +246,7 @@
             }
           ]
         },
+              
         {
           "date": ["15"],
           "time": "10:00-16:40",
@@ -282,6 +284,39 @@
             }
           ]
         },
+         {
+          "date": ["15"],
+          "time": "9:30-17:00",
+          "place": "Taipei Community Mental Health Center",
+          "entry": "RSVP ",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            }
+          ],
+          "venue": "Taipei Community Mental Health Center ",
+          "venue_color": "2",
+          "name": "Data Bootcamp for NGOs",
+          "isopen": "true",
+          "img": "databootcamp.png",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://ocftw.kktix.cc/events/ngodatabootcamp",
+          "urlname": "RSVP",
+          "desc": " Hands-on training on the use of open data for NGOs workers! ",
+          "desc_long": "This bootcamp will provide NGO workers with hands-on training on the use of open data. In the age of open data, we need new skills to deal with an overwhelming amount of information. This data bootcamp will provide NGO workers with training on scraping, visualizing, and analyzing data using free Google spreadsheets and software. With practical hands-on exercises and group sharing, we hope to ensure that NGO workers quickly grasp the key to data analysis!
+"\## This event will be in Chinese." ,
+                
+          ],
+          "host": [
+            {
+              "host_name": "OCF",
+              "host_logo": "OCF-LOGO-04.png"
+            }
+          ]
+        },
+        
         {
           "date": ["16"],
           "time": "TBD",
