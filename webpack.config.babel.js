@@ -12,7 +12,7 @@ var plugins = [
   new HtmlWebpackPlugin({
     title: "#CivicTechFest",
     jld: basic,
-    description: "Asia’s first ever civic technology festival and conference is coming on 2017 Sep. 9th - 16th at Taipei, Taiwan.  ",
+    description: "Asia’s first ever civic technology festival and conference is coming on 2017 Sep. 10th - 16th at Taipei, Taiwan.  ",
     filename: "index.html",
     template: "app/templates/index.html"
   }),
