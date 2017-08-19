@@ -124,6 +124,52 @@
             }
           ]
         },
+                {
+          "date": ["12"],
+          "time": "14:30-18:30",
+          "place": "Taipei International Convention Center",
+          "entry": "RSVP / FREE",
+          "tab": [
+            {
+              "tab_name": "RSVP",
+              "tab_color": ""
+            },
+            {
+              "tab_name": "FREE",
+              "tab_color": ""
+            }
+          ],
+          "venue": "TICC",
+          "venue_color": "3",
+          "name": "Creative workshop: solutions for the biggest challenges of civic tech",
+          "isopen": "true",
+          "img": "toolbox 2.jpg",
+          "imgtype": "logo",
+          "islink": "true",
+          "url": "https://www.eventbrite.ca/e/creative-workshop-solutionsfor-the-biggest-challenges-of-civic-tech-tickets-36441755271",
+          "urlname": "Register Now",
+          "desc": "Let's take advantage of the global gathering to identify challenges and work on solutions.",
+          "desc_long": "Civic tech is still a fairly new practice, even though we all work in different socio economical and political local contexts it seems the challenges we face are similar. Be it scaling to reach more people, making accessible to every one or even sometimes just having impact on the decision that is taken, those challenges are numerous. \nThe event format is Barcamp which is an open, participatory workshop-event, the content of which is provided by participants. We will split up in small interdisciplinary groups and make the best use of design thinking pratices to make sure we are able to work on prototype solutions and pitch results at the end of the event.",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "ODN(open democracy now)",
+              "host_logo": "odn-logo.png"
+            },
+            {
+              "host_name": "OGP toolbox",
+              "host_logo": "OGP_Toolbox-Logo.png"
+            }
+          ]
+        },
+        
         {
           "date": [
             "12"
@@ -200,53 +246,7 @@
             }
           ]
         },
-        
-        {
-          "date": ["12"],
-          "time": "14:30-18:30",
-          "place": "Taipei International Convention Center",
-          "entry": "RSVP / FREE",
-          "tab": [
-            {
-              "tab_name": "RSVP",
-              "tab_color": ""
-            },
-            {
-              "tab_name": "FREE",
-              "tab_color": ""
-            }
-          ],
-          "venue": "TICC",
-          "venue_color": "3",
-          "name": "Creative workshop: solutions for the biggest challenges of civic tech",
-          "isopen": "true",
-          "img": "toolbox 2.jpg",
-          "imgtype": "logo",
-          "islink": "true",
-          "url": "https://www.eventbrite.ca/e/creative-workshop-solutionsfor-the-biggest-challenges-of-civic-tech-tickets-36441755271",
-          "urlname": "Register Now",
-          "desc": "Let's take advantage of the global gathering to identify challenges and work on solutions.",
-          "desc_long": "Civic tech is still a fairly new practice, even though we all work in different socio economical and political local contexts it seems the challenges we face are similar. Be it scaling to reach more people, making accessible to every one or even sometimes just having impact on the decision that is taken, those challenges are numerous. \nThe event format is Barcamp which is an open, participatory workshop-event, the content of which is provided by participants. We will split up in small interdisciplinary groups and make the best use of design thinking pratices to make sure we are able to work on prototype solutions and pitch results at the end of the event.",
-          "remind_type": "none",
-          "remind_title": "",
-          "remind": [
-            {
-              "remind_sub": "",
-              "remind_desc": ""
-            }
-          ],
-          "host": [
-            {
-              "host_name": "ODN(open democracy now)",
-              "host_logo": "odn-logo.png"
-            },
-            {
-              "host_name": "OGP toolbox",
-              "host_logo": "OGP_Toolbox-Logo.png"
-            }
-          ]
-        },
-              
+                    
         {
           "date": ["15"],
           "time": "10:00-16:40",
