@@ -319,6 +319,10 @@
               "host_name": "OCF",
               "host_logo": "OCF-LOGO-04.png"
             }
+               {
+              "host_name": "TDSF",
+              "host_logo": "TDSF-logo.png"
+            }
           ]
         },
         
@@ -385,8 +389,6 @@
           "img": "wikimedia.jpg",
           "imgtype": "logo",
           "islink": "true",
-          "url": "https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/10th_anniversary/Anniversary",
-          "urlname": "More info.",
           "url": "https://wmtw.kktix.cc/events/10years",
           "urlname": "Register",
           "desc": "Come to know what we have done and what to do for the next 10 years.",
