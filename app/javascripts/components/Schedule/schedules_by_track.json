@@ -227,8 +227,8 @@
         "expandable": true,
         "event": {
           "venue": "201B",
-          "speaker": ["Viraj Tyagi", "Krishnakumar Thiagarajan"],
-          "speaker_f": "Viraj Tyagi and Krishnakumar Thiagarajan, eGovernments Foundation (India)",
+          "speaker": ["Sir K. Kanna Babu", "Viraj Tyagi"],
+          "speaker_f": "Sir K. Kanna Babu, Director of Municipal Administration & Viraj Tyagi, eGovernments Foundation (India)",
           "title": "The Impacts of the SmartCity Platform",
           "abstract": "In October 2015 the Government of Andhra Pradesh (GoAP) wanted to bring 110 cities and towns online, with the goals of improving service delivery to citizens, moving to data-driven governance processes, improving revenues and increasing transparency and accountability. \nGoAP partnered with eGovernments Foundation (eGov) to deploy eGov’s SmartCity platform, an integrated platform with 21 modules supporting key operations of city and town administrations, across all 110 locations. \nSmartCity is based on eGov’s 14 years of partnering with 300 cities and towns across India; customizable and configurable, it’s Open Source and available for free on the Github repository. \nGautham talks through the impacts the platform has already brought about, and the hopes for its future."
         }
