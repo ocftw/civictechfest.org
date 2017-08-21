@@ -109,8 +109,8 @@
         "expandable": true,
         "event": {
           "venue": "201B+C",
-          "speaker": ["Mathilde Bras", "Shu Yang Lin", "Sarah White"],
-          "speaker_f": "Mathilde Bras, Etalab (France)\nShu Yang Lin, PDIS (Taiwan)\nSarah White, Code for America",
+          "speaker": ["Mathilde Bras", "Shu Yang Lin", "Sarah White", "Tamas Erkelens"],
+          "speaker_f": "Mathilde Bras, Etalab (France)\nShu Yang Lin, PDIS (Taiwan)\nSarah White, Code for America \nTamas Erkelens, Municipality of Amsterdam (Netherlands)",
           "moderator": "Jaclyn Tsai",
           "moderator_f": "Jaclyn Tsai",
           "panel":"Panel 3",
