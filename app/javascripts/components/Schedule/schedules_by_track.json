@@ -60,8 +60,8 @@
         "expandable": true,
         "event": {
           "venue": "201B+C",
-          "speaker": ["Chia-liang Kao", "Michael Canares", "Luke Bacon", "Gemma Humphrys"],
-          "speaker_f": "Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Cañares, World Wide Web Foundation (Indonesia)\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Humphrys, mySociety (UK)",
+          "speaker": ["Chia-liang Kao", "Michael Canares", "Luke Bacon", "Gemma Moulder"],
+          "speaker_f": "Chia-liang Kao, Open Culture Foundation (Taiwan)\nMichael Cañares, World Wide Web Foundation (Indonesia)\nLuke Bacon, Open Australia Foundation (Australia)\nGemma Moulder, mySociety (UK)",
           "moderator": "Dr. Rebecca Rumbul",
           "moderator_f": "Dr. Rebecca Rumbul, mySociety (UK)",
           "panel": "Panel 1",
