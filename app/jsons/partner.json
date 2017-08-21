@@ -7,8 +7,8 @@
         {
           "name": "OCF",
           "logo": "OCF-LOGO-04.png",
-          "url": "",
-          "urlname": "",
+          "url": "www.ocf.tw",
+          "urlname": "OCF",
           "brief": "",
           "desc": ""
         },
@@ -37,7 +37,7 @@
         {
           "name": "富邦",
           "logo": "fubon_logo2.png",
-          "url": "",
+          "url": "www.fubonedu.org.tw/",
           "urlname": "",
           "brief": "",
           "desc": "",
@@ -46,7 +46,7 @@
         {
           "name": "Microsoft",
           "logo": "msft_logo_rgb_c-gray_d_360.png",
-          "url": "",
+          "url": "https://www.microsoft.com/zh-tw",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -54,7 +54,7 @@
         {
           "name": "Google",
           "logo": "google.png",
-          "url": "",
+          "url": "https://www.google.com.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -68,7 +68,7 @@
         {
           "name": "g0v",
           "logo": "g0v-only.png",
-          "url": "",
+          "url": "g0v.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -76,7 +76,7 @@
         {
           "name": "#codeforgender",
           "logo": "codeforfender_logo.png",
-          "url": "",
+          "url": "https://codeforgender.com",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -84,7 +84,7 @@
         {
           "name": "Code for All",
           "logo": "code_for_all_logo.png",
-          "url": "",
+          "url": "https://codeforall.org",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -92,7 +92,7 @@
         {
           "name": "Institut Francais",
           "logo": "IF-Charte-graphique-170111.png",
-          "url": "",
+          "url": "www.institutfrancais.com/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -100,7 +100,7 @@
         {
           "name": "Bureau Francais de Taipei",
           "logo": "BFT-Logo.png",
-          "url": "",
+          "url": "https://www.france-taipei.org",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -108,7 +108,7 @@
         {
           "name": "OGP Toolbox",
           "logo": "OGP_Toolbox-Logo.png",
-          "url": "",
+          "url": "https://ogptoolbox.org/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -116,7 +116,7 @@
         {
           "name": "ODN",
           "logo": "odn-logo.png",
-          "url": "",
+          "url": "opendemocracynow.net/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -124,7 +124,7 @@
         {
           "name": "AODP",
           "logo": "AODP-LOGO-fal.png",
-          "url": "",
+          "url": "http://opendata.tca.org.tw/asia/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -132,7 +132,7 @@
         {
           "name": "Wiki Taiwan",
           "logo": "wikimedia_logo.png",
-          "url": "",
+          "url": "https://meta.wikimedia.org/wiki/Wikimedia_Taiwan",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -140,7 +140,7 @@
         {
           "name": "Open street map Taiwan",
           "logo": "OSMT_logo.png",
-          "url": "",
+          "url": "http://openstreetmap.tw",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -148,7 +148,7 @@
           {
           "name": "womany",
           "logo": "womany_logo.png",
-          "url": "",
+          "url": "https://womany.net/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -156,7 +156,7 @@
           {
           "name": "frontier_foundation",
           "logo": "frontier_foundation_logo.png",
-          "url": "",
+          "url": "www.frontier.org.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -164,7 +164,7 @@
         {
           "name": "TDSF",
           "logo": "TDSF_LOGO_fal.png",
-          "url": "",
+          "url": "foundation.datasci.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -172,7 +172,7 @@
           {
           "name": "TFD",
           "logo": "TFD_logo.png",
-          "url": "",
+          "url": "www.tfd.org.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -187,7 +187,7 @@
         {
           "name": "Code for Japan",
           "logo": "codeforjapan_logo.png",
-          "url": "",
+          "url": "http://www.code4japan.org",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -195,7 +195,7 @@
         {
           "name": "STI",
           "logo": "STI_logo.png",
-          "url": "",
+          "url": "http://socialtech.or.th",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -203,7 +203,7 @@
         {
           "name": "OKFG",
           "logo": "OKFG_logo.png",
-          "url": "",
+          "url": "https://okfn.de",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -211,7 +211,7 @@
         {
           "name": "Civic Hall",
           "logo": "civichall_logo.png",
-          "url": "",
+          "url": "https://civichall.org",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -219,7 +219,7 @@
         {
           "name": "NDI",
           "logo": "NDI_logo.png",
-          "url": "",
+          "url": "https://www.ndi.org/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -227,7 +227,7 @@
         {
           "name": "Sinar Project",
           "logo": "sinarproject_logo.png",
-          "url": "",
+          "url": "https://sinarproject.org/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -235,7 +235,7 @@
         {
           "name": "Innvoation for Change",
           "logo": "IFC-logo.png",
-          "url": "",
+          "url": "https://innovationforchange.org/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -243,7 +243,7 @@
         {
           "name": "Hivos",
           "logo": "hivos-logo.png",
-          "url": "",
+          "url": "https://www.hivos.org",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -251,7 +251,7 @@
         {
           "name": "Enspiral",
           "logo": "enspiral-logo.png",
-          "url": "",
+          "url": "https://enspiral.com",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -259,7 +259,7 @@
         {
           "name": "Hacks/Hackers Taipei",
           "logo": "hhtpe-logo.png",
-          "url": "",
+          "url": "http://hackshackers.taipei",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -267,7 +267,7 @@
         {
           "name": "WAGL",
           "logo": "Wagl_logo_Eng_2017_504.png",
-          "url": "",
+          "url": "WAGL.net",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -275,7 +275,7 @@
         {
           "name": "Watchout",
           "logo": "watchout-logo.png",
-          "url": "",
+          "url": "Watchout"",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -283,7 +283,7 @@
         {
           "name": "公革力",
           "logo": "t4p-logo.png",
-          "url": "",
+          "url": "https://www.facebook.com/thinking4public/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -291,7 +291,7 @@
         {
           "name": "CDHK",
           "logo": "CDHK_logo.png",
-          "url": "",
+          "url": "https://www.facebook.com/CivicDataHK/",
           "urlname": "",
           "brief": "",
           "desc": ""
