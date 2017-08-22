@@ -8,7 +8,7 @@ class SponsorsSummary extends Component {
   sponsor = (sponsor) => {
     var name = sponsor.alt_name || sponsor.name;
     return (
-      (sponsor.url) ? <a href={sponsor.url} target="_blank" className={styles.sponsor} key={sponsor.name} >
+      (sponsor.url) ? <a href={sponsor.url} target="_blank" className={styles.sponsor} key={sponsor.name} data-nobreak={sponsor.nobreak}>
         <img className={styles.logo} src={require(`file!images/sponsors/${sponsor.logo}`)} />
         
       </a> : <span className={styles.sponsor} key={sponsor.name} data-nobreak={sponsor.nobreak}>
