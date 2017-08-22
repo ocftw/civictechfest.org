@@ -57,7 +57,7 @@ class SpeakerList extends Component {
     }
   }
 
-  enableSession(value,time) {
+  enableSession(value) {
     this.setState({
       showSession: true,
       currentSession: value,
@@ -76,13 +76,13 @@ class SpeakerList extends Component {
   speaker = (speaker) => {
     const avatar = avatarURL(speaker);
     const [locale] = getLocale().split('-');
-    let data = this.getSessionIdsBySpeaker(speaker, locale);
+    let sessions = this.getSessionIdsBySpeaker(speaker, locale);
 
     return (
       <a className={styles.speakers} key={speaker.name}
-        id = {`slot-${data.id}`}
-        href= {`#${data.id}`}
-        onClick={this.enableSession.bind(this, data.event, data.time)} 
+        id = {speaker.name.replace(/ /g, "_")}
+        href= {`#${speaker.name.replace(/ /g, "_")}`}
+        onClick={this.enableSession.bind(this, sessions)}
         data-session={cx({
                           "false": !this.state.showSession,
                           "true": this.state.showSession
@@ -112,14 +112,15 @@ class SpeakerList extends Component {
   */
   getSessionIdsBySpeaker(speaker, locale) {
     let sessiondata = [];
-    let ids = [];
+    //let ids = [];
+    let speaker_id = "";
 
-    for ( i=0; i<=3; i++ ) {
+    for ( let i=0; i<=3; i++ ) {
       Array.prototype.push.apply(sessiondata, schedulesByTrack[getLocale()]["day"+i].filter((day, index) => {
         if(day.event.speaker_f && day.event.speaker_f.includes(getString(speaker, 'name', locale))||
            (day.event.moderator_f && day.event.moderator_f === getString(speaker, 'name', locale)) //||
           ) {
-          ids.push("day"+i+"-all-" + index.toString());
+          //ids.push("day"+i+"-all-" + index.toString());
           return true;
         }else {
           return false;
@@ -127,19 +128,13 @@ class SpeakerList extends Component {
       })
       );
     }
-    
 
-    if(ids.length >= 0) {
-      let day_venue_index = id.split("-");
-
-      return {
-        sessions: sessiondata,
-        ids: ids
-      };
+    if(sessiondata.length >= 0) {
+      return sessiondata;
     }
 
     // nothing found in schedules_by_track.json,so return speaker.json's data instead
-    if( ids.length == 0 ) {
+    if( sessiondata.length == 0 ) {
 
       let speakerElement = [];
       presenters['en-US'].map((element, i) => {
@@ -158,12 +153,9 @@ class SpeakerList extends Component {
           avatar: speaker.avatar,
           value: speaker }),
         time: ""
-      }
-
-      return {
-        sessions: [session_placeholder],
-        ids: ["none-" + speakerElement.indexOf(getString(speaker, 'name', locale))]
       };
+
+      return [session_placeholder];
     }
   }
 
