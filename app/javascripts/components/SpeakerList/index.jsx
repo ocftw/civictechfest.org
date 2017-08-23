@@ -21,18 +21,20 @@ class SpeakerList extends Component {
 
   componentDidMount() {
     const { hash } = this.props.properties.location;
-    console.log(this.props.properties);
+    //console.log(this.props.properties);
     let presenter_name = hash.replace('#', '').replace(/_/g, " ");
-    console.log("searching for "+presenter_name);
+    //console.log("searching for "+presenter_name);
     let presenter = presenters['en-US'].filter(presenter => presenter.name == presenter_name)[0];
-    const [locale] = getLocale().split('-');
-    let sessions = this.getSessionIdsBySpeaker(presenter, locale);
-    console.log(presenter);
-    setTimeout(() => document.getElementById(hash).scrollIntoView(false), 300);
-    this.setState({
-      showSession: true,
-      currentSessions: sessions
-    });
+    if (typeof presenter !== 'undefined') {
+      const [locale] = getLocale().split('-');
+      let sessions = this.getSessionIdsBySpeaker(presenter, locale);
+      console.log(presenter);
+      setTimeout(() => document.getElementById(hash).scrollIntoView(false), 300);
+      this.setState({
+        showSession: true,
+        currentSessions: sessions
+      });
+    }
   }
 
   enableSession(value) {
