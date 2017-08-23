@@ -72,7 +72,7 @@ class SpeakerList extends Component {
     })
   }
 
-  speaker = (speaker) => {
+  speaker_el = (speaker) => {
     const avatar = avatarURL(speaker);
     const [locale] = getLocale().split('-');
     let sessions = this.getSessionIdsBySpeaker(speaker, locale);
@@ -179,10 +179,10 @@ class SpeakerList extends Component {
           Speakers
         </h2>
         <div className= {cx({"speaker-parent" : this.state.showSession })} >
-          { presenters['en-US'].filter((s) => s.featured).sort(this.sortFunc).map(this.speaker) }
+          { presenters['en-US'].filter((s) => s.featured).sort(this.sortFunc).map(this.speaker_el) }
         </div>
         <div className= {cx({"speaker-parent" : this.state.showSession })} >
-          { presenters['en-US'].filter((s) => !s.featured).sort(this.sortFunc).map(this.speaker) }
+          { presenters['en-US'].filter((s) => !s.featured).sort(this.sortFunc).map(this.speaker_el) }
         </div>
 
         <div className={cx({
