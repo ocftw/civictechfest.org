@@ -15,7 +15,7 @@ class SpeakerList extends Component {
     super(props);
     this.state = {
       showSession: false,
-      currentSession: () => ({}),
+      currentSessions: [],//new
       currentSessionTime: null
     }
   }
@@ -23,6 +23,7 @@ class SpeakerList extends Component {
   componentDidMount() {
     const { hash } = this.props.properties.location;
     if (hash.includes("all")) {
+      //TODO ids are generated differently
       setTimeout(() => document.getElementById(hash.replace('#', 'slot-')).scrollIntoView(false), 300);
       const dataArray = hash.replace('#', '').split('-');
       const value = schedulesByTrack[getLocale()][dataArray[0]][dataArray[2]];
@@ -31,15 +32,15 @@ class SpeakerList extends Component {
       // put in state currentSessions
       this.setState({
         showSession: true,
-        currentSession: () => schedulesByTrack[getLocale()][dataArray[0]][dataArray[2]].event,
-        currentSessionTime: value.time
+        currentSession: () => schedulesByTrack[getLocale()][dataArray[0]][dataArray[2]].event,//TODO
+        currentSessionTime: value.time//TODO
       });
-    } else if (hash.includes("none")) {
+    } else if (hash.includes("none")) {//TODO, perhaps ignore?
       let id = hash.replace('#', '').split('-');
       let data  = presenters["en-US"][id[1]];
       this.setState({
         showSession: true,
-        currentSession: () => ({
+        currentSession: () => ({//TODO
           venue: "",
           category: "",
           language: "",
@@ -60,16 +61,14 @@ class SpeakerList extends Component {
   enableSession(value) {
     this.setState({
       showSession: true,
-      currentSession: value,
-      currentSessionTime: time
+      currentSessions: value,
     })
   }
 
   disableSession = () => {
     this.setState({
       showSession: false,
-      currentSection: () => ({}),
-      currentSessionTime: null
+      currentSessions: [],
     })
   }
 
@@ -191,11 +190,14 @@ class SpeakerList extends Component {
           "is-show": this.state.showSession
         }
         )}>
-          <Session
+        { this.state.currentSessions.map((session, i) => {
+          return <Session
             sessionHandler={this.disableSession}
-            data={this.state.currentSession()}
-            time={this.state.currentSessionTime}
+            data={session.event}
+            time={session.time}
           />
+          })
+        }
         </div>
       </article>
       </div>
