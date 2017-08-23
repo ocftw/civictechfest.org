@@ -227,10 +227,10 @@
         "expandable": true,
         "event": {
           "venue": "201B",
-          "speaker": ["Sir K. Kanna Babu", "Viraj Tyagi"],
-          "speaker_f": "Sir K. Kanna Babu, Director of Municipal Administration & Viraj Tyagi, eGovernments Foundation (India)",
+          "speaker": ["K. Kannababu", "Viraj Tyagi"],
+          "speaker_f": "K. Kannababu, Director of Municipal Administration of Andhra Pradesh & Viraj Tyagi, eGovernments Foundation (India)",
           "title": "The Impacts of the SmartCity Platform",
-          "abstract": "In October 2015 the Government of Andhra Pradesh (GoAP) wanted to bring 110 cities and towns online, with the goals of improving service delivery to citizens, moving to data-driven governance processes, improving revenues and increasing transparency and accountability. \nGoAP partnered with eGovernments Foundation (eGov) to deploy eGov’s SmartCity platform, an integrated platform with 21 modules supporting key operations of city and town administrations, across all 110 locations. \nSmartCity is based on eGov’s 14 years of partnering with 300 cities and towns across India; customizable and configurable, it’s Open Source and available for free on the Github repository. \nGautham talks through the impacts the platform has already brought about, and the hopes for its future."
+          "abstract": "In October 2015 the Government of Andhra Pradesh (GoAP) wanted to bring 110 cities and towns online, with the goals of improving service delivery to citizens, moving to data-driven governance processes, improving revenues and increasing transparency and accountability. \nGoAP partnered with eGovernments Foundation (eGov) to deploy eGov’s SmartCity platform, an integrated platform with 21 modules supporting key operations of city and town administrations, across all 110 locations. \nSmartCity is based on eGov’s 14 years of partnering with 300 cities and towns across India; customizable and configurable, it’s Open Source and available for free on the Github repository. \nK. Kannababu talks through the impacts the platform has already brought about, and the hopes for its future."
         }
       },
       {
@@ -487,8 +487,7 @@
           "speaker_f": "",
           "title": "Be the Change. Let's code for gender. Hack for a better world!",
           "panel": "Workshop",
-          "abstract": "#CodeforGender workshop is meant for everyone who feels there is a lack of productive discourse around gender equality and the role of technology in our society. It invites you to consciously break down gender norms and reject gender ideology.The one-hour workshop provides methods to turn innovative ideas into action. Participants will learn how to generate creative thoughts and bring them to life, and share their vision of the future to the world.There will be two section: design thinking and action creating. In the first part, participants will consider the current situation, further refine their idea. Then, apply a framework for action in the second part. Former prototypes and resources to prompt action around an idea will also be introduced during the workshop.\Organizer:  #CodeforGender empowered by Womany
-"
+          "abstract": "#CodeforGender workshop is meant for everyone who feels there is a lack of productive discourse around gender equality and the role of technology in our society. It invites you to consciously break down gender norms and reject gender ideology.The one-hour workshop provides methods to turn innovative ideas into action. Participants will learn how to generate creative thoughts and bring them to life, and share their vision of the future to the world.There will be two section: design thinking and action creating. In the first part, participants will consider the current situation, further refine their idea. Then, apply a framework for action in the second part. Former prototypes and resources to prompt action around an idea will also be introduced during the workshop.\nOrganizer: #CodeforGender empowered by Womany"
         }
       },
       {
