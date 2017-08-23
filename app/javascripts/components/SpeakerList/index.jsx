@@ -15,60 +15,37 @@ class SpeakerList extends Component {
     super(props);
     this.state = {
       showSession: false,
-      currentSessions: [],//new
-      currentSessionTime: null
+      currentSessions: [],
     }
   }
 
   componentDidMount() {
     const { hash } = this.props.properties.location;
-    if (hash.includes("all")) {
-      //TODO ids are generated differently
-      setTimeout(() => document.getElementById(hash.replace('#', 'slot-')).scrollIntoView(false), 300);
-      const dataArray = hash.replace('#', '').split('-');
-      const value = schedulesByTrack[getLocale()][dataArray[0]][dataArray[2]];
-      // TODO get presenter name,
-      // search for sessions,
-      // put in state currentSessions
-      this.setState({
-        showSession: true,
-        currentSession: () => schedulesByTrack[getLocale()][dataArray[0]][dataArray[2]].event,//TODO
-        currentSessionTime: value.time//TODO
-      });
-    } else if (hash.includes("none")) {//TODO, perhaps ignore?
-      let id = hash.replace('#', '').split('-');
-      let data  = presenters["en-US"][id[1]];
-      this.setState({
-        showSession: true,
-        currentSession: () => ({//TODO
-          venue: "",
-          category: "",
-          language: "",
-          speaker:  data.name,
-          title: data.title,
-          bio: data.bio,
-          abstract: "",
-          avatar: data.avatar,
-          facebook: data.facebook,
-          twitter: data.twitter,
-          value: data
-        }),
-        currentSessionTime: ""
-      })
-    }
+    console.log(this.props.properties);
+    let presenter_name = hash.replace('#', '').replace(/_/g, " ");
+    console.log("searching for "+presenter_name);
+    let presenter = presenters['en-US'].filter(presenter => presenter.name == presenter_name)[0];
+    const [locale] = getLocale().split('-');
+    let sessions = this.getSessionIdsBySpeaker(presenter, locale);
+    console.log(presenter);
+    setTimeout(() => document.getElementById(hash).scrollIntoView(false), 300);
+    this.setState({
+      showSession: true,
+      currentSessions: sessions
+    });
   }
 
   enableSession(value) {
     this.setState({
       showSession: true,
-      currentSessions: value,
+      currentSessions: value
     })
   }
 
   disableSession = () => {
     this.setState({
       showSession: false,
-      currentSessions: [],
+      currentSessions: []
     })
   }
 
