@@ -6,7 +6,6 @@ $breakpoint2: 1600px;
 .Session {
   background: white;
   width: 100%;
-  height: 100%;
   position: relative;
   text-align: left;
 }
