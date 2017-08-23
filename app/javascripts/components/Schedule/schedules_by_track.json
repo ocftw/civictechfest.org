@@ -480,10 +480,15 @@
       },
       {
         "time": "09:30-10:30",
-        "expandable": false,
+        "expandable": true,
         "event": {
           "venue": "4F Joy",
-          "title": "UNCONFERENCE J4"
+           "speaker": "",
+          "speaker_f": "",
+          "title": "Be the Change. Let's code for gender. Hack for a better world!",
+          "panel": "Workshop",
+          "abstract": "#CodeforGender workshop is meant for everyone who feels there is a lack of productive discourse around gender equality and the role of technology in our society. It invites you to consciously break down gender norms and reject gender ideology.The one-hour workshop provides methods to turn innovative ideas into action. Participants will learn how to generate creative thoughts and bring them to life, and share their vision of the future to the world.There will be two section: design thinking and action creating. In the first part, participants will consider the current situation, further refine their idea. Then, apply a framework for action in the second part. Former prototypes and resources to prompt action around an idea will also be introduced during the workshop.\Organizer:  #CodeforGender empowered by Womany
+"
         }
       },
       {
