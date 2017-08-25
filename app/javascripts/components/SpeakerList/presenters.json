@@ -199,6 +199,15 @@
       "twitter": ""
     },
     {
+      "avatar": "./images/Phil.png",
+      "name": "Phil Tinn",
+      "organization": "MIT Media Lab (USA)",
+      "title": "Research Scientist",
+      "bio": "Phil Tinn, Research Scientist at MIT Media Lab, is a practitioner of innovation across scales and physical-digital media, with over 10 years experience in product, service, design, and organizational change strategies and execution. His projects at MIT exemplify a new cross-disciplinary approach to Urban Innovation by combining interventions in design, policy, engagement and behavior change in ways that humanize technology to help cities deliver experiences that meet the needs, expectations and aspirations of their users. \nPhil's thesis project at MIT combined LEGO bricks, interactive data visualization and traffic modeling to enable community and government stakeholders in Boston to co-design their future transit system. Furthering the development of transit equity, he now co-leads the open-source autonomous vehicle project at the Media Lab with the aim of enabling citizens to co-develop last-mile transit solutions while helping cities reduce dependency on cars.",
+      "nation": "USA",
+      "twitter": ""
+    },
+    {
       "avatar": "./images/Eric Reese.jpg",
       "name": "Eric Reese",
       "organization": "Center for Government Excellence at Johns Hopkins University (USA)",
