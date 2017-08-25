@@ -267,6 +267,17 @@
         }
       },
       {
+        "time": "11:00-12:30",
+        "expandable": true,
+        "event": {
+          "venue": "201B",
+          "speaker": "Phil Tinn",
+          "speaker_f": "Phil Tinn, MIT Media Lab (USA)",
+          "title": "Participatory City Planning with LEGO in Boston and Hamburg",
+          "abstract": ""
+        }
+      },
+      {
         "title": "Morning Section 2.2 ",
         "tagline": "Technology for Civic Participation/Engagement",
         "venue": "201C",
