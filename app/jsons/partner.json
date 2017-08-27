@@ -58,6 +58,22 @@
           "urlname": "",
           "brief": "",
           "desc": ""
+        },
+        {
+          "name": "KKBOX",
+          "logo": "kkbox_logo.png",
+          "url": "https://www.kkbox.com",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
+        },
+        {
+          "name": "Gamesofa",
+          "logo": "gamesofa_logo.png",
+          "url": "https://www.gamesofa.com/",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
         }
       ]
     },
