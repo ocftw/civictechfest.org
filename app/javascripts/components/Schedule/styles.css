@@ -41,6 +41,7 @@ $appbar-height: 60px;
   text-align: left;
   display: block;
   font-size: 1.6em;
+  text-align: center;
 }
 
 /* date line dot */
