@@ -19,7 +19,6 @@ var multiParagraph = (text, className) => {
   return ret;
 }
 
-
 export default class MainInfo extends Component {
 
   SideEvent = (SideEvent, i) => {
@@ -95,7 +94,8 @@ export default class MainInfo extends Component {
 
   render() {
     return (
-      <div className={styles.root}>
+      <div className={styles.root} id="root">
+		  
       	<div className={styles.banner}>
       		<div className={styles.heroimg}>
 	  			<img className={styles.hero} src={require('./images/hero.jpg')} />

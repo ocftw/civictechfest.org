@@ -711,10 +711,7 @@ article[data-wide="true"] {
 	left: calc(2em + 1px );
 	display: inline;
 }
-
-
-
-
+  
 
 
 @media screen and (min-width: 480px) {
