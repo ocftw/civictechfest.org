@@ -166,8 +166,8 @@
         "expandable": true,
         "event": {
           "venue": "201B",
-          "speaker": "Khairil Yusof",
-          "speaker_f": "Khairil Yusof, Sinar Project (Malaysia)",
+          "speaker": ["Khairil Yusof","Soe Lin Htoot"],
+          "speaker_f": "Khairil Yusof, Sinar Project (Malaysia) & Soe Lin Htoot, Myanmar Fifth Estate",
           "title": "Impacts of Open Data Standards on Transparency Tools",
           "abstract": "Most Open Data initiatives assume the provision of data by governments which will then be picked up and used by a variety of sectors for the good of all.\nBut for countries with opaque governments, or whose NGOs lack technical capacity, the promises of Open Data will fall far short of the reality. \nThis active research shows how adopting Open Data standards for government data helps civil society organizations collaborate in building usable Open Data sets for transparency, governance  — and tools that increase participation by citizens. \nAnd for those in places where government do not reliably release Open Data, discover how to source unstructured data by other means. Finally, Khairil discusses the contrasting impacts and uses of this approach in the two different environments of Malaysia and Myanmar."
         }
