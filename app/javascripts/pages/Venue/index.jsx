@@ -4,6 +4,20 @@ import venues from "jsons/venues.json";
 import styles from "./styles.css";
 import { Link } from "react-router";
 
+
+var multiParagraph = (text, className) => {
+  if (!text) {
+    return [];
+  }
+  var arr = text.split('\n');
+  var ret = [];
+  for (let i in arr) {
+    let line = arr[i];
+    ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+  }
+  return ret;
+}
+
 class Venue extends Component {
     render() {
           return (
@@ -35,6 +49,7 @@ class Venue extends Component {
                           <a href="https://www.google.com.tw/maps/place/Taipei+International+Convention+Center/@25.0331974,121.5586548,17z/data=!3m1!4b1!4m5!3m4!1s0x3442abb61ab34fd9:0xcbb39196afb006db!8m2!3d25.0331974!4d121.5608435?hl=en" target="_blank"><i className={styles.icon}>keyboard_arrow_right</i>1 Hsin-Yi Road,Section 5,Taipei 11049,Taiwan</a>
                           <br />
                           <a href="http://www.ticc.com.tw/main_en/index.aspx" target="_blank"><i className={styles.icon}>home</i>www.ticc.com.tw</a>
+                          <img src={require(`images/venue/TICC.jpg`)} />
                         </div>
                         
                         <div className={styles.howtogo}>
@@ -127,12 +142,9 @@ class Venue extends Component {
                             </div>
                             <div className={styles.content}>
                               <div className={styles.venue}>
-                                <i className={styles.icon} data-size="big" data-color="red">place</i>
-                                <p>
-                                  { cat.detail }
-                                </p>
+                                  <div>{multiParagraph(cat.detail)}</div>
                               </div>
-                            </div>                      
+                            </div>
                           </section>
                         )
                       })
