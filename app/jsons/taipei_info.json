@@ -9,7 +9,7 @@
           "isopen": "true",
           "img": "Tapei Fun.jpg",
           "imgtype": "pic",
-          "islink": "false",
+          "islink": "true",
           "url": "https://www.travels-en.2017.taipei/",
           "urlname": "More info.",
           "desc": "Check here for where to have fun!"
@@ -19,7 +19,7 @@
           "isopen": "true",
           "img": "Taipei Food.jpg",
           "imgtype": "pic",
-          "islink": "false",
+          "islink": "true",
           "url": "https://github.com/g0v/taipei",
           "urlname": "Check here",
           "desc": "See the Taipei handbook edited by the g0v community"
