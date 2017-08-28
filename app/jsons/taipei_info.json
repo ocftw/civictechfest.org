@@ -5,24 +5,24 @@
       "title": "Taipei Info",
       "taipei_info": [
         {
-          "name": "Fun",
-          "isopen": "false",
+          "name": "Travel Info",
+          "isopen": "true",
           "img": "Tapei Fun.jpg",
           "imgtype": "pic",
           "islink": "false",
-          "url": "",
+          "url": "https://www.travels-en.2017.taipei/",
           "urlname": "More info.",
-          "desc": "coming soon"
+          "desc": "Check here for where to have fun!"
         },
         {
-          "name": "Food",
-          "isopen": "false",
+          "name": "Tips in Taipei",
+          "isopen": "true",
           "img": "Taipei Food.jpg",
           "imgtype": "pic",
           "islink": "false",
-          "url": "",
-          "urlname": "More info.",
-          "desc": "coming soon"
+          "url": "https://github.com/g0v/taipei",
+          "urlname": "Check here",
+          "desc": "See the Taipei handbook edited by the g0v community"
         }
       ]
     }
