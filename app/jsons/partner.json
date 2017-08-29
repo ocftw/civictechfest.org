@@ -58,6 +58,20 @@
           "urlname": "",
           "brief": "",
           "desc": ""
+        }
+      ]
+    },
+    {
+      "category": "partners",
+      "title": "Partners",
+      "sponsors": [
+        {
+          "name": "Gamesofa",
+          "logo": "gamesofa_logo.png",
+          "url": "https://www.gamesofa.com/",
+          "urlname": "",
+          "brief": "",
+          "desc": ""
         },
         {
           "name": "KKBOX",
@@ -67,20 +81,7 @@
           "brief": "",
           "desc": ""
         },
-        {
-          "name": "Gamesofa",
-          "logo": "gamesofa_logo.png",
-          "url": "https://www.gamesofa.com/",
-          "urlname": "",
-          "brief": "",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "category": "partners",
-      "title": "Partners",
-      "sponsors": [
+        
         {
           "name": "g0v",
           "logo": "g0v-only.png",
