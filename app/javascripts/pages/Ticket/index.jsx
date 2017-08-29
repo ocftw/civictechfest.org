@@ -10,7 +10,6 @@ class Ticket extends Component {
         <section className={styles.section}>
                   <h2 className={styles.header}>Tickets</h2>
                   <div className={styles.orange_dateline}>
-                    <span className={styles.grey}>9</span>
                     <span className={styles.grey}>10</span>
                     <span>11</span>
                     <span>12</span>
