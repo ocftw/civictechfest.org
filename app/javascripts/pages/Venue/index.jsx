@@ -26,7 +26,6 @@ class Venue extends Component {
                 <section className={styles.section}>
                   <h2 className={styles.header}>Venue</h2>
                   <div className={styles.orange_dateline}>
-                    <span className={styles.grey}>9</span>
                     <span className={styles.grey}>10</span>
                     <span>11</span>
                     <span>12</span>
@@ -137,7 +136,6 @@ class Venue extends Component {
                 <section className={styles.section}>
                   <h2 className={styles.header}>Side Events Venue</h2>
                   <div className={styles.blue_dateline}>
-                    <span>9</span>
                     <span>10</span>
                     <span>11</span>
                     <span className={styles.grey}>12</span>
@@ -151,15 +149,66 @@ class Venue extends Component {
                       venues[getLocale()].map( cat => {
                         return (
                           <section className={styles.about}>
-                            <div className={styles.title}>
-                              <h3>{cat.title}</h3>
+                      <div className={styles.title}>
+                        <h3>{cat.title}</h3>
+                        <span className={styles.note}></span>
+                        <h4>{cat.date}</h4>
+                      </div>
+                      <div className={styles.content}>
+                        <div className={styles.venue}>
+                          <div className={styles.flex}>
+                            <div className={styles.desc}>
+                              <i className={styles.icon} data-size="big" data-color="red">place</i>
+                              <h4>{cat.venue}</h4>
+                              <a href={cat.googlemap_link} target="_blank"><i className={styles.icon}>keyboard_arrow_right</i>{cat.address}</a>
+                              <br />
+                              <a href={cat.link} target="_blank"><i className={styles.icon}>home</i>{cat.website}</a>
                             </div>
-                            <div className={styles.content}>
-                              <div className={styles.venue}>
-                                  <div>{multiParagraph(cat.detail)}</div>
-                              </div>
+                            
+                            { cat.pic.map( (pic) => {
+                                if (pic){
+                                  return (
+                                    <div className={styles.map}>
+                                      <img src={require(`images/venue/${cat.pic}`)} />
+                                    </div>
+                                  )
+                                }else {
+
+                                }
+                            })}
+                            
+                          </div>
+                          
+                        </div>
+                        
+                        <div className={styles.howtogo}>
+                            <h4>How to go</h4>
+                            <hr />
+                          <div className={styles.flex}>
+                            <div className={styles.desc}>
+                              { cat.howtogo.map( (howtogo) => {
+                                return (
+                                  <dl>
+                                    <dt>{howtogo.title}</dt>
+                                    { howtogo.godesc.map( (godesc) => {
+                                      return (
+                                        <dd>{godesc}</dd> 
+                                      )
+                                    })}
+                                  </dl>
+                                )
+                              })}
+                              
                             </div>
-                          </section>
+                            <div className={styles.map}>
+                              <iframe width="300px" height="300px" frameborder="0" src={cat.googlemap_emb}></iframe>
+                            </div>
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </section>
+                          
                         )
                       })
                     }

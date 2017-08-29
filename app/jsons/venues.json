@@ -2,20 +2,76 @@
   "en-US": [
     {
       "title": "Taiwan Open Government Report Release Forum",
-      "detail": "Sep. 10th\nTaipei NGO House\nNo.8, Qingdao E. Rd., Zhongzheng Dist., Taipei City 100, Taiwan\nWebsite: http://english.ngo.taipei/\nHow to go\nMRT\n> The closest metro is “Shandao Temple” station (Blue line of Metro Taipei) exit 2."
+      "date": "Sep. 10th",
+      "venue": "Taipei NGO House",
+      "address": "No.8, Qingdao E. Rd., Zhongzheng Dist., Taipei City 100, Taiwan",
+      "pic": [],
+      "website": "english.ngo.taipei",
+      "link": "http://english.ngo.taipei/",
+      "googlemap_emb": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7192522545433!2d121.51996531500642!3d25.043599983967766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a971052d1147%3A0x800abccf4725a6a8!2zMTAw5Y-w5YyX5biC5Lit5q2j5Y2A6Z2S5bO25p2x6LevOOiZnw!5e0!3m2!1szh-TW!2stw!4v1504003573132",
+      "googlemap_link": "https://www.google.com.tw/maps/place/100%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%9D%92%E5%B3%B6%E6%9D%B1%E8%B7%AF8%E8%99%9F/data=!4m2!3m1!1s0x3442a971052d1147:0x800abccf4725a6a8?sa=X&ved=0ahUKEwjS4-qkovzVAhVEXbwKHe__ClgQ8gEIJDAA",
+      "howtogo": [
+          {
+            "title":"MRT",
+            "godesc": ["The closest metro is “Shandao Temple” station (Blue line of Metro Taipei) exit 2."]
+          }
+      ],
+      "detail": ""
     },
     {
       "title": "Social Event & g0v Civic Tech Grant DEMO Party",
-      "detail": "Sep. 11th\nGoogle Taipei, Taipei 101\n75F, No.7, Sec. 5, Xinyi Rd., Xinyi Dist., Taipei City, Taiwan.\nWebsite:http://www.taipei-101.com.tw/en/index.aspx\nHow to go\nMRT\n> closest metro is \"Taipei 101/World Trade Center\" station (red line of Metro Taipei) Exit 4.\nEntry Gate\n> The gate to Google Taipei office is on the Xinyi Road, beyond the \"LOVE” statues. "
+      "date": "Sep. 11th",
+      "venue": "Google Taipei, Taipei 101",
+      "address": "75F, No.7, Sec. 5, Xinyi Rd., Xinyi Dist., Taipei City, Taiwan.",
+      "pic": ["Taipei_101.jpg"],
+      "website": "www.taipei-101.com.tw",
+      "link": "http://www.taipei-101.com.tw/en/index.aspx",
+      "googlemap_emb": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.005038298767!2d121.56232116500627!3d25.03390308397241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb6da9c9e1f%3A0x1206bcf082fd10a6!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5L-h576p6Lev5LqU5q61N-iZn-WPsOWMlzEwMQ!5e0!3m2!1szh-TW!2stw!4v1504003750468",
+      "googlemap_link": "https://www.google.com.tw/maps/place/110%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E4%BF%A1%E7%BE%A9%E8%B7%AF%E4%BA%94%E6%AE%B57%E8%99%9F%E5%8F%B0%E5%8C%97101/data=!4m2!3m1!1s0x3442abb6da9c9e1f:0x1206bcf082fd10a6?sa=X&ved=0ahUKEwj30vL_ovzVAhXIUbwKHRMGCssQ8gEIJDAA",
+      "howtogo": [
+          {
+            "title":"MRT",
+            "godesc": ["The closest metro is “Taipei 101/World Trade Center“ station (red line of Metro Taipei) Exit 4."]
+          },
+          {
+            "title":"Entry Gate",
+            "godesc": ["The gate to Google Taipei office is on the Xinyi Road, beyond the “LOVE” statues."]
+          }
+      ],
+      "detail": ""
     },
     {
       "title": "g0v 5th Anniversary Hackathon",
-      "detail": "Sep. 16th\nTAF innovation base - Restaurant(聯合餐廳)\nNo.177, Sec. 1, Jianguo S. Rd., Da’an Dist., Taipei City 106, Taiwan\nWebsite:http://taiwanairforce.org/\nHow to go\nMRT\n> closest metro is \"Zhongxiao Xinsheng\" station“ (Blue line of Metro Taipei) Exit 3."
+      "date": "Sep. 16th",
+      "venue": "TAF innovation base - Restaurant (聯合餐廳)",
+      "address": "No.177, Sec. 1, Jianguo S. Rd., Da’an Dist., Taipei City 106, Taiwan",
+      "pic": ["TAF_base.jpg"],
+      "website": "taiwanairforce.org",
+      "link": "http://taiwanairforce.org/",
+      "googlemap_emb": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.806031414264!2d121.5358033150064!3d25.0406558839692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abd7cc8d7927%3A0xd637c365adc4884a!2z56m657i95Ym15paw5Z-65Zyw77yM6IGv5ZCI6aSQ5buz!5e0!3m2!1szh-TW!2stw!4v1504003857490",
+      "googlemap_link": "https://www.google.com.tw/maps/place/%E7%A9%BA%E7%B8%BD%E5%89%B5%E6%96%B0%E5%9F%BA%E5%9C%B0%EF%BC%8C%E8%81%AF%E5%90%88%E9%A4%90%E5%BB%B3/@25.0406559,121.5358033,17z/data=!4m13!1m7!3m6!1s0x3442abd7cc8d7927:0xd22099cc815aa168!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5bu65ZyL5Y2X6Lev5LiA5q61MTc36Jmf!3b1!8m2!3d25.0406559!4d121.537992!3m4!1s0x3442abd7cc8d7927:0xd637c365adc4884a!8m2!3d25.0406559!4d121.537992",
+      "howtogo": [
+          {
+            "title":"MRT",
+            "godesc": ["closest metro is “Zhongxiao Xinsheng“ station (Blue line of Metro Taipei) Exit 3."]
+          }
+      ],
+      "detail": ""
     }
   ],
   "zh-TW": [
     {
       "title": "地點",
+      "date": "",
+      "venue": "",
+      "address": "",
+      "website": "",
+      "howtogo": [
+          {
+            "title":"MRT",
+            "godesc": [""]
+          }
+      ],
       "detail": "地點"
     }
   ]

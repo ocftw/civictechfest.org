@@ -188,6 +188,7 @@
 .howtogo dl dd {
   margin-bottom: 1em;
   margin-left: 3em;
+  position: relative;
 }
 
 .howtogo dl dt::before{
@@ -196,8 +197,8 @@
 .howtogo dl dd::before{
   content: "keyboard_arrow_right";
   position: absolute;
-  top: 2.3em;
-  left: 1.8em;
+  top: 0.3em;
+  left: -0.9em;
 }
 
 
