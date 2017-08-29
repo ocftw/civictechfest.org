@@ -44,12 +44,19 @@ class Venue extends Component {
                       </div>
                       <div className={styles.content}>
                         <div className={styles.venue}>
-                          <i className={styles.icon} data-size="big" data-color="red">place</i>
-                          <h4>Taipei International Convention Center (TICC)</h4>
-                          <a href="https://www.google.com.tw/maps/place/Taipei+International+Convention+Center/@25.0331974,121.5586548,17z/data=!3m1!4b1!4m5!3m4!1s0x3442abb61ab34fd9:0xcbb39196afb006db!8m2!3d25.0331974!4d121.5608435?hl=en" target="_blank"><i className={styles.icon}>keyboard_arrow_right</i>1 Hsin-Yi Road,Section 5,Taipei 11049,Taiwan</a>
-                          <br />
-                          <a href="http://www.ticc.com.tw/main_en/index.aspx" target="_blank"><i className={styles.icon}>home</i>www.ticc.com.tw</a>
-                          <img src={require(`images/venue/TICC.jpg`)} />
+                          <div className={styles.flex}>
+                            <div className={styles.desc}>
+                              <i className={styles.icon} data-size="big" data-color="red">place</i>
+                              <h4>Taipei International Convention Center (TICC)</h4>
+                              <a href="https://www.google.com.tw/maps/place/Taipei+International+Convention+Center/@25.0331974,121.5586548,17z/data=!3m1!4b1!4m5!3m4!1s0x3442abb61ab34fd9:0xcbb39196afb006db!8m2!3d25.0331974!4d121.5608435?hl=en" target="_blank"><i className={styles.icon}>keyboard_arrow_right</i>1 Hsin-Yi Road,Section 5,Taipei 11049,Taiwan</a>
+                              <br />
+                              <a href="http://www.ticc.com.tw/main_en/index.aspx" target="_blank"><i className={styles.icon}>home</i>www.ticc.com.tw</a>
+                            </div>
+                            <div className={styles.map}>
+                              <img src={require(`images/venue/TICC.jpg`)} />
+                            </div>
+                          </div>
+                          
                         </div>
                         
                         <div className={styles.howtogo}>
@@ -93,12 +100,19 @@ class Venue extends Component {
                       </div>
                       <div className={styles.content}>
                         <div className={styles.venue}>
-                          <i className={styles.icon} data-size="big" data-color="red">place</i>
-                          <h4>Santos Hotel 三德大飯店</h4>
-                          <a href="https://www.google.com.tw/maps/place/%E4%B8%89%E5%BE%B7%E5%A4%A7%E9%A3%AF%E5%BA%97/@25.064918,121.5163663,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a946bf7550bd:0x6f515a581bbe8244!8m2!3d25.064918!4d121.518555" target="_blank"><i className={styles.icon}>keyboard_arrow_right</i>No.49, Sec. 3, Chengde Rd., Taipei City</a>
-                          <br />
-                          <a href="http://www.santoshotel.com/en/" target="_blank"><i className={styles.icon}>home</i>http://www.santoshotel.com/en/</a>
-                        </div>
+                          <div className={styles.flex}>
+                            <div className={styles.desc}>
+                              <i className={styles.icon} data-size="big" data-color="red">place</i>
+                              <h4>Santos Hotel 三德大飯店</h4>
+                              <a href="https://www.google.com.tw/maps/place/%E4%B8%89%E5%BE%B7%E5%A4%A7%E9%A3%AF%E5%BA%97/@25.064918,121.5163663,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a946bf7550bd:0x6f515a581bbe8244!8m2!3d25.064918!4d121.518555" target="_blank"><i className={styles.icon}>keyboard_arrow_right</i>No.49, Sec. 3, Chengde Rd., Taipei City</a>
+                              <br />
+                              <a href="http://www.santoshotel.com/en/" target="_blank"><i className={styles.icon}>home</i>http://www.santoshotel.com/en/</a>
+                            </div>
+                            <div className={styles.map}>
+                              <img />
+                            </div>
+                          </div>
+                          </div>
                         
                         <div className={styles.howtogo}>
                             <h4>How to go</h4>
