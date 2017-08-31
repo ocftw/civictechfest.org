@@ -7,7 +7,7 @@
         {
           "date": ["10"],
           "time": "14:00-17:00",
-          "place": "Taipei NGO House",
+          "place": "Taipei Teacher's Hostel",
           "entry": "RSVP / FREE",
           "tab": [
             {
@@ -19,7 +19,7 @@
               "tab_color": ""
             }
           ],
-          "venue": "NGO house",
+          "venue": "Taipei Teacher's Hostel",
           "venue_color": "7",
           "name": "Taiwan Open Government Report Release Forum",
           "isopen": "false",
@@ -56,7 +56,7 @@
               "tab_color": ""
             }
           ],
-          "venue": "TBD",
+          "venue": "Taipei Teacher Hostel",
           "venue_color": "1",
           "name": "2017 SotM Taiwan Summit",
           "isopen": "true",
@@ -79,6 +79,43 @@
             {
               "host_name": "OpenStreetMap Taiwan",
               "host_logo": "Sotm.png"
+            }
+          ]
+        },
+         {
+          "date": ["10"],
+          "time": "17:00-19:30",
+          "place": "TWTC,Hall 1",
+          "entry": "RSVP",
+          "tab": [
+            {
+              "tab_name": "Free",
+              "tab_color": ""
+            }
+          ],
+          "venue": "Taipei World Trade Center, Hall 1",
+          "venue_color": "8",
+          "name": "Welcome Reception",
+          "isopen": "true",
+          "img": "welcome.jpg",
+          "imgtype": "logo",
+          "islink": "flase",
+          "url": "",
+          "urlname": "",
+          "desc": "Welcome to Taiwan!! The free reception is host by WCIT",
+          "desc_long": "Welcome to Taiwan!! Welcome to join this causaul gathering with food, drink and meet people before the big event.",
+          "remind_type": "none",
+          "remind_title": "",
+          "remind": [
+            {
+              "remind_sub": "",
+              "remind_desc": ""
+            }
+          ],
+          "host": [
+            {
+              "host_name": "WCIT 2017",
+              "host_logo": "WCIT.jpg"
             }
           ]
         },
