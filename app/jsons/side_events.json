@@ -20,7 +20,7 @@
             }
           ],
           "venue": "Taipei Teachers' Hostel",
-          "venue_color": "7",
+          "venue_color": "1",
           "name": "Taiwan Open Government Report Release Forum",
           "isopen": "false",
           "img": "OGR logo.png",
@@ -85,7 +85,7 @@
          {
           "date": ["10"],
           "time": "17:00-19:30",
-          "place": "TWTC,Hall 1",
+          "place": "Taipei World Trade Center, Hall 1",
           "entry": "RSVP",
           "tab": [
             {
@@ -93,7 +93,7 @@
               "tab_color": ""
             }
           ],
-          "venue": "Taipei World Trade Center, Hall 1",
+          "venue": "TWTC,Hall 1",
           "venue_color": "8",
           "name": "Welcome Reception",
           "isopen": "false",
@@ -177,7 +177,7 @@
             }
           ],
           "venue": "TICC",
-          "venue_color": "3",
+          "venue_color": "4",
           "name": "Creative workshop: solutions for the biggest challenges of civic tech",
           "isopen": "true",
           "img": "toolbox 2.jpg",
@@ -424,7 +424,7 @@
             }
           ],
           "venue": "TsingHuaUniv.",
-          "venue_color": "7",
+          "venue_color": "3",
           "name": "Wikimedia Taiwan 10th anniversary",
           "isopen": "true",
           "img": "wikimedia.jpg",
