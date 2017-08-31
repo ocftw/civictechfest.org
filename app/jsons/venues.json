@@ -1,19 +1,19 @@
 {
   "en-US": [
     {
-      "title": "Taiwan Open Government Report Release Forum",
+      "title": "Taiwan Open Government Report Release Forum / SotM Taiwan Summit",
       "date": "Sep. 10th",
-      "venue": "Taipei NGO House",
-      "address": "No.8, Qingdao E. Rd., Zhongzheng Dist., Taipei City 100, Taiwan",
+      "venue": "Taipei Teacher's Hostel",
+      "address": "No.15, Nanhai Rd., Zhongzheng Dist., Taipei City 100, Taiwan",
       "pic": [],
-      "website": "english.ngo.taipei",
-      "link": "http://english.ngo.taipei/",
-      "googlemap_emb": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7192522545433!2d121.51996531500642!3d25.043599983967766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a971052d1147%3A0x800abccf4725a6a8!2zMTAw5Y-w5YyX5biC5Lit5q2j5Y2A6Z2S5bO25p2x6LevOOiZnw!5e0!3m2!1szh-TW!2stw!4v1504003573132",
-      "googlemap_link": "https://www.google.com.tw/maps/place/100%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%9D%92%E5%B3%B6%E6%9D%B1%E8%B7%AF8%E8%99%9F/data=!4m2!3m1!1s0x3442a971052d1147:0x800abccf4725a6a8?sa=X&ved=0ahUKEwjS4-qkovzVAhVEXbwKHe__ClgQ8gEIJDAA",
+      "website": "www.tth.url.tw",
+      "link": "http://www.tth.url.tw/",
+      "googlemap_emb": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.053828682036!2d121.5130531508528!3d25.032247244436466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a998b148737f%3A0x93dfe8acc87177f7!2z6Ie65YyX5pWZ5bir5pyD6aSo!5e0!3m2!1szh-TW!2stw!4v1504171969691",
+      "googlemap_link": "https://www.google.com.tw/maps/place/%E8%87%BA%E5%8C%97%E6%95%99%E5%B8%AB%E6%9C%83%E9%A4%A8/@25.0322472,121.5130532,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a998b148737f:0x93dfe8acc87177f7!8m2!3d25.0322424!4d121.5152472",
       "howtogo": [
           {
             "title":"MRT",
-            "godesc": ["The closest metro is “Shandao Temple” station (Blue line of Metro Taipei) exit 2."]
+            "godesc": ["The closest metro is “Chiang Kai-shek Memorial Station” station (Red line and Green Line of Metro Taipei) exit 1."]
           }
       ],
       "detail": ""
