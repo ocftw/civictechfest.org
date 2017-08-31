@@ -96,7 +96,7 @@
           "venue": "Taipei World Trade Center, Hall 1",
           "venue_color": "8",
           "name": "Welcome Reception",
-          "isopen": "true",
+          "isopen": "false",
           "img": "welcome.jpg",
           "imgtype": "logo",
           "islink": "flase",
