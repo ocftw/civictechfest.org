@@ -7,7 +7,7 @@
         {
           "date": ["10"],
           "time": "14:00-17:00",
-          "place": "Taipei Teacher's Hostel",
+          "place": "Taipei Teachers' Hostel",
           "entry": "RSVP / FREE",
           "tab": [
             {
@@ -19,7 +19,7 @@
               "tab_color": ""
             }
           ],
-          "venue": "Taipei Teacher's Hostel",
+          "venue": "Taipei Teachers' Hostel",
           "venue_color": "7",
           "name": "Taiwan Open Government Report Release Forum",
           "isopen": "false",
@@ -48,7 +48,7 @@
         {
           "date": ["10"],
           "time": "08:30-17:30",
-          "place": "Taipei Teacher Hostel",
+          "place": "Taipei Teachers' Hostel",
           "entry": "RSVP",
           "tab": [
             {
@@ -56,7 +56,7 @@
               "tab_color": ""
             }
           ],
-          "venue": "Taipei Teacher Hostel",
+          "venue": "Taipei Teachers' Hostel",
           "venue_color": "1",
           "name": "2017 SotM Taiwan Summit",
           "isopen": "true",
