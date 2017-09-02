@@ -11,9 +11,10 @@ import {
 class Home extends Component {
   render() {
     return (
-
+      <div>
+        { (window.location.search.includes("cool") || Date.now() > 1504972800000) && <Milestone /> }
         <MainInfo />
-
+      </div>
 	);
   }
 };
