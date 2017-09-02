@@ -364,7 +364,7 @@ export default class Schedule extends Component {
                          })}
                          onClick={this.setSection.bind(this, 'day3')}>Day 3</div>
 
-                    
+                    <div className="Schedule-switchBtn" onClick={this.props.onSwitch}>View Parallel</div>
                   </div>
                   <div className={cx({
                     'Schedule-filterPanel': true,
@@ -456,3 +456,4 @@ export default class Schedule extends Component {
   }
 }
 
+export {default as ScheduleParallel} from './parallel'

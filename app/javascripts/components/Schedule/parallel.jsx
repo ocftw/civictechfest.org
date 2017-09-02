@@ -10,9 +10,34 @@ import Session from './session';
 import classNames from "classnames";
 import classNamesBind from "classnames/bind";
 
-const cx = classNamesBind.bind(styles)
+const cx = classNamesBind.bind(styles);
 
-const DAY_2 = "Sun May 15 2016";
+const DATES = Array(
+new Date(2017, 9, 10),
+new Date(2017, 9, 11),
+new Date(2017, 9, 12),
+new Date(2017, 9, 13),
+);
+
+var multiParagraph = (textorArray, className) => {
+  if (!textorArray) {
+    return [];
+  }
+  var ret = [];
+  if ( Array.isArray(textorArray) ) {
+    for (let i in textorArray) {
+      let line = textorArray[i];
+      ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+    }
+  } else if ( typeof textorArray === 'string' ) {
+    var arr = textorArray.split('\n');
+    for (let i in arr) {
+      let line = arr[i];
+      ret.push(<p key={i} dangerouslySetInnerHTML={{__html: line}}></p>);
+    }
+  }
+  return ret;
+}
 
 export default class ScheduleParallel extends Component {
   state = {
@@ -22,7 +47,7 @@ export default class ScheduleParallel extends Component {
     categories: categoriesData[getLocale()].map((cat, index) => ({...cat, index})),
     currentSession: () => ({}),
     currentSessionTime: null,
-    currentSection: (new Date().toDateString() === DAY_2) ? "day2" : ""
+    currentSection: "",//TODO
   };
   defaultTitle = document.title;
 
@@ -148,37 +173,66 @@ export default class ScheduleParallel extends Component {
           <div className="Schedule-events">
             {
               filteredEvents.map((v,k)=>{
-                var language = (v.EN) ? <div className="Schedule-en">EN</div> : "";
-
-                var venue = (v.venue) ? (
+                console.log(v);
+                var venue = (v.event.venue) ? (
                         <div className="Schedule-meta">
-                          <div className="Schedule-venue">{v.venue}</div>
+                          <div className="Schedule-venue">{v.event.venue}</div>
                         </div>) : "";
-                var id = `day${day}-${v.venue.toLowerCase()}-${i}`;
+                var id = `day${day}-${v.event.venue ? v.event.venue.toLowerCase() : "UNKNOWN"}-${i}`;
 
-                return(
-                  <a className={classNames({
+
+                if (v.expandable == false || typeof v.event === 'string' ) {
+                  return (
+                    <div className={classNames({
                        "Schedule-event" : true
                      })}
-                     onClick={this.setSession.bind(this,() => v, value.time)}
+                     href={`#${id}`} key={k} id={`slot-${id}`}>
+                    {venue}
+                      <div className="Schedule-main">
+                        <div>{ typeof v.event === 'string' ? v.event : v.event.title }</div>
+                      </div>
+                    </div>
+                  )
+                } else {
+                  return (
+                    <a className={classNames({
+                       "Schedule-event" : true
+                     })}
+                     onClick={this.setSession.bind(this,() => v.event, value.time)}
                      href={`#${id}`} key={k} id={`slot-${id}`}>
                     {venue}
                     <div className="Schedule-main">
-                      <div>{v.title}{language}</div>
-                      <div className="Schedule-presenter">{v.speaker}</div>
+                      <div>{ typeof v.event === 'string' ? v.event : v.event.title }</div>
                       {
-                        v.category && categoryObj[v.category] ? (
+                        v.event.moderator ? (
+                          <div>
+                            <p>Moderator</p>
+                            <div className="Schedule-presenter">{multiParagraph(v.event.moderator_f)}</div>
+                          </div>
+                          ) : null
+                      }
+                      {
+                        v.event.speaker ? (
+                          <div>
+                            <p>Speaker</p>
+                            <div className="Schedule-presenter">{multiParagraph(v.event.speaker_f)}</div>
+                          </div>
+                          ) : null
+                      }
+                      {
+                        v.event.category && categoryObj[v.event.category] ? (
                           <div className="Schedule-categoryIcon" style={{
-                                 "background" : categoryObj[v.category].color
+                                 "background" : categoryObj[v.event.category].color
                                }}
-                               title={`Toggle topic "${categoryObj[v.category].title}"`}
-                               onClick={this.toggleCategory.bind(this, categoryObj[v.category].index)}
+                               title={`Toggle topic "${categoryObj[v.event.category].title}"`}
+                               onClick={this.toggleCategory.bind(this, categoryObj[v.event.category].index)}
                                ></div>
                         ):null
                       }
                     </div>
-                  </a>
-                )
+                    </a>
+                  )
+                }
               })
             }
           </div>
@@ -222,6 +276,7 @@ export default class ScheduleParallel extends Component {
             <div className={classNames({
               "Home-filter": true,
             })} style={filterStyle}>
+              /*
               <Sticky topOffset={-60} stickyStyle={{marginTop: 60}}>
                 <Filter title="categories"
                         data={categories}
@@ -229,6 +284,7 @@ export default class ScheduleParallel extends Component {
                         toggleCategoryHandler={this.toggleCategory}
                         clearCategoryHandler={this.clearCategory}/>
               </Sticky>
+              */
             </div>
             <div className={classNames({
               "Home-schedule": true,
@@ -241,18 +297,17 @@ export default class ScheduleParallel extends Component {
                       "with-session" : showSession,
                       "without-session" : !showSession
                     })}>
-                    <div className="Schedule-dayButtonLeftstop">
-                      <div className={classNames({
-                             "Schedule-dayButton" : true,
-                              "is-active" : this.state.currentSection === "day1"
-                           })}
-                           onClick={this.goToElement.bind(this,"day1")}>Day 1</div>
-                    </div>
-                    <div className={classNames({
-                           "Schedule-dayButton" : true,
-                            "is-active" : this.state.currentSection === "day2"
-                         })}
-                         onClick={this.goToElement.bind(this,"day2")}>Day 2</div>
+                    <div className="Schedule-dayButtonLeftstop"></div>
+                    { DATES.map((day, index) => {
+                        return (
+                          <div className={classNames({
+                                 "Schedule-dayButton" : true,
+                                  "is-active" : this.state.currentSection === "day"+index
+                               })}
+                               onClick={this.goToElement.bind(this,"day"+index)}>Day {index}</div>
+                        )
+                                                })
+                    }
                     <div className="Schedule-switchBtn" onClick={this.props.onSwitch}>View Topics</div>
                     <div className={classNames({
                            'Schedule-filterBtn': true,
@@ -276,32 +331,24 @@ export default class ScheduleParallel extends Component {
                             togglePanelHandler={this.togglePanel}/>
                   </div>
                 </Sticky>
-                <div
-                  className={cx({
-                    "Home-section": true,
-                    "is-hidden": this.state.currentSection !== ''&& this.state.currentSection !== 'day1'
-                  })}
-                  ref="day1"
-                  id="day1"
-                >
-                  <div className="Schedule-day">5/14 (Sat.)</div>
-                  <section>
-                    {schedules[getLocale()]["day1"].map(mapTimeSlotToItems.bind(this, 1))}
-                  </section>
-                </div>
-                <div
-                  className={cx({
-                    "Home-section": true,
-                    "is-hidden": this.state.currentSection !== '' && this.state.currentSection !== 'day2'
-                  })}
-                  ref="day2"
-                  id="day2"
-                >
-                  <div className="Schedule-day">5/15 (Sun.)</div>
-                  <section>
-                    {schedules[getLocale()]["day2"].map(mapTimeSlotToItems.bind(this, 2))}
-                  </section>
-                </div>
+                  { DATES.map((day, index) => {
+                      return (
+                      <div
+                        className={cx({
+                          "Home-section": true,
+                          "is-hidden": this.state.currentSection !== ''&& this.state.currentSection !== 'day'+index
+                        })}
+                        ref={`day${index}`}
+                        id={`day${index}`}
+                      >
+                        <div className="Schedule-day">{day.getMonth()}/{day.getDate()}</div>
+                        <section>
+                          {schedules[getLocale()]["day"+index].map(mapTimeSlotToItems.bind(this, index))}
+                        </section>
+                      </div>
+                      )
+                    })
+                  }
               </div>
             </div>
             <div className={classNames({
