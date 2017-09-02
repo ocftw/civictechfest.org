@@ -1,3 +1,8 @@
+"""
+This script will take schedules_by_track.json and generate
+schedules.json for use in Schedule/parallel.jsx (parallel schedule view)
+"""
+
 import json
 from pprint import pprint
 

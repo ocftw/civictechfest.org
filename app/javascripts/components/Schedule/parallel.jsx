@@ -173,7 +173,6 @@ export default class ScheduleParallel extends Component {
           <div className="Schedule-events">
             {
               filteredEvents.map((v,k)=>{
-                console.log(v);
                 var venue = (v.event.venue) ? (
                         <div className="Schedule-meta">
                           <div className="Schedule-venue">{v.event.venue}</div>

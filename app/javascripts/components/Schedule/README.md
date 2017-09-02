@@ -23,3 +23,7 @@
 - title: title of the event
 - abstract: abstract of the event
 - bio: **deprecated** field, previously supported in summit.g0v.tw, have no effect for CTF.
+
+### `schedules.json`
+
+用於平行議程 `parallel.jsx` 的資料檔，可以使用 `scripts/generate_parallel_schedule.py` 來產生，會使用 `schedules_by_track.json` 的資料來產生。
