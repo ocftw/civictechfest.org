@@ -275,15 +275,6 @@ export default class ScheduleParallel extends Component {
             <div className={classNames({
               "Home-filter": true,
             })} style={filterStyle}>
-              /*
-              <Sticky topOffset={-60} stickyStyle={{marginTop: 60}}>
-                <Filter title="categories"
-                        data={categories}
-                        filterOn={filterOn}
-                        toggleCategoryHandler={this.toggleCategory}
-                        clearCategoryHandler={this.clearCategory}/>
-              </Sticky>
-              */
             </div>
             <div className={classNames({
               "Home-schedule": true,
