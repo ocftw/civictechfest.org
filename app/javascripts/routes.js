@@ -10,6 +10,7 @@ import {
   SideEvents,
   Ticket,
   Taipei,
+  Unconf,
 } from 'javascripts/pages';
 
 function scrollToTop() {
@@ -26,6 +27,7 @@ export default () => {
       <Route path="venue" component={Venue} onEnter={scrollToTop} />
       <Route path="taipei" component={Taipei} onEnter={scrollToTop} />
       <Route path="side_events" component={SideEvents} onEnter={scrollToTop} />
+      <Route path="unconf" component={Unconf} onEnter={scrollToTop} />
     </Route>
   );
 }

@@ -54,6 +54,10 @@ const PAGES = [{
   path: 'taipei',
   title: 'Taipei',
   ld: basic
+}, {
+  path: 'unconf',
+  title: 'Unconference',
+  ld: basic
 }]
 
 
