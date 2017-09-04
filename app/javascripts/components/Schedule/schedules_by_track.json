@@ -91,8 +91,8 @@
         "expandable": true,
         "event": {
           "venue": "201B+C",
-          "speaker": ["Nanjira Sambuli", "Chat Garcia Ramilo", "James Powell", "Orianne Ledroit"],
-          "speaker_f": "Nanjira Sambuli, World Wide Web Foundation (Kenya)\nChat Garcia Ramilo, Association for Progressive Communications (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency (France)",
+          "speaker": ["Nanjira Sambuli", "Liza Garcia", "James Powell", "Orianne Ledroit"],
+          "speaker_f": "Nanjira Sambuli, World Wide Web Foundation (Kenya)\nLiza Garcia, Foundation for Media Alternatives (Philippines)\nJames Powell, UNICEF Global Innovation Centre\nOrianne Ledroit, French Digital Agency (France)",
           "moderator": "Gemma Humphrys",
           "moderator_f": "Gemma Humphrys, mySociety (UK)",
           "panel":"Panel 2",
