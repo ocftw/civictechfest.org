@@ -9,4 +9,5 @@
 <url> <loc>http://summit.g0v.org/live</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://summit.g0v.org/tickets</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://summit.g0v.org/taipei</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://summit.g0v.org/unconf</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
 </urlset>
