@@ -10,8 +10,7 @@ class Unconf extends Component {
               <div className={styles.root}>
                 <div dangerouslySetInnerHTML={{__html: content[getLocale()]}}>
                 </div>
-                <img src={require("./unconf_map_3F.jpg")} />
-                <img src={require("./unconf_map_4F.jpg")} />
+                <img src={require("./unconf_room.png")} />
               </div>
           );
     }
