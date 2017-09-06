@@ -5,7 +5,6 @@ Have a workshop idea? Want to share your civic tech story? Come and propose your
 There is no set format for unconferences. It can be a talk, a workshop, or even a hackathon that everyone brainstorm ideas and solutions! 
 
 ## What is an Unconference?
-
 Unconferences are events selected and run by participants. The program committee will arrange topics with higher votes to the schedule. Participants set the agenda for what’s discussed, lead the sessions, and create an environment of innovation and productive discussion.
 
 ## Submission an Unconf
@@ -16,7 +15,7 @@ Unconferences are events selected and run by participants. The program committee
 * All participants can vote for THREE favorite proposals with stickers we provide on the Idea Wall. Voting start from 10am to 6pm, 11th September (first day of the event).
 * We will announce the unconference agenda at 9pm here on the CivicTechFest.org website and notify the speakers via email.
 
-## Rooms 
-
 ## Unconference Sessions
 [https://docs.google.com/spreadsheets/d/1PyLeNOwpUykgUR_TNHAWIpbk-EVJWnRR1A7ZitEpHgY/edit#gid=0](https://docs.google.com/spreadsheets/d/1PyLeNOwpUykgUR_TNHAWIpbk-EVJWnRR1A7ZitEpHgY/edit#gid=0)
+
+## Rooms 
