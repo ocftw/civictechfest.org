@@ -1,78 +1,34 @@
 {
   "en-US": {
-    "header": "Important Dates",
+    "header": "Shortcuts",
     "milestones": [
       {
         "title": "Unconference",
-        "url": "http://summit.g0v.tw/2016/unconf"
+        "url": "/unconf"
       },
       {
         "title": "Shared Notes",
-        "url": "http://beta.hackfoldr.org/g0v-summit-2016"
-      },
-      {
-        "title": "R0 Simultaneous Interpreting",
-        "url": "http://i.summit.g0v.tw:8000/r0"
-      },
-      {
-        "title": "R1 Simultaneous Interpreting",
-        "url": "http://i.summit.g0v.tw:8000/r1"
-      },
-      {
-        "title": "R2 Simultaneous Interpreting",
-        "url": "http://i.summit.g0v.tw:8000/r2"
-      },
-      {
-        "title": "Live Streaming",
-        "url": "http://summit.g0v.tw/2016/live"
-      },
-      {
-      	"title": "Social Feeds",
-      	"url": "https://www.juicer.io/g0vsummit"
+        "url": "http://beta.hackfoldr.org/civictechfest"
       }
     ],
     "media": "Media contact: ",
-    "person": "Joey Lee",
-    "email": "g0v-summit-media@googlegroups.com",
-    "sponsor": "Sponsor this event",
-    "sponsoremail": "g0v-summit-sponsor@googlegroups.com"
+    "person": "Fi Tseng",
+    "email": "afi@ocf.tw"
   },
   "zh-TW": {
     "header": "時間表",
     "milestones": [
       {
-        "title": "開放工作坊",
-        "url": "http://summit.g0v.tw/2016/unconf"
+        "title": "",
+        "url": ""
       },
       {
-        "title": "大會共筆",
-        "url": "http://beta.hackfoldr.org/g0v-summit-2016"
-      },
-      {
-        "title": "R0 場地即時口譯資訊",
-        "url": "http://i.summit.g0v.tw:8000/r0"
-      },
-      {
-        "title": "R1 場地即時口譯資訊",
-        "url": "http://i.summit.g0v.tw:8000/r1"
-      },
-      {
-        "title": "R2 場地即時口譯資訊",
-        "url": "http://i.summit.g0v.tw:8000/r2"
-      },
-      {
-        "title": "現場直播資訊",
-        "url": "http://summit.g0v.tw/2016/live"
-      },
-      {
-      	"title": "社群網站動態",
-      	"url": "https://www.juicer.io/g0vsummit"
+        "title": "",
+        "url": ""
       }
     ],
-    "media": "媒體聯絡人：",
-    "person": "Joey Lee",
-    "email": "g0v-summit-media@googlegroups.com",
-    "sponsor": "贊助大會",
-    "sponsoremail": "g0v-summit-sponsor@googlegroups.com"
+    "media": "",
+    "person": "",
+    "email": ""
   }
 }
