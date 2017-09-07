@@ -22,13 +22,13 @@ class SpeakerList extends Component {
   componentDidMount() {
     const { hash } = this.props.properties.location;
     //console.log(this.props.properties);
-    let presenter_name = hash.replace('#', '').replace(/_/g, " ");
-    //console.log("searching for "+presenter_name);
+    let presenter_name = hash.replace('#', '').replace(/_3/g, "(").replace(/_4/g, ")").replace(/_/g, " ");
+    console.log("searching for "+presenter_name);
     let presenter = presenters['en-US'].filter(presenter => presenter.name == presenter_name)[0];
     if (typeof presenter !== 'undefined') {
       const [locale] = getLocale().split('-');
       let sessions = this.getSessionIdsBySpeaker(presenter, locale);
-      console.log(presenter);
+      console.log(sessions);
       setTimeout(() => document.getElementById(hash).scrollIntoView(false), 300);
       this.setState({
         showSession: true,
@@ -58,8 +58,8 @@ class SpeakerList extends Component {
 
     return (
       <a className={styles.speakers} key={speaker.name}
-        id = {speaker.name.replace(/ /g, "_")}
-        href= {`#${speaker.name.replace(/ /g, "_")}`}
+        id = {speaker.name.replace(/ /g, "_").replace(/\(/g, "_3").replace(/\)/g, "_4")}// HACK to support ( and ) in names
+        href= {`#${speaker.name.replace(/ /g, "_").replace(/\(/g, "_3").replace(/\)/g, "_4")}`}
         onClick={this.enableSession.bind(this, sessions)}
         data-session={cx({
                           "false": !this.state.showSession,
@@ -96,7 +96,7 @@ class SpeakerList extends Component {
     for ( let i=0; i<=3; i++ ) {
       Array.prototype.push.apply(sessiondata, schedulesByTrack[getLocale()]["day"+i].filter((day, index) => {
         if(day.event.speaker_f && day.event.speaker_f.includes(getString(speaker, 'name', locale))||
-           (day.event.moderator_f && day.event.moderator_f === getString(speaker, 'name', locale)) //||
+           (day.event.moderator_f && day.event.moderator_f.includes(getString(speaker, 'name', locale))) //||
           ) {
           //ids.push("day"+i+"-all-" + index.toString());
           return true;
