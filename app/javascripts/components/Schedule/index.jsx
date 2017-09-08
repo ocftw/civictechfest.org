@@ -74,27 +74,10 @@ class ScrollButton extends React.Component {
     };
     
   }
-
-  onScrolling() {
-      let btn = document.getElementById('scrolltop_btn_inner'); // target element to change attribute
-      let btn_datatop = btn.getAttribute("data-top");
-      let scroll_block = document.getElementsByClassName('Home-session')[0];
-      let scrollY = scroll_block.scrollTop;   
-      console.log(scroll_block.scrollTop);
-      if(scrollY > 300){ // 300px (arbitrary - put whatever point you need there.)
-        if (btn_datatop == 'true') {
-          btn.setAttribute('data-top', 'false');//change the attribute.
-        }       
-      }else {
-        if (btn_datatop == 'false') {
-          btn.setAttribute('data-top', 'true');
-        } 
-      }
-  }
   
   scrollStep() {
     let scroll_block = document.getElementsByClassName('Home-session')[0];
-    console.log(scroll_block.scrollTop);
+
     if (scroll_block.scrollTop === 0) {
         clearInterval(this.state.intervalId);
         
@@ -476,7 +459,7 @@ export default class Schedule extends Component {
             <div className={cx({
                 "Home-session" : true,
                 "is-show": this.state.showSession,
-              })} onScroll="onScrolling()">
+              })}>
               <Session
                 sessionHandler={this.resetSession}
                 data={this.state.currentSession()}
