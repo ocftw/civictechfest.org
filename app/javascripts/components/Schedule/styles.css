@@ -219,18 +219,21 @@ span.nobreak {
   border-bottom-right-radius: 15px;
   opacity: 0.8;
 }
+@media screen and (min-width: 768px){
+  .Schedule-switchBtn {
+    line-height: 56px;
+    margin: 0 20px 0 auto;
+    position: relative;
+    padding: 0;
+    opacity: 1;
+  }
+}
 @media screen and (min-width: $breakpoint){
   .Schedule-title {
     background: white;
     width: 100%;
   }
-  .Schedule-switchBtn {
-  line-height: 56px;
-  margin: 0 20px 0 auto;
-  position: relative;
-  padding: 0;
-  opacity: 1;
-}
+  
 
 }
 
@@ -556,6 +559,48 @@ a.Schedule-event:hover:before {
   font-size: $mobile-fontsize;
 }
 
+/* go top */
+
+#scrolltop_btn_inner {
+  opacity: 0;
+  background-color: #F19E44;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 7px;
+  border: none;
+  transition: opacity 0.6s;
+  padding: 3px 0;
+  z-index: 300;
+  cursor: pointer;
+  display: none;
+}
+
+#scrolltop_btn_inner[data-top="false"] {
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+  }
+  &:active {
+    opacity: 1;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.Home-session.is-show + #scrolltop_btn_inner{
+  display: block;
+}
+
+#scrolltop_btn_inner span i {
+  color: white;
+  transform: rotate(90deg);
+  font-size: 33px;
+}
 
 @media screen and (min-width: $breakpoint) {
   $desktop-padding: 20px;

@@ -64,6 +64,56 @@ var multiParagraph = (textorArray, className) => {
   return ret;
 }
 
+class ScrollButton extends React.Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+        intervalId: 0
+    };
+    
+  }
+
+  onScrolling() {
+      let btn = document.getElementById('scrolltop_btn_inner'); // target element to change attribute
+      let btn_datatop = btn.getAttribute("data-top");
+      let scroll_block = document.getElementsByClassName('Home-session')[0];
+      let scrollY = scroll_block.scrollTop;   
+      console.log(scroll_block.scrollTop);
+      if(scrollY > 300){ // 300px (arbitrary - put whatever point you need there.)
+        if (btn_datatop == 'true') {
+          btn.setAttribute('data-top', 'false');//change the attribute.
+        }       
+      }else {
+        if (btn_datatop == 'false') {
+          btn.setAttribute('data-top', 'true');
+        } 
+      }
+  }
+  
+  scrollStep() {
+    let scroll_block = document.getElementsByClassName('Home-session')[0];
+    console.log(scroll_block.scrollTop);
+    if (scroll_block.scrollTop === 0) {
+        clearInterval(this.state.intervalId);
+        
+    }
+    scroll_block.scrollTop -= 60;
+  }
+  
+  scrollToTop() {
+    let intervalId = setInterval(this.scrollStep.bind(this), this.props.delayInMs);
+    this.setState({ intervalId: intervalId });
+  }
+  
+  render () {
+      return <button title='Back to top' className={styles.scroll} id='scrolltop_btn_inner'
+               onClick={ () => { this.scrollToTop(); }} data-top="false">
+                <span className={styles.arrow_up}><i className="material-icons">first_page</i></span>
+              </button>;
+   }
+} 
 
 const venueObj = venues.reduce((aggObj, venue, idx) => {
   aggObj[venue.title] = venue
@@ -319,7 +369,7 @@ export default class Schedule extends Component {
             <div className={cx({
               "Home-filter": true,
             })}>
-              <Sticky topOffset={-60} stickyStyle={{marginTop: 60}}>
+              <Sticky topOffset={-60} stickyStyle={{marginTop: 106}}>
                 <Filter
                   title='venues'
                   data={this.state.venues}
@@ -334,7 +384,7 @@ export default class Schedule extends Component {
               "with-session" : this.state.showSession,
             })}>
               <div className={`Schedule`}>
-                <Sticky topOffset={-60} stickyStyle={{marginTop: 60}}>
+                <Sticky topOffset={-60} stickyStyle={{marginTop: 106}}>
                   <div className={cx({
                       "Schedule-title" : true,
                       "with-session" : this.state.showSession,
@@ -426,7 +476,7 @@ export default class Schedule extends Component {
             <div className={cx({
                 "Home-session" : true,
                 "is-show": this.state.showSession,
-              })}>
+              })} onScroll="onScrolling()">
               <Session
                 sessionHandler={this.resetSession}
                 data={this.state.currentSession()}
@@ -434,6 +484,7 @@ export default class Schedule extends Component {
                 categories={venues}
               />
             </div>
+            <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
           </div>
         </StickyContainer>
         <div className={cx({
