@@ -119,6 +119,7 @@ $breakpoint2: 1600px;
 }
 .Session-presenter-top {
   position: relative;
+  width:100%;
 }
 .Session-presenter-name {
   color: rgb(55,54,53);
@@ -245,10 +246,14 @@ $breakpoint2: 1600px;
       padding: 10px 40px;
       max-width: 40em; /* Don't make text too long & difficult to read */
     }
+    .Session-presenter-top {
+      width: calc(100% - 128px);
+    }
     .Session-presenter-avatar {
       position: absolute;
       bottom: 6px;
       top: auto;
+      right: -128px;
     }
     .Session-presenter {
       margin: 60px 0 100px 0;

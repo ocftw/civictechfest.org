@@ -110,6 +110,7 @@ span.nobreak {
   transition: transform .2s cubic-bezier(.4,0,.2,1);
   z-index: 200;
   transform: translate3d(100%, 0, 0);
+  background: #fff;
 }
 .Home-session.is-show {
   transform: translate3d(0, 0, 0);

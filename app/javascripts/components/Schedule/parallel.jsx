@@ -39,6 +39,40 @@ var multiParagraph = (textorArray, className) => {
   return ret;
 }
 
+class ScrollButton extends React.Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+        intervalId: 0
+    };
+    
+  }
+  
+  scrollStep() {
+    let scroll_block = document.getElementsByClassName('Home-session')[0];
+
+    if (scroll_block.scrollTop === 0) {
+        clearInterval(this.state.intervalId);
+        
+    }
+    scroll_block.scrollTop -= 60;
+  }
+  
+  scrollToTop() {
+    let intervalId = setInterval(this.scrollStep.bind(this), this.props.delayInMs);
+    this.setState({ intervalId: intervalId });
+  }
+  
+  render () {
+      return <button title='Back to top' className={styles.scroll} id='scrolltop_btn_inner'
+               onClick={ () => { this.scrollToTop(); }} data-top="false">
+                <span className={styles.arrow_up}><i className="material-icons">first_page</i></span>
+              </button>;
+   }
+} 
+
 export default class ScheduleParallel extends Component {
   state = {
     showPanel: false,
@@ -299,14 +333,7 @@ export default class ScheduleParallel extends Component {
                                                 })
                     }
                     <div className="Schedule-switchBtn" onClick={this.props.onSwitch}>View Topics</div>
-                    <div className={classNames({
-                           'Schedule-filterBtn': true,
-                           'is-show': showPanel,
-                         })}
-                         onClick={this.togglePanel}>Filter
-                      <div className={classNames({'Schedule-bar1': true, 'is-active': showPanel})}></div>
-                      <div className={classNames({'Schedule-bar2': true, 'is-active': showPanel})}></div>
-                    </div>
+                    
                   </div>
                   <div className={classNames({
                     'Schedule-filterPanel': true,
@@ -350,7 +377,7 @@ export default class ScheduleParallel extends Component {
                        data={currentSession()} time={this.state.currentSessionTime}
                        categories={this.state.categories}/>
             </div>
-
+            <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
           </div>
         </StickyContainer>
         <div className={cx({
