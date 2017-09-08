@@ -204,19 +204,36 @@ span.nobreak {
   z-index: 20;
   display: flex;
 }
+
+.Schedule-switchBtn {
+  line-height: 30px;
+  align-self: center;
+  cursor: pointer;
+  position: absolute;
+  top: calc(100% + 1px);
+  background: #fff;
+  padding: 0 15px;
+  text-align: right;
+  right: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  opacity: 0.8;
+}
 @media screen and (min-width: $breakpoint){
   .Schedule-title {
     background: white;
     width: 100%;
   }
+  .Schedule-switchBtn {
+  line-height: 56px;
+  margin: 0 20px 0 auto;
+  position: relative;
+  padding: 0;
+  opacity: 1;
 }
 
-.Schedule-switchBtn {
-  line-height: 56px;
-  align-self: center;
-  cursor: pointer;
-  margin: 0 20px 0 auto;
 }
+
 
 /* FILTER */
 .Schedule-filterBtn {

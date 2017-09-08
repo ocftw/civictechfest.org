@@ -366,18 +366,7 @@ export default class Schedule extends Component {
 
                     <div className="Schedule-switchBtn" onClick={this.props.onSwitch}>View Parallel</div>
                   </div>
-                  <div className={cx({
-                    'Schedule-filterPanel': true,
-                    'is-show': this.state.mobileFilterOn,
-                  })}>
-                    <Filter ref="filter"
-                            title='venues'
-                            data={this.state.venues}
-                            filterOn={this.state.venueOn}
-                            toggleCategoryHandler={this.toggleVenue}
-                            clearCategoryHandler={this.clearVenue}
-                            togglePanelHandler={this.toggleMobileFilter}/>
-                  </div>
+                  
                 </Sticky>
                 <div
                   className={cx({
