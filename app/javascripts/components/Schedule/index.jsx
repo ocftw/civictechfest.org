@@ -352,7 +352,7 @@ export default class Schedule extends Component {
             <div className={cx({
               "Home-filter": true,
             })}>
-              <Sticky topOffset={-60} stickyStyle={{marginTop: 106}}>
+              <Sticky topOffset={-60} stickyStyle={{marginTop: 60}}>
                 <Filter
                   title='venues'
                   data={this.state.venues}
@@ -367,7 +367,7 @@ export default class Schedule extends Component {
               "with-session" : this.state.showSession,
             })}>
               <div className={`Schedule`}>
-                <Sticky topOffset={-60} stickyStyle={{marginTop: 106}}>
+                <Sticky topOffset={-60} stickyStyle={{marginTop: 60}}>
                   <div className={cx({
                       "Schedule-title" : true,
                       "with-session" : this.state.showSession,
