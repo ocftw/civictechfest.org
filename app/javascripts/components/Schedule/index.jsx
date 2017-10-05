@@ -72,31 +72,31 @@ class ScrollButton extends React.Component {
     this.state = {
         intervalId: 0
     };
-    
+
   }
-  
+
   scrollStep() {
     let scroll_block = document.getElementsByClassName('Home-session')[0];
 
     if (scroll_block.scrollTop === 0) {
         clearInterval(this.state.intervalId);
-        
+
     }
     scroll_block.scrollTop -= 60;
   }
-  
+
   scrollToTop() {
     let intervalId = setInterval(this.scrollStep.bind(this), this.props.delayInMs);
     this.setState({ intervalId: intervalId });
   }
-  
+
   render () {
       return <button title='Back to top' className={styles.scroll} id='scrolltop_btn_inner'
                onClick={ () => { this.scrollToTop(); }} data-top="false">
                 <span className={styles.arrow_up}><i className="material-icons">first_page</i></span>
               </button>;
    }
-} 
+}
 
 const venueObj = venues.reduce((aggObj, venue, idx) => {
   aggObj[venue.title] = venue
@@ -170,14 +170,15 @@ function mapTimeSlotToItems(day, value, i) {
                       <h5>{value.event.panel}</h5>
                       ) : null
                   }
-                  
+
                   <h4>{value.event.title}</h4>
+                  {value.event.video && <a href={`https://www.youtube.com/watch?v=${value.event.video}&list=PLFuYOsppHDrlUAb8yzThSshafKQPnV1wX`} target="civictechfest">Video</a>}
                   {
                     value.event.note ? (
                       <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
                       ) : null
                   }
-                  
+
                   {
                     value.event.moderator ? (
                       <div>
@@ -218,8 +219,9 @@ function mapTimeSlotToItems(day, value, i) {
                       <h5>{value.event.panel}</h5>
                       ) : null
                   }
-                  
+
                   <h4>{value.event.title}</h4>
+                  {value.event.video && <a href={`https://www.youtube.com/watch?v=${value.event.video}&list=PLFuYOsppHDrlUAb8yzThSshafKQPnV1wX`} target="civictechfest">Video</a>}
                   {
                     value.event.note ? (
                       <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
@@ -399,7 +401,7 @@ export default class Schedule extends Component {
 
                     <div className="Schedule-switchBtn" onClick={this.props.onSwitch}>View Parallel</div>
                   </div>
-                  
+
                 </Sticky>
                 <div
                   className={cx({
@@ -453,7 +455,7 @@ export default class Schedule extends Component {
                     {schedules[getLocale()]["day3"].map(mapTimeSlotToItems.bind(this, 3))}
                   </section>
                 </div>
-                
+
               </div>
             </div>
             <div className={cx({
