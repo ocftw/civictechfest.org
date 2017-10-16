@@ -172,7 +172,6 @@ function mapTimeSlotToItems(day, value, i) {
                   }
 
                   <h4>{value.event.title}</h4>
-                  {value.event.video && <a href={`https://www.youtube.com/watch?v=${value.event.video}&list=PLFuYOsppHDrlUAb8yzThSshafKQPnV1wX`} target="civictechfest">Video</a>}
                   {
                     value.event.note ? (
                       <div className="Schedule-note">{multiParagraph(value.event.note)}</div>
@@ -221,7 +220,6 @@ function mapTimeSlotToItems(day, value, i) {
                   }
 
                   <h4>{value.event.title}</h4>
-                  {value.event.video && <a href={`https://www.youtube.com/watch?v=${value.event.video}&list=PLFuYOsppHDrlUAb8yzThSshafKQPnV1wX`} target="civictechfest">Video</a>}
                   {
                     value.event.note ? (
                       <div className="Schedule-note">{multiParagraph(value.event.note)}</div>

@@ -117,6 +117,11 @@ export default React.createClass({
     if (time && presenters_profile.length ) {
       return (
           <div className="Session">
+              { data.video &&
+                  <div className="Session-video">
+                    <iframe src={`https://www.youtube.com/embed/${data.video}`} frameborder="0" allowfullscreen></iframe>
+                  </div>
+              }
               <div className="Session-title">
                   {
                     category ? (
