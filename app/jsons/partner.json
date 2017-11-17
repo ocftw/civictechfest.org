@@ -37,7 +37,7 @@
         {
           "name": "富邦",
           "logo": "fubon_logo2.png",
-          "url": "www.fubonedu.org.tw/",
+          "url": "http://www.fubonedu.org.tw",
           "urlname": "",
           "brief": "",
           "desc": "",
@@ -133,7 +133,7 @@
         {
           "name": "ODN",
           "logo": "odn-logo.png",
-          "url": "opendemocracynow.net/",
+          "url": "http://opendemocracynow.net/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -173,7 +173,7 @@
           {
           "name": "frontier_foundation",
           "logo": "frontier_logo.png",
-          "url": "www.frontier.org.tw/",
+          "url": "http://www.frontier.org.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -181,7 +181,7 @@
         {
           "name": "TDSF",
           "logo": "TDSF_logo.png",
-          "url": "foundation.datasci.tw/",
+          "url": "http://foundation.datasci.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -189,7 +189,7 @@
           {
           "name": "TFD",
           "logo": "TFD_logo2.png",
-          "url": "www.tfd.org.tw/",
+          "url": "http://www.tfd.org.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -284,7 +284,7 @@
         {
           "name": "WAGL",
           "logo": "Wagl_logo_Eng_2017_504.png",
-          "url": "WAGL.net",
+          "url": "http://WAGL.net",
           "urlname": "",
           "brief": "",
           "desc": ""
@@ -292,7 +292,7 @@
         {
           "name": "Watchout",
           "logo": "watchout-logo.png",
-          "url": "Watchout",
+          "url": "https://watchout.tw/",
           "urlname": "",
           "brief": "",
           "desc": ""
